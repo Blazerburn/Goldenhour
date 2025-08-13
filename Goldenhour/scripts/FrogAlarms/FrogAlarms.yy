@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"FrogAlarms",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"FrogAlarms",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

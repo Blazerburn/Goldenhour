@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"typing_sound_01_229863__1___1_",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":0.26401362,
+  "name":"typing_sound_01_229863__1___1_",
+  "parent":{
+    "name":"Sound Effects",
+    "path":"folders/Sounds/Sound Effects.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"typing_sound_01_229863__1___1_.mp3",
+  "type":0,
+  "volume":1.0,
+}

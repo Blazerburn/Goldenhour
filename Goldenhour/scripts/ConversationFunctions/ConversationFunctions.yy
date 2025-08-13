@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"ConversationFunctions",
+  "isCompatibility":false,
+  "isDnD":true,
+  "name":"ConversationFunctions",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
