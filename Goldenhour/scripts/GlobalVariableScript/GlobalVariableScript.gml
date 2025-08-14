@@ -49,3 +49,26 @@ global.RoomSpawnpoints = 1;
 /// @DnDHash : 6BF9A22D
 /// @DnDArgument : "var" "currentSong"
 global.currentSong = 0;
+
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 72214224
+/// @DnDInput : 9
+/// @DnDArgument : "var" "inventorySlot1"
+/// @DnDArgument : "var_1" "inventorySlot2"
+/// @DnDArgument : "var_2" "inventorySlot3"
+/// @DnDArgument : "var_3" "inventorySlot4"
+/// @DnDArgument : "var_4" "inventorySlot5"
+/// @DnDArgument : "var_5" "inventorySlot6"
+/// @DnDArgument : "var_6" "inventorySlot7"
+/// @DnDArgument : "var_7" "inventorySlot8"
+/// @DnDArgument : "var_8" "inventorySlot9"
+global.inventorySlot1 = 0;
+global.inventorySlot2 = 0;
+global.inventorySlot3 = 0;
+global.inventorySlot4 = 0;
+global.inventorySlot5 = 0;
+global.inventorySlot6 = 0;
+global.inventorySlot7 = 0;
+global.inventorySlot8 = 0;
+global.inventorySlot9 = 0;
