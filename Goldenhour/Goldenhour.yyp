@@ -75,6 +75,7 @@
     {"id":{"name":"InventoryInsideObject","path":"objects/InventoryInsideObject/InventoryInsideObject.yy",},},
     {"id":{"name":"InventoryItemInfo","path":"objects/InventoryItemInfo/InventoryItemInfo.yy",},},
     {"id":{"name":"InventoryItemNames","path":"objects/InventoryItemNames/InventoryItemNames.yy",},},
+    {"id":{"name":"InventoryObject","path":"objects/InventoryObject/InventoryObject.yy",},},
     {"id":{"name":"InventorySelectObject","path":"objects/InventorySelectObject/InventorySelectObject.yy",},},
     {"id":{"name":"InventorySquaresObject","path":"objects/InventorySquaresObject/InventorySquaresObject.yy",},},
     {"id":{"name":"InventoryStarsObject1","path":"objects/InventoryStarsObject1/InventoryStarsObject1.yy",},},
@@ -260,7 +261,7 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"CoreRoom","path":"rooms/CoreRoom/CoreRoom.yy",},},
+    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"children":[
         {"roomId":{"name":"ChurchRoom1","path":"rooms/ChurchRoom1/ChurchRoom1.yy",},},
         {"roomId":{"name":"PuzzleRoom4","path":"rooms/PuzzleRoom4/PuzzleRoom4.yy",},},
@@ -284,8 +285,8 @@
         {"roomId":{"name":"SeesawRoom","path":"rooms/SeesawRoom/SeesawRoom.yy",},},
         {"roomId":{"name":"JamboRoom","path":"rooms/JamboRoom/JamboRoom.yy",},},
       ],"groupName":"Ruins",},
+    {"roomId":{"name":"CoreRoom","path":"rooms/CoreRoom/CoreRoom.yy",},},
     {"children":[
-        {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
         {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
         {"roomId":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
         {"roomId":{"name":"BasicRoom","path":"rooms/BasicRoom/BasicRoom.yy",},},

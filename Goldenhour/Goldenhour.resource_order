@@ -46,6 +46,7 @@
     {"name":"InventoryInsideObject","order":1,"path":"objects/InventoryInsideObject/InventoryInsideObject.yy",},
     {"name":"InventoryItemInfo","order":14,"path":"objects/InventoryItemInfo/InventoryItemInfo.yy",},
     {"name":"InventoryItemNames","order":13,"path":"objects/InventoryItemNames/InventoryItemNames.yy",},
+    {"name":"InventoryObject","order":15,"path":"objects/InventoryObject/InventoryObject.yy",},
     {"name":"InventorySelectObject","order":2,"path":"objects/InventorySelectObject/InventorySelectObject.yy",},
     {"name":"InventorySquaresObject","order":3,"path":"objects/InventorySquaresObject/InventorySquaresObject.yy",},
     {"name":"InventoryStarsObject1","order":4,"path":"objects/InventoryStarsObject1/InventoryStarsObject1.yy",},
