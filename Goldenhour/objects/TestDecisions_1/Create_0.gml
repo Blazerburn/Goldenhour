@@ -62,43 +62,9 @@ textPastLimitBottom = 2 - textLimitBottom;
 global.Immobilize = 1;
 global.Talking = 1;
 
-/// @DnDAction : YoYo Games.Random.Choose
+/// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
-/// @DnDHash : 42B9EF1D
-/// @DnDInput : 2
+/// @DnDHash : 144DCA68
+/// @DnDArgument : "expr" "itemBall"
 /// @DnDArgument : "var" "item"
-/// @DnDArgument : "option" "itemBall"
-/// @DnDArgument : "option_1" "ItemPlant"
-item = choose(itemBall, ItemPlant);
-
-/// @DnDAction : YoYo Games.Switch.Switch
-/// @DnDVersion : 1
-/// @DnDHash : 7724E3DE
-/// @DnDArgument : "expr" "item"
-var l7724E3DE_0 = item;switch(l7724E3DE_0){	/// @DnDAction : YoYo Games.Switch.Case
-	/// @DnDVersion : 1
-	/// @DnDHash : 6CBB04BC
-	/// @DnDParent : 7724E3DE
-	/// @DnDArgument : "const" "itemBall"
-	case itemBall:	/// @DnDAction : YoYo Games.Instances.Set_Sprite
-		/// @DnDVersion : 1
-		/// @DnDHash : 3D86B7A0
-		/// @DnDParent : 6CBB04BC
-		/// @DnDArgument : "spriteind" "TestSpriteObjectInventory"
-		/// @DnDSaveInfo : "spriteind" "TestSpriteObjectInventory"
-		sprite_index = TestSpriteObjectInventory;
-		image_index = 0;	break;
-
-	/// @DnDAction : YoYo Games.Switch.Case
-	/// @DnDVersion : 1
-	/// @DnDHash : 3B4582D8
-	/// @DnDParent : 7724E3DE
-	/// @DnDArgument : "const" "ItemPlant"
-	case ItemPlant:	/// @DnDAction : YoYo Games.Instances.Set_Sprite
-		/// @DnDVersion : 1
-		/// @DnDHash : 263CCF70
-		/// @DnDParent : 3B4582D8
-		/// @DnDArgument : "spriteind" "SmallPlantInventory"
-		/// @DnDSaveInfo : "spriteind" "SmallPlantInventory"
-		sprite_index = SmallPlantInventory;
-		image_index = 0;	break;}
+item = itemBall;

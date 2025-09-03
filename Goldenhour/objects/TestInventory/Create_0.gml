@@ -1,11 +1,19 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 18B25C32
-/// @DnDInput : 2
+/// @DnDInput : 6
 /// @DnDArgument : "var" "itemPos"
 /// @DnDArgument : "var_1" "itemPosIndex"
+/// @DnDArgument : "var_2" "rowPos"
+/// @DnDArgument : "var_3" "colPos"
+/// @DnDArgument : "var_4" "itemSelected"
+/// @DnDArgument : "var_5" "placedItem"
 itemPos = 0;
 itemPosIndex = 0;
+rowPos = 0;
+colPos = 0;
+itemSelected = 0;
+placedItem = 0;
 
 /// @DnDAction : YoYo Games.Common.Function_Call
 /// @DnDVersion : 1
@@ -42,4 +50,14 @@ for(var i = 0; i < 9; i += 1) {	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDArgument : "var_2" "itemArray[i][itemAmount]"
 	itemArray[i][itemType] = itemNone;
 	itemArray[i][itemSprite] = -1;
-	itemArray[i][itemAmount] = 0;}
+	itemArray[i][itemAmount] = 0;
+
+	/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
+	/// @DnDVersion : 1
+	/// @DnDHash : 3AB173AA
+	/// @DnDInput : 2
+	/// @DnDParent : 1CAB03E8
+	/// @DnDArgument : "msg" "itemArray"
+	/// @DnDArgument : "msg_1" "sprite_index"
+	show_debug_message(string(itemArray) + @"
+	" + string(sprite_index));}

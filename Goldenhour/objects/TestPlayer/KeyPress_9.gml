@@ -28,50 +28,6 @@ if(inventoryOpen == 0){	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDSaveInfo : "objectid" "InventorySelectObject"
 	instance_create_layer(101, 101, "Instances", InventorySelectObject);
 
-	/// @DnDAction : YoYo Games.Common.If_Variable
-	/// @DnDVersion : 1
-	/// @DnDHash : 2A8C1A0E
-	/// @DnDParent : 11214EB6
-	/// @DnDArgument : "var" "inventorySpot[0]"
-	if(inventorySpot[0] == 0){	/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
-		/// @DnDVersion : 1
-		/// @DnDHash : 376F0725
-		/// @DnDParent : 2A8C1A0E
-		/// @DnDArgument : "msg" ""HI IT WORKED""
-		show_debug_message(string("HI IT WORKED"));}
-
-	/// @DnDAction : YoYo Games.Common.If_Variable
-	/// @DnDVersion : 1
-	/// @DnDHash : 238D6CB5
-	/// @DnDParent : 11214EB6
-	/// @DnDArgument : "var" "global.testObject"
-	/// @DnDArgument : "value" "1"
-	if(global.testObject == 1){	/// @DnDAction : YoYo Games.Instances.Create_Instance
-		/// @DnDVersion : 1
-		/// @DnDHash : 1BCF5391
-		/// @DnDParent : 238D6CB5
-		/// @DnDArgument : "xpos" "200 + 280 * 0 "
-		/// @DnDArgument : "ypos" "190 + 301 * 0"
-		/// @DnDArgument : "objectid" "InventoryTestObject"
-		/// @DnDSaveInfo : "objectid" "InventoryTestObject"
-		instance_create_layer(200 + 280 * 0 , 190 + 301 * 0, "Instances", InventoryTestObject);}
-
-	/// @DnDAction : YoYo Games.Common.If_Variable
-	/// @DnDVersion : 1
-	/// @DnDHash : 3F460E28
-	/// @DnDParent : 11214EB6
-	/// @DnDArgument : "var" "global.plantObject"
-	/// @DnDArgument : "value" "1"
-	if(global.plantObject == 1){	/// @DnDAction : YoYo Games.Instances.Create_Instance
-		/// @DnDVersion : 1
-		/// @DnDHash : 4C508210
-		/// @DnDParent : 3F460E28
-		/// @DnDArgument : "xpos" "200 + 280 * 1 "
-		/// @DnDArgument : "ypos" "190 + 301 * 0"
-		/// @DnDArgument : "objectid" "TestPlant_1"
-		/// @DnDSaveInfo : "objectid" "TestPlant_1"
-		instance_create_layer(200 + 280 * 1 , 190 + 301 * 0, "Instances", TestPlant_1);}
-
 	/// @DnDAction : YoYo Games.Instances.Create_Instance
 	/// @DnDVersion : 1
 	/// @DnDHash : 184958AC
