@@ -18,5 +18,5 @@ draw_set_font(NormalFont);
 /// @DnDHash : 078FBB4F
 /// @DnDArgument : "x" "500"
 /// @DnDArgument : "y" "45"
-/// @DnDArgument : "caption" "itemName"
-draw_text_transformed(500, 45, string(itemName) + "", 1, 1, 0);
+/// @DnDArgument : "caption" "itemTitle"
+draw_text_transformed(500, 45, string(itemTitle) + "", 1, 1, 0);

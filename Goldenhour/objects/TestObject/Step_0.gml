@@ -8,10 +8,4 @@ if(global.testObject == 1){	/// @DnDAction : YoYo Games.Instances.Destroy_Inst
 	/// @DnDHash : 57EE13AA
 	/// @DnDApplyTo : inst_2FCBDD7F
 	/// @DnDParent : 49D2DE70
-	with(inst_2FCBDD7F) instance_destroy();
-
-	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
-	/// @DnDVersion : 1
-	/// @DnDHash : 18057260
-	/// @DnDParent : 49D2DE70
-	instance_destroy();}
+	with(inst_2FCBDD7F) instance_destroy();}

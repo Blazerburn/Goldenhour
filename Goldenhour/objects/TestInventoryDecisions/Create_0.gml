@@ -54,8 +54,8 @@ textPastLimitBottom = 2 - textLimitBottom;
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 187C5983
-/// @DnDArgument : "var" "itemSelected"
-itemSelected = 0;
+/// @DnDArgument : "var" "itemSelectedType"
+itemSelectedType = 0;
 
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1

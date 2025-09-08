@@ -14,16 +14,3 @@ var inventoryItemX = rowPos * 280;
 var inventoryItemY = colPos * 301;
 var _xx = 101;
 var _yy = 101;
-
-/// @DnDAction : YoYo Games.Instances.Set_Instance_Var
-/// @DnDVersion : 1
-/// @DnDHash : 04712DD3
-/// @DnDInput : 2
-/// @DnDApplyTo : {InventorySelectObject}
-/// @DnDArgument : "value" "_xx + inventoryItemX"
-/// @DnDArgument : "value_1" "_yy + inventoryItemY"
-/// @DnDArgument : "instvar_1" "1"
-with(InventorySelectObject) {
-x = _xx + inventoryItemX;
-y = _yy + inventoryItemY;
-}

@@ -9,7 +9,7 @@ if(global.Talking == 1){	/// @DnDAction : YoYo Games.Drawing.Draw_Sprite_Trans
 	/// @DnDParent : 263272EE
 	/// @DnDArgument : "y" "700"
 	/// @DnDArgument : "xscale" "15.6"
-	/// @DnDArgument : "yscale" "4.5"
+	/// @DnDArgument : "yscale" "4"
 	/// @DnDArgument : "sprite" "TextBox"
 	/// @DnDSaveInfo : "sprite" "TextBox"
-	draw_sprite_ext(TextBox, 0, 0, 700, 15.6, 4.5, 0, $FFFFFF & $ffffff, 1);}
+	draw_sprite_ext(TextBox, 0, 0, 700, 15.6, 4, 0, $FFFFFF & $ffffff, 1);}

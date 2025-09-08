@@ -61,3 +61,10 @@ textPastLimitBottom = 2 - textLimitBottom;
 /// @DnDArgument : "var_1" "global.Talking"
 global.Immobilize = 1;
 global.Talking = 1;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 48721E65
+/// @DnDArgument : "expr" "ItemPlant"
+/// @DnDArgument : "var" "item"
+item = ItemPlant;

@@ -16,65 +16,7 @@ if(inventoryOpen == 0){	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDParent : 11214EB6
 	/// @DnDArgument : "value" "1"
 	/// @DnDArgument : "var" "global.Immobilize"
-	global.Immobilize = 1;
-
-	/// @DnDAction : YoYo Games.Instances.Create_Instance
-	/// @DnDVersion : 1
-	/// @DnDHash : 11A6D78B
-	/// @DnDParent : 11214EB6
-	/// @DnDArgument : "xpos" "101"
-	/// @DnDArgument : "ypos" "101"
-	/// @DnDArgument : "objectid" "InventorySelectObject"
-	/// @DnDSaveInfo : "objectid" "InventorySelectObject"
-	instance_create_layer(101, 101, "Instances", InventorySelectObject);
-
-	/// @DnDAction : YoYo Games.Instances.Create_Instance
-	/// @DnDVersion : 1
-	/// @DnDHash : 184958AC
-	/// @DnDParent : 11214EB6
-	/// @DnDArgument : "objectid" "InventoryItemNames"
-	/// @DnDSaveInfo : "objectid" "InventoryItemNames"
-	instance_create_layer(0, 0, "Instances", InventoryItemNames);
-
-	/// @DnDAction : YoYo Games.Instances.Create_Instance
-	/// @DnDVersion : 1
-	/// @DnDHash : 274BD2F0
-	/// @DnDParent : 11214EB6
-	/// @DnDArgument : "objectid" "InventoryTextBox_1"
-	/// @DnDSaveInfo : "objectid" "InventoryTextBox_1"
-	instance_create_layer(0, 0, "Instances", InventoryTextBox_1);
-
-	/// @DnDAction : YoYo Games.Instances.Create_Instance
-	/// @DnDVersion : 1
-	/// @DnDHash : 7297727D
-	/// @DnDParent : 11214EB6
-	/// @DnDArgument : "objectid" "InventoryTextBox_2"
-	/// @DnDSaveInfo : "objectid" "InventoryTextBox_2"
-	instance_create_layer(0, 0, "Instances", InventoryTextBox_2);
-
-	/// @DnDAction : YoYo Games.Instances.Create_Instance
-	/// @DnDVersion : 1
-	/// @DnDHash : 7C836079
-	/// @DnDParent : 11214EB6
-	/// @DnDArgument : "objectid" "TestInventory"
-	/// @DnDSaveInfo : "objectid" "TestInventory"
-	instance_create_layer(0, 0, "Instances", TestInventory);
-
-	/// @DnDAction : YoYo Games.Instances.Create_Instance
-	/// @DnDVersion : 1
-	/// @DnDHash : 4882CE86
-	/// @DnDParent : 11214EB6
-	/// @DnDArgument : "objectid" "InventoryStarsObject1"
-	/// @DnDSaveInfo : "objectid" "InventoryStarsObject1"
-	instance_create_layer(0, 0, "Instances", InventoryStarsObject1);
-
-	/// @DnDAction : YoYo Games.Instances.Create_Instance
-	/// @DnDVersion : 1
-	/// @DnDHash : 161F4082
-	/// @DnDParent : 11214EB6
-	/// @DnDArgument : "objectid" "InventoryInsideObject"
-	/// @DnDSaveInfo : "objectid" "InventoryInsideObject"
-	instance_create_layer(0, 0, "Instances", InventoryInsideObject);}
+	global.Immobilize = 1;}
 
 /// @DnDAction : YoYo Games.Common.Else
 /// @DnDVersion : 1
@@ -91,110 +33,63 @@ else{	/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDArgument : "var" "global.selectionOpen"
 		if(global.selectionOpen == 0){	/// @DnDAction : YoYo Games.Common.If_Variable
 			/// @DnDVersion : 1
-			/// @DnDHash : 74AD06B6
+			/// @DnDHash : 3E256BDA
 			/// @DnDParent : 57A7F94D
-			/// @DnDArgument : "var" "global.infoOpen"
-			if(global.infoOpen == 0){	/// @DnDAction : YoYo Games.Common.Variable
+			/// @DnDArgument : "var" "global.Talking"
+			if(global.Talking == 0){	/// @DnDAction : YoYo Games.Common.If_Variable
 				/// @DnDVersion : 1
-				/// @DnDHash : 0AAD5DDE
-				/// @DnDParent : 74AD06B6
-				/// @DnDArgument : "var" "inventoryOpen"
-				inventoryOpen = 0;
-			
-				/// @DnDAction : YoYo Games.Common.Set_Global
-				/// @DnDVersion : 1
-				/// @DnDHash : 728C614A
-				/// @DnDParent : 74AD06B6
-				/// @DnDArgument : "var" "global.Immobilize"
-				global.Immobilize = 0;
-			
-				/// @DnDAction : YoYo Games.Instances.Destroy_Instance
-				/// @DnDVersion : 1
-				/// @DnDHash : 407B2498
-				/// @DnDApplyTo : {TestInventory}
-				/// @DnDParent : 74AD06B6
-				with(TestInventory) instance_destroy();
-			
-				/// @DnDAction : YoYo Games.Instances.Destroy_Instance
-				/// @DnDVersion : 1
-				/// @DnDHash : 7AE0DFC2
-				/// @DnDApplyTo : {InventoryInsideObject}
-				/// @DnDParent : 74AD06B6
-				with(InventoryInsideObject) instance_destroy();
-			
-				/// @DnDAction : YoYo Games.Instances.Destroy_Instance
-				/// @DnDVersion : 1
-				/// @DnDHash : 6E96615A
-				/// @DnDApplyTo : {InventoryStarsObject1}
-				/// @DnDParent : 74AD06B6
-				with(InventoryStarsObject1) instance_destroy();
-			
-				/// @DnDAction : YoYo Games.Instances.Destroy_Instance
-				/// @DnDVersion : 1
-				/// @DnDHash : 35AD5903
-				/// @DnDApplyTo : {InventorySelectObject}
-				/// @DnDParent : 74AD06B6
-				with(InventorySelectObject) instance_destroy();
-			
-				/// @DnDAction : YoYo Games.Instances.Destroy_Instance
-				/// @DnDVersion : 1
-				/// @DnDHash : 785A33C7
-				/// @DnDApplyTo : {InventoryTestObject}
-				/// @DnDParent : 74AD06B6
-				with(InventoryTestObject) instance_destroy();
-			
-				/// @DnDAction : YoYo Games.Instances.Destroy_Instance
-				/// @DnDVersion : 1
-				/// @DnDHash : 57AE891B
-				/// @DnDApplyTo : {TestPlant_1}
-				/// @DnDParent : 74AD06B6
-				with(TestPlant_1) instance_destroy();
-			
-				/// @DnDAction : YoYo Games.Instances.Destroy_Instance
-				/// @DnDVersion : 1
-				/// @DnDHash : 6862BAA6
-				/// @DnDApplyTo : {InventoryTextBox_1}
-				/// @DnDParent : 74AD06B6
-				with(InventoryTextBox_1) instance_destroy();
-			
-				/// @DnDAction : YoYo Games.Instances.Destroy_Instance
-				/// @DnDVersion : 1
-				/// @DnDHash : 06E64C0A
-				/// @DnDApplyTo : {InventoryTextBox_2}
-				/// @DnDParent : 74AD06B6
-				with(InventoryTextBox_2) instance_destroy();
-			
-				/// @DnDAction : YoYo Games.Instances.Destroy_Instance
-				/// @DnDVersion : 1
-				/// @DnDHash : 79EEEBFD
-				/// @DnDApplyTo : {InventoryItemNames}
-				/// @DnDParent : 74AD06B6
-				with(InventoryItemNames) instance_destroy();
-			
-				/// @DnDAction : YoYo Games.Instances.Destroy_Instance
-				/// @DnDVersion : 1
-				/// @DnDHash : 26A220BF
-				/// @DnDApplyTo : {TestCombinedObject}
-				/// @DnDParent : 74AD06B6
-				with(TestCombinedObject) instance_destroy();}
-		
-			/// @DnDAction : YoYo Games.Common.Else
-			/// @DnDVersion : 1
-			/// @DnDHash : 4F19E64F
-			/// @DnDParent : 57A7F94D
-			else{	/// @DnDAction : YoYo Games.Common.Set_Global
-				/// @DnDVersion : 1
-				/// @DnDHash : 02C439EE
-				/// @DnDParent : 4F19E64F
+				/// @DnDHash : 74AD06B6
+				/// @DnDParent : 3E256BDA
 				/// @DnDArgument : "var" "global.infoOpen"
-				global.infoOpen = 0;
+				if(global.infoOpen == 0){	/// @DnDAction : YoYo Games.Common.Variable
+					/// @DnDVersion : 1
+					/// @DnDHash : 0AAD5DDE
+					/// @DnDParent : 74AD06B6
+					/// @DnDArgument : "var" "inventoryOpen"
+					inventoryOpen = 0;
+				
+					/// @DnDAction : YoYo Games.Common.Set_Global
+					/// @DnDVersion : 1
+					/// @DnDHash : 728C614A
+					/// @DnDParent : 74AD06B6
+					/// @DnDArgument : "var" "global.Immobilize"
+					global.Immobilize = 0;}
 			
-				/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+				/// @DnDAction : YoYo Games.Common.Else
 				/// @DnDVersion : 1
-				/// @DnDHash : 5962C27D
-				/// @DnDApplyTo : {InventoryItemInfo}
-				/// @DnDParent : 4F19E64F
-				with(InventoryItemInfo) instance_destroy();}}}
+				/// @DnDHash : 4F19E64F
+				/// @DnDParent : 3E256BDA
+				else{	/// @DnDAction : YoYo Games.Common.Set_Global
+					/// @DnDVersion : 1
+					/// @DnDHash : 02C439EE
+					/// @DnDParent : 4F19E64F
+					/// @DnDArgument : "var" "global.infoOpen"
+					global.infoOpen = 0;
+				
+					/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+					/// @DnDVersion : 1
+					/// @DnDHash : 5962C27D
+					/// @DnDApplyTo : {InventoryItemInfo}
+					/// @DnDParent : 4F19E64F
+					with(InventoryItemInfo) instance_destroy();}}}
+	
+		/// @DnDAction : YoYo Games.Common.Else
+		/// @DnDVersion : 1
+		/// @DnDHash : 6C674170
+		/// @DnDParent : 010CDD0F
+		else{	/// @DnDAction : YoYo Games.Common.Set_Global
+			/// @DnDVersion : 1
+			/// @DnDHash : 5E93D58E
+			/// @DnDParent : 6C674170
+			/// @DnDArgument : "var" "global.selectionOpen"
+			global.selectionOpen = 0;
+		
+			/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+			/// @DnDVersion : 1
+			/// @DnDHash : 2776D9AF
+			/// @DnDApplyTo : {TestInventoryDecisions}
+			/// @DnDParent : 6C674170
+			with(TestInventoryDecisions) instance_destroy();}}
 
 	/// @DnDAction : YoYo Games.Common.Else
 	/// @DnDVersion : 1

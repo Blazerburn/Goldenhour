@@ -34,17 +34,10 @@ global.infoOpen = 0;
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 3CAFE8F7
-/// @DnDInput : 5
-/// @DnDArgument : "expr_3" "1"
+/// @DnDInput : 2
 /// @DnDArgument : "var" "inventoryOpen"
-/// @DnDArgument : "var_1" "selectionX"
-/// @DnDArgument : "var_2" "selectionY"
-/// @DnDArgument : "var_3" "itemSelected"
-/// @DnDArgument : "var_4" "combinedText"
+/// @DnDArgument : "var_1" "combinedText"
 inventoryOpen = 0;
-selectionX = 0;
-selectionY = 0;
-itemSelected = 1;
 combinedText = 0;
 
 /// @DnDAction : YoYo Games.Common.Variable
@@ -63,6 +56,23 @@ playerYMoving = 0;
 previousPlayerX = 0;
 playerDirection = 2;
 
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 7DFC30B0
+/// @DnDInput : 6
+/// @DnDArgument : "var" "itemCombineType1"
+/// @DnDArgument : "var_1" "itemCombineType2"
+/// @DnDArgument : "var_2" "itemCombineSelect1"
+/// @DnDArgument : "var_3" "itemCombineSelect2"
+/// @DnDArgument : "var_4" "itemCombinePos1"
+/// @DnDArgument : "var_5" "itemCombinePos2"
+itemCombineType1 = 0;
+itemCombineType2 = 0;
+itemCombineSelect1 = 0;
+itemCombineSelect2 = 0;
+itemCombinePos1 = 0;
+itemCombinePos2 = 0;
+
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
 /// @DnDHash : 2987FAB0
@@ -72,6 +82,49 @@ playerDirection = 2;
 /// @DnDArgument : "var_1" "globalPlayerDirection"
 global.playerMoving = 0;
 global.globalPlayerDirection = 2;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 13E11024
+/// @DnDComment : Inventory Stuff
+/// @DnDInput : 7
+/// @DnDArgument : "var" "itemPos"
+/// @DnDArgument : "var_1" "itemPosIndex"
+/// @DnDArgument : "var_2" "rowPos"
+/// @DnDArgument : "var_3" "colPos"
+/// @DnDArgument : "var_4" "itemSelected"
+/// @DnDArgument : "var_5" "placedItem"
+/// @DnDArgument : "var_6" "inventorySelectAnimation"
+itemPos = 0;
+itemPosIndex = 0;
+rowPos = 0;
+colPos = 0;
+itemSelected = 0;
+placedItem = 0;
+inventorySelectAnimation = 0;
+
+/// @DnDAction : YoYo Games.Loops.For_Loop
+/// @DnDVersion : 1
+/// @DnDHash : 12B19703
+/// @DnDArgument : "init" "_pos = 0"
+/// @DnDArgument : "init_temp" "1"
+/// @DnDArgument : "cond" "_pos < 9"
+/// @DnDArgument : "expr" "_pos += 1"
+for(var _pos = 0; _pos < 9; _pos += 1) {	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 3C18F562
+	/// @DnDInput : 4
+	/// @DnDParent : 12B19703
+	/// @DnDArgument : "expr" "itemNone"
+	/// @DnDArgument : "expr_1" "-1"
+	/// @DnDArgument : "var" "itemArray[_pos][itemType]"
+	/// @DnDArgument : "var_1" "itemArray[_pos][itemSprite]"
+	/// @DnDArgument : "var_2" "itemArray[_pos][itemAmount]"
+	/// @DnDArgument : "var_3" "itemArray[_pos][itemName]"
+	itemArray[_pos][itemType] = itemNone;
+	itemArray[_pos][itemSprite] = -1;
+	itemArray[_pos][itemAmount] = 0;
+	itemArray[_pos][itemName] = 0;}
 
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
