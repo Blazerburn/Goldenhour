@@ -1,9 +1,9 @@
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 74C0F1D4
-/// @DnDArgument : "var" "inventoryOpen"
+/// @DnDArgument : "var" "global.inventoryOpen"
 /// @DnDArgument : "value" "1"
-if(inventoryOpen == 1){	/// @DnDAction : YoYo Games.Drawing.Draw_Sprite
+if(global.inventoryOpen == 1){	/// @DnDAction : YoYo Games.Drawing.Draw_Sprite
 	/// @DnDVersion : 1
 	/// @DnDHash : 11F6B8CF
 	/// @DnDParent : 74C0F1D4
@@ -64,10 +64,10 @@ if(inventoryOpen == 1){	/// @DnDAction : YoYo Games.Drawing.Draw_Sprite
 	/// @DnDParent : 74C0F1D4
 	/// @DnDArgument : "x" "101 + inventoryItemX"
 	/// @DnDArgument : "y" "101 + inventoryItemY"
-	/// @DnDArgument : "sprite" "InventorySelect_1"
+	/// @DnDArgument : "sprite" "InventorySelect2"
 	/// @DnDArgument : "image" "inventorySelectAnimation"
-	/// @DnDSaveInfo : "sprite" "InventorySelect_1"
-	draw_sprite(InventorySelect_1, inventorySelectAnimation, 101 + inventoryItemX, 101 + inventoryItemY);
+	/// @DnDSaveInfo : "sprite" "InventorySelect2"
+	draw_sprite(InventorySelect2, inventorySelectAnimation, 101 + inventoryItemX, 101 + inventoryItemY);
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
@@ -81,10 +81,10 @@ if(inventoryOpen == 1){	/// @DnDAction : YoYo Games.Drawing.Draw_Sprite
 		/// @DnDParent : 017EA136
 		/// @DnDArgument : "x" "101 + combiningItemX"
 		/// @DnDArgument : "y" "101 + combiningItemY"
-		/// @DnDArgument : "sprite" "InventorySelect_1"
+		/// @DnDArgument : "sprite" "InventorySelect2"
 		/// @DnDArgument : "image" "inventorySelectAnimation"
-		/// @DnDSaveInfo : "sprite" "InventorySelect_1"
-		draw_sprite(InventorySelect_1, inventorySelectAnimation, 101 + combiningItemX, 101 + combiningItemY);}
+		/// @DnDSaveInfo : "sprite" "InventorySelect2"
+		draw_sprite(InventorySelect2, inventorySelectAnimation, 101 + combiningItemX, 101 + combiningItemY);}
 
 	/// @DnDAction : YoYo Games.Drawing.Draw_Sprite_Transformed
 	/// @DnDVersion : 1
@@ -191,6 +191,31 @@ if(inventoryOpen == 1){	/// @DnDAction : YoYo Games.Drawing.Draw_Sprite
 		/// @DnDArgument : "yscale" ".75"
 		/// @DnDArgument : "caption" ""Select which other item you would like to combine""
 		draw_text_transformed(125, 932, string("Select which other item you would like to combine") + "", .75, .75, 0);}
+
+	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 4F831442
+	/// @DnDParent : 74C0F1D4
+	/// @DnDArgument : "var" "global.usingItem"
+	/// @DnDArgument : "value" "1"
+	if(global.usingItem == 1){	/// @DnDAction : YoYo Games.Drawing.Set_Alignment
+		/// @DnDVersion : 1.1
+		/// @DnDHash : 6E960DDD
+		/// @DnDParent : 4F831442
+		/// @DnDArgument : "halign" "fa_center"
+		draw_set_halign(fa_center);
+		draw_set_valign(fa_top);
+	
+		/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
+		/// @DnDVersion : 1
+		/// @DnDHash : 15DA025E
+		/// @DnDParent : 4F831442
+		/// @DnDArgument : "x" "500"
+		/// @DnDArgument : "y" "932"
+		/// @DnDArgument : "xscale" ".75"
+		/// @DnDArgument : "yscale" ".75"
+		/// @DnDArgument : "caption" ""Select which item you want to use""
+		draw_text_transformed(500, 932, string("Select which item you want to use") + "", .75, .75, 0);}
 
 	/// @DnDAction : YoYo Games.Drawing.Set_Alignment
 	/// @DnDVersion : 1.1

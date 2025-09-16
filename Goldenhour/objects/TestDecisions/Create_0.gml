@@ -3,13 +3,13 @@
 /// @DnDHash : 0A0A3FC5
 /// @DnDInput : 3
 /// @DnDArgument : "expr" ""Poke it""
-/// @DnDArgument : "expr_1" ""Ask it kindly to start""
+/// @DnDArgument : "expr_1" ""Check your bag""
 /// @DnDArgument : "expr_2" ""Do nothing""
 /// @DnDArgument : "var" "text1"
 /// @DnDArgument : "var_1" "text2"
 /// @DnDArgument : "var_2" "text3"
 text1 = "Poke it";
-text2 = "Ask it kindly to start";
+text2 = "Check your bag";
 text3 = "Do nothing";
 
 /// @DnDAction : YoYo Games.Common.Variable

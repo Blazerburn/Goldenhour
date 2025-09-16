@@ -1,9 +1,9 @@
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 264737A1
-/// @DnDArgument : "var" "inventoryOpen"
+/// @DnDArgument : "var" "global.inventoryOpen"
 /// @DnDArgument : "value" "1"
-if(inventoryOpen == 1){	/// @DnDAction : YoYo Games.Common.If_Variable
+if(global.inventoryOpen == 1){	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 510050D9
 	/// @DnDParent : 264737A1

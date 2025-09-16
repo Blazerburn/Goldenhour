@@ -12,8 +12,8 @@
   "duration":165.3526,
   "name":"IM_JUST_CHILLING__1_",
   "parent":{
-    "name":"Music",
-    "path":"folders/Sounds/Music.yy",
+    "name":"Ruins",
+    "path":"folders/Sounds/Music/Ruins.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

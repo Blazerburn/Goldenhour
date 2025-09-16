@@ -17,27 +17,31 @@ facingDown = 0;
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
 /// @DnDHash : 2910A6CC
-/// @DnDInput : 6
+/// @DnDInput : 8
 /// @DnDArgument : "var" "Immobilize"
 /// @DnDArgument : "var_1" "recentlyInteracted"
 /// @DnDArgument : "var_2" "global.Talking"
 /// @DnDArgument : "var_3" "selectionOpen"
 /// @DnDArgument : "var_4" "combining"
 /// @DnDArgument : "var_5" "infoOpen"
+/// @DnDArgument : "var_6" "usingItem"
+/// @DnDArgument : "var_7" "itemCheck"
 global.Immobilize = 0;
 global.recentlyInteracted = 0;
 global.Talking = 0;
 global.selectionOpen = 0;
 global.combining = 0;
 global.infoOpen = 0;
+global.usingItem = 0;
+global.itemCheck = 0;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 3CAFE8F7
 /// @DnDInput : 2
-/// @DnDArgument : "var" "inventoryOpen"
+/// @DnDArgument : "var" "global.inventoryOpen"
 /// @DnDArgument : "var_1" "combinedText"
-inventoryOpen = 0;
+global.inventoryOpen = 0;
 combinedText = 0;
 
 /// @DnDAction : YoYo Games.Common.Variable

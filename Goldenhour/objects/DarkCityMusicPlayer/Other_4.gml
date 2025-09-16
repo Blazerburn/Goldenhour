@@ -1,9 +1,22 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 06D8CC8A
+/// @DnDInput : 3
 /// @DnDArgument : "expr" "IM_JUST_CHILLING__1_"
+/// @DnDArgument : "expr_1" "1"
 /// @DnDArgument : "var" "roomSong"
+/// @DnDArgument : "var_1" "roomSongPosition"
+/// @DnDArgument : "var_2" "songID"
 roomSong = IM_JUST_CHILLING__1_;
+roomSongPosition = 1;
+songID = 0;
+
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 6EB43E8A
+/// @DnDArgument : "value" "DarkCityMusicPlayer"
+/// @DnDArgument : "var" "roomSong"
+global.roomSong = DarkCityMusicPlayer;
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
@@ -43,6 +56,7 @@ if(!(global.currentSong == roomSong)){	/// @DnDAction : YoYo Games.Audio.Stop_
 		/// @DnDVersion : 1.1
 		/// @DnDHash : 24D119D0
 		/// @DnDParent : 6368E41A
+		/// @DnDArgument : "target" "songID"
 		/// @DnDArgument : "soundid" "global.currentSong"
 		/// @DnDArgument : "loop" "1"
-		audio_play_sound(global.currentSong, 0, 1, 1.0, undefined, 1.0);}}
+		songID = audio_play_sound(global.currentSong, 0, 1, 1.0, undefined, 1.0);}}

@@ -106,8 +106,8 @@
   },
   "origin":9,
   "parent":{
-    "name":"GUI's",
-    "path":"folders/Sprites/GUI's.yy",
+    "name":"Inventory",
+    "path":"folders/Sprites/GUI's/Inventory.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
