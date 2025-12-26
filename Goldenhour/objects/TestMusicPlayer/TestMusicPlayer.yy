@@ -8,8 +8,8 @@
   "name":"TestMusicPlayer",
   "overriddenProperties":[],
   "parent":{
-    "name":"Music Players",
-    "path":"folders/Objects/Music Players.yy",
+    "name":"General",
+    "path":"folders/Objects/Music Players/General.yy",
   },
   "parentObjectId":null,
   "persistent":false,

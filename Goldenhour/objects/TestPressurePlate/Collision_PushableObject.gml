@@ -20,9 +20,9 @@ if(boxInteracted == 0){	/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_M
 	/// @DnDAction : YoYo Games.Common.Apply_To
 	/// @DnDVersion : 1
 	/// @DnDHash : 0A29BB67
-	/// @DnDApplyTo : {BoxPuzzleController}
+	/// @DnDApplyTo : boxPuzzleController
 	/// @DnDParent : 71EDB8F4
-	with(BoxPuzzleController) {
+	with(boxPuzzleController) {
 		/// @DnDAction : YoYo Games.Instances.Call_User_Event
 		/// @DnDVersion : 1
 		/// @DnDHash : 30915F37
