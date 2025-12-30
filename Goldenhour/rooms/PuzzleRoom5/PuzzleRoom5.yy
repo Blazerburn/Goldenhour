@@ -39,7 +39,6 @@
     {"name":"inst_259C4A87","path":"rooms/PuzzleRoom5/PuzzleRoom5.yy",},
     {"name":"inst_1FA74C2F","path":"rooms/PuzzleRoom5/PuzzleRoom5.yy",},
     {"name":"inst_5B47C6BD","path":"rooms/PuzzleRoom5/PuzzleRoom5.yy",},
-    {"name":"inst_715018A8","path":"rooms/PuzzleRoom5/PuzzleRoom5.yy",},
     {"name":"inst_2C65CC9B","path":"rooms/PuzzleRoom5/PuzzleRoom5.yy",},
     {"name":"inst_4AC8DB78","path":"rooms/PuzzleRoom5/PuzzleRoom5.yy",},
     {"name":"inst_41A1B656","path":"rooms/PuzzleRoom5/PuzzleRoom5.yy",},
@@ -52,6 +51,7 @@
     {"name":"inst_660BA746","path":"rooms/PuzzleRoom5/PuzzleRoom5.yy",},
     {"name":"inst_5A3E3BA6","path":"rooms/PuzzleRoom5/PuzzleRoom5.yy",},
     {"name":"inst_3534CBA6","path":"rooms/PuzzleRoom5/PuzzleRoom5.yy",},
+    {"name":"inst_1E00EC38","path":"rooms/PuzzleRoom5/PuzzleRoom5.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -73,7 +73,7 @@
         {"$GMRInstance":"v4","%Name":"inst_660BA746","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":true,"name":"inst_660BA746","objectId":{"name":"TestPressurePlate","path":"objects/TestPressurePlate/TestPressurePlate.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":576.0,"y":384.0,},
         {"$GMRInstance":"v4","%Name":"inst_5A3E3BA6","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":true,"name":"inst_5A3E3BA6","objectId":{"name":"TestPressurePlate","path":"objects/TestPressurePlate/TestPressurePlate.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":576.0,"y":192.0,},
         {"$GMRInstance":"v4","%Name":"inst_3534CBA6","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":true,"name":"inst_3534CBA6","objectId":{"name":"TestPressurePlate","path":"objects/TestPressurePlate/TestPressurePlate.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":512.0,"y":416.0,},
-        {"$GMRInstance":"v4","%Name":"inst_715018A8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_715018A8","objectId":{"name":"PushableObject","path":"objects/PushableObject/PushableObject.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":160.0,"y":160.0,},
+        {"$GMRInstance":"v4","%Name":"inst_1E00EC38","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1E00EC38","objectId":{"name":"PushableObjectSpawner","path":"objects/PushableObjectSpawner/PushableObjectSpawner.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":160.0,"y":160.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_2","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_2","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":16,"SerialiseWidth":24,"TileCompressedData":[
           -125,-2147483648,4,43,37,-2147483648,42,-5,-2147483648,1,35,-3,33,1,37,-11,-2147483648,9,32,-2147483648,

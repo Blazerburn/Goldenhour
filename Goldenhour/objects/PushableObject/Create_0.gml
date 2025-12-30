@@ -1,8 +1,11 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 490F492A
+/// @DnDInput : 2
 /// @DnDArgument : "var" "pushPlayerDIrection"
+/// @DnDArgument : "var_1" "interactedBoxID"
 pushPlayerDIrection = 0;
+interactedBoxID = 0;
 
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
