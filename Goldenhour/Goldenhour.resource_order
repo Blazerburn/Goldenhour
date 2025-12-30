@@ -63,6 +63,7 @@
     {"name":"InventoryTextBox_1","order":8,"path":"objects/InventoryTextBox_1/InventoryTextBox_1.yy",},
     {"name":"InventoryTextBox_2","order":10,"path":"objects/InventoryTextBox_2/InventoryTextBox_2.yy",},
     {"name":"PushableObject","order":11,"path":"objects/PushableObject/PushableObject.yy",},
+    {"name":"PushableObjectSpawner","order":28,"path":"objects/PushableObjectSpawner/PushableObjectSpawner.yy",},
     {"name":"PushableWall","order":17,"path":"objects/PushableWall/PushableWall.yy",},
     {"name":"RoomSpawnpoint","order":16,"path":"objects/RoomSpawnpoint/RoomSpawnpoint.yy",},
     {"name":"RuinsLightMusicPlayer","order":1,"path":"objects/RuinsLightMusicPlayer/RuinsLightMusicPlayer.yy",},
