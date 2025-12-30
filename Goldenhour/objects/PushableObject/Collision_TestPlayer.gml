@@ -29,10 +29,13 @@ if(global.recentlyInteracted == 0){	/// @DnDAction : YoYo Games.Mouse & Keyboa
 			/// @DnDVersion : 1
 			/// @DnDHash : 727A70CA
 			/// @DnDParent : 50668D3E
-			/// @DnDArgument : "yvel" "-32"
 			/// @DnDArgument : "object" "PushableWall"
+			/// @DnDArgument : "yvel" "-32"
+			/// @DnDArgument : "num_iterations" "4"
+			/// @DnDArgument : "maxxmove" "-1"
+			/// @DnDArgument : "maxymove" "-1"
 			/// @DnDSaveInfo : "object" "PushableWall"
-			move_and_collide(0, -32, PushableWall,4,0,0,-1,-1);}
+			move_and_collide(0, -32, [PushableWall],4,0,0,-1,-1);}
 	
 		/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDVersion : 1
@@ -47,7 +50,7 @@ if(global.recentlyInteracted == 0){	/// @DnDAction : YoYo Games.Mouse & Keyboa
 			/// @DnDArgument : "xvel" "32"
 			/// @DnDArgument : "object" "PushableWall"
 			/// @DnDSaveInfo : "object" "PushableWall"
-			move_and_collide(32, 0, PushableWall,4,0,0,-1,-1);}
+			move_and_collide(32, 0, [PushableWall],4,0,0,-1,-1);}
 	
 		/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDVersion : 1
@@ -62,7 +65,7 @@ if(global.recentlyInteracted == 0){	/// @DnDAction : YoYo Games.Mouse & Keyboa
 			/// @DnDArgument : "yvel" "32"
 			/// @DnDArgument : "object" "PushableWall"
 			/// @DnDSaveInfo : "object" "PushableWall"
-			move_and_collide(0, 32, PushableWall,4,0,0,-1,-1);}
+			move_and_collide(0, 32, [PushableWall],4,0,0,-1,-1);}
 	
 		/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDVersion : 1
@@ -77,4 +80,4 @@ if(global.recentlyInteracted == 0){	/// @DnDAction : YoYo Games.Mouse & Keyboa
 			/// @DnDArgument : "xvel" "-32"
 			/// @DnDArgument : "object" "PushableWall"
 			/// @DnDSaveInfo : "object" "PushableWall"
-			move_and_collide(-32, 0, PushableWall,4,0,0,-1,-1);}}}
+			move_and_collide(-32, 0, [PushableWall],4,0,0,-1,-1);}}}

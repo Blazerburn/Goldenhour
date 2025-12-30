@@ -1,15 +1,17 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v2",
   "%Name":"inventoryLoop",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
   },
   "bitDepth":1,
-  "bitRate":128,
+  "channelFormat":0,
   "compression":2,
+  "compressionQuality":4,
   "conversionMode":0,
   "duration":24.0,
+  "exportDir":"",
   "name":"inventoryLoop",
   "parent":{
     "name":"General",
@@ -20,6 +22,5 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"inventoryLoop.wav",
-  "type":0,
   "volume":1.0,
 }
