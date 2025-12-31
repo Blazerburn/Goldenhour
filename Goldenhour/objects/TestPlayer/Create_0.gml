@@ -17,7 +17,7 @@ facingDown = 0;
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
 /// @DnDHash : 2910A6CC
-/// @DnDInput : 8
+/// @DnDInput : 9
 /// @DnDArgument : "var" "Immobilize"
 /// @DnDArgument : "var_1" "recentlyInteracted"
 /// @DnDArgument : "var_2" "global.Talking"
@@ -26,6 +26,7 @@ facingDown = 0;
 /// @DnDArgument : "var_5" "infoOpen"
 /// @DnDArgument : "var_6" "usingItem"
 /// @DnDArgument : "var_7" "itemCheck"
+/// @DnDArgument : "var_8" "playerAnimating"
 global.Immobilize = 0;
 global.recentlyInteracted = 0;
 global.Talking = 0;
@@ -34,6 +35,7 @@ global.combining = 0;
 global.infoOpen = 0;
 global.usingItem = 0;
 global.itemCheck = 0;
+global.playerAnimating = 0;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
