@@ -10,17 +10,9 @@ interactedBoxID = 0;
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 3053DD9B
-/// @DnDInput : 6
-/// @DnDArgument : "var" "pushableBoxBottom"
-/// @DnDArgument : "var_1" "pushableBoxRight"
-/// @DnDArgument : "var_2" "pushableBoxTop"
-/// @DnDArgument : "var_3" "pushableBoxLeft"
-/// @DnDArgument : "var_4" "pushableBoxOriginX"
-/// @DnDArgument : "var_5" "pushableBoxOriginY"
-pushableBoxBottom = 0;
-pushableBoxRight = 0;
-pushableBoxTop = 0;
-pushableBoxLeft = 0;
+/// @DnDInput : 2
+/// @DnDArgument : "var" "pushableBoxOriginX"
+/// @DnDArgument : "var_1" "pushableBoxOriginY"
 pushableBoxOriginX = 0;
 pushableBoxOriginY = 0;
 

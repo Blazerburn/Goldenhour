@@ -92,19 +92,6 @@ if(global.recentlyInteracted == 0){	/// @DnDAction : YoYo Games.Common.If_Vari
 				Speed = 1;
 			}
 		
-			/// @DnDAction : YoYo Games.Instances.Get_Instance_Var
-			/// @DnDVersion : 1
-			/// @DnDHash : 41A9A61E
-			/// @DnDInput : 2
-			/// @DnDParent : 5CF0C4C3
-			/// @DnDArgument : "target" "pushableboxX"
-			/// @DnDArgument : "target_temp" "1"
-			/// @DnDArgument : "target_1" "pushableboxY"
-			/// @DnDArgument : "target_temp_1" "1"
-			/// @DnDArgument : "instvar_1" "1"
-			var pushableboxX = x;
-			var pushableboxY = y;
-		
 			/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
 			/// @DnDVersion : 1
 			/// @DnDHash : 6B710A5D
