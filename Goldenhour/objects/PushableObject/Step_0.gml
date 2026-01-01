@@ -15,7 +15,20 @@ if(objectID == interactedBoxID){	/// @DnDAction : YoYo Games.Common.Apply_To
 		/// @DnDParent : 3C9EABB1
 		/// @DnDArgument : "var" "global.pushingBox"
 		/// @DnDArgument : "value" "1"
-		if(global.pushingBox == 1){	/// @DnDAction : YoYo Games.Common.Temp_Variable
+		if(global.pushingBox == 1){	/// @DnDAction : YoYo Games.Instances.Get_Instance_Var
+			/// @DnDVersion : 1
+			/// @DnDHash : 791D89C3
+			/// @DnDInput : 2
+			/// @DnDParent : 47D919FC
+			/// @DnDArgument : "target" "pushableBoxOriginX"
+			/// @DnDArgument : "target_temp" "1"
+			/// @DnDArgument : "target_1" "pushableBoxOriginY"
+			/// @DnDArgument : "target_temp_1" "1"
+			/// @DnDArgument : "instvar_1" "1"
+			var pushableBoxOriginX = x;
+			var pushableBoxOriginY = y;
+		
+			/// @DnDAction : YoYo Games.Common.Temp_Variable
 			/// @DnDVersion : 1
 			/// @DnDHash : 764834ED
 			/// @DnDInput : 4
@@ -62,7 +75,21 @@ if(objectID == interactedBoxID){	/// @DnDAction : YoYo Games.Common.Apply_To
 			/// @DnDHash : 6E0F5B88
 			/// @DnDParent : 47D919FC
 			/// @DnDArgument : "var" "pushPlayerDIrection"
-			if(pushPlayerDIrection == 0){	/// @DnDAction : YoYo Games.Common.If_Variable
+			if(pushPlayerDIrection == 0){	/// @DnDAction : YoYo Games.Instances.Set_Instance_Var
+				/// @DnDVersion : 1
+				/// @DnDHash : 26770A2D
+				/// @DnDInput : 2
+				/// @DnDApplyTo : {TestPlayer}
+				/// @DnDParent : 6E0F5B88
+				/// @DnDArgument : "value" "pushableBoxOriginX + 16"
+				/// @DnDArgument : "value_1" "pushableBoxOriginY + 16"
+				/// @DnDArgument : "instvar_1" "1"
+				with(TestPlayer) {
+				x = pushableBoxOriginX + 16;
+				y = pushableBoxOriginY + 16;
+				}
+			
+				/// @DnDAction : YoYo Games.Common.If_Variable
 				/// @DnDVersion : 1
 				/// @DnDHash : 7B46F957
 				/// @DnDParent : 6E0F5B88
@@ -104,7 +131,21 @@ if(objectID == interactedBoxID){	/// @DnDAction : YoYo Games.Common.Apply_To
 				/// @DnDParent : 72FA1EC3
 				/// @DnDArgument : "var" "pushPlayerDIrection"
 				/// @DnDArgument : "value" "1"
-				if(pushPlayerDIrection == 1){	/// @DnDAction : YoYo Games.Common.If_Variable
+				if(pushPlayerDIrection == 1){	/// @DnDAction : YoYo Games.Instances.Set_Instance_Var
+					/// @DnDVersion : 1
+					/// @DnDHash : 3F5F0045
+					/// @DnDInput : 2
+					/// @DnDApplyTo : {TestPlayer}
+					/// @DnDParent : 18B2331E
+					/// @DnDArgument : "value" "pushableBoxOriginX - 16"
+					/// @DnDArgument : "value_1" "pushableBoxOriginY"
+					/// @DnDArgument : "instvar_1" "1"
+					with(TestPlayer) {
+					x = pushableBoxOriginX - 16;
+					y = pushableBoxOriginY;
+					}
+				
+					/// @DnDAction : YoYo Games.Common.If_Variable
 					/// @DnDVersion : 1
 					/// @DnDHash : 73186A02
 					/// @DnDParent : 18B2331E
@@ -146,7 +187,21 @@ if(objectID == interactedBoxID){	/// @DnDAction : YoYo Games.Common.Apply_To
 					/// @DnDParent : 16A7BB78
 					/// @DnDArgument : "var" "pushPlayerDIrection"
 					/// @DnDArgument : "value" "2"
-					if(pushPlayerDIrection == 2){	/// @DnDAction : YoYo Games.Common.If_Variable
+					if(pushPlayerDIrection == 2){	/// @DnDAction : YoYo Games.Instances.Set_Instance_Var
+						/// @DnDVersion : 1
+						/// @DnDHash : 3233E80C
+						/// @DnDInput : 2
+						/// @DnDApplyTo : {TestPlayer}
+						/// @DnDParent : 1CAFBCC1
+						/// @DnDArgument : "value" "pushableBoxOriginX + 16"
+						/// @DnDArgument : "value_1" "pushableBoxOriginY - 28"
+						/// @DnDArgument : "instvar_1" "1"
+						with(TestPlayer) {
+						x = pushableBoxOriginX + 16;
+						y = pushableBoxOriginY - 28;
+						}
+					
+						/// @DnDAction : YoYo Games.Common.If_Variable
 						/// @DnDVersion : 1
 						/// @DnDHash : 19F337E3
 						/// @DnDParent : 1CAFBCC1
@@ -188,7 +243,21 @@ if(objectID == interactedBoxID){	/// @DnDAction : YoYo Games.Common.Apply_To
 						/// @DnDParent : 45EB57DA
 						/// @DnDArgument : "var" "pushPlayerDIrection"
 						/// @DnDArgument : "value" "3"
-						if(pushPlayerDIrection == 3){	/// @DnDAction : YoYo Games.Common.If_Variable
+						if(pushPlayerDIrection == 3){	/// @DnDAction : YoYo Games.Instances.Set_Instance_Var
+							/// @DnDVersion : 1
+							/// @DnDHash : 17FE39B4
+							/// @DnDInput : 2
+							/// @DnDApplyTo : {TestPlayer}
+							/// @DnDParent : 1E1691A3
+							/// @DnDArgument : "value" "pushableBoxOriginX + 48"
+							/// @DnDArgument : "value_1" "pushableBoxOriginY"
+							/// @DnDArgument : "instvar_1" "1"
+							with(TestPlayer) {
+							x = pushableBoxOriginX + 48;
+							y = pushableBoxOriginY;
+							}
+						
+							/// @DnDAction : YoYo Games.Common.If_Variable
 							/// @DnDVersion : 1
 							/// @DnDHash : 3F890AF8
 							/// @DnDParent : 1E1691A3
