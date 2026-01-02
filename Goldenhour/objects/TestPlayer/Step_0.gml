@@ -746,14 +746,20 @@ var selectionY = y;
 previousPlayerX = xprevious;
 previousPlayerY = yprevious;
 
-/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
-/// @DnDHash : 7350FBFF
-/// @DnDArgument : "code" "/// @description Execute Code$(13_10)if (global.playerMoving != 0) {$(13_10)	$(13_10)	array_push(follow_coords, { x: x, y: y, playerDirection: playerDirection});$(13_10)	if (array_length(follow_coords) > follow_max + 1)$(13_10)	    array_delete(follow_coords, 0, 1);$(13_10)}$(13_10)"
-/// @description Execute Code
-if (global.playerMoving != 0) {
-	
-	array_push(follow_coords, { x: x, y: y, playerDirection: playerDirection});
-	if (array_length(follow_coords) > follow_max + 1)
-	    array_delete(follow_coords, 0, 1);
-}
+/// @DnDHash : 54EA0CC8
+/// @DnDArgument : "var" "global.playerFollowers"
+/// @DnDArgument : "value" "1"
+if(global.playerFollowers == 1){	/// @DnDAction : YoYo Games.Common.Execute_Code
+	/// @DnDVersion : 1
+	/// @DnDHash : 7350FBFF
+	/// @DnDParent : 54EA0CC8
+	/// @DnDArgument : "code" "/// @description Execute Code$(13_10)if (global.playerMoving != 0) {$(13_10)	$(13_10)	array_push(follow_coords, { x: x, y: y, playerDirection: playerDirection});$(13_10)	if (array_length(follow_coords) > follow_max + 1)$(13_10)	    array_delete(follow_coords, 0, 1);$(13_10)}$(13_10)"
+	/// @description Execute Code
+	if (global.playerMoving != 0) {
+		
+		array_push(follow_coords, { x: x, y: y, playerDirection: playerDirection});
+		if (array_length(follow_coords) > follow_max + 1)
+		    array_delete(follow_coords, 0, 1);
+	}}

@@ -72,3 +72,9 @@ global.inventorySlot6 = 0;
 global.inventorySlot7 = 0;
 global.inventorySlot8 = 0;
 global.inventorySlot9 = 0;
+
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 06FC573F
+/// @DnDArgument : "var" "playerFollowers"
+global.playerFollowers = 0;
