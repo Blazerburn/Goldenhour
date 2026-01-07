@@ -4,20 +4,20 @@
 /// @DnDArgument : "var" "global.recentlyInteracted"
 if(global.recentlyInteracted == 0){	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
-	/// @DnDHash : 0624ED8A
+	/// @DnDHash : 597FBC4C
 	/// @DnDParent : 5AEA5774
 	/// @DnDArgument : "var" "global.inventoryOpen"
 	if(global.inventoryOpen == 0){	/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Pressed
 		/// @DnDVersion : 1
 		/// @DnDHash : 59F3BD94
-		/// @DnDParent : 0624ED8A
+		/// @DnDParent : 597FBC4C
 		var l59F3BD94_0;l59F3BD94_0 = keyboard_check_pressed(vk_space);if (l59F3BD94_0){	/// @DnDAction : YoYo Games.Instances.Create_Instance
 			/// @DnDVersion : 1
 			/// @DnDHash : 398B84F2
 			/// @DnDParent : 59F3BD94
-			/// @DnDArgument : "objectid" "TestDecisions_1"
-			/// @DnDSaveInfo : "objectid" "TestDecisions_1"
-			instance_create_layer(0, 0, "Instances", TestDecisions_1);
+			/// @DnDArgument : "objectid" "StrangeGelGrabDecision"
+			/// @DnDSaveInfo : "objectid" "StrangeGelGrabDecision"
+			instance_create_layer(0, 0, "Instances", StrangeGelGrabDecision);
 		
 			/// @DnDAction : YoYo Games.Common.Set_Global
 			/// @DnDVersion : 1

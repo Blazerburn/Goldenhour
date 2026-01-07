@@ -10,8 +10,8 @@
   "name":"TestInventoryDecisions",
   "overriddenProperties":[],
   "parent":{
-    "name":"Inventory",
-    "path":"folders/Objects/GUI/Inventory.yy",
+    "name":"InventoryItems",
+    "path":"folders/Objects/GUI/Inventory/InventoryItems.yy",
   },
   "parentObjectId":null,
   "persistent":false,

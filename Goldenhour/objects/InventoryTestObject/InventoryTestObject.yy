@@ -8,8 +8,8 @@
   "name":"InventoryTestObject",
   "overriddenProperties":[],
   "parent":{
-    "name":"Inventory",
-    "path":"folders/Objects/GUI/Inventory.yy",
+    "name":"Test",
+    "path":"folders/Objects/GUI/Inventory/InventoryPieces/Test.yy",
   },
   "parentObjectId":null,
   "persistent":false,

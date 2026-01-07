@@ -1,16 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"TestPlant",
+  "%Name":"StrangeGel_obj",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"TestPlayer","path":"objects/TestPlayer/TestPlayer.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"TestPlant",
+  "name":"StrangeGel_obj",
   "overriddenProperties":[],
   "parent":{
-    "name":"Test",
-    "path":"folders/Objects/Puzzles/ItemPickups/Test.yy",
+    "name":"ItemPickups",
+    "path":"folders/Objects/Puzzles/ItemPickups.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"SmallPlant",
-    "path":"sprites/SmallPlant/SmallPlant.yy",
+    "name":"StrangeGel",
+    "path":"sprites/StrangeGel/StrangeGel.yy",
   },
   "spriteMaskId":null,
   "visible":true,

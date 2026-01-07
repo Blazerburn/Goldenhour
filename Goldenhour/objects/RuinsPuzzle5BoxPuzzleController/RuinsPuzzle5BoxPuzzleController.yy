@@ -10,7 +10,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Box Puzzles",
-    "path":"folders/Objects/Puzzle Controllers/Ruins/Box Puzzles.yy",
+    "path":"folders/Objects/Puzzles/Puzzle Controllers/Ruins/Box Puzzles.yy",
   },
   "parentObjectId":null,
   "persistent":false,
