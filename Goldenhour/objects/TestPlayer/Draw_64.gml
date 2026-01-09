@@ -157,16 +157,20 @@ if(global.inventoryOpen == 1){	/// @DnDAction : YoYo Games.Drawing.Draw_Sprite
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 4B32E244
-	/// @DnDInput : 2
+	/// @DnDInput : 3
 	/// @DnDParent : 74C0F1D4
 	/// @DnDArgument : "expr" ".2"
 	/// @DnDArgument : "expr_relative" "1"
 	/// @DnDArgument : "expr_1" "1"
 	/// @DnDArgument : "expr_relative_1" "1"
+	/// @DnDArgument : "expr_2" ".1"
+	/// @DnDArgument : "expr_relative_2" "1"
 	/// @DnDArgument : "var" "itemPosIndex"
 	/// @DnDArgument : "var_1" "inventorySelectAnimation"
+	/// @DnDArgument : "var_2" "inventoryItemAnimation"
 	itemPosIndex += .2;
 	inventorySelectAnimation += 1;
+	inventoryItemAnimation += .1;
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
@@ -246,7 +250,8 @@ if(global.inventoryOpen == 1){	/// @DnDAction : YoYo Games.Drawing.Draw_Sprite
 			/// @DnDArgument : "x" "_xx"
 			/// @DnDArgument : "y" "_yy"
 			/// @DnDArgument : "sprite" "itemArray[i, itemSprite]"
-			draw_sprite(itemArray[i, itemSprite], 0, _xx, _yy);
+			/// @DnDArgument : "image" "inventoryItemAnimation"
+			draw_sprite(itemArray[i, itemSprite], inventoryItemAnimation, _xx, _yy);
 		
 			/// @DnDAction : YoYo Games.Drawing.Draw_Value
 			/// @DnDVersion : 1

@@ -93,7 +93,7 @@ global.globalPlayerDirection = 2;
 /// @DnDVersion : 1
 /// @DnDHash : 13E11024
 /// @DnDComment : Inventory Stuff
-/// @DnDInput : 7
+/// @DnDInput : 8
 /// @DnDArgument : "var" "itemPos"
 /// @DnDArgument : "var_1" "itemPosIndex"
 /// @DnDArgument : "var_2" "rowPos"
@@ -101,6 +101,7 @@ global.globalPlayerDirection = 2;
 /// @DnDArgument : "var_4" "itemSelected"
 /// @DnDArgument : "var_5" "placedItem"
 /// @DnDArgument : "var_6" "inventorySelectAnimation"
+/// @DnDArgument : "var_7" "inventoryItemAnimation"
 itemPos = 0;
 itemPosIndex = 0;
 rowPos = 0;
@@ -108,6 +109,7 @@ colPos = 0;
 itemSelected = 0;
 placedItem = 0;
 inventorySelectAnimation = 0;
+inventoryItemAnimation = 0;
 
 /// @DnDAction : YoYo Games.Loops.For_Loop
 /// @DnDVersion : 1

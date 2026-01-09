@@ -56,6 +56,7 @@
     {"$GMFolder":"","%Name":"GUI's","folderPath":"folders/Sprites/GUI's.yy","name":"GUI's","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Inventory","folderPath":"folders/Sprites/GUI's/Inventory.yy","name":"Inventory","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Inventory Items","folderPath":"folders/Sprites/GUI's/Inventory/Inventory Items.yy","name":"Inventory Items","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Ruins","folderPath":"folders/Sprites/GUI's/Inventory/Inventory Items/Ruins.yy","name":"Ruins","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Sprites/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Ruins","folderPath":"folders/Sprites/Ruins.yy","name":"Ruins","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Floor","folderPath":"folders/Sprites/Ruins/Floor.yy","name":"Floor","resourceType":"GMFolder","resourceVersion":"2.0",},
