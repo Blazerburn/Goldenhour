@@ -1,7 +1,7 @@
 /// @DnDAction : YoYo Games.Common.Macro
 /// @DnDVersion : 1
 /// @DnDHash : 3E76DCD0
-/// @DnDInput : 5
+/// @DnDInput : 9
 /// @DnDArgument : "macro" "itemNone"
 /// @DnDArgument : "macro_1" "itemBall"
 /// @DnDArgument : "value_1" "1"
@@ -11,11 +11,23 @@
 /// @DnDArgument : "value_3" "3"
 /// @DnDArgument : "macro_4" "itemStrangeGel"
 /// @DnDArgument : "value_4" "4"
+/// @DnDArgument : "macro_5" "itemBioluminescentRock"
+/// @DnDArgument : "value_5" "5"
+/// @DnDArgument : "macro_6" "itemBrokenGlassShard"
+/// @DnDArgument : "value_6" "6"
+/// @DnDArgument : "macro_7" "itemChiselRock"
+/// @DnDArgument : "value_7" "7"
+/// @DnDArgument : "macro_8" "itemCrystallineHammer"
+/// @DnDArgument : "value_8" "8"
 #macro itemNone 0
 #macro itemBall 1
 #macro ItemPlant 2
 #macro itemPlantBall 3
 #macro itemStrangeGel 4
+#macro itemBioluminescentRock 5
+#macro itemBrokenGlassShard 6
+#macro itemChiselRock 7
+#macro itemCrystallineHammer 8
 
 /// @DnDAction : YoYo Games.Common.Macro
 /// @DnDVersion : 1

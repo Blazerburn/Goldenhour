@@ -13,20 +13,6 @@ if(global.recentlyInteracted == 0){	/// @DnDAction : YoYo Games.Common.If_Vari
 		/// @DnDParent : 73E529C7
 		instance_destroy();
 	
-		/// @DnDAction : YoYo Games.Instances.Destroy_Instance
-		/// @DnDVersion : 1
-		/// @DnDHash : 2B0A095B
-		/// @DnDApplyTo : inst_C95EC19
-		/// @DnDParent : 73E529C7
-		with(inst_C95EC19) instance_destroy();
-	
-		/// @DnDAction : YoYo Games.Instances.Destroy_Instance
-		/// @DnDVersion : 1
-		/// @DnDHash : 08D159AB
-		/// @DnDApplyTo : inst_2FCBDD7F
-		/// @DnDParent : 73E529C7
-		with(inst_2FCBDD7F) instance_destroy();
-	
 		/// @DnDAction : YoYo Games.Common.Temp_Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 0161D493
@@ -44,6 +30,15 @@ if(global.recentlyInteracted == 0){	/// @DnDAction : YoYo Games.Common.If_Vari
 		var _type = itemStrangeGel;
 		var _sprite = StrangeGel;
 		var _name = "Strange Gel";
+	
+		/// @DnDAction : YoYo Games.Instances.Call_User_Event
+		/// @DnDVersion : 1
+		/// @DnDHash : 7D680D06
+		/// @DnDApplyTo : {StrangeGel_obj}
+		/// @DnDParent : 73E529C7
+		with(StrangeGel_obj) {
+		event_user(0);
+		}
 	
 		/// @DnDAction : YoYo Games.Common.Apply_To
 		/// @DnDVersion : 1

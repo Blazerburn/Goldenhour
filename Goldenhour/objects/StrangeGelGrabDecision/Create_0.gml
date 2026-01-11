@@ -2,13 +2,13 @@
 /// @DnDVersion : 1
 /// @DnDHash : 0A0A3FC5
 /// @DnDInput : 3
-/// @DnDArgument : "expr" ""Grab the ball""
+/// @DnDArgument : "expr" ""Grab the strange gel""
 /// @DnDArgument : "expr_1" ""Ignore it""
 /// @DnDArgument : "expr_2" """"
 /// @DnDArgument : "var" "text1"
 /// @DnDArgument : "var_1" "text2"
 /// @DnDArgument : "var_2" "text3"
-text1 = "Grab the ball";
+text1 = "Grab the strange gel";
 text2 = "Ignore it";
 text3 = "";
 
@@ -65,6 +65,6 @@ global.Talking = 1;
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 144DCA68
-/// @DnDArgument : "expr" "itemBall"
+/// @DnDArgument : "expr" "itemStrangeGel"
 /// @DnDArgument : "var" "item"
-item = itemBall;
+item = itemStrangeGel;

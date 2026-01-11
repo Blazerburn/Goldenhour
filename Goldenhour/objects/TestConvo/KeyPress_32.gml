@@ -7,6 +7,16 @@
 /// @DnDArgument : "arg" "text[textCurrent]"
 var _len = string_length(text[textCurrent]);
 
+/// @DnDAction : YoYo Games.Common.Function_Call
+/// @DnDVersion : 1
+/// @DnDHash : 07F358F1
+/// @DnDInput : 2
+/// @DnDArgument : "var" "text[textCurrent]"
+/// @DnDArgument : "function" "stringWrap"
+/// @DnDArgument : "arg" "text[textCurrent]"
+/// @DnDArgument : "arg_1" "textWidth"
+text[textCurrent] = stringWrap(text[textCurrent], textWidth);
+
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 471115DD

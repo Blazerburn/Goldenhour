@@ -40,16 +40,6 @@ headshotTextX = 250;
 charCurrent = 1;
 charSpeed = 0.25;
 
-/// @DnDAction : YoYo Games.Common.Function_Call
-/// @DnDVersion : 1
-/// @DnDHash : 1E06C9C5
-/// @DnDInput : 2
-/// @DnDArgument : "var" "text[textCurrent]"
-/// @DnDArgument : "function" "stringWrap"
-/// @DnDArgument : "arg" "text[textCurrent]"
-/// @DnDArgument : "arg_1" "textWidth"
-text[textCurrent] = stringWrap(text[textCurrent], textWidth);
-
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
 /// @DnDHash : 42AB32EE
@@ -69,6 +59,16 @@ global.Talking = 1;
 /// @DnDArgument : "var_1" "decisions"
 decisionsTrue = 0;
 decisions = 0;
+
+/// @DnDAction : YoYo Games.Common.Function_Call
+/// @DnDVersion : 1
+/// @DnDHash : 1E06C9C5
+/// @DnDInput : 2
+/// @DnDArgument : "var" "text[textCurrent]"
+/// @DnDArgument : "function" "stringWrap"
+/// @DnDArgument : "arg" "text[textCurrent]"
+/// @DnDArgument : "arg_1" "textWidth"
+text[textCurrent] = stringWrap(text[textCurrent], textWidth);
 
 /// @DnDAction : YoYo Games.Common.Function_Call
 /// @DnDVersion : 1
