@@ -1,7 +1,7 @@
 /// @DnDAction : YoYo Games.Common.Macro
 /// @DnDVersion : 1
 /// @DnDHash : 3E76DCD0
-/// @DnDInput : 9
+/// @DnDInput : 10
 /// @DnDArgument : "macro" "itemNone"
 /// @DnDArgument : "macro_1" "itemBall"
 /// @DnDArgument : "value_1" "1"
@@ -19,6 +19,8 @@
 /// @DnDArgument : "value_7" "7"
 /// @DnDArgument : "macro_8" "itemCrystallineHammer"
 /// @DnDArgument : "value_8" "8"
+/// @DnDArgument : "macro_9" "itemSecretBook10thHour"
+/// @DnDArgument : "value_9" "9"
 #macro itemNone 0
 #macro itemBall 1
 #macro ItemPlant 2
@@ -28,6 +30,7 @@
 #macro itemBrokenGlassShard 6
 #macro itemChiselRock 7
 #macro itemCrystallineHammer 8
+#macro itemSecretBook10thHour 9
 
 /// @DnDAction : YoYo Games.Common.Macro
 /// @DnDVersion : 1

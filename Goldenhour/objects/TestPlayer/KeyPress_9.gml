@@ -46,7 +46,14 @@ if(global.inventoryOpen == 0){	/// @DnDAction : YoYo Games.Common.Apply_To
 	/// @DnDParent : 11214EB6
 	/// @DnDArgument : "value" "1"
 	/// @DnDArgument : "var" "global.Immobilize"
-	global.Immobilize = 1;}
+	global.Immobilize = 1;
+
+	/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
+	/// @DnDVersion : 1
+	/// @DnDHash : 502E08E1
+	/// @DnDParent : 11214EB6
+	/// @DnDArgument : "msg" "itemArray"
+	show_debug_message(string(itemArray));}
 
 /// @DnDAction : YoYo Games.Common.Else
 /// @DnDVersion : 1

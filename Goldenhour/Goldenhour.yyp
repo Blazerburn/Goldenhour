@@ -122,6 +122,8 @@
     {"id":{"name":"RuinsPuzzle3BoxPuzzleController","path":"objects/RuinsPuzzle3BoxPuzzleController/RuinsPuzzle3BoxPuzzleController.yy",},},
     {"id":{"name":"RuinsPuzzle4BoxPuzzleController","path":"objects/RuinsPuzzle4BoxPuzzleController/RuinsPuzzle4BoxPuzzleController.yy",},},
     {"id":{"name":"RuinsPuzzle5BoxPuzzleController","path":"objects/RuinsPuzzle5BoxPuzzleController/RuinsPuzzle5BoxPuzzleController.yy",},},
+    {"id":{"name":"SecretBook10thHour_obj","path":"objects/SecretBook10thHour_obj/SecretBook10thHour_obj.yy",},},
+    {"id":{"name":"SecretBook10thHourGrabDecision","path":"objects/SecretBook10thHourGrabDecision/SecretBook10thHourGrabDecision.yy",},},
     {"id":{"name":"StrangeGel_obj","path":"objects/StrangeGel_obj/StrangeGel_obj.yy",},},
     {"id":{"name":"StrangeGelGrabDecision","path":"objects/StrangeGelGrabDecision/StrangeGelGrabDecision.yy",},},
     {"id":{"name":"TestCombinedObject","path":"objects/TestCombinedObject/TestCombinedObject.yy",},},

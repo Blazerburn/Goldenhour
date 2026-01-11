@@ -84,6 +84,8 @@
     {"name":"RuinsPuzzle3BoxPuzzleController","order":2,"path":"objects/RuinsPuzzle3BoxPuzzleController/RuinsPuzzle3BoxPuzzleController.yy",},
     {"name":"RuinsPuzzle4BoxPuzzleController","order":3,"path":"objects/RuinsPuzzle4BoxPuzzleController/RuinsPuzzle4BoxPuzzleController.yy",},
     {"name":"RuinsPuzzle5BoxPuzzleController","order":5,"path":"objects/RuinsPuzzle5BoxPuzzleController/RuinsPuzzle5BoxPuzzleController.yy",},
+    {"name":"SecretBook10thHour_obj","order":6,"path":"objects/SecretBook10thHour_obj/SecretBook10thHour_obj.yy",},
+    {"name":"SecretBook10thHourGrabDecision","order":6,"path":"objects/SecretBook10thHourGrabDecision/SecretBook10thHourGrabDecision.yy",},
     {"name":"StrangeGel_obj","order":1,"path":"objects/StrangeGel_obj/StrangeGel_obj.yy",},
     {"name":"StrangeGelGrabDecision","order":4,"path":"objects/StrangeGelGrabDecision/StrangeGelGrabDecision.yy",},
     {"name":"TestCombinedObject","order":1,"path":"objects/TestCombinedObject/TestCombinedObject.yy",},
