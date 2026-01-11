@@ -13,8 +13,8 @@
   "name":"ObjectGrabDecision",
   "overriddenProperties":[],
   "parent":{
-    "name":"Decisions",
-    "path":"folders/Objects/GUI/Decisions.yy",
+    "name":"ItemGrab",
+    "path":"folders/Objects/GUI/Decisions/ItemGrab.yy",
   },
   "parentObjectId":null,
   "persistent":false,

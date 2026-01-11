@@ -13,8 +13,8 @@
   "name":"BrokenGlassShardGrabDecision",
   "overriddenProperties":[],
   "parent":{
-    "name":"Decisions",
-    "path":"folders/Objects/GUI/Decisions.yy",
+    "name":"Ruins",
+    "path":"folders/Objects/GUI/Decisions/ItemGrab/Ruins.yy",
   },
   "parentObjectId":null,
   "persistent":false,
