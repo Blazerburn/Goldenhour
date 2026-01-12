@@ -132,31 +132,30 @@ for(var _pos = 0; _pos < 9; _pos += 1) {	/// @DnDAction : YoYo Games.Common.Var
 	itemArray[_pos][itemType] = itemNone;
 	itemArray[_pos][itemSprite] = -1;
 	itemArray[_pos][itemAmount] = 0;
-	itemArray[_pos][itemName] = 0;
+	itemArray[_pos][itemName] = 0;}
 
-	/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 37964A5C
+/// @DnDArgument : "var" "global.playerFollowers"
+/// @DnDArgument : "value" "1"
+if(global.playerFollowers == 1){	/// @DnDAction : YoYo Games.Common.Execute_Code
 	/// @DnDVersion : 1
-	/// @DnDHash : 37964A5C
-	/// @DnDParent : 12B19703
-	/// @DnDArgument : "var" "global.playerFollowers"
-	/// @DnDArgument : "value" "1"
-	if(global.playerFollowers == 1){	/// @DnDAction : YoYo Games.Common.Execute_Code
-		/// @DnDVersion : 1
-		/// @DnDHash : 71B9E06C
-		/// @DnDParent : 37964A5C
-		/// @DnDArgument : "code" "/// @description Execute Code$(13_10)dir_sprites = [$(13_10)	CondiRightIdle,$(13_10)    CondiBackwardIdle,$(13_10)	CondiLeftIdle,$(13_10)	CondiForwardIdle,$(13_10)];$(13_10)$(13_10)follow_max = 60;$(13_10)follow_coords = [];$(13_10)array_push(follow_coords, {x: x, y: y, playerDirection: playerDirection});$(13_10)$(13_10)instance_create_depth(x, y, depth + 1, TestFollow, { follow_delay: 20 });$(13_10)//instance_create_depth(x, y, depth + 2, TestFollow, { follow_delay: 40 });$(13_10)//instance_create_depth(x, y, depth + 3, TestFollow, { follow_delay: 60 });$(13_10)"
-		/// @description Execute Code
-		dir_sprites = [
-			CondiRightIdle,
-		    CondiBackwardIdle,
-			CondiLeftIdle,
-			CondiForwardIdle,
-		];
-		
-		follow_max = 60;
-		follow_coords = [];
-		array_push(follow_coords, {x: x, y: y, playerDirection: playerDirection});
-		
-		instance_create_depth(x, y, depth + 1, TestFollow, { follow_delay: 20 });
-		//instance_create_depth(x, y, depth + 2, TestFollow, { follow_delay: 40 });
-		//instance_create_depth(x, y, depth + 3, TestFollow, { follow_delay: 60 });}}
+	/// @DnDHash : 71B9E06C
+	/// @DnDParent : 37964A5C
+	/// @DnDArgument : "code" "/// @description Execute Code$(13_10)dir_sprites = [$(13_10)	CondiRightIdle,$(13_10)    CondiBackwardIdle,$(13_10)	CondiLeftIdle,$(13_10)	CondiForwardIdle,$(13_10)];$(13_10)$(13_10)follow_max = 60;$(13_10)follow_coords = [];$(13_10)array_push(follow_coords, {x: x, y: y, playerDirection: playerDirection});$(13_10)$(13_10)instance_create_depth(x, y, depth + 1, TestFollow, { follow_delay: 20 });$(13_10)//instance_create_depth(x, y, depth + 2, TestFollow, { follow_delay: 40 });$(13_10)//instance_create_depth(x, y, depth + 3, TestFollow, { follow_delay: 60 });$(13_10)"
+	/// @description Execute Code
+	dir_sprites = [
+		CondiRightIdle,
+	    CondiBackwardIdle,
+		CondiLeftIdle,
+		CondiForwardIdle,
+	];
+	
+	follow_max = 60;
+	follow_coords = [];
+	array_push(follow_coords, {x: x, y: y, playerDirection: playerDirection});
+	
+	instance_create_depth(x, y, depth + 1, TestFollow, { follow_delay: 20 });
+	//instance_create_depth(x, y, depth + 2, TestFollow, { follow_delay: 40 });
+	//instance_create_depth(x, y, depth + 3, TestFollow, { follow_delay: 60 });}

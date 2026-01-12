@@ -1,13 +1,17 @@
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
 /// @DnDHash : 4E293D75
-/// @DnDInput : 3
+/// @DnDInput : 5
 /// @DnDArgument : "var" "global.testObject"
 /// @DnDArgument : "var_1" "global.plantObject"
 /// @DnDArgument : "var_2" "combinedObect"
+/// @DnDArgument : "var_3" "itemCombiningType1"
+/// @DnDArgument : "var_4" "itemCombiningType2"
 global.testObject = 0;
 global.plantObject = 0;
 global.combinedObect = 0;
+global.itemCombiningType1 = 0;
+global.itemCombiningType2 = 0;
 
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
