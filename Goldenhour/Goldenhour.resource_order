@@ -59,6 +59,8 @@
     {"name":"BrokenGlassShardGrabDecision","order":1,"path":"objects/BrokenGlassShardGrabDecision/BrokenGlassShardGrabDecision.yy",},
     {"name":"ChiselRock_obj","order":4,"path":"objects/ChiselRock_obj/ChiselRock_obj.yy",},
     {"name":"ChiselRockGrabDecision","order":2,"path":"objects/ChiselRockGrabDecision/ChiselRockGrabDecision.yy",},
+    {"name":"CombiningCode","order":14,"path":"objects/CombiningCode/CombiningCode.yy",},
+    {"name":"CombiningCodeBackup","order":15,"path":"objects/CombiningCodeBackup/CombiningCodeBackup.yy",},
     {"name":"CrystallineHammer_obj","order":5,"path":"objects/CrystallineHammer_obj/CrystallineHammer_obj.yy",},
     {"name":"CrystallineHammerGrabDecision","order":5,"path":"objects/CrystallineHammerGrabDecision/CrystallineHammerGrabDecision.yy",},
     {"name":"Gate","order":25,"path":"objects/Gate/Gate.yy",},

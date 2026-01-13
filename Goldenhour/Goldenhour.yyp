@@ -92,6 +92,8 @@
     {"id":{"name":"BrokenGlassShardGrabDecision","path":"objects/BrokenGlassShardGrabDecision/BrokenGlassShardGrabDecision.yy",},},
     {"id":{"name":"ChiselRock_obj","path":"objects/ChiselRock_obj/ChiselRock_obj.yy",},},
     {"id":{"name":"ChiselRockGrabDecision","path":"objects/ChiselRockGrabDecision/ChiselRockGrabDecision.yy",},},
+    {"id":{"name":"CombiningCode","path":"objects/CombiningCode/CombiningCode.yy",},},
+    {"id":{"name":"CombiningCodeBackup","path":"objects/CombiningCodeBackup/CombiningCodeBackup.yy",},},
     {"id":{"name":"CrystallineHammer_obj","path":"objects/CrystallineHammer_obj/CrystallineHammer_obj.yy",},},
     {"id":{"name":"CrystallineHammerGrabDecision","path":"objects/CrystallineHammerGrabDecision/CrystallineHammerGrabDecision.yy",},},
     {"id":{"name":"Gate","path":"objects/Gate/Gate.yy",},},
