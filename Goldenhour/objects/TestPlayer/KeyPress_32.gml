@@ -177,8 +177,23 @@ if(global.recentlyInteracted == 0){	/// @DnDAction : YoYo Games.Common.If_Vari
 								/// @DnDParent : 033D13E2
 								/// @DnDArgument : "expr" "-1"
 								/// @DnDArgument : "expr_relative" "1"
-								/// @DnDArgument : "var" "itemArray[itemSelected][itemAmount]"
-								itemArray[itemSelected][itemAmount] += -1;
+								/// @DnDArgument : "var" "itemArray[itemSelected][itemUses]"
+								itemArray[itemSelected][itemUses] += -1;
+							
+								/// @DnDAction : YoYo Games.Common.If_Variable
+								/// @DnDVersion : 1
+								/// @DnDHash : 679B7F0A
+								/// @DnDParent : 033D13E2
+								/// @DnDArgument : "var" "itemArray[itemSelected][itemUses]"
+								/// @DnDArgument : "op" "3"
+								if(itemArray[itemSelected][itemUses] <= 0){	/// @DnDAction : YoYo Games.Common.Variable
+									/// @DnDVersion : 1
+									/// @DnDHash : 2A27C00B
+									/// @DnDParent : 679B7F0A
+									/// @DnDArgument : "expr" "-1"
+									/// @DnDArgument : "expr_relative" "1"
+									/// @DnDArgument : "var" "itemArray[itemSelected][itemAmount]"
+									itemArray[itemSelected][itemAmount] += -1;}
 							
 								/// @DnDAction : YoYo Games.Common.If_Variable
 								/// @DnDVersion : 1

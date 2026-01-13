@@ -121,7 +121,7 @@ inventoryItemAnimation = 0;
 for(var _pos = 0; _pos < 9; _pos += 1) {	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 3C18F562
-	/// @DnDInput : 4
+	/// @DnDInput : 5
 	/// @DnDParent : 12B19703
 	/// @DnDArgument : "expr" "itemNone"
 	/// @DnDArgument : "expr_1" "-1"
@@ -129,10 +129,12 @@ for(var _pos = 0; _pos < 9; _pos += 1) {	/// @DnDAction : YoYo Games.Common.Var
 	/// @DnDArgument : "var_1" "itemArray[_pos][itemSprite]"
 	/// @DnDArgument : "var_2" "itemArray[_pos][itemAmount]"
 	/// @DnDArgument : "var_3" "itemArray[_pos][itemName]"
+	/// @DnDArgument : "var_4" "itemArray[_pos][itemUses]"
 	itemArray[_pos][itemType] = itemNone;
 	itemArray[_pos][itemSprite] = -1;
 	itemArray[_pos][itemAmount] = 0;
-	itemArray[_pos][itemName] = 0;}
+	itemArray[_pos][itemName] = 0;
+	itemArray[_pos][itemUses] = 0;}
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1

@@ -35,7 +35,7 @@
 /// @DnDAction : YoYo Games.Common.Macro
 /// @DnDVersion : 1
 /// @DnDHash : 7669FBD2
-/// @DnDInput : 4
+/// @DnDInput : 5
 /// @DnDArgument : "macro" "itemType"
 /// @DnDArgument : "macro_1" "itemSprite"
 /// @DnDArgument : "value_1" "1"
@@ -43,7 +43,10 @@
 /// @DnDArgument : "value_2" "2"
 /// @DnDArgument : "macro_3" "itemName"
 /// @DnDArgument : "value_3" "3"
+/// @DnDArgument : "macro_4" "itemUses"
+/// @DnDArgument : "value_4" "4"
 #macro itemType 0
 #macro itemSprite 1
 #macro itemAmount 2
 #macro itemName 3
+#macro itemUses 4

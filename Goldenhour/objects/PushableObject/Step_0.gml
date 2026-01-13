@@ -70,6 +70,20 @@ if(objectID == interactedBoxID){	/// @DnDAction : YoYo Games.Common.Apply_To
 			/// @DnDSaveInfo : "object" "PushableWall"
 			move_and_collide(xinput * 1, yinput * 1, [PushableWall],4,0,0,1,1);
 		
+			/// @DnDAction : YoYo Games.Instances.Set_Instance_Var
+			/// @DnDVersion : 1
+			/// @DnDHash : 3EC7CB27
+			/// @DnDInput : 2
+			/// @DnDApplyTo : pushBoxCollision
+			/// @DnDParent : 47D919FC
+			/// @DnDArgument : "value" "pushableBoxOriginX"
+			/// @DnDArgument : "value_1" "pushableBoxOriginY"
+			/// @DnDArgument : "instvar_1" "1"
+			with(pushBoxCollision) {
+			x = pushableBoxOriginX;
+			y = pushableBoxOriginY;
+			}
+		
 			/// @DnDAction : YoYo Games.Common.If_Variable
 			/// @DnDVersion : 1
 			/// @DnDHash : 6E0F5B88

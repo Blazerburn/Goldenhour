@@ -34,3 +34,36 @@ var objectID = 0;
 /// @DnDHash : 6035164C
 /// @DnDArgument : "msg" ""Object ID:", objectID"
 show_debug_message(string("Object ID:", objectID));
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 4B1C7778
+/// @DnDArgument : "var" "pushBoxCollision"
+pushBoxCollision = 0;
+
+/// @DnDAction : YoYo Games.Instances.Create_Instance
+/// @DnDVersion : 1
+/// @DnDHash : 6E986E8E
+/// @DnDArgument : "xpos" "1"
+/// @DnDArgument : "xpos_relative" "1"
+/// @DnDArgument : "ypos" "1"
+/// @DnDArgument : "ypos_relative" "1"
+/// @DnDArgument : "var" "pushBoxCollision"
+/// @DnDArgument : "objectid" "TestWall"
+/// @DnDArgument : "layer" ""Instances_2""
+/// @DnDSaveInfo : "objectid" "TestWall"
+pushBoxCollision = instance_create_layer(x + 1, y + 1, "Instances_2", TestWall);
+
+/// @DnDAction : YoYo Games.Instances.Set_Instance_Var
+/// @DnDVersion : 1
+/// @DnDHash : 2E045804
+/// @DnDInput : 2
+/// @DnDApplyTo : pushBoxCollision
+/// @DnDArgument : "value" ".49"
+/// @DnDArgument : "value_1" ".49"
+/// @DnDArgument : "instvar" "15"
+/// @DnDArgument : "instvar_1" "16"
+with(pushBoxCollision) {
+image_xscale = .49;
+image_yscale = .49;
+}
