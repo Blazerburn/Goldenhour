@@ -254,6 +254,7 @@
     {"name":"BlackGradientTileSet","order":4,"path":"tilesets/BlackGradientTileSet/BlackGradientTileSet.yy",},
     {"name":"BoxPathTileSet_1","order":6,"path":"tilesets/BoxPathTileSet_1/BoxPathTileSet_1.yy",},
     {"name":"BoxPathTileSet","order":5,"path":"tilesets/BoxPathTileSet/BoxPathTileSet.yy",},
+    {"name":"BrickWallTileSet","order":9,"path":"tilesets/BrickWallTileSet/BrickWallTileSet.yy",},
     {"name":"PerspectiveTestTileSet","order":8,"path":"tilesets/PerspectiveTestTileSet/PerspectiveTestTileSet.yy",},
     {"name":"RuinBrickTileSet","order":2,"path":"tilesets/RuinBrickTileSet/RuinBrickTileSet.yy",},
     {"name":"RuinPathTileSet","order":7,"path":"tilesets/RuinPathTileSet/RuinPathTileSet.yy",},
