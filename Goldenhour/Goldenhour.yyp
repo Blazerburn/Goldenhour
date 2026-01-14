@@ -64,6 +64,7 @@
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Sprites/Ruins/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Tiles","folderPath":"folders/Sprites/Ruins/Tiles.yy","name":"Tiles","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Walls","folderPath":"folders/Sprites/Ruins/Walls.yy","name":"Walls","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"BrickWall1","folderPath":"folders/Sprites/Ruins/Walls/BrickWall1.yy","name":"BrickWall1","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"TestStuff","folderPath":"folders/Sprites/TestStuff.yy","name":"TestStuff","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Sprites/TestStuff/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Tiles","folderPath":"folders/Sprites/TestStuff/Tiles.yy","name":"Tiles","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -203,6 +204,7 @@
     {"id":{"name":"BoxPathTileSetSprite","path":"sprites/BoxPathTileSetSprite/BoxPathTileSetSprite.yy",},},
     {"id":{"name":"BoxPressurePlate","path":"sprites/BoxPressurePlate/BoxPressurePlate.yy",},},
     {"id":{"name":"BrickWall","path":"sprites/BrickWall/BrickWall.yy",},},
+    {"id":{"name":"BrickWall2","path":"sprites/BrickWall2/BrickWall2.yy",},},
     {"id":{"name":"BrickWallBottom","path":"sprites/BrickWallBottom/BrickWallBottom.yy",},},
     {"id":{"name":"BrickWallBottomLeft","path":"sprites/BrickWallBottomLeft/BrickWallBottomLeft.yy",},},
     {"id":{"name":"BrickWallBottomMiddle","path":"sprites/BrickWallBottomMiddle/BrickWallBottomMiddle.yy",},},
@@ -319,6 +321,7 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"StarterRoom","path":"rooms/StarterRoom/StarterRoom.yy",},},
     {"children":[
@@ -346,12 +349,12 @@
       ],"groupName":"Ruins",},
     {"children":[
         {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
-        {"roomId":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
         {"roomId":{"name":"BasicRoom","path":"rooms/BasicRoom/BasicRoom.yy",},},
       ],"groupName":"Testing",},
   ],
   "templateType":"game",
   "TextureGroups":[
     {"$GMTextureGroup":"","%Name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","customOptions":"","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"name":"Default","resourceType":"GMTextureGroup","resourceVersion":"2.0","targets":-1,},
+    {"$GMTextureGroup":"","%Name":"texturegroup1","autocrop":true,"border":2,"compressFormat":"bz2","customOptions":"","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"name":"texturegroup1","resourceType":"GMTextureGroup","resourceVersion":"2.0","targets":-1,},
   ],
 }

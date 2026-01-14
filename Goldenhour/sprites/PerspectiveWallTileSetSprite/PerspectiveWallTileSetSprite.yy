@@ -20,7 +20,8 @@
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"d3392f94-3a0f-426b-9006-25fd0e8cb84d","blendMode":0,"displayName":"Layer 3","isLocked":false,"name":"d3392f94-3a0f-426b-9006-25fd0e8cb84d","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":false,},
-    {"$GMImageLayer":"","%Name":"206c1388-6b63-408f-8cc7-bf53050aa9e9","blendMode":0,"displayName":"Layer 2","isLocked":false,"name":"206c1388-6b63-408f-8cc7-bf53050aa9e9","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"69b74384-7587-469a-9cb1-814be9f2ef95","blendMode":0,"displayName":"Layer 4","isLocked":false,"name":"69b74384-7587-469a-9cb1-814be9f2ef95","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"206c1388-6b63-408f-8cc7-bf53050aa9e9","blendMode":0,"displayName":"Layer 2","isLocked":false,"name":"206c1388-6b63-408f-8cc7-bf53050aa9e9","opacity":50.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":false,},
     {"$GMImageLayer":"","%Name":"cfcd8177-0cf3-4de6-8b29-b50e54ee8eb3","blendMode":0,"displayName":"default","isLocked":false,"name":"cfcd8177-0cf3-4de6-8b29-b50e54ee8eb3","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"08a415e2-cf8a-40bd-9fdb-b70e919c9903","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"08a415e2-cf8a-40bd-9fdb-b70e919c9903","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
@@ -73,7 +74,9 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"ab071f08-603d-4a41-bcc7-f7f20182a068","path":"sprites/PerspectiveWallTileSetSprite/PerspectiveWallTileSetSprite.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"90b9b28b-000b-48b3-aa49-b08197bac57f","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ab071f08-603d-4a41-bcc7-f7f20182a068","path":"sprites/PerspectiveWallTileSetSprite/PerspectiveWallTileSetSprite.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"90b9b28b-000b-48b3-aa49-b08197bac57f","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
