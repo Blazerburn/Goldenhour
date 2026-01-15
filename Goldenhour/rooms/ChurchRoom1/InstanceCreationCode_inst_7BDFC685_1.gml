@@ -7,12 +7,12 @@ if(global.RoomSpawnpoints == 1){	/// @DnDAction : YoYo Games.Instances.Create_
 	/// @DnDVersion : 1
 	/// @DnDHash : 09972AC6
 	/// @DnDParent : 54620D23
-	/// @DnDArgument : "xpos" "46"
-	/// @DnDArgument : "ypos" "208"
+	/// @DnDArgument : "xpos" "96"
+	/// @DnDArgument : "ypos" "192"
 	/// @DnDArgument : "objectid" "TestPlayer"
 	/// @DnDArgument : "layer" ""Player""
 	/// @DnDSaveInfo : "objectid" "TestPlayer"
-	instance_create_layer(46, 208, "Player", TestPlayer);}
+	instance_create_layer(96, 192, "Player", TestPlayer);}
 
 /// @DnDAction : YoYo Games.Common.Else
 /// @DnDVersion : 1
@@ -27,9 +27,9 @@ else{	/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 4843F3DE
 		/// @DnDParent : 5C63F3BF
-		/// @DnDArgument : "xpos" "365"
-		/// @DnDArgument : "ypos" "288"
+		/// @DnDArgument : "xpos" "512"
+		/// @DnDArgument : "ypos" "224"
 		/// @DnDArgument : "objectid" "TestPlayer"
 		/// @DnDArgument : "layer" ""Player""
 		/// @DnDSaveInfo : "objectid" "TestPlayer"
-		instance_create_layer(365, 288, "Player", TestPlayer);}}
+		instance_create_layer(512, 224, "Player", TestPlayer);}}

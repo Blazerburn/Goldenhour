@@ -50,9 +50,8 @@ pushBoxCollision = 0;
 /// @DnDArgument : "ypos_relative" "1"
 /// @DnDArgument : "var" "pushBoxCollision"
 /// @DnDArgument : "objectid" "TestWall"
-/// @DnDArgument : "layer" ""Instances_2""
 /// @DnDSaveInfo : "objectid" "TestWall"
-pushBoxCollision = instance_create_layer(x + 1, y + 1, "Instances_2", TestWall);
+pushBoxCollision = instance_create_layer(x + 1, y + 1, "Instances", TestWall);
 
 /// @DnDAction : YoYo Games.Instances.Set_Instance_Var
 /// @DnDVersion : 1
