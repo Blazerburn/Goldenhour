@@ -8,8 +8,8 @@
   "name":"TestUsingQuips",
   "overriddenProperties":[],
   "parent":{
-    "name":"Conversations",
-    "path":"folders/Objects/GUI/Conversations.yy",
+    "name":"ItemUseQuips",
+    "path":"folders/Objects/GUI/Conversations/ItemUseQuips.yy",
   },
   "parentObjectId":null,
   "persistent":false,

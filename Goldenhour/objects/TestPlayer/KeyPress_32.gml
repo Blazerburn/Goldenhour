@@ -63,9 +63,8 @@ if(global.recentlyInteracted == 0){	/// @DnDAction : YoYo Games.Common.If_Vari
 								/// @DnDArgument : "xpos" "101 + rowPos * 280"
 								/// @DnDArgument : "ypos" "101 + colPos * 301"
 								/// @DnDArgument : "objectid" "TestInventoryDecisions"
-								/// @DnDArgument : "layer" ""Instances_2""
 								/// @DnDSaveInfo : "objectid" "TestInventoryDecisions"
-								instance_create_layer(101 + rowPos * 280, 101 + colPos * 301, "Instances_2", TestInventoryDecisions);
+								instance_create_layer(101 + rowPos * 280, 101 + colPos * 301, "Instances", TestInventoryDecisions);
 							
 								/// @DnDAction : YoYo Games.Common.If_Variable
 								/// @DnDVersion : 1

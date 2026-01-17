@@ -34,6 +34,15 @@ if(global.recentlyInteracted == 0){	/// @DnDAction : YoYo Games.Common.If_Vari
 		var _name = "Mysterious Book";
 		var _uses = 1;
 	
+		/// @DnDAction : YoYo Games.Instances.Call_User_Event
+		/// @DnDVersion : 1
+		/// @DnDHash : 2958DB84
+		/// @DnDApplyTo : {SecretBook10thHour_obj}
+		/// @DnDParent : 73E529C7
+		with(SecretBook10thHour_obj) {
+		event_user(0);
+		}
+	
 		/// @DnDAction : YoYo Games.Common.Apply_To
 		/// @DnDVersion : 1
 		/// @DnDHash : 61D28B8D

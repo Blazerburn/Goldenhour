@@ -30,8 +30,8 @@
         {"$GMRInstance":"v4","%Name":"inst_70FDC326","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_70FDC326","objectId":{"name":"TestSpawnpoint","path":"objects/TestSpawnpoint/TestSpawnpoint.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":512.0,"y":224.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_4","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_4","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":8,"SerialiseWidth":18,"TileCompressedData":[
-          -2,47,14,8,26,11,35,29,32,29,29,32,29,36,12,25,16,-3,47,57,8,1,34,11,35,29,32,29,29,32,29,36,12,33,25,
-          16,47,8,26,9,34,11,35,29,32,29,29,32,29,36,12,33,33,2,16,5,34,7,34,19,43,0,40,0,0,40,0,44,20,33,33,10,
+          -2,47,14,8,26,11,35,37,32,37,37,32,37,36,12,25,16,-3,47,57,8,1,34,11,35,37,32,37,37,32,37,36,12,33,25,
+          16,47,8,26,9,34,11,35,37,32,37,37,32,37,36,12,33,33,2,16,5,34,7,34,19,43,0,40,0,0,40,0,44,20,33,33,10,
           30,13,34,15,42,-10,0,7,41,33,6,38,13,34,23,-12,0,5,41,14,38,13,42,-14,0,3,22,38,21,-4,0,-8,-2147483648,
           -4,0,1,46,
         ],"TileDataFormat":1,},"tilesetId":{"name":"BrickWallTileSet","path":"tilesets/BrickWallTileSet/BrickWallTileSet.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},

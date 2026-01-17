@@ -19,6 +19,8 @@
   "height":192,
   "HTile":false,
   "layers":[
+    {"$GMImageLayer":"","%Name":"e3176deb-79ba-468c-9db4-d65cbed99aa1","blendMode":0,"displayName":"Layer 53","isLocked":false,"name":"e3176deb-79ba-468c-9db4-d65cbed99aa1","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"bd5e9dcb-0314-47d2-916a-23ea43d2e7e4","blendMode":0,"displayName":"Layer 52","isLocked":false,"name":"bd5e9dcb-0314-47d2-916a-23ea43d2e7e4","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"02af785c-d0f5-49e6-9141-9e45f1d4ac74","blendMode":0,"displayName":"Layer 46","isLocked":false,"name":"02af785c-d0f5-49e6-9141-9e45f1d4ac74","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"e0776bb4-8dee-42d2-be5c-3a4b90c9392c","blendMode":0,"displayName":"Layer 51","isLocked":false,"name":"e0776bb4-8dee-42d2-be5c-3a4b90c9392c","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"e0ee4956-694d-45af-8df3-0e8231787f7d","blendMode":0,"displayName":"Layer 28","isLocked":false,"name":"e0ee4956-694d-45af-8df3-0e8231787f7d","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -87,8 +89,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"BrickWall2",
-    "path":"folders/Sprites/Ruins/Walls/BrickWall2.yy",
+    "name":"Tiles",
+    "path":"folders/Sprites/Ruins/Tiles.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

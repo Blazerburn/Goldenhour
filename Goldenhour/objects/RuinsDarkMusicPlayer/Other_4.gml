@@ -14,9 +14,9 @@ songID = 0;
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
 /// @DnDHash : 6EB43E8A
-/// @DnDArgument : "value" "DarkCityMusicPlayer"
+/// @DnDArgument : "value" "RuinsDarkMusicPlayer"
 /// @DnDArgument : "var" "roomSong"
-global.roomSong = DarkCityMusicPlayer;
+global.roomSong = RuinsDarkMusicPlayer;
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
