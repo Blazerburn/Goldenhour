@@ -32,15 +32,17 @@ headshotTextX = 250;
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 2D9496DF
-/// @DnDInput : 3
+/// @DnDInput : 4
 /// @DnDArgument : "expr" "1"
 /// @DnDArgument : "expr_1" "0.25"
 /// @DnDArgument : "var" "charCurrent"
 /// @DnDArgument : "var_1" "charSpeed"
 /// @DnDArgument : "var_2" "textVariance"
+/// @DnDArgument : "var_3" "currentCharacter"
 charCurrent = 1;
 charSpeed = 0.25;
 textVariance = 0;
+currentCharacter = 0;
 
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
