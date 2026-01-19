@@ -130,6 +130,24 @@ if(global.recentlyInteracted == 0){	/// @DnDAction : YoYo Games.Common.If_Vari
 						
 							/// @DnDAction : YoYo Games.Common.Variable
 							/// @DnDVersion : 1
+							/// @DnDHash : 237C075B
+							/// @DnDInput : 5
+							/// @DnDParent : 1FBEDEBA
+							/// @DnDArgument : "expr_1" "1"
+							/// @DnDArgument : "expr_3" "1"
+							/// @DnDArgument : "var" "textShaking[0]"
+							/// @DnDArgument : "var_1" "textShaking[1]"
+							/// @DnDArgument : "var_2" "textShaking[2]"
+							/// @DnDArgument : "var_3" "textShaking[3]"
+							/// @DnDArgument : "var_4" "textShaking[4]"
+							textShaking[0] = 0;
+							textShaking[1] = 1;
+							textShaking[2] = 0;
+							textShaking[3] = 1;
+							textShaking[4] = 0;
+						
+							/// @DnDAction : YoYo Games.Common.Variable
+							/// @DnDVersion : 1
 							/// @DnDHash : 44EFE308
 							/// @DnDInput : 2
 							/// @DnDParent : 1FBEDEBA

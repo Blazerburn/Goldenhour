@@ -23,6 +23,7 @@
     {"name":"inst_3564E59C","path":"rooms/RubbleRoom/RubbleRoom.yy",},
     {"name":"inst_71C08DC2","path":"rooms/RubbleRoom/RubbleRoom.yy",},
     {"name":"inst_54411846","path":"rooms/RubbleRoom/RubbleRoom.yy",},
+    {"name":"inst_4E73784F","path":"rooms/RubbleRoom/RubbleRoom.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -34,6 +35,7 @@
         {"$GMRInstance":"v4","%Name":"inst_7BDFC685_4","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":true,"name":"inst_7BDFC685_4","objectId":{"name":"RoomSpawnpoint","path":"objects/RoomSpawnpoint/RoomSpawnpoint.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":192.0,"y":-64.0,},
         {"$GMRInstance":"v4","%Name":"inst_71C08DC2","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":true,"name":"inst_71C08DC2","objectId":{"name":"TestTransition","path":"objects/TestTransition/TestTransition.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.0,"scaleY":1.0,"x":96.0,"y":512.0,},
         {"$GMRInstance":"v4","%Name":"inst_54411846","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_54411846","objectId":{"name":"TestSpawnpoint","path":"objects/TestSpawnpoint/TestSpawnpoint.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":128.0,"y":480.0,},
+        {"$GMRInstance":"v4","%Name":"inst_4E73784F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4E73784F","objectId":{"name":"ChiselRock_obj","path":"objects/ChiselRock_obj/ChiselRock_obj.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":96.0,"y":192.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_2","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_2","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":16,"SerialiseWidth":8,"TileCompressedData":[
           -9,-2147483648,-6,1,-2,-2147483648,-6,1,-2,-2147483648,-6,1,-2,-2147483648,-6,1,-2,-2147483648,-6,1,

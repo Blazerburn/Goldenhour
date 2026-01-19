@@ -230,6 +230,7 @@
     {"id":{"name":"BrickWallLeft","path":"sprites/BrickWallLeft/BrickWallLeft.yy",},},
     {"id":{"name":"BrickWallMiddle","path":"sprites/BrickWallMiddle/BrickWallMiddle.yy",},},
     {"id":{"name":"BrickWallRight","path":"sprites/BrickWallRight/BrickWallRight.yy",},},
+    {"id":{"name":"BrickWallTileSetSprite_1","path":"sprites/BrickWallTileSetSprite_1/BrickWallTileSetSprite_1.yy",},},
     {"id":{"name":"BrickWallTileSetSprite","path":"sprites/BrickWallTileSetSprite/BrickWallTileSetSprite.yy",},},
     {"id":{"name":"BrokenGlassShard","path":"sprites/BrokenGlassShard/BrokenGlassShard.yy",},},
     {"id":{"name":"BrokenPath","path":"sprites/BrokenPath/BrokenPath.yy",},},
@@ -345,8 +346,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"StarterRoom","path":"rooms/StarterRoom/StarterRoom.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"StarterRoom","path":"rooms/StarterRoom/StarterRoom.yy",},},
     {"roomId":{"name":"ChurchRoom1","path":"rooms/ChurchRoom1/ChurchRoom1.yy",},},
     {"roomId":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
     {"children":[

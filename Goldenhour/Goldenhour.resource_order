@@ -172,6 +172,7 @@
     {"name":"BrickWallLeft","order":5,"path":"sprites/BrickWallLeft/BrickWallLeft.yy",},
     {"name":"BrickWallMiddle","order":6,"path":"sprites/BrickWallMiddle/BrickWallMiddle.yy",},
     {"name":"BrickWallRight","order":7,"path":"sprites/BrickWallRight/BrickWallRight.yy",},
+    {"name":"BrickWallTileSetSprite_1","order":7,"path":"sprites/BrickWallTileSetSprite_1/BrickWallTileSetSprite_1.yy",},
     {"name":"BrickWallTileSetSprite","order":6,"path":"sprites/BrickWallTileSetSprite/BrickWallTileSetSprite.yy",},
     {"name":"BrokenGlassShard","order":1,"path":"sprites/BrokenGlassShard/BrokenGlassShard.yy",},
     {"name":"BrokenPath","order":8,"path":"sprites/BrokenPath/BrokenPath.yy",},
