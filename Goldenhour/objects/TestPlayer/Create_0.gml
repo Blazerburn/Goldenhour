@@ -1,8 +1,7 @@
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
-/// @DnDHash : 10BA00EE
-/// @DnDArgument : "code" "/// @description Execute Code$(13_10)spd = 2;$(13_10)$(13_10)//--------Dialogue Stuff$(13_10)reset_dialogue_defaults();$(13_10)myPortrait			= CondiHeadshot;$(13_10)myVoice				= snd_voice2;$(13_10)myFont				= fnt_dialogue;$(13_10)myName				= "Condi";$(13_10)$(13_10)myPortraitTalk		= spr_portrait_examplechar_mouth;$(13_10)myPortraitTalk_x	= 26;$(13_10)myPortraitTalk_y	= 44;$(13_10)myPortraitIdle		= spr_portrait_examplechar_idle;"
-/// @description Execute Code
+/// @DnDHash : 66BDDF6E
+/// @DnDArgument : "code" "spd = 2;$(13_10)$(13_10)//--------Dialogue Stuff$(13_10)reset_dialogue_defaults();$(13_10)myPortrait			= CondiHeadshot;$(13_10)myVoice				= snd_voice2;$(13_10)myFont				= fnt_dialogue;$(13_10)myName				= "Condi";$(13_10)$(13_10)myPortraitTalk		= -1;$(13_10)myPortraitTalk_x	= 26;$(13_10)myPortraitTalk_y	= 44;$(13_10)myPortraitIdle		= -1;"
 spd = 2;
 
 //--------Dialogue Stuff
@@ -12,14 +11,14 @@ myVoice				= snd_voice2;
 myFont				= fnt_dialogue;
 myName				= "Condi";
 
-myPortraitTalk		= spr_portrait_examplechar_mouth;
+myPortraitTalk		= -1;
 myPortraitTalk_x	= 26;
 myPortraitTalk_y	= 44;
-myPortraitIdle		= spr_portrait_examplechar_idle;
+myPortraitIdle		= -1;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
-/// @DnDHash : 23122061
+/// @DnDHash : 62EAC043
 /// @DnDInput : 5
 /// @DnDArgument : "expr" "3"
 /// @DnDArgument : "var" "Speed"
@@ -35,7 +34,7 @@ facingDown = 0;
 
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
-/// @DnDHash : 2910A6CC
+/// @DnDHash : 6A7901BC
 /// @DnDInput : 9
 /// @DnDArgument : "var" "Immobilize"
 /// @DnDArgument : "var_1" "recentlyInteracted"
@@ -58,7 +57,7 @@ global.playerAnimating = 0;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
-/// @DnDHash : 3CAFE8F7
+/// @DnDHash : 7A0A9236
 /// @DnDInput : 2
 /// @DnDArgument : "var" "global.inventoryOpen"
 /// @DnDArgument : "var_1" "combinedText"
@@ -67,7 +66,7 @@ combinedText = 0;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
-/// @DnDHash : 23E20EF4
+/// @DnDHash : 3B3B911A
 /// @DnDInput : 5
 /// @DnDArgument : "expr_4" "2"
 /// @DnDArgument : "var" "previousPlayerY"
@@ -83,7 +82,7 @@ playerDirection = 2;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
-/// @DnDHash : 7DFC30B0
+/// @DnDHash : 6E66EC41
 /// @DnDInput : 6
 /// @DnDArgument : "var" "itemCombineType1"
 /// @DnDArgument : "var_1" "itemCombineType2"
@@ -100,7 +99,7 @@ itemCombinePos2 = 0;
 
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
-/// @DnDHash : 2987FAB0
+/// @DnDHash : 2C03DB60
 /// @DnDInput : 2
 /// @DnDArgument : "value_1" "2"
 /// @DnDArgument : "var" "playerMoving"
@@ -110,7 +109,7 @@ global.globalPlayerDirection = 2;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
-/// @DnDHash : 13E11024
+/// @DnDHash : 3D17B4AE
 /// @DnDComment : Inventory Stuff
 /// @DnDInput : 8
 /// @DnDArgument : "var" "itemPos"
@@ -132,16 +131,16 @@ inventoryItemAnimation = 0;
 
 /// @DnDAction : YoYo Games.Loops.For_Loop
 /// @DnDVersion : 1
-/// @DnDHash : 12B19703
+/// @DnDHash : 5B490AF4
 /// @DnDArgument : "init" "_pos = 0"
 /// @DnDArgument : "init_temp" "1"
 /// @DnDArgument : "cond" "_pos < 9"
 /// @DnDArgument : "expr" "_pos += 1"
 for(var _pos = 0; _pos < 9; _pos += 1) {	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
-	/// @DnDHash : 3C18F562
+	/// @DnDHash : 18E2F97E
 	/// @DnDInput : 5
-	/// @DnDParent : 12B19703
+	/// @DnDParent : 5B490AF4
 	/// @DnDArgument : "expr" "itemNone"
 	/// @DnDArgument : "expr_1" "-1"
 	/// @DnDArgument : "var" "itemArray[_pos][itemType]"
@@ -157,13 +156,13 @@ for(var _pos = 0; _pos < 9; _pos += 1) {	/// @DnDAction : YoYo Games.Common.Var
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
-/// @DnDHash : 37964A5C
+/// @DnDHash : 05669788
 /// @DnDArgument : "var" "global.playerFollowers"
 /// @DnDArgument : "value" "1"
 if(global.playerFollowers == 1){	/// @DnDAction : YoYo Games.Common.Execute_Code
 	/// @DnDVersion : 1
-	/// @DnDHash : 71B9E06C
-	/// @DnDParent : 37964A5C
+	/// @DnDHash : 0932B170
+	/// @DnDParent : 05669788
 	/// @DnDArgument : "code" "/// @description Execute Code$(13_10)dir_sprites = [$(13_10)	CondiRightIdle,$(13_10)    CondiBackwardIdle,$(13_10)	CondiLeftIdle,$(13_10)	CondiForwardIdle,$(13_10)];$(13_10)$(13_10)follow_max = 60;$(13_10)follow_coords = [];$(13_10)array_push(follow_coords, {x: x, y: y, playerDirection: playerDirection});$(13_10)$(13_10)instance_create_depth(x, y, depth + 1, TestFollow, { follow_delay: 20 });$(13_10)//instance_create_depth(x, y, depth + 2, TestFollow, { follow_delay: 40 });$(13_10)//instance_create_depth(x, y, depth + 3, TestFollow, { follow_delay: 60 });$(13_10)"
 	/// @description Execute Code
 	dir_sprites = [

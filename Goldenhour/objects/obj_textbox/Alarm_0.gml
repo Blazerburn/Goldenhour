@@ -25,6 +25,7 @@ if(portrait[page] == -1){
 }
 
 draw_set_font(font[page]);
+
 charSize = string_width("M");		//gets new charSize under current font
 charHeight = string_height("M");	//same for width
 #endregion
@@ -57,6 +58,7 @@ if(type[page] == 0){
 		}
 	
 		cc++;
+		show_debug_message(cc)
 	}
 }
 #endregion

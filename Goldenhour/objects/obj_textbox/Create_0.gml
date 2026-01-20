@@ -3,14 +3,13 @@
 if(instance_number(obj_textevent)>1 or instance_number(obj_textbox)>1){ instance_destroy(); exit; }
 
 //-----------Customise (FOR USER)
-interact_key		= ord("E");
-up_key				= vk_up;		//for dialogue choices
-down_key			= vk_down;		//for dialogue choices
+interact_key		= ord("E") || vk_space;
+up_key				= vk_up || ord("W");		//for dialogue choices
+down_key			= vk_down || ord("S");		//for dialogue choices
 
 scale				= 3;
 x_buffer			= 10 * scale;
 y_buffer			= 7 * scale;
-
 
 portrait_frame		= spr_portraitframe;
 dialogue_box		= spr_dialoguebox;
@@ -21,7 +20,7 @@ emote_sprite		= spr_emotes;
 choice_snd_effect	= snd_moveselect;
 select_snd_effect	= snd_select;
 
-default_col			= c_black;
+default_col			= c_white;
 choice_col			= c_yellow;
 select_col			= c_orange;
 name_col			= c_orange;

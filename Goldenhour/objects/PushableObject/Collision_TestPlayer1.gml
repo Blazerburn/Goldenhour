@@ -80,9 +80,9 @@ if(global.recentlyInteracted == 0){	/// @DnDAction : YoYo Games.Common.If_Vari
 			/// @DnDAction : YoYo Games.Common.Apply_To
 			/// @DnDVersion : 1
 			/// @DnDHash : 4461ACFA
-			/// @DnDApplyTo : {TestPlayer}
+			/// @DnDApplyTo : {TestPlayer1}
 			/// @DnDParent : 5CF0C4C3
-			with(TestPlayer) {
+			with(TestPlayer1) {
 				/// @DnDAction : YoYo Games.Common.Variable
 				/// @DnDVersion : 1
 				/// @DnDHash : 58C6E331
@@ -111,12 +111,12 @@ if(global.recentlyInteracted == 0){	/// @DnDAction : YoYo Games.Common.If_Vari
 				/// @DnDVersion : 1
 				/// @DnDHash : 51A9D256
 				/// @DnDInput : 2
-				/// @DnDApplyTo : {TestPlayer}
+				/// @DnDApplyTo : {TestPlayer1}
 				/// @DnDParent : 50668D3E
 				/// @DnDArgument : "value" "pushableBoxOriginX + 16"
 				/// @DnDArgument : "value_1" "pushableBoxOriginY + 16"
 				/// @DnDArgument : "instvar_1" "1"
-				with(TestPlayer) {
+				with(TestPlayer1) {
 				x = pushableBoxOriginX + 16;
 				y = pushableBoxOriginY + 16;
 				}}
@@ -131,12 +131,12 @@ if(global.recentlyInteracted == 0){	/// @DnDAction : YoYo Games.Common.If_Vari
 				/// @DnDVersion : 1
 				/// @DnDHash : 06F80CC8
 				/// @DnDInput : 2
-				/// @DnDApplyTo : {TestPlayer}
+				/// @DnDApplyTo : {TestPlayer1}
 				/// @DnDParent : 4FF03073
 				/// @DnDArgument : "value" "pushableBoxOriginX - 16"
 				/// @DnDArgument : "value_1" "pushableBoxOriginY"
 				/// @DnDArgument : "instvar_1" "1"
-				with(TestPlayer) {
+				with(TestPlayer1) {
 				x = pushableBoxOriginX - 16;
 				y = pushableBoxOriginY;
 				}}
@@ -151,12 +151,12 @@ if(global.recentlyInteracted == 0){	/// @DnDAction : YoYo Games.Common.If_Vari
 				/// @DnDVersion : 1
 				/// @DnDHash : 0295A6E3
 				/// @DnDInput : 2
-				/// @DnDApplyTo : {TestPlayer}
+				/// @DnDApplyTo : {TestPlayer1}
 				/// @DnDParent : 3B0538F7
 				/// @DnDArgument : "value" "pushableBoxOriginX + 16"
 				/// @DnDArgument : "value_1" "pushableBoxOriginY - 28"
 				/// @DnDArgument : "instvar_1" "1"
-				with(TestPlayer) {
+				with(TestPlayer1) {
 				x = pushableBoxOriginX + 16;
 				y = pushableBoxOriginY - 28;
 				}}
@@ -171,12 +171,12 @@ if(global.recentlyInteracted == 0){	/// @DnDAction : YoYo Games.Common.If_Vari
 				/// @DnDVersion : 1
 				/// @DnDHash : 6B18F6C9
 				/// @DnDInput : 2
-				/// @DnDApplyTo : {TestPlayer}
+				/// @DnDApplyTo : {TestPlayer1}
 				/// @DnDParent : 5F99435E
 				/// @DnDArgument : "value" "pushableBoxOriginX + 48"
 				/// @DnDArgument : "value_1" "pushableBoxOriginY"
 				/// @DnDArgument : "instvar_1" "1"
-				with(TestPlayer) {
+				with(TestPlayer1) {
 				x = pushableBoxOriginX + 48;
 				y = pushableBoxOriginY;
 				}}}}}

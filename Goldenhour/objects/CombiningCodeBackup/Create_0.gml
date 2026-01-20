@@ -7,8 +7,8 @@ global.combining = 0;
 /// @DnDAction : YoYo Games.Common.Apply_To
 /// @DnDVersion : 1
 /// @DnDHash : 7CF3EF3B
-/// @DnDApplyTo : {TestPlayer}
-with(TestPlayer) {
+/// @DnDApplyTo : {TestPlayer1}
+with(TestPlayer1) {
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 3F2850B8

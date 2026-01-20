@@ -57,7 +57,6 @@ function create_dialogue() {
 
 	//Change the Textbox Values
 	with(_textbox){
-		
 		creator		= _creator;
 		effects		= _effects;
 		text_speed	= _speed;

@@ -1,4 +1,4 @@
-following = obj_player;
+following = TestPlayer;
 freeze = false;
 debug = false;
 

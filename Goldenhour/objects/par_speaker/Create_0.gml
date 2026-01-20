@@ -1,8 +1,8 @@
 
 //-----------Customise (FOR USER)
-playerobject = obj_player;
+playerobject = TestPlayer;
 interact_key = ord("E");
-detection_radius = 64;
+detection_radius = 32;
 
 myVoice			= snd_voice1;
 myPortrait		= -1;

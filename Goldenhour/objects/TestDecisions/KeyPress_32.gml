@@ -161,9 +161,9 @@ if(global.recentlyInteracted == 0){	/// @DnDAction : YoYo Games.Common.If_Vari
 		/// @DnDAction : YoYo Games.Common.Apply_To
 		/// @DnDVersion : 1
 		/// @DnDHash : 785B7180
-		/// @DnDApplyTo : {TestPlayer}
+		/// @DnDApplyTo : {TestPlayer1}
 		/// @DnDParent : 18754B4F
-		with(TestPlayer) {
+		with(TestPlayer1) {
 			/// @DnDAction : YoYo Games.Common.Variable
 			/// @DnDVersion : 1
 			/// @DnDHash : 157416B4

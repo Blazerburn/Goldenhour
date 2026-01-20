@@ -20,7 +20,7 @@ switch(choice_variable){
 		i++;
 		myText[i]		= ["An emote", "Another you!"];
 		myTypes[i]		= 1;
-		mySpeaker[i]	= obj_player;
+		mySpeaker[i]	= TestPlayer;
 		myScripts[i]	= [[create_instance_layer, 170,120,"Instances",obj_emote], [create_instance_layer, 170,120,"Instances",obj_examplechar]];
 		myNextLine[i]	= [0,0];
 		
@@ -59,7 +59,7 @@ switch(choice_variable){
 		myTypes[i]		= 1;
 		myNextLine[i]	= [8,9];
 		myScripts[i]	= [[change_variable, id, "choice_variable", "blue"], [change_variable, id, "choice_variable", "green"]];
-		mySpeaker[i]	= obj_player;
+		mySpeaker[i]	= TestPlayer;
 
 		//Line 8
 		i++;

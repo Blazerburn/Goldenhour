@@ -27,7 +27,7 @@ if(global.combining == 1){	/// @DnDAction : YoYo Games.Common.Execute_Code
 		show_debug_message("Right items")
 		global.combining = 0;
 	
-	with(TestPlayer) {
+	with(TestPlayer1) {
 		itemArray[itemCombinePos1][itemUses] += -1;
 		itemArray[itemCombinePos2][itemUses] += -1;
 	
@@ -133,7 +133,7 @@ if(global.combining == 1){	/// @DnDAction : YoYo Games.Common.Execute_Code
 		show_debug_message("Right items")
 		global.combining = 0;
 	
-	with(TestPlayer) {
+	with(TestPlayer1) {
 		itemArray[itemCombinePos1][itemUses] += -1;
 		itemArray[itemCombinePos2][itemUses] += -1;
 	

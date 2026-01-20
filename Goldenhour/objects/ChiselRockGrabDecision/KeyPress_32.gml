@@ -46,9 +46,9 @@ if(global.recentlyInteracted == 0){	/// @DnDAction : YoYo Games.Common.If_Vari
 		/// @DnDAction : YoYo Games.Common.Apply_To
 		/// @DnDVersion : 1
 		/// @DnDHash : 61D28B8D
-		/// @DnDApplyTo : {TestPlayer}
+		/// @DnDApplyTo : {TestPlayer1}
 		/// @DnDParent : 73E529C7
-		with(TestPlayer) {
+		with(TestPlayer1) {
 			/// @DnDAction : YoYo Games.Loops.While_Loop
 			/// @DnDVersion : 1
 			/// @DnDHash : 6E37E88F
