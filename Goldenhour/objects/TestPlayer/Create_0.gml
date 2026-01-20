@@ -1,3 +1,22 @@
+/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDVersion : 1
+/// @DnDHash : 10BA00EE
+/// @DnDArgument : "code" "/// @description Execute Code$(13_10)spd = 2;$(13_10)$(13_10)//--------Dialogue Stuff$(13_10)reset_dialogue_defaults();$(13_10)myPortrait			= CondiHeadshot;$(13_10)myVoice				= snd_voice2;$(13_10)myFont				= fnt_dialogue;$(13_10)myName				= "Condi";$(13_10)$(13_10)myPortraitTalk		= spr_portrait_examplechar_mouth;$(13_10)myPortraitTalk_x	= 26;$(13_10)myPortraitTalk_y	= 44;$(13_10)myPortraitIdle		= spr_portrait_examplechar_idle;"
+/// @description Execute Code
+spd = 2;
+
+//--------Dialogue Stuff
+reset_dialogue_defaults();
+myPortrait			= CondiHeadshot;
+myVoice				= snd_voice2;
+myFont				= fnt_dialogue;
+myName				= "Condi";
+
+myPortraitTalk		= spr_portrait_examplechar_mouth;
+myPortraitTalk_x	= 26;
+myPortraitTalk_y	= 44;
+myPortraitIdle		= spr_portrait_examplechar_idle;
+
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 23122061
