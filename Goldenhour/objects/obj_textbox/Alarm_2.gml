@@ -17,13 +17,16 @@ if(is_array(cv)){
 if(page+1 < array_length_1d(text)){
 	var nl = nextline[page];
 	switch(nl[choice]){
-		case -1: instance_destroy();	exit;
+		case -1: global.Talking = 0
+	global.Immobilize = 0 instance_destroy();	exit;
 		case  0: page += 1;				break;
 		default: page = nl[choice];
 	}
 	event_perform(ev_alarm, 0);
 	
 } else {
+	global.Talking = 0
+	global.Immobilize = 0
 	instance_destroy();	
 }
 

@@ -1,8 +1,8 @@
 
 //-----------Customise (FOR USER)
 playerobject = TestPlayer;
-interact_key = ord("E");
-detection_radius = 32;
+interact_key = vk_space;
+detection_radius = 48;
 
 myVoice			= snd_voice1;
 myPortrait		= -1;
@@ -18,3 +18,4 @@ myPortraitIdle_y	= -1;
 
 //-----------Defaults Setup (LEAVE THIS STUFF)
 reset_dialogue_defaults();
+

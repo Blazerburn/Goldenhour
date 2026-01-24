@@ -10,7 +10,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Test",
-    "path":"folders/Objects/Puzzles/ItemPickups/Test.yy",
+    "path":"folders/Objects/Puzzles/ItemPickups/OldPickups/Test.yy",
   },
   "parentObjectId":null,
   "persistent":false,

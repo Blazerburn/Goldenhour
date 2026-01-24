@@ -11,7 +11,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"FC_DialogueSystem",
-    "path":"folders/Objects/FC_DialogueSystem.yy",
+    "path":"folders/Objects/GUI/FC_DialogueSystem.yy",
   },
   "parentObjectId":{
     "name":"par_speaker",

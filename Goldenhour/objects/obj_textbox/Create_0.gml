@@ -3,9 +3,9 @@
 if(instance_number(obj_textevent)>1 or instance_number(obj_textbox)>1){ instance_destroy(); exit; }
 
 //-----------Customise (FOR USER)
-interact_key		= ord("E") || vk_space;
-up_key				= vk_up || ord("W");		//for dialogue choices
-down_key			= vk_down || ord("S");		//for dialogue choices
+interact_key		= vk_space;
+up_key				= ord("W");		//for dialogue choices
+down_key			= ord("S");		//for dialogue choices
 
 scale				= 3;
 x_buffer			= 10 * scale;
@@ -27,11 +27,16 @@ name_col			= c_orange;
 
 name_font			= fnt_dialogue;
 
+global.Talking = 1
+global.Immobilize = 1
+
 priority_snd_effect = 5;
 open_mouth_frame	= 1;	//You only need to change this if you are using animated sprites
 							//Set this to equal the frame where the mouth is OPEN for talking sprites
 
 //-----------Setup (LEAVE THIS STUFF)
+instance_create_layer(0, 0, "Instances", obj_textcheck);
+
 #region
 portrait_talk	= -1;
 portrait_talk_n = -1;

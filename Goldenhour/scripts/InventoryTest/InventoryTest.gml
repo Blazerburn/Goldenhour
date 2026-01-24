@@ -4,39 +4,39 @@
 /// @DnDInput : 12
 /// @DnDArgument : "macro" "itemNone"
 /// @DnDArgument : "macro_1" "itemBall"
-/// @DnDArgument : "value_1" "1"
+/// @DnDArgument : "value_1" ""Ball""
 /// @DnDArgument : "macro_2" "ItemPlant"
-/// @DnDArgument : "value_2" "2"
+/// @DnDArgument : "value_2" ""Plant""
 /// @DnDArgument : "macro_3" "itemPlantBall"
-/// @DnDArgument : "value_3" "3"
+/// @DnDArgument : "value_3" ""Plant Ball""
 /// @DnDArgument : "macro_4" "itemStrangeGel"
-/// @DnDArgument : "value_4" "4"
+/// @DnDArgument : "value_4" ""Strange Gel""
 /// @DnDArgument : "macro_5" "itemBioluminescentRock"
-/// @DnDArgument : "value_5" "5"
+/// @DnDArgument : "value_5" ""Glowing Rock""
 /// @DnDArgument : "macro_6" "itemBrokenGlassShard"
-/// @DnDArgument : "value_6" "6"
+/// @DnDArgument : "value_6" ""Broken Glass""
 /// @DnDArgument : "macro_7" "itemChiselRock"
-/// @DnDArgument : "value_7" "7"
+/// @DnDArgument : "value_7" ""Chisel Rock""
 /// @DnDArgument : "macro_8" "itemCrystallineHammer"
-/// @DnDArgument : "value_8" "8"
+/// @DnDArgument : "value_8" ""Crystal Hammer""
 /// @DnDArgument : "macro_9" "itemSecretBook10thHour"
-/// @DnDArgument : "value_9" "9"
+/// @DnDArgument : "value_9" ""Secret Book 10th""
 /// @DnDArgument : "macro_10" "itemBrokenPath"
-/// @DnDArgument : "value_10" "10"
+/// @DnDArgument : "value_10" ""Broken Path""
 /// @DnDArgument : "macro_11" "itemFixedPath"
-/// @DnDArgument : "value_11" "11"
+/// @DnDArgument : "value_11" ""Fixed Path""
 #macro itemNone 0
-#macro itemBall 1
-#macro ItemPlant 2
-#macro itemPlantBall 3
-#macro itemStrangeGel 4
-#macro itemBioluminescentRock 5
-#macro itemBrokenGlassShard 6
-#macro itemChiselRock 7
-#macro itemCrystallineHammer 8
-#macro itemSecretBook10thHour 9
-#macro itemBrokenPath 10
-#macro itemFixedPath 11
+#macro itemBall "Ball"
+#macro ItemPlant "Plant"
+#macro itemPlantBall "Plant Ball"
+#macro itemStrangeGel "Strange Gel"
+#macro itemBioluminescentRock "Glowing Rock"
+#macro itemBrokenGlassShard "Broken Glass"
+#macro itemChiselRock "Chisel Rock"
+#macro itemCrystallineHammer "Crystal Hammer"
+#macro itemSecretBook10thHour "Secret Book 10th"
+#macro itemBrokenPath "Broken Path"
+#macro itemFixedPath "Fixed Path"
 
 /// @DnDAction : YoYo Games.Common.Macro
 /// @DnDVersion : 1

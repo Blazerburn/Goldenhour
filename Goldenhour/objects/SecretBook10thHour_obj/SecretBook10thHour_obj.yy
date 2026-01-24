@@ -11,8 +11,8 @@
   "name":"SecretBook10thHour_obj",
   "overriddenProperties":[],
   "parent":{
-    "name":"ItemPickups",
-    "path":"folders/Objects/Puzzles/ItemPickups.yy",
+    "name":"OldPickups",
+    "path":"folders/Objects/Puzzles/ItemPickups/OldPickups.yy",
   },
   "parentObjectId":null,
   "persistent":false,
