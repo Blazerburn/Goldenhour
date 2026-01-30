@@ -79,9 +79,9 @@ if(global.recentlyInteracted == 0){	/// @DnDAction : YoYo Games.Common.If_Vari
 		/// @DnDVersion : 1
 		/// @DnDHash : 7CDA4E7D
 		/// @DnDParent : 18754B4F
-		/// @DnDArgument : "objectid" "FixedPathUsingQuips"
-		/// @DnDSaveInfo : "objectid" "FixedPathUsingQuips"
-		instance_create_layer(0, 0, "Instances", FixedPathUsingQuips);
+		/// @DnDArgument : "objectid" "FixedPathUsingQuipsOld"
+		/// @DnDSaveInfo : "objectid" "FixedPathUsingQuipsOld"
+		instance_create_layer(0, 0, "Instances", FixedPathUsingQuipsOld);
 	
 		/// @DnDAction : YoYo Games.Common.Exit_Event
 		/// @DnDVersion : 1

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"use_item",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"use_item",
+  "parent":{
+    "name":"FC_DialogueSystem",
+    "path":"folders/Scripts/FC_DialogueSystem.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

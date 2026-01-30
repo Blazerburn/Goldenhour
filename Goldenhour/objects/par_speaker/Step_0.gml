@@ -1,4 +1,6 @@
 var dr = detection_radius;
+if(global.inventoryOpen == 0)
+{
 if(point_in_rectangle(playerobject.x, playerobject.y, x-dr, y-dr, x+dr, y+dr)){
 	if(myTextbox != noone){ 
 		if(!instance_exists(myTextbox)){ myTextbox = noone; exit; }
@@ -16,4 +18,6 @@ if(point_in_rectangle(playerobject.x, playerobject.y, x-dr, y-dr, x+dr, y+dr)){
 		with(myTextbox) instance_destroy();
 		myTextbox = noone;
 	}
+}
+
 }

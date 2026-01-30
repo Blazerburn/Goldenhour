@@ -88,30 +88,34 @@ switch(choice_variable){
 	#region If you chose blue
 		var i = 0;
 		//Line 0
+		myText[i]		= "A small piece of broken glass sits on the floor";
+		mySpeaker[i]	= id;
+		
+		//Line 1
 		i++;
 		myText[i]		= ["Take the Broken Glass", "Leave it"];
 		myTypes[i]		= 1;
-		myNextLine[i]	= [1,5];
+		myNextLine[i]	= [2,6];
 		myScripts[i]	= [[add_item, 0, "Broken Glass", BrokenGlassShard, "Broken Glass", 1], [change_variable, id, "choice_variable", "Leave"]];
 		mySpeaker[i]	= TestPlayer;
 
-		//Line 1
+		//Line 2
 		i++;
 		myText[i]		= "You grab the broken glass from the floor and put it into your pouch";
 		mySpeaker[i]	= id;
 		
-		//Line 2
+		//Line 3
 		i++;
 		myText[i]		= "Ouch!";
 		myTextSpeed[i]	= [1, 1.5];
 		mySpeaker[i]	= id;
 		
-		//Line 3
+		//Line 4
 		i++;
 		myText[i]		= "It's very sharp!";
 		mySpeaker[i]	= id;
 		
-		//Line 4
+		//Line 5
 		i++;
 		myText[i]		= "You got the Broken Glass!";
 		myNextLine[i]   = -1;
@@ -119,7 +123,7 @@ switch(choice_variable){
 		mySpeaker[i]	= id;
 
 
-		//Line 5
+		//Line 6
 		i++;
 		myText[i]		= "You decide to leave the broken glass for now";
 		mySpeaker[i]	= id;

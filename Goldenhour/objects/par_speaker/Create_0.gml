@@ -2,7 +2,7 @@
 //-----------Customise (FOR USER)
 playerobject = TestPlayer;
 interact_key = vk_space;
-detection_radius = 48;
+detection_radius = 32;
 
 myVoice			= snd_voice1;
 myPortrait		= -1;
