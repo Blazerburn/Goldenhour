@@ -71,6 +71,10 @@ if(global.recentlyInteracted == 0)
 				
 					variable_instance_set(obj_BrokenPathPickup, "choice_variable", "Used");
 					
+					variable_instance_set(obj_BrokenPathPickup, "puzzleProgress", "2");
+					
+					//[change_variable, id, "puzzleProgress", "1"]
+					
 					//script_execute_alt(change_variable( obj_BrokenPathPickup, "choice_variable", "Used"));
 				
 							create_textevent(

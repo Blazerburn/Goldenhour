@@ -223,6 +223,7 @@
     {"id":{"name":"StreetRoom4","path":"rooms/StreetRoom4/StreetRoom4.yy",},},
     {"id":{"name":"add_item","path":"scripts/add_item/add_item.yy",},},
     {"id":{"name":"BoxPuzzle1","path":"scripts/BoxPuzzle1/BoxPuzzle1.yy",},},
+    {"id":{"name":"change_sprite","path":"scripts/change_sprite/change_sprite.yy",},},
     {"id":{"name":"change_variable","path":"scripts/change_variable/change_variable.yy",},},
     {"id":{"name":"ConversationFunctions","path":"scripts/ConversationFunctions/ConversationFunctions.yy",},},
     {"id":{"name":"create_dialogue","path":"scripts/create_dialogue/create_dialogue.yy",},},

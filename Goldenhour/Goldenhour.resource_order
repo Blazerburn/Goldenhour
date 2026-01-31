@@ -173,6 +173,7 @@
     {"name":"StreetRoom4","order":14,"path":"rooms/StreetRoom4/StreetRoom4.yy",},
     {"name":"add_item","order":6,"path":"scripts/add_item/add_item.yy",},
     {"name":"BoxPuzzle1","order":6,"path":"scripts/BoxPuzzle1/BoxPuzzle1.yy",},
+    {"name":"change_sprite","order":8,"path":"scripts/change_sprite/change_sprite.yy",},
     {"name":"create_dialogue","order":1,"path":"scripts/create_dialogue/create_dialogue.yy",},
     {"name":"create_instance_layer","order":2,"path":"scripts/create_instance_layer/create_instance_layer.yy",},
     {"name":"create_textevent","order":3,"path":"scripts/create_textevent/create_textevent.yy",},

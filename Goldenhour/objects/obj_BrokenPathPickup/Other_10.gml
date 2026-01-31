@@ -31,15 +31,16 @@ switch(choice_variable){
 		myText[i]		= ["Take the Broken Tile", "Leave it"];
 		myTypes[i]		= 1;
 		myNextLine[i]	= [5,7];
-		myScripts[i]	= [[add_item, 0, "Broken Path", BrokenPath, "Broken Tile", 1], [change_variable, id, "choice_variable", "Leave"]];
+		myScripts[i]	= [[change_variable, id, "puzzleProgress", "1"], [change_variable, id, "choice_variable", "Leave"]];
 		mySpeaker[i]	= TestPlayer;
 
 		//Line 5
 		i++;
 		myText[i]		= "You scoop the broken pieces of the tile and put them into your pouch";
+		myScripts[i]    = [add_item, 0, "Broken Path", BrokenPath, "Broken Tile", 1];
 		mySpeaker[i]	= id;
 		
-		//Line 6
+		//Line 6change_sprite, id, BrokenPathTile
 		i++;
 		myText[i]		= "You got the Broken Tile!";
 		myNextLine[i]   = -1;
