@@ -1,7 +1,8 @@
 event_inherited(); //so it will inherit from par_speaker
 
 puzzleProgress = 0;
-pathPushableWall = 0;
+createWall = 0;
+
 
 //-------DIALOGUE STUFF
 
@@ -20,6 +21,7 @@ myPortraitIdle		= -1;
 
 choice_variable		= -1;	//the variable we change depending on the player's choice in dialogue
 
+pathPushableWall = 0;
 
+pathPushableWall = instance_create_layer(x + 0, y + 0, "Instances", PushableWall);
 
-create_instance_layer(x, y, "Instances", PushableWall = pathPushableWall);

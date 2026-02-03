@@ -70,7 +70,8 @@ if(global.recentlyInteracted == 0)
 	show_debug_message(string("Used correct item"));
 	
 	with(obj_BrokenPathPickup){
-	layer_destroy_instances(pathPushableWall)	
+
+	
 	}
 				
 					global.inventoryOpen = 0;
