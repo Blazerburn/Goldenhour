@@ -1,4 +1,5 @@
 var dr = detection_radius;
+if(instance_exists(playerobject)) {
 if(global.inventoryOpen == 0)
 {
 if(point_in_rectangle(playerobject.x, playerobject.y, x-dr, y-dr, x+dr, y+dr)){
@@ -20,4 +21,11 @@ if(point_in_rectangle(playerobject.x, playerobject.y, x-dr, y-dr, x+dr, y+dr)){
 	}
 }
 
+}
+
+else {
+
+global.Immobilize = 1;
+	
+}
 }

@@ -112,11 +112,11 @@ if(objectID == interactedBoxID){	/// @DnDAction : YoYo Games.Common.Apply_To
 				if(global.playerMoving == 1){	/// @DnDAction : YoYo Games.Instances.Set_Instance_Var
 					/// @DnDVersion : 1
 					/// @DnDHash : 67CE02AD
-					/// @DnDApplyTo : {TestPlayer1}
+					/// @DnDApplyTo : TestPlayer
 					/// @DnDParent : 7B46F957
 					/// @DnDArgument : "value" "CondiBackwardWalking"
 					/// @DnDArgument : "instvar" "10"
-					with(TestPlayer1) {
+					with(TestPlayer) {
 					sprite_index = CondiBackwardWalking;
 					}}
 			
@@ -127,11 +127,11 @@ if(objectID == interactedBoxID){	/// @DnDAction : YoYo Games.Common.Apply_To
 				else{	/// @DnDAction : YoYo Games.Instances.Set_Instance_Var
 					/// @DnDVersion : 1
 					/// @DnDHash : 75771792
-					/// @DnDApplyTo : {TestPlayer1}
+					/// @DnDApplyTo : TestPlayer
 					/// @DnDParent : 0875ACC0
 					/// @DnDArgument : "value" "CondiBackwardIdle"
 					/// @DnDArgument : "instvar" "10"
-					with(TestPlayer1) {
+					with(TestPlayer) {
 					sprite_index = CondiBackwardIdle;
 					}}}
 		
@@ -149,12 +149,12 @@ if(objectID == interactedBoxID){	/// @DnDAction : YoYo Games.Common.Apply_To
 					/// @DnDVersion : 1
 					/// @DnDHash : 3F5F0045
 					/// @DnDInput : 2
-					/// @DnDApplyTo : {TestPlayer1}
+					/// @DnDApplyTo : TestPlayer
 					/// @DnDParent : 18B2331E
 					/// @DnDArgument : "value" "pushableBoxOriginX - 16"
 					/// @DnDArgument : "value_1" "pushableBoxOriginY"
 					/// @DnDArgument : "instvar_1" "1"
-					with(TestPlayer1) {
+					with(TestPlayer) {
 					x = pushableBoxOriginX - 16;
 					y = pushableBoxOriginY;
 					}
@@ -168,11 +168,11 @@ if(objectID == interactedBoxID){	/// @DnDAction : YoYo Games.Common.Apply_To
 					if(global.playerMoving == 1){	/// @DnDAction : YoYo Games.Instances.Set_Instance_Var
 						/// @DnDVersion : 1
 						/// @DnDHash : 28CB115D
-						/// @DnDApplyTo : {TestPlayer1}
+						/// @DnDApplyTo : TestPlayer
 						/// @DnDParent : 73186A02
 						/// @DnDArgument : "value" "CondiRightWalking"
 						/// @DnDArgument : "instvar" "10"
-						with(TestPlayer1) {
+						with(TestPlayer) {
 						sprite_index = CondiRightWalking;
 						}}
 				
@@ -183,11 +183,11 @@ if(objectID == interactedBoxID){	/// @DnDAction : YoYo Games.Common.Apply_To
 					else{	/// @DnDAction : YoYo Games.Instances.Set_Instance_Var
 						/// @DnDVersion : 1
 						/// @DnDHash : 60404F8E
-						/// @DnDApplyTo : {TestPlayer1}
+						/// @DnDApplyTo : TestPlayer
 						/// @DnDParent : 4B216F77
 						/// @DnDArgument : "value" "CondiRightIdle"
 						/// @DnDArgument : "instvar" "10"
-						with(TestPlayer1) {
+						with(TestPlayer) {
 						sprite_index = CondiRightIdle;
 						}}}
 			
@@ -205,12 +205,12 @@ if(objectID == interactedBoxID){	/// @DnDAction : YoYo Games.Common.Apply_To
 						/// @DnDVersion : 1
 						/// @DnDHash : 3233E80C
 						/// @DnDInput : 2
-						/// @DnDApplyTo : {TestPlayer1}
+						/// @DnDApplyTo : TestPlayer
 						/// @DnDParent : 1CAFBCC1
 						/// @DnDArgument : "value" "pushableBoxOriginX + 16"
 						/// @DnDArgument : "value_1" "pushableBoxOriginY - 28"
 						/// @DnDArgument : "instvar_1" "1"
-						with(TestPlayer1) {
+						with(TestPlayer) {
 						x = pushableBoxOriginX + 16;
 						y = pushableBoxOriginY - 28;
 						}
@@ -224,11 +224,11 @@ if(objectID == interactedBoxID){	/// @DnDAction : YoYo Games.Common.Apply_To
 						if(global.playerMoving == 1){	/// @DnDAction : YoYo Games.Instances.Set_Instance_Var
 							/// @DnDVersion : 1
 							/// @DnDHash : 1219FEA9
-							/// @DnDApplyTo : {TestPlayer1}
+							/// @DnDApplyTo : TestPlayer
 							/// @DnDParent : 19F337E3
 							/// @DnDArgument : "value" "CondiForwardWalking"
 							/// @DnDArgument : "instvar" "10"
-							with(TestPlayer1) {
+							with(TestPlayer) {
 							sprite_index = CondiForwardWalking;
 							}}
 					
@@ -239,11 +239,11 @@ if(objectID == interactedBoxID){	/// @DnDAction : YoYo Games.Common.Apply_To
 						else{	/// @DnDAction : YoYo Games.Instances.Set_Instance_Var
 							/// @DnDVersion : 1
 							/// @DnDHash : 49DF83A5
-							/// @DnDApplyTo : {TestPlayer1}
+							/// @DnDApplyTo : TestPlayer
 							/// @DnDParent : 7CB743A4
 							/// @DnDArgument : "value" "CondiForwardIdle"
 							/// @DnDArgument : "instvar" "10"
-							with(TestPlayer1) {
+							with(TestPlayer) {
 							sprite_index = CondiForwardIdle;
 							}}}
 				
@@ -261,12 +261,12 @@ if(objectID == interactedBoxID){	/// @DnDAction : YoYo Games.Common.Apply_To
 							/// @DnDVersion : 1
 							/// @DnDHash : 17FE39B4
 							/// @DnDInput : 2
-							/// @DnDApplyTo : {TestPlayer1}
+							/// @DnDApplyTo : TestPlayer
 							/// @DnDParent : 1E1691A3
 							/// @DnDArgument : "value" "pushableBoxOriginX + 48"
 							/// @DnDArgument : "value_1" "pushableBoxOriginY"
 							/// @DnDArgument : "instvar_1" "1"
-							with(TestPlayer1) {
+							with(TestPlayer) {
 							x = pushableBoxOriginX + 48;
 							y = pushableBoxOriginY;
 							}
@@ -280,11 +280,11 @@ if(objectID == interactedBoxID){	/// @DnDAction : YoYo Games.Common.Apply_To
 							if(global.playerMoving == 1){	/// @DnDAction : YoYo Games.Instances.Set_Instance_Var
 								/// @DnDVersion : 1
 								/// @DnDHash : 445C9B76
-								/// @DnDApplyTo : {TestPlayer1}
+								/// @DnDApplyTo : TestPlayer
 								/// @DnDParent : 3F890AF8
 								/// @DnDArgument : "value" "CondiLeftWalking"
 								/// @DnDArgument : "instvar" "10"
-								with(TestPlayer1) {
+								with(TestPlayer) {
 								sprite_index = CondiLeftWalking;
 								}}
 						
@@ -295,11 +295,11 @@ if(objectID == interactedBoxID){	/// @DnDAction : YoYo Games.Common.Apply_To
 							else{	/// @DnDAction : YoYo Games.Instances.Set_Instance_Var
 								/// @DnDVersion : 1
 								/// @DnDHash : 02142C7D
-								/// @DnDApplyTo : {TestPlayer1}
+								/// @DnDApplyTo : TestPlayer
 								/// @DnDParent : 4FC00609
 								/// @DnDArgument : "value" "CondiLeftIdle"
 								/// @DnDArgument : "instvar" "10"
-								with(TestPlayer1) {
+								with(TestPlayer) {
 								sprite_index = CondiLeftIdle;
 								}}}}}}
 		

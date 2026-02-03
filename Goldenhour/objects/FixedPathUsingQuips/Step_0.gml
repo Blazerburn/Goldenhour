@@ -6,6 +6,8 @@ if(global.recentlyInteracted == 0)
 {
 	if(global.itemWrongType == itemBrokenPath)
 {
+
+	
 	create_textevent(
 	["You place down the broken tile pieces where they belong", 
 	"...", 
@@ -66,6 +68,10 @@ if(global.recentlyInteracted == 0)
 	if(global.itemCheck == 2)
 {
 	show_debug_message(string("Used correct item"));
+	
+	with(obj_BrokenPathPickup){
+	layer_destroy_instances(pathPushableWall)	
+	}
 				
 					global.inventoryOpen = 0;
 				

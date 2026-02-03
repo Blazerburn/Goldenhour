@@ -405,9 +405,10 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"PuzzleRoom1","path":"rooms/PuzzleRoom1/PuzzleRoom1.yy",},},
+    {"roomId":{"name":"StarterRoom","path":"rooms/StarterRoom/StarterRoom.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"rm_dialoguesystem_demo","path":"rooms/rm_dialoguesystem_demo/rm_dialoguesystem_demo.yy",},},
-    {"roomId":{"name":"StarterRoom","path":"rooms/StarterRoom/StarterRoom.yy",},},
     {"roomId":{"name":"ChurchRoom1","path":"rooms/ChurchRoom1/ChurchRoom1.yy",},},
     {"roomId":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
     {"children":[
@@ -430,7 +431,6 @@
         {"roomId":{"name":"JamboRoom","path":"rooms/JamboRoom/JamboRoom.yy",},},
         {"roomId":{"name":"PuzzleRoom4","path":"rooms/PuzzleRoom4/PuzzleRoom4.yy",},},
         {"roomId":{"name":"CoreRoom","path":"rooms/CoreRoom/CoreRoom.yy",},},
-        {"roomId":{"name":"PuzzleRoom1","path":"rooms/PuzzleRoom1/PuzzleRoom1.yy",},},
       ],"groupName":"Ruins",},
     {"children":[
         {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
