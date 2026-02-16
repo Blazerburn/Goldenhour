@@ -1,4 +1,3 @@
 /// @description Insert description here
 // You can write your code in this editor
-itemSelectedType = "None";
-
+show_debug_message(global.usingItem);

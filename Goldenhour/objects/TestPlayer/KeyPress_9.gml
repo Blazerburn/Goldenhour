@@ -40,10 +40,14 @@ if(global.inventoryOpen == 0){	/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 58D379F1
+		/// @DnDInput : 2
 		/// @DnDParent : 6740C5D2
 		/// @DnDArgument : "expr" "1"
+		/// @DnDArgument : "expr_1" "1"
 		/// @DnDArgument : "var" "global.inventoryOpen"
+		/// @DnDArgument : "var_1" "global.shiftText"
 		global.inventoryOpen = 1;
+		global.shiftText = 1;
 	
 		/// @DnDAction : YoYo Games.Common.Set_Global
 		/// @DnDVersion : 1
@@ -141,9 +145,9 @@ else{	/// @DnDAction : YoYo Games.Common.If_Variable
 					/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 					/// @DnDVersion : 1
 					/// @DnDHash : 1F42AB09
-					/// @DnDApplyTo : {InventoryItemInfo}
+					/// @DnDApplyTo : {InventoryItemInfo1}
 					/// @DnDParent : 405886CD
-					with(InventoryItemInfo) instance_destroy();}}}
+					with(InventoryItemInfo1) instance_destroy();}}}
 	
 		/// @DnDAction : YoYo Games.Common.Else
 		/// @DnDVersion : 1

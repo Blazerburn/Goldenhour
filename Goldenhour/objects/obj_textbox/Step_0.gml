@@ -27,12 +27,13 @@ if(type[page] == 0){
 #region TYPE 1: DIALOGUE CHOICE
 else {
 	if(chosen) exit;
+	if (global.recentlyInteracted = 0) {
 	if(keyboard_check_pressed(interact_key)){ 
 		chosen = true; 
 		alarm[2] = 10; 
 		audio_play_sound(select_snd_effect, priority_snd_effect, false);
 	} 
-	
+	}
 	//Change Choice 
 	var change_choice = keyboard_check_pressed(down_key) - keyboard_check_pressed(up_key);
 	if(change_choice != 0){ 

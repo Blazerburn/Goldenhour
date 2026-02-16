@@ -58,7 +58,6 @@ if(type[page] == 0){
 		}
 	
 		cc++;
-		show_debug_message(cc)
 	}
 }
 #endregion

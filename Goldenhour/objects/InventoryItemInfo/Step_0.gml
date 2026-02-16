@@ -1,4 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-itemSelectedType = "None";
-
+if (global.recentlyInteracted = 0) {
+event_user(0);
+	
+}

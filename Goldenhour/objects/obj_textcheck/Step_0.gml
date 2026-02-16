@@ -1,6 +1,6 @@
 if (instance_exists(obj_textbox))
 {
-	show_debug_message("Exists")
+	//show_debug_message("Exists")
 	global.Talking = 1
 	global.Immobilize = 1
 }

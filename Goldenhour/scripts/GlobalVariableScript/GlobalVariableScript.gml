@@ -80,5 +80,8 @@ global.inventorySlot9 = 0;
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
 /// @DnDHash : 06FC573F
+/// @DnDInput : 2
 /// @DnDArgument : "var" "playerFollowers"
+/// @DnDArgument : "var_1" "shiftText"
 global.playerFollowers = 0;
+global.shiftText = 0;

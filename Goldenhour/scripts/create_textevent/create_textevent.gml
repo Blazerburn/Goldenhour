@@ -11,7 +11,7 @@
 ///@arg *Emote
 function create_textevent() {
 
-	if(instance_exists(obj_textevent)){ exit; }
+	if(instance_exists(obj_textevent)){ show_debug_message("Text event already exists"); instance_destroy(obj_textevent); exit; }
 
 	var arg_count = argument_count;
 	var i = 0, var arg; repeat(arg_count){
@@ -39,6 +39,8 @@ function create_textevent() {
 	
 		event_perform(ev_other, ev_user0);
 	}
+
+show_debug_message("Created text event");
 
 	return textevent;
 

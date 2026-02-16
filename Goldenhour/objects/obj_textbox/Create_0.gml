@@ -2,15 +2,21 @@
 
 if(instance_number(obj_textevent)>1 or instance_number(obj_textbox)>1){ instance_destroy(); exit; }
 
+
 //-----------Customise (FOR USER)
 interact_key		= vk_space;
+
 up_key				= ord("W");		//for dialogue choices
 down_key			= ord("S");		//for dialogue choices
 
 scale				= 3;
 x_buffer			= 10 * scale;
+if(global.shiftText = 0){
 y_buffer			= 7 * scale;
-
+}
+else {
+y_buffer			= 14 * scale;
+}
 portrait_frame		= spr_portraitframe;
 dialogue_box		= spr_dialoguebox;
 name_box			= spr_namebox;
@@ -61,7 +67,13 @@ finishede_num	= sprite_get_number(finished_effect);
 finishede_spd	= (sprite_get_speed(spr_dialoguefinished)/room_speed);
 
 pos_x			= (gb_diff/2)+(portraitWidth/2);
-pos_y			= gui_height-boxHeight-8;
+pos_y			= gui_height-boxHeight-4;
+
+show_debug_message(boxHeight);
+show_debug_message(boxWidth);
+show_debug_message(gui_width);
+show_debug_message(gui_height);
+show_debug_message(gb_diff);
 
 name_box_x		= pos_x + (8 * scale);
 name_box_y		= pos_y - (23 * scale);
@@ -70,6 +82,8 @@ name_box_text_y = name_box_y + y_buffer;
 
 finishede_x		= pos_x + boxWidth - x_buffer;
 finishede_y		= pos_y + boxHeight - y_buffer;
+
+
 
 letter			= 0;
 charCount		= 0;

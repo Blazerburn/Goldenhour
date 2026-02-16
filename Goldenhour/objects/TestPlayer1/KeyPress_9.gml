@@ -138,7 +138,7 @@ else{	/// @DnDAction : YoYo Games.Common.If_Variable
 					/// @DnDHash : 5962C27D
 					/// @DnDApplyTo : {InventoryItemInfo}
 					/// @DnDParent : 4F19E64F
-					with(InventoryItemInfo) instance_destroy();}}}
+					with(InventoryItemInfo1) instance_destroy();}}}
 	
 		/// @DnDAction : YoYo Games.Common.Else
 		/// @DnDVersion : 1
