@@ -33,6 +33,13 @@ name_col			= c_orange;
 
 name_font			= fnt_dialogue;
 
+itemSelection       = global.selectionOpen;
+itemSelection_x     = variable_instance_get(TestPlayer, "itemSelection_x")+151;
+itemSelection_y     = variable_instance_get(TestPlayer, "itemSelection_y")+151;
+
+show_debug_message(itemSelection_x);
+show_debug_message(itemSelection_y);
+
 global.Talking = 1
 global.Immobilize = 1
 
@@ -66,8 +73,18 @@ portraitWidth	= sprite_get_width(portrait_frame) * scale;
 finishede_num	= sprite_get_number(finished_effect);
 finishede_spd	= (sprite_get_speed(spr_dialoguefinished)/room_speed);
 
+if (itemSelection = 0) {
 pos_x			= (gb_diff/2)+(portraitWidth/2);
 pos_y			= gui_height-boxHeight-4;
+}
+
+else {
+pos_x			= itemSelection_x;
+pos_y			= itemSelection_y;
+}
+show_debug_message(pos_x);
+show_debug_message(pos_y);
+
 
 show_debug_message(boxHeight);
 show_debug_message(boxWidth);
@@ -82,7 +99,6 @@ name_box_text_y = name_box_y + y_buffer;
 
 finishede_x		= pos_x + boxWidth - x_buffer;
 finishede_y		= pos_y + boxHeight - y_buffer;
-
 
 
 letter			= 0;

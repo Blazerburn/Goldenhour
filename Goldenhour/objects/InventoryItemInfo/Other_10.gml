@@ -26,6 +26,7 @@ if (itemSelectedType = "Strange Gel") {
     -1                                                                                             //myEmote
     );
 	
+	
 	instance_destroy();
 }
 else

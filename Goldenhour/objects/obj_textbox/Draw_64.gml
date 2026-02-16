@@ -1,5 +1,12 @@
 //Draw textbox
+if (itemSelection == 0) {
 draw_sprite_ext(dialogue_box, 0, pos_x,pos_y, scale,scale, 0, c_white, 1);
+}
+if (itemSelection == 1) {
+pos_x			= itemSelection_x;
+pos_y			= itemSelection_y;
+draw_sprite_ext(spr_portraitframe, 0, pos_x,pos_y, scale*1.35,scale*.9, 0, c_white, 1);
+}
 
 //Draw portrait
 if(portrait[page] != -1){
@@ -45,6 +52,7 @@ draw_set_font(font[page]);
 //--------Draw the text differently if we are in 1) a dialogue choice or 2) normal dialogue
 #region TYPE 1: DIALOGUE CHOICE
 if(type[page] == 1){
+	if (itemSelection == 0){
 	//Variables we need
 	var col = default_col, tp = text[page], tpl = array_length_1d(tp), txtwidth = boxWidth-(2*x_buffer);
 	var cc = 1, yy = pos_y+y_buffer, xx = pos_x+x_buffer, ii = 0, iy = 0;
@@ -62,6 +70,28 @@ if(type[page] == 1){
 		
 		if(string_width(ctext) > txtwidth) { iy++; }
 		ii++; 
+	}
+	}
+	//If it's the item selection text we need to draw
+	if (itemSelection == 1){
+	//Variables we need
+	var col = default_col, tp = text[page], tpl = array_length_1d(tp), txtwidth = boxWidth-(2*x_buffer);
+	var cc = 1, yy = pos_y+y_buffer, xx = pos_x+x_buffer+95, ii = 0, iy = 0;
+	
+	//Loop through our choices, draw them, highlight the one we are selecting
+	repeat(tpl){
+		if(choice == ii){ 
+			if(chosen) { col = select_col; }
+			else	   { col = choice_col; }
+		} else { col = c_white; }
+		
+		//Draw our choices
+		var ctext = "* "+tp[ii];
+		draw_text_ext_color(xx, yy+((ii+iy)*stringHeight), ctext, stringHeight, txtwidth, col, col, col, col, 1); 
+		
+		if(string_width(ctext) > txtwidth) { iy++; }
+		ii++; 
+	}
 	}
 } 
 #endregion

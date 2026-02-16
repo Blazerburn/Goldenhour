@@ -56,6 +56,18 @@ if(global.recentlyInteracted == 0){	/// @DnDAction : YoYo Games.Common.If_Vari
 								/// @DnDArgument : "var" "global.recentlyInteracted"
 								global.recentlyInteracted = 20;
 							
+								/// @DnDAction : YoYo Games.Common.Variable
+								/// @DnDVersion : 1
+								/// @DnDHash : 7DB7B81E
+								/// @DnDInput : 2
+								/// @DnDParent : 388548C7
+								/// @DnDArgument : "expr" "101 + rowPos * 280"
+								/// @DnDArgument : "expr_1" "101 + colPos * 301"
+								/// @DnDArgument : "var" "itemSelection_x"
+								/// @DnDArgument : "var_1" "itemSelection_y"
+								itemSelection_x = 101 + rowPos * 280;
+								itemSelection_y = 101 + colPos * 301;
+							
 								/// @DnDAction : YoYo Games.Instances.Create_Instance
 								/// @DnDVersion : 1
 								/// @DnDHash : 2E34761B
