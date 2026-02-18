@@ -1,4 +1,4 @@
-//---You can update variables here!---//
+ //---You can update variables here!---//
 reset_dialogue_defaults();
 
 
@@ -7,13 +7,13 @@ switch(choice_variable){
 	#region First Dialogue
 		//Line 0
 		var i = 0;
-		myText[i]		= "A glowing blue light pokes through the cracks of the box";
+		myText[i]		= "A golden shine pokes out from under the broken pew";
 		mySpeaker[i]	= id;
-		myTextCol[i]	= [2, c_aqua, 15, c_white];
+		myTextCol[i]	= [2, c_yellow, 9, c_white];
 		
 		//Line 1
 		i++;
-		myText[i]		= "You slide the numbers to the combination code";
+		myText[i]		= "You reach in and feel something cold and hard";
 		mySpeaker[i]	= id;
 		
 		//Line 2

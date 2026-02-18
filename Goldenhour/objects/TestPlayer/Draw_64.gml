@@ -120,9 +120,9 @@ if(global.inventoryOpen == 1){	/// @DnDAction : YoYo Games.Drawing.Draw_Sprite
 	/// @DnDVersion : 1
 	/// @DnDHash : 7CD053A4
 	/// @DnDParent : 241486A4
-	/// @DnDArgument : "font" "NormalFont"
-	/// @DnDSaveInfo : "font" "NormalFont"
-	draw_set_font(NormalFont);
+	/// @DnDArgument : "font" "fnt_dialogue"
+	/// @DnDSaveInfo : "font" "fnt_dialogue"
+	draw_set_font(fnt_dialogue);
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
