@@ -28,11 +28,11 @@
           20,21,22,23,
         ],"TileDataFormat":1,},"tilesetId":{"name":"TreeBaseTileSet","path":"tilesets/TreeBaseTileSet/TreeBaseTileSet.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"TreesSidesABOVE","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"TreesSidesABOVE","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":12,"SerialiseWidth":16,"TileCompressedData":[
-          2,28,29,-14,-2147483648,2,36,37,-14,-2147483648,2,28,29,-14,-2147483648,2,36,37,-4,-2147483648,-2,0,
-          -8,-2147483648,2,28,29,-4,-2147483648,-3,0,-7,-2147483648,2,36,37,-4,-2147483648,-2,0,-8,-2147483648,
-          2,28,29,-4,-2147483648,-2,0,-6,-2147483648,4,10,11,36,37,-4,-2147483648,-2,0,-6,-2147483648,4,18,19,
-          28,29,-4,-2147483648,-2,0,-6,-2147483648,4,26,27,36,37,-4,-2147483648,1,0,-6,-2147483648,5,0,18,19,44,
-          45,-11,-2147483648,3,0,26,27,-14,-2147483648,2,0,-2147483648,
+          2,36,37,-14,-2147483648,2,2,3,-14,-2147483648,2,4,5,-14,-2147483648,2,28,29,-4,-2147483648,-2,0,-8,-2147483648,
+          2,36,37,-4,-2147483648,-3,0,-7,-2147483648,2,2,3,-4,-2147483648,-2,0,-8,-2147483648,2,4,5,-4,-2147483648,
+          -2,0,-6,-2147483648,-2,0,2,28,29,-4,-2147483648,-2,0,-6,-2147483648,4,10,9,36,37,-4,-2147483648,-2,0,
+          -6,-2147483648,4,18,19,2,3,-4,-2147483648,1,0,-6,-2147483648,5,0,26,27,4,5,-11,-2147483648,7,0,34,35,
+          -2147483648,-2147483648,0,0,-10,-2147483648,-2,0,
         ],"TileDataFormat":1,},"tilesetId":{"name":"TreeSideTileSet","path":"tilesets/TreeSideTileSet/TreeSideTileSet.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRInstanceLayer":"","%Name":"Player","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"Player","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":600,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
