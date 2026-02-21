@@ -19,7 +19,7 @@
   "height":192,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"08a415e2-cf8a-40bd-9fdb-b70e919c9903","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"08a415e2-cf8a-40bd-9fdb-b70e919c9903","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"08a415e2-cf8a-40bd-9fdb-b70e919c9903","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"08a415e2-cf8a-40bd-9fdb-b70e919c9903","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":false,},
     {"$GMImageLayer":"","%Name":"3ed69b67-9e9c-404d-9563-ec01c609c048","blendMode":0,"displayName":"Layer 5","isLocked":false,"name":"3ed69b67-9e9c-404d-9563-ec01c609c048","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":false,},
     {"$GMImageLayer":"","%Name":"54b77cfa-b71b-4cd5-aece-23b34c37b52d","blendMode":0,"displayName":"Layer 9","isLocked":false,"name":"54b77cfa-b71b-4cd5-aece-23b34c37b52d","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":false,},
     {"$GMImageLayer":"","%Name":"524a12a9-8fcb-4e54-9b9d-13148296dd7f","blendMode":0,"displayName":"Layer 16 (2)","isLocked":false,"name":"524a12a9-8fcb-4e54-9b9d-13148296dd7f","opacity":42.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":false,},
@@ -45,6 +45,7 @@
     {"$GMImageLayer":"","%Name":"50410225-626d-4d10-94ec-5d55e80136ba","blendMode":0,"displayName":"Layer 4","isLocked":false,"name":"50410225-626d-4d10-94ec-5d55e80136ba","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":false,},
     {"$GMImageLayer":"","%Name":"68a83f37-4932-465b-a56a-53013044cf43","blendMode":0,"displayName":"Layer 3","isLocked":false,"name":"68a83f37-4932-465b-a56a-53013044cf43","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":false,},
     {"$GMImageLayer":"","%Name":"cfcd8177-0cf3-4de6-8b29-b50e54ee8eb3","blendMode":0,"displayName":"default","isLocked":false,"name":"cfcd8177-0cf3-4de6-8b29-b50e54ee8eb3","opacity":28.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":false,},
+    {"$GMImageLayer":"","%Name":"e2d49209-f10e-4558-9b90-99762855f186","blendMode":0,"displayName":"Layer 21","isLocked":false,"name":"e2d49209-f10e-4558-9b90-99762855f186","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"TreeBaseTileSetSprite",
   "nineSlice":null,
