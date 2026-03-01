@@ -2,7 +2,7 @@
   "$GMScript":"v1",
   "%Name":"GlobalVariableScript",
   "isCompatibility":false,
-  "isDnD":true,
+  "isDnD":false,
   "name":"GlobalVariableScript",
   "parent":{
     "name":"Scripts",

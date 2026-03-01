@@ -6,6 +6,7 @@ if(global.recentlyInteracted == 0)
 		global.recentlyInteracted = 20;
 		
 		global.Immobilize = 1;
+		global.shiftText = 1;
 	
 		with(TestPlayer) {
 			global.inventoryOpen = 1;

@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"PushableSprite",
-    "path":"sprites/PushableSprite/PushableSprite.yy",
+    "name":"PushableBox",
+    "path":"sprites/PushableBox/PushableBox.yy",
   },
   "spriteMaskId":null,
   "visible":true,

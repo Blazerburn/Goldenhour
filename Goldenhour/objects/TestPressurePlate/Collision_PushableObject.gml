@@ -17,6 +17,14 @@ if(boxInteracted == 0){	/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_M
 	/// @DnDArgument : "var" "boxInteracted"
 	boxInteracted = 1;
 
+	/// @DnDAction : YoYo Games.Audio.Play_Audio
+	/// @DnDVersion : 1.1
+	/// @DnDHash : 392515CC
+	/// @DnDParent : 71EDB8F4
+	/// @DnDArgument : "soundid" "PressurePlateSound"
+	/// @DnDSaveInfo : "soundid" "PressurePlateSound"
+	audio_play_sound(PressurePlateSound, 0, 0, 1.0, undefined, 1.0);
+
 	/// @DnDAction : YoYo Games.Common.Apply_To
 	/// @DnDVersion : 1
 	/// @DnDHash : 0A29BB67

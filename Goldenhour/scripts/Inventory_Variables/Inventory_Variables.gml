@@ -1,7 +1,7 @@
 /// @DnDAction : YoYo Games.Common.Macro
 /// @DnDVersion : 1
 /// @DnDHash : 3E76DCD0
-/// @DnDInput : 12
+/// @DnDInput : 15
 /// @DnDArgument : "macro" "itemNone"
 /// @DnDArgument : "macro_1" "itemBall"
 /// @DnDArgument : "value_1" ""Ball""
@@ -25,6 +25,12 @@
 /// @DnDArgument : "value_10" ""Broken Path""
 /// @DnDArgument : "macro_11" "itemFixedPath"
 /// @DnDArgument : "value_11" ""Fixed Path""
+/// @DnDArgument : "macro_12" "itemLongStick"
+/// @DnDArgument : "value_12" ""Long Stick""
+/// @DnDArgument : "macro_13" "itemStickyStick"
+/// @DnDArgument : "value_13" ""Sticky Stick""
+/// @DnDArgument : "macro_14" "itemMakeshiftAxe"
+/// @DnDArgument : "value_14" ""Makeshift Axe""
 #macro itemNone 0
 #macro itemBall "Ball"
 #macro ItemPlant "Plant"
@@ -37,6 +43,9 @@
 #macro itemSecretBook10thHour "Secret Book 10th"
 #macro itemBrokenPath "Broken Path"
 #macro itemFixedPath "Fixed Path"
+#macro itemLongStick "Long Stick"
+#macro itemStickyStick "Sticky Stick"
+#macro itemMakeshiftAxe "Makeshift Axe"
 
 /// @DnDAction : YoYo Games.Common.Macro
 /// @DnDVersion : 1

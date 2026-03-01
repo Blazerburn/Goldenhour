@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"InventoryTest",
+  "%Name":"Inventory_Holder",
   "isCompatibility":false,
-  "isDnD":true,
-  "name":"InventoryTest",
+  "isDnD":false,
+  "name":"Inventory_Holder",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",
