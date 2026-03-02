@@ -14,6 +14,8 @@ keyInteract = vk_space;
 
 textSelected = 0
 
+global.Immobilize = 1
+
 code1 = 0
 code2 = 0
 code3 = 0

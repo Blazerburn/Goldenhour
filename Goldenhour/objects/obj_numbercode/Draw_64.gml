@@ -133,6 +133,8 @@ interact = keyboard_check_pressed(vk_space);
 if (interact) {
 	if (code1 = code1Needed && code2 = code2Needed && code3 = code3Needed && code4 = code4Needed) {
 		show_debug_message("correct code");
+		global.Immobilize = 0;
+		instance_destroy();
 	}
 }
 
