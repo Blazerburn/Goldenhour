@@ -31,7 +31,7 @@ switch(choice_variable){
 		myText[i]		= ["Take the Chiseled Rock", "Leave it"];
 		myTypes[i]		= 1;
 		myNextLine[i]	= [5,7];
-		myScripts[i]	= [[add_item, 0, "Chiseled Rock", ChiselRock, "Chiseled Rock", 1], [change_variable, id, "choice_variable", "Leave"]];
+		myScripts[i]	= [[add_item, 0, "Chisel Rock", ChiselRock, "Chisel Rock", 1], [change_variable, id, "choice_variable", "Leave"]];
 		mySpeaker[i]	= TestPlayer;
 
 		//Line 5
@@ -82,7 +82,7 @@ switch(choice_variable){
 		myText[i]		= ["Take the Chiseled Rock", "Leave it"];
 		myTypes[i]		= 1;
 		myNextLine[i]	= [2,4];
-		myScripts[i]	= [[add_item, 0, "Chiseled Rock", ChiselRock, "Chiseled Rock", 1], [change_variable, id, "choice_variable", "Leave"]];
+		myScripts[i]	= [[add_item, 0, "Chisel Rock", ChiselRock, "Chisel Rock", 1], [change_variable, id, "choice_variable", "Leave"]];
 		mySpeaker[i]	= TestPlayer;
 		
 		//Line 2

@@ -1,13 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"TestWall",
-  "eventList":[],
+  "%Name":"Puzzle3UsingQuipsA",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"TestWall",
+  "name":"Puzzle3UsingQuipsA",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Ruins",
+    "path":"folders/Objects/GUI/Conversations/ItemUseQuips/Ruins.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -27,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"Sprite1",
-    "path":"sprites/Sprite1/Sprite1.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

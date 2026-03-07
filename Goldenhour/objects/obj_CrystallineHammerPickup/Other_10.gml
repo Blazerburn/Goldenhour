@@ -45,7 +45,7 @@ switch(choice_variable){
 		myTypes[i]		= 1;
 		myNextLine[i]	= [7,10];
 		myTextCol[i]	= [9,c_aqua, 22,c_white];
-		myScripts[i]	= [[add_item, 0, "Glowing Rock", BioluminescentRock, "Glowing Rock", 1], [change_variable, id, "choice_variable", "Leave"]];
+		myScripts[i]	= [[add_item, 0, "Crystal Hammer", CrystallineHammer, "Crystal Hammer", 1], [change_variable, id, "choice_variable", "Leave"]];
 		mySpeaker[i]	= TestPlayer;
 
 		//Line 7
@@ -110,7 +110,7 @@ switch(choice_variable){
 		myTypes[i]		= 1;
 		myNextLine[i]	= [3,6];
 		myTextCol[i]	= [9,c_aqua, 22,c_white];
-		myScripts[i]	= [[add_item, 0, "Glowing Rock", BioluminescentRock, "Glowing Rock", 1], [change_variable, id, "choice_variable", "Leave"]];
+		myScripts[i]	= [[add_item, 0, "Crystal Hammer", CrystallineHammer, "Crystal Hammer", 1], [change_variable, id, "choice_variable", "Leave"]];
 		mySpeaker[i]	= TestPlayer;
 		
 		//Line 3

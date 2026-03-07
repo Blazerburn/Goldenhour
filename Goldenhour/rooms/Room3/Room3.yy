@@ -33,7 +33,7 @@
     {"$GMRTileLayer":"","%Name":"Tiles_2","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_2","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":10,"SerialiseWidth":9,"TileCompressedData":[
           29,-2147483648,1,3,27,29,28,4,2,-2147483648,5,7,11,35,37,36,12,6,30,13,15,19,43,-2147483648,44,20,14,
           38,13,23,-5,-2147483648,3,22,38,21,-7,-2147483648,1,46,-45,-2147483648,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"BrickWallTileSet","path":"tilesets/BrickWallTileSet/BrickWallTileSet.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+        ],"TileDataFormat":1,},"tilesetId":{"name":"BrickWallTileSet","path":"tilesets/BrickWallTileSet/BrickWallTileSet.yy",},"userdefinedDepth":false,"visible":false,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"Tiles_1","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":10,"SerialiseWidth":9,"TileCompressedData":[
           21,-2147483648,0,3,27,29,28,4,0,-2147483648,-2147483648,7,11,35,37,36,12,6,-2147483648,5,15,19,-3,0,
           7,20,14,30,13,23,0,16,-3,0,5,22,38,21,0,0,-3,-2147483648,-2,0,1,46,-6,0,1,-2147483648,-8,0,-2,-2147483648,
@@ -64,7 +64,7 @@
   },
   "sequenceId":null,
   "views":[
-    {"hborder":225,"hport":1000,"hspeed":-1,"hview":250,"inherit":false,"objectId":{"name":"TestPlayer","path":"objects/TestPlayer/TestPlayer.yy",},"vborder":225,"visible":true,"vspeed":-1,"wport":1000,"wview":250,"xport":0,"xview":0,"yport":0,"yview":0,},
+    {"hborder":225,"hport":1000,"hspeed":-1,"hview":250,"inherit":false,"objectId":{"name":"TestPlayer","path":"objects/TestPlayer/TestPlayer.yy",},"vborder":225,"visible":true,"vspeed":-1,"wport":1000,"wview":288,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
