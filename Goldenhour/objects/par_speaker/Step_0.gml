@@ -12,7 +12,7 @@ if(point_in_rectangle(playerobject.x, playerobject.y, x-dr, y-dr, x+dr, y+dr)){
 		event_user(0);								//if you need variables to update for text
 			
 		//Hand over variables
-		create_dialogue(myText, mySpeaker, myEffects, myTextSpeed, myTypes, myNextLine, myScripts, myTextCol, myEmotion, myEmote);
+		create_dialogue(myText, mySpeaker, myEffects, myTextSpeed, myTypes, myNextLine, myScripts, myTextCol, myEmotion, myEmote, myHeadshot);
 	}
 } else {	//if player moves outside of detection radius
 	if(myTextbox != noone){

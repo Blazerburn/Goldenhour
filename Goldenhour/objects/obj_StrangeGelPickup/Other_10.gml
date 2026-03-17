@@ -33,6 +33,8 @@ switch(choice_variable){
 		myNextLine[i]	= [5,10];
 		myScripts[i]	= [[add_item, 0, "Strange Gel", StrangeGel, "Strange Gel", 5], [change_variable, id, "choice_variable", "Leave"]];
 		mySpeaker[i]	= TestPlayer;
+		myHeadshot[i]   = 1;
+		
 
 		//Line 5
 		i++;

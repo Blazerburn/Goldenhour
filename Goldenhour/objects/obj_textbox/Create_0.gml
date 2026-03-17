@@ -125,6 +125,7 @@ emotion			= 0;
 portrait		= 1;
 voice			= 1;
 font			= 1;
+headshot        = 0;
 
 charSize		= 1;
 stringHeight	= 1;
