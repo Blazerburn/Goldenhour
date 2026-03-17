@@ -25,6 +25,9 @@ code2Needed = 5
 code3Needed = 6
 code4Needed = 2
 
+puzzleObject = 0
+puzzleObjectProgress = 0
+
 boxHeight		= sprite_get_height(dialogue_box) * scale;
 boxWidth		= sprite_get_width(dialogue_box) * scale;
 gui_width		= display_get_gui_width();

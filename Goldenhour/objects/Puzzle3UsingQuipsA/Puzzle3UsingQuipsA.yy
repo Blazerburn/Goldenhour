@@ -9,7 +9,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Ruins",
-    "path":"folders/Objects/GUI/Conversations/ItemUseQuips/Ruins.yy",
+    "path":"folders/Objects/GUI/FC_DialogueSystem/ItemUseQuips/Ruins.yy",
   },
   "parentObjectId":null,
   "persistent":false,
