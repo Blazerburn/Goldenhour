@@ -1,26 +1,10 @@
-/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
-/// @DnDVersion : 1
-/// @DnDHash : 4B7AC5ED
-/// @DnDInput : 4
-/// @DnDArgument : "msg" ""Item combine type 1:""
-/// @DnDArgument : "msg_1" "global.itemCombiningType1"
-/// @DnDArgument : "msg_2" ""Item combine type 2:""
-/// @DnDArgument : "msg_3" "global.itemCombiningType2"
 show_debug_message(string("Item combine type 1:") + @"
 " + string(global.itemCombiningType1) + @"
 " + string("Item combine type 2:") + @"
 " + string(global.itemCombiningType2));
 
-/// @DnDAction : YoYo Games.Common.If_Variable
-/// @DnDVersion : 1
-/// @DnDHash : 4A16BD62
-/// @DnDArgument : "var" "global.combining"
-/// @DnDArgument : "value" "1"
-if(global.combining == 1){	/// @DnDAction : YoYo Games.Common.Execute_Code
-	/// @DnDVersion : 1
-	/// @DnDHash : 4A887D3D
-	/// @DnDParent : 4A16BD62
-	/// @DnDArgument : "code" "/// Change the itemcombiningtypes, and what item it creates$(13_10)if ((global.itemCombiningType1 == 1 || global.itemCombiningType1 == 2) && (global.itemCombiningType2 == 1 || global.itemCombiningType2 == 2))$(13_10){$(13_10)	show_debug_message("Right items")$(13_10)	global.combining = 0;$(13_10)$(13_10)with(TestPlayer) {$(13_10)	itemArray[itemCombinePos1][itemUses] += -1;$(13_10)	itemArray[itemCombinePos2][itemUses] += -1;$(13_10)$(13_10)	if((itemArray[itemCombinePos1][itemAmount] <= 0) || (itemArray[itemCombinePos1][itemUses] <= 0))$(13_10){$(13_10)	itemArray[itemCombinePos1][itemType] = itemNone;$(13_10)	itemArray[itemCombinePos1][itemAmount] = 0;$(13_10)	itemArray[itemCombinePos1][itemUses] = 0;$(13_10)}$(13_10)$(13_10)	if((itemArray[itemCombinePos2][itemAmount] <= 0) || (itemArray[itemCombinePos2][itemUses] <= 0))$(13_10){$(13_10)	itemArray[itemCombinePos2][itemType] = itemNone;$(13_10)	itemArray[itemCombinePos2][itemAmount] = 0;$(13_10)	itemArray[itemCombinePos1][itemUses] = 0;$(13_10)}$(13_10)$(13_10)$(13_10)	var _pos = 0;$(13_10)	var _type = itemPlantBall;$(13_10)	var _sprite = CombinedInventory;$(13_10)	var _name = "Plant Ball";$(13_10)	var _uses = 1;$(13_10)$(13_10)	itemCombineSelect1 = 0;$(13_10)	itemCombineSelect2 = 0;$(13_10)$(13_10)	while ((_pos < 9)) {$(13_10)		if(itemArray[_pos][itemType] == _type)$(13_10){$(13_10)	break;$(13_10)}$(13_10)	$(13_10)		else$(13_10){$(13_10)	_pos += 1;$(13_10)}$(13_10)	}$(13_10)$(13_10)	if(_pos > 8)$(13_10){$(13_10)	_pos = 0;$(13_10)	$(13_10)		while ((_pos < 9)) {$(13_10)			if(itemArray[_pos][itemType] == itemNone)$(13_10){$(13_10)	break;$(13_10)}$(13_10)		$(13_10)			else$(13_10){$(13_10)	_pos += 1;$(13_10)}$(13_10)		}$(13_10)}$(13_10)$(13_10)	if(_pos < 9)$(13_10){$(13_10)	itemArray[_pos][itemType] = _type;$(13_10)		itemArray[_pos][itemSprite] = _sprite;$(13_10)		itemArray[_pos][itemAmount] += 1;$(13_10)		itemArray[_pos][itemName] = _name;$(13_10)		itemArray[_pos][itemUses] = _uses;$(13_10)	$(13_10)		show_debug_message(string("Put item down") + @"$(13_10)		" + string(_pos));$(13_10)}$(13_10)instance_create_layer(0, 0, "Instances", TestConvo);$(13_10)$(13_10)with(TestConvo) {$(13_10)	text[0] = "You... uh...";$(13_10)	text[1] = "Stick the plant into the top of the ball..?";$(13_10)	text[2] = "How... how did you even?";$(13_10)	text[3] = "You... You got a Plant Ball... I guess...";$(13_10)$(13_10)	textCurrent = 0;$(13_10)	textLast = 3;$(13_10)	textWidth = 900;$(13_10)	textX = 32;$(13_10)	textY = 725;$(13_10)	headshotTextWidth = 700;$(13_10)	headshotTextX = 250;$(13_10)$(13_10)	headshotTexts[0] = 0;$(13_10)	headshotTexts[1] = 0;$(13_10)	headshotTexts[2] = 0;$(13_10)	headshotTexts[3] = 0;$(13_10)$(13_10)	headshotHead[0] = 0;$(13_10)	headshotHead[1] = 0;$(13_10)	headshotHead[2] = 0;$(13_10)	headshotHead[3] = 0;$(13_10)$(13_10)	decisionsTrue = 0;$(13_10)	decisions = TestDecisions;$(13_10)}$(13_10)}$(13_10)$(13_10)instance_destroy();$(13_10)}$(13_10)else if ((global.itemCombiningType1 == "Strange Gel" || global.itemCombiningType1 == "Broken Path") && (global.itemCombiningType2 == "Strange Gel" || global.itemCombiningType2 == "Broken Path"))$(13_10){$(13_10)	show_debug_message("Right items")$(13_10)	global.combining = 0;$(13_10)$(13_10)with(TestPlayer) {$(13_10)	itemArray[itemCombinePos1][itemUses] += -1;$(13_10)	itemArray[itemCombinePos2][itemUses] += -1;$(13_10)$(13_10)	if((itemArray[itemCombinePos1][itemAmount] <= 0) || (itemArray[itemCombinePos1][itemUses] <= 0))$(13_10){$(13_10)	itemArray[itemCombinePos1][itemType] = itemNone;$(13_10)	itemArray[itemCombinePos1][itemAmount] = 0;$(13_10)	itemArray[itemCombinePos1][itemUses] = 0;$(13_10)}$(13_10)$(13_10)	if((itemArray[itemCombinePos2][itemAmount] <= 0) || (itemArray[itemCombinePos2][itemUses] <= 0))$(13_10){$(13_10)	itemArray[itemCombinePos2][itemType] = itemNone;$(13_10)	itemArray[itemCombinePos2][itemAmount] = 0;$(13_10)	itemArray[itemCombinePos1][itemUses] = 0;$(13_10)}$(13_10)$(13_10)$(13_10)	var _pos = 0;$(13_10)	var _type = itemFixedPath;$(13_10)	var _sprite = FixedPath;$(13_10)	var _name = "Fixed Path";$(13_10)	var _uses = 1;$(13_10)$(13_10)	itemCombineSelect1 = 0;$(13_10)	itemCombineSelect2 = 0;$(13_10)$(13_10)	while ((_pos < 9)) {$(13_10)		if(itemArray[_pos][itemType] == _type)$(13_10){$(13_10)	break;$(13_10)}$(13_10)	$(13_10)		else$(13_10){$(13_10)	_pos += 1;$(13_10)}$(13_10)	}$(13_10)$(13_10)	if(_pos > 8)$(13_10){$(13_10)	_pos = 0;$(13_10)	$(13_10)		while ((_pos < 9)) {$(13_10)			if(itemArray[_pos][itemType] == itemNone)$(13_10){$(13_10)	break;$(13_10)}$(13_10)		$(13_10)			else$(13_10){$(13_10)	_pos += 1;$(13_10)}$(13_10)		}$(13_10)}$(13_10)$(13_10)	if(_pos < 9)$(13_10){$(13_10)	itemArray[_pos][itemType] = _type;$(13_10)		itemArray[_pos][itemSprite] = _sprite;$(13_10)		itemArray[_pos][itemAmount] += 1;$(13_10)		itemArray[_pos][itemName] = _name;$(13_10)		itemArray[_pos][itemUses] = _uses;$(13_10)	$(13_10)		show_debug_message(string("Put item down") + @"$(13_10)		" + string(_pos));$(13_10)}$(13_10)$(13_10)	create_textevent($(13_10)	["You stick the strange gel to the sides of the broken pieces and try to stick them back together", $(13_10)	"It takes a bit, but you eventually get all the pieces where you think they belong", $(13_10)	"You got a Fixed Path!"],$(13_10)	-1,$(13_10)	-1,$(13_10)	-1,$(13_10)	-1,$(13_10)	-1,$(13_10)	-1,$(13_10)	-1,$(13_10)	-1,$(13_10)	-1,$(13_10));$(13_10)}$(13_10)$(13_10)instance_destroy();$(13_10)}$(13_10)else $(13_10){$(13_10)	show_debug_message(string("Wrong item"))$(13_10)	create_textevent($(13_10)	["That doesn't work"],$(13_10)	-1,$(13_10)	-1,$(13_10)	-1,$(13_10)	-1,$(13_10)	-1,$(13_10)	-1,$(13_10)	-1,$(13_10)	-1,$(13_10)	-1,$(13_10));$(13_10)$(13_10)instance_destroy();$(13_10)}$(13_10)"
+if(global.combining == 1)
+{
 	/// Change the itemcombiningtypes, and what item it creates
 	if ((global.itemCombiningType1 == 1 || global.itemCombiningType1 == 2) && (global.itemCombiningType2 == 1 || global.itemCombiningType2 == 2))
 	{
@@ -152,55 +136,8 @@ if(global.combining == 1){	/// @DnDAction : YoYo Games.Common.Execute_Code
 	}
 	
 	
-		var _pos = 0;
-		var _type = itemFixedPath;
-		var _sprite = FixedPath;
-		var _name = "Fixed Path";
-		var _uses = 1;
+	add_item(0, "Fixed Path", FixedPath, "Fixed Path", 1);
 	
-		itemCombineSelect1 = 0;
-		itemCombineSelect2 = 0;
-	
-		while ((_pos < 9)) {
-			if(itemArray[_pos][itemType] == _type)
-	{
-		break;
-	}
-		
-			else
-	{
-		_pos += 1;
-	}
-		}
-	
-		if(_pos > 8)
-	{
-		_pos = 0;
-		
-			while ((_pos < 9)) {
-				if(itemArray[_pos][itemType] == itemNone)
-	{
-		break;
-	}
-			
-				else
-	{
-		_pos += 1;
-	}
-			}
-	}
-	
-		if(_pos < 9)
-	{
-		itemArray[_pos][itemType] = _type;
-			itemArray[_pos][itemSprite] = _sprite;
-			itemArray[_pos][itemAmount] += 1;
-			itemArray[_pos][itemName] = _name;
-			itemArray[_pos][itemUses] = _uses;
-		
-			show_debug_message(string("Put item down") + @"
-			" + string(_pos));
-	}
 	
 		create_textevent(
 		["You stick the strange gel to the sides of the broken pieces and try to stick them back together", 
@@ -220,6 +157,99 @@ if(global.combining == 1){	/// @DnDAction : YoYo Games.Common.Execute_Code
 	
 	instance_destroy();
 	}
+	
+		else if ((global.itemCombiningType1 == "Long Stick" || global.itemCombiningType1 == "Strange Gel") && (global.itemCombiningType2 == "Strange Gel" || global.itemCombiningType2 == "Long Stick"))
+	{
+		show_debug_message("Right items")
+		global.combining = 0;
+	
+	with(TestPlayer) {
+		itemArray[itemCombinePos1][itemUses] += -1;
+		itemArray[itemCombinePos2][itemUses] += -1;
+	
+		if((itemArray[itemCombinePos1][itemAmount] <= 0) || (itemArray[itemCombinePos1][itemUses] <= 0))
+	{
+		itemArray[itemCombinePos1][itemType] = itemNone;
+		itemArray[itemCombinePos1][itemAmount] = 0;
+		itemArray[itemCombinePos1][itemUses] = 0;
+	}
+	
+		if((itemArray[itemCombinePos2][itemAmount] <= 0) || (itemArray[itemCombinePos2][itemUses] <= 0))
+	{
+		itemArray[itemCombinePos2][itemType] = itemNone;
+		itemArray[itemCombinePos2][itemAmount] = 0;
+		itemArray[itemCombinePos1][itemUses] = 0;
+	}
+	
+	
+	add_item(0, "Sticky Stick", StickyStick, "Sticky Stick", 1);
+	
+	
+		create_textevent(
+		["You cover the stick in the sticky strange gel", 
+		"You got a Sticky Stick!"],
+		-1,
+		-1,
+		-1,
+		-1,
+		-1,
+		-1,
+		-1,
+		-1,
+		-1,
+	);
+	}
+	
+	instance_destroy();
+	}
+	
+			else if ((global.itemCombiningType1 == "Sticky Stick" || global.itemCombiningType1 == "Chisel Rock") && (global.itemCombiningType2 == "Chisel Rock" || global.itemCombiningType2 == "Sticky Stick"))
+	{
+		show_debug_message("Right items")
+		global.combining = 0;
+	
+	with(TestPlayer) {
+		itemArray[itemCombinePos1][itemUses] += -1;
+		itemArray[itemCombinePos2][itemUses] += -1;
+	
+		if((itemArray[itemCombinePos1][itemAmount] <= 0) || (itemArray[itemCombinePos1][itemUses] <= 0))
+	{
+		itemArray[itemCombinePos1][itemType] = itemNone;
+		itemArray[itemCombinePos1][itemAmount] = 0;
+		itemArray[itemCombinePos1][itemUses] = 0;
+	}
+	
+		if((itemArray[itemCombinePos2][itemAmount] <= 0) || (itemArray[itemCombinePos2][itemUses] <= 0))
+	{
+		itemArray[itemCombinePos2][itemType] = itemNone;
+		itemArray[itemCombinePos2][itemAmount] = 0;
+		itemArray[itemCombinePos1][itemUses] = 0;
+	}
+	
+	
+	add_item(0, "Makeshift Axe", MakeshiftAxe, "Makeshift Axe", 1);
+	
+	
+		create_textevent(
+		["You stick the chisel rock against the gel on the stick", 
+		"You hold it against the end for a bit of time",
+		"The rock sticks to it very quickly",
+		"You got a Makeshift Axe!"],
+		-1,
+		-1,
+		-1,
+		-1,
+		-1,
+		-1,
+		-1,
+		-1,
+		-1,
+	);
+	}
+	
+	instance_destroy();
+	}
+	
 	else 
 	{
 		show_debug_message(string("Wrong item"))
@@ -237,4 +267,5 @@ if(global.combining == 1){	/// @DnDAction : YoYo Games.Common.Execute_Code
 	);
 	
 	instance_destroy();
-	}}
+	}
+}
