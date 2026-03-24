@@ -1,18 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_Ruins1CodePuzzle1",
+  "%Name":"obj_Ruins1Puzzle4Generator",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"TestPlayer","path":"objects/TestPlayer/TestPlayer.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":10,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":10,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_Ruins1CodePuzzle1",
+  "name":"obj_Ruins1Puzzle4Generator",
   "overriddenProperties":[],
   "parent":{
-    "name":"Code Puzzles",
-    "path":"folders/Objects/Puzzles/Puzzle Controllers/Ruins/Code Puzzles.yy",
+    "name":"Item Use",
+    "path":"folders/Objects/Puzzles/Puzzle Controllers/Ruins/Item Use.yy",
   },
   "parentObjectId":{
     "name":"par_speaker",
@@ -22,7 +22,7 @@
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,
-  "physicsGroup":1,
+  "physicsGroup":0,
   "physicsKinematic":false,
   "physicsLinearDamping":0.1,
   "physicsObject":false,

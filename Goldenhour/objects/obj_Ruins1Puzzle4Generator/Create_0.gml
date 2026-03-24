@@ -1,6 +1,7 @@
 event_inherited(); //so it will inherit from par_speaker
 
 puzzleProgress = 0;
+createWall = 0;
 
 
 //-------DIALOGUE STUFF
@@ -20,6 +21,11 @@ myPortraitIdle		= -1;
 
 choice_variable		= -1;	//the variable we change depending on the player's choice in dialogue
 
-goToRoom = HideoutRoom2;
-playerSpawnpoint = 1;
-playerDirection = 2;
+collision = 0;
+
+collision = instance_create_layer(x + 0, y + 0, "Instances", TestWall);
+with(collision) {
+image_xscale = .49;
+image_yscale = .49;
+}
+

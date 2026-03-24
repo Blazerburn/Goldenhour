@@ -9,15 +9,16 @@ if(global.recentlyInteracted == 0)
 
 	
 	create_textevent(
-	["It's already sealed by the strange gel", 
-	"It would not make sense to... apply more "],
+	["It doesn't seem like this is what it needs", 
+	"It's definitely whatever is meant to go in this machine",
+	"But it also seems like whatever is needed, will fit just fine and not need this gel"],
 	-1,
 	-1,
 	-1,
 	-1,
 	-1,
 	-1,
-	[[27, c_yellow, 39, c_white], [-1]],
+	[[-1], [-1], [75, c_yellow, 79, c_white]],
 	-1,
 	-1,
 );
@@ -27,12 +28,35 @@ if(global.recentlyInteracted == 0)
 				exit;
 }
 
+			if(global.itemWrongType == itemBrokenGlassShard)
+{
+		create_textevent(
+	["You don't think it would be a good idea to cut the wires",
+	"And nothing else looks like it could be cut with glass"],
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	
+);
+			
+				global.itemCheck = 0;
+			
+				exit;
+}
+
+
 			if(global.itemWrongType == itemChiselRock)
 {
 		create_textevent(
-	["You try to stick the edge of the rock into the crack", 
-	"It's just slightly too big",
-	"You'll have to use something smaller, but still sharp"],
+	["You place the rock into the opening",
+	"It's way too small to be what goes here",
+	"You grab the rock and put it into your bag"],
 	-1,
 	-1,
 	-1,

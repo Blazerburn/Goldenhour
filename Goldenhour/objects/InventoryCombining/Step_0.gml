@@ -135,6 +135,12 @@ if(global.combining == 1)
 		itemArray[itemCombinePos1][itemUses] = 0;
 	}
 	
+	itemCombineSelect1 = 0;
+	itemCombineSelect2 = 0;
+	itemCombinePos1 = 0;
+	itemCombinePos2 = 0;
+	itemCombineType1 = 0;
+	itemCombineType2 = 0;
 	
 	add_item(0, "Fixed Path", FixedPath, "Fixed Path", 1);
 	
@@ -149,7 +155,7 @@ if(global.combining == 1)
 		-1,
 		-1,
 		-1,
-		-1,
+		[[14, c_yellow, 26, c_white], [-1], [-1]],
 		-1,
 		-1,
 	);
@@ -182,11 +188,18 @@ if(global.combining == 1)
 	}
 	
 	
+	itemCombineSelect1 = 0;
+	itemCombineSelect2 = 0;
+	itemCombinePos1 = 0;
+	itemCombinePos2 = 0;
+	itemCombineType1 = 0;
+	itemCombineType2 = 0;
+	
 	add_item(0, "Sticky Stick", StickyStick, "Sticky Stick", 1);
 	
 	
 		create_textevent(
-		["You cover the stick in the sticky strange gel", 
+		["You cover tip of the stick in the sticky strange gel", 
 		"You got a Sticky Stick!"],
 		-1,
 		-1,
@@ -194,7 +207,7 @@ if(global.combining == 1)
 		-1,
 		-1,
 		-1,
-		-1,
+		[[34, c_yellow, 53, c_white], [-1]],
 		-1,
 		-1,
 	);
@@ -226,6 +239,12 @@ if(global.combining == 1)
 		itemArray[itemCombinePos1][itemUses] = 0;
 	}
 	
+	itemCombineSelect1 = 0;
+	itemCombineSelect2 = 0;
+	itemCombinePos1 = 0;
+	itemCombinePos2 = 0;
+	itemCombineType1 = 0;
+	itemCombineType2 = 0;
 	
 	add_item(0, "Makeshift Axe", MakeshiftAxe, "Makeshift Axe", 1);
 	
@@ -241,7 +260,7 @@ if(global.combining == 1)
 		-1,
 		-1,
 		-1,
-		-1,
+		[[38, c_yellow, 42, c_white], [-1], [-1], [-1]],
 		-1,
 		-1,
 	);

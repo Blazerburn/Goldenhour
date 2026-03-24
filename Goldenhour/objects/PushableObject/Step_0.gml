@@ -3,6 +3,7 @@ if(objectID == interactedBoxID)
 	with(interactedBoxID) {
 		if(global.pushingBox == 1)
 {
+	if (global.Talking == 0) {
 	instance_deactivate_object(pathCollision);
 	var pushableBoxOriginX = x;
 			var pushableBoxOriginY = y;
@@ -18,11 +19,11 @@ if(objectID == interactedBoxID)
 			move_and_collide(xinput * 1, yinput * 1, [PushableWall],4,0,0,1,1);
 		
 			with(pushBoxCollision) {
-			x = pushableBoxOriginX + 2;
+			x = pushableBoxOriginX + 3;
 			y = pushableBoxOriginY + 2;
 			}
 			with(pathCollision) {
-			x = pushableBoxOriginX + 2;
+			x = pushableBoxOriginX + 3;
 			y = pushableBoxOriginY + 2;
 			}
 		
@@ -129,6 +130,7 @@ if(objectID == interactedBoxID)
 l35D9AC80_0 = keyboard_check_pressed(vk_space);
 if (l35D9AC80_0)
 {
+	if (global.keepPushing = 0) {
 	global.pushingBox = 0;
 					global.playerAnimating = 0;
 				
@@ -147,8 +149,10 @@ if (l35D9AC80_0)
 					x = pushableBoxOriginX + 2;
 					y = pushableBoxOriginY + 2;
 					}
+	}
 }
 }
+	}
 }
 else {
 	

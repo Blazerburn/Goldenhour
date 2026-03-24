@@ -14,6 +14,7 @@ switch(choice_variable){
 		i++;
 		myText[i]		= "It looks like it's sealed by the same strange gel you have";
 		mySpeaker[i]	= id;
+		myTextCol[i]	= [38, c_yellow, 50, c_white];
 		
 		//Line 2
 		i++;

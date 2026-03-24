@@ -80,6 +80,8 @@ if(global.recentlyInteracted == 0)
 					
 					variable_instance_set(obj_Ruins1Puzzle2, "puzzleProgress", "1");
 					
+					global.usingItem = 0;
+					
 					//[change_variable, id, "puzzleProgress", "1"]
 					
 					//script_execute_alt(change_variable( obj_BrokenPathPickup, "choice_variable", "Used"));

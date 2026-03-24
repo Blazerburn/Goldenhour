@@ -156,6 +156,8 @@ if(global.recentlyInteracted == 0)
 					
 					variable_instance_set(obj_Ruins1Puzzle5, "puzzleProgress", "1");
 					
+					global.usingItem = 0;
+					
 					//[change_variable, id, "puzzleProgress", "1"]
 					
 					//script_execute_alt(change_variable( obj_BrokenPathPickup, "choice_variable", "Used"));
@@ -174,7 +176,7 @@ if(global.recentlyInteracted == 0)
 	"You hacked a piece of the rock off",
 	"You think you can now move the box past"],
 	-1,
-	-1,
+	[[-1], [-1], [1,1, 5,0], [-1], [-1], [1,1, 5,0], [-1], [-1], [-1], [8,1, 13,0], [-1], [-1]],
 	-1,
 	-1,
 	-1,
