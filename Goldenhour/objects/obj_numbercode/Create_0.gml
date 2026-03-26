@@ -14,7 +14,12 @@ keyInteract = vk_space;
 
 textSelected = 0
 
-global.Immobilize = 1
+if (global.shiftText = 0) {
+	textShift = 50;
+}
+if (global.shiftText = 1) {
+	textShift = 100;
+}
 
 code1 = 0
 code2 = 0

@@ -26,7 +26,7 @@ switch(choice_variable){
 		myText[i]		= ["Enter the code", "Leave it for now"];
 		myTypes[i]		= 1;
 		myNextLine[i]	= [-1,4];
-		myScripts[i]	= [[number_code, 3, 5, 6, 2, obj_Ruins1CodePuzzle, 1], [change_variable, id, "choice_variable", "Leave"]];
+		myScripts[i]	= [[number_code, 2, 5, 6, 2, obj_Ruins1CodePuzzle, 1], [change_variable, id, "choice_variable", "Leave"]];
 		mySpeaker[i]	= TestPlayer;
 
 
@@ -51,7 +51,7 @@ switch(choice_variable){
 		myText[i]		= ["Enter the code", "Leave it for now"];
 		myTypes[i]		= 1;
 		myNextLine[i]	= [-1,2];
-		myScripts[i]	= [[number_code, 3, 5, 6, 2, obj_Ruins1CodePuzzle, 1], [change_variable, id, "choice_variable", "Leave"]];
+		myScripts[i]	= [[number_code, 2, 5, 6, 2, obj_Ruins1CodePuzzle, 1], [change_variable, id, "choice_variable", "Leave"]];
 		mySpeaker[i]	= TestPlayer;
 		
 		//Line 2
