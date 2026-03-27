@@ -6,7 +6,7 @@ show_debug_message(string("Item combine type 1:") + @"
 if(global.combining == 1)
 {
 	/// Change the itemcombiningtypes, and what item it creates
-	if ((global.itemCombiningType1 == 1 || global.itemCombiningType1 == 2) && (global.itemCombiningType2 == 1 || global.itemCombiningType2 == 2))
+	if ((global.itemCombiningType1 == "Strange Gel" || global.itemCombiningType1 == "Broken Path") && (global.itemCombiningType2 == "Strange Gel" || global.itemCombiningType2 == "Broken Path"))
 	{
 		show_debug_message("Right items")
 		global.combining = 0;
@@ -15,11 +15,11 @@ if(global.combining == 1)
 		itemArray[itemCombinePos1][itemUses] += -1;
 		itemArray[itemCombinePos2][itemUses] += -1;
 	
-		if((itemArray[itemCombinePos1][itemAmount] <= 0) || (itemArray[itemCombinePos1][itemUses] <= 0))
+	/*	if((itemArray[itemCombinePos1][itemAmount] <= 0) || (itemArray[itemCombinePos1][itemUses] <= 0))
 	{
-		itemArray[itemCombinePos1][itemType] = itemNone;
-		itemArray[itemCombinePos1][itemAmount] = 0;
-		itemArray[itemCombinePos1][itemUses] = 0;
+		//itemArray[itemCombinePos1][itemType] = itemNone;
+		//itemArray[itemCombinePos1][itemAmount] = 0;
+		//itemArray[itemCombinePos1][itemUses] = 0;
 	}
 	
 		if((itemArray[itemCombinePos2][itemAmount] <= 0) || (itemArray[itemCombinePos2][itemUses] <= 0))
@@ -27,113 +27,7 @@ if(global.combining == 1)
 		itemArray[itemCombinePos2][itemType] = itemNone;
 		itemArray[itemCombinePos2][itemAmount] = 0;
 		itemArray[itemCombinePos1][itemUses] = 0;
-	}
-	
-	
-		var _pos = 0;
-		var _type = itemPlantBall;
-		var _sprite = CombinedInventory;
-		var _name = "Plant Ball";
-		var _uses = 1;
-	
-		itemCombineSelect1 = 0;
-		itemCombineSelect2 = 0;
-	
-		while ((_pos < 9)) {
-			if(itemArray[_pos][itemType] == _type)
-	{
-		break;
-	}
-		
-			else
-	{
-		_pos += 1;
-	}
-		}
-	
-		if(_pos > 8)
-	{
-		_pos = 0;
-		
-			while ((_pos < 9)) {
-				if(itemArray[_pos][itemType] == itemNone)
-	{
-		break;
-	}
-			
-				else
-	{
-		_pos += 1;
-	}
-			}
-	}
-	
-		if(_pos < 9)
-	{
-		itemArray[_pos][itemType] = _type;
-			itemArray[_pos][itemSprite] = _sprite;
-			itemArray[_pos][itemAmount] += 1;
-			itemArray[_pos][itemName] = _name;
-			itemArray[_pos][itemUses] = _uses;
-		
-			show_debug_message(string("Put item down") + @"
-			" + string(_pos));
-	}
-	instance_create_layer(0, 0, "Instances", TestConvo);
-	
-	with(TestConvo) {
-		text[0] = "You... uh...";
-		text[1] = "Stick the plant into the top of the ball..?";
-		text[2] = "How... how did you even?";
-		text[3] = "You... You got a Plant Ball... I guess...";
-	
-		textCurrent = 0;
-		textLast = 3;
-		textWidth = 900;
-		textX = 32;
-		textY = 725;
-		headshotTextWidth = 700;
-		headshotTextX = 250;
-	
-		headshotTexts[0] = 0;
-		headshotTexts[1] = 0;
-		headshotTexts[2] = 0;
-		headshotTexts[3] = 0;
-	
-		headshotHead[0] = 0;
-		headshotHead[1] = 0;
-		headshotHead[2] = 0;
-		headshotHead[3] = 0;
-	
-		decisionsTrue = 0;
-		decisions = TestDecisions;
-	}
-	}
-	
-	instance_destroy();
-	}
-	else if ((global.itemCombiningType1 == "Strange Gel" || global.itemCombiningType1 == "Broken Path") && (global.itemCombiningType2 == "Strange Gel" || global.itemCombiningType2 == "Broken Path"))
-	{
-		show_debug_message("Right items")
-		global.combining = 0;
-	
-	with(TestPlayer) {
-		itemArray[itemCombinePos1][itemUses] += -1;
-		itemArray[itemCombinePos2][itemUses] += -1;
-	
-		if((itemArray[itemCombinePos1][itemAmount] <= 0) || (itemArray[itemCombinePos1][itemUses] <= 0))
-	{
-		itemArray[itemCombinePos1][itemType] = itemNone;
-		itemArray[itemCombinePos1][itemAmount] = 0;
-		itemArray[itemCombinePos1][itemUses] = 0;
-	}
-	
-		if((itemArray[itemCombinePos2][itemAmount] <= 0) || (itemArray[itemCombinePos2][itemUses] <= 0))
-	{
-		itemArray[itemCombinePos2][itemType] = itemNone;
-		itemArray[itemCombinePos2][itemAmount] = 0;
-		itemArray[itemCombinePos1][itemUses] = 0;
-	}
+	}*/
 	
 	itemCombineSelect1 = 0;
 	itemCombineSelect2 = 0;
@@ -173,19 +67,6 @@ if(global.combining == 1)
 		itemArray[itemCombinePos1][itemUses] += -1;
 		itemArray[itemCombinePos2][itemUses] += -1;
 	
-		if((itemArray[itemCombinePos1][itemAmount] <= 0) || (itemArray[itemCombinePos1][itemUses] <= 0))
-	{
-		itemArray[itemCombinePos1][itemType] = itemNone;
-		itemArray[itemCombinePos1][itemAmount] = 0;
-		itemArray[itemCombinePos1][itemUses] = 0;
-	}
-	
-		if((itemArray[itemCombinePos2][itemAmount] <= 0) || (itemArray[itemCombinePos2][itemUses] <= 0))
-	{
-		itemArray[itemCombinePos2][itemType] = itemNone;
-		itemArray[itemCombinePos2][itemAmount] = 0;
-		itemArray[itemCombinePos1][itemUses] = 0;
-	}
 	
 	
 	itemCombineSelect1 = 0;
@@ -225,19 +106,6 @@ if(global.combining == 1)
 		itemArray[itemCombinePos1][itemUses] += -1;
 		itemArray[itemCombinePos2][itemUses] += -1;
 	
-		if((itemArray[itemCombinePos1][itemAmount] <= 0) || (itemArray[itemCombinePos1][itemUses] <= 0))
-	{
-		itemArray[itemCombinePos1][itemType] = itemNone;
-		itemArray[itemCombinePos1][itemAmount] = 0;
-		itemArray[itemCombinePos1][itemUses] = 0;
-	}
-	
-		if((itemArray[itemCombinePos2][itemAmount] <= 0) || (itemArray[itemCombinePos2][itemUses] <= 0))
-	{
-		itemArray[itemCombinePos2][itemType] = itemNone;
-		itemArray[itemCombinePos2][itemAmount] = 0;
-		itemArray[itemCombinePos1][itemUses] = 0;
-	}
 	
 	itemCombineSelect1 = 0;
 	itemCombineSelect2 = 0;

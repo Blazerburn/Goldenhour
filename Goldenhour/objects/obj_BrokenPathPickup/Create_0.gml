@@ -23,5 +23,5 @@ choice_variable		= -1;	//the variable we change depending on the player's choice
 
 pathPushableWall = 0;
 
-pathPushableWall = instance_create_layer(x + 0, y + 0, "Instances", PushableWall);
+pathPushableWall = instance_create_layer(x - 16, y - 16, "Instances", PushableWall);
 

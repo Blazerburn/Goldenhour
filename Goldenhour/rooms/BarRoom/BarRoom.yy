@@ -24,6 +24,7 @@
     {"name":"inst_3106C5F8","path":"rooms/BarRoom/BarRoom.yy",},
     {"name":"inst_6B4A41E7","path":"rooms/BarRoom/BarRoom.yy",},
     {"name":"inst_53048FC5","path":"rooms/BarRoom/BarRoom.yy",},
+    {"name":"inst_229CB1EC","path":"rooms/BarRoom/BarRoom.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -36,8 +37,9 @@
         {"$GMRInstance":"v4","%Name":"inst_7BDFC685_7","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":true,"name":"inst_7BDFC685_7","objectId":{"name":"RoomSpawnpoint","path":"objects/RoomSpawnpoint/RoomSpawnpoint.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":192.0,"y":-64.0,},
         {"$GMRInstance":"v4","%Name":"inst_6B4A41E7","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":true,"name":"inst_6B4A41E7","objectId":{"name":"TestTransition","path":"objects/TestTransition/TestTransition.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.0,"scaleY":1.0,"x":96.0,"y":32.0,},
         {"$GMRInstance":"v4","%Name":"inst_53048FC5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_53048FC5","objectId":{"name":"TestSpawnpoint","path":"objects/TestSpawnpoint/TestSpawnpoint.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":128.0,"y":96.0,},
+        {"$GMRInstance":"v4","%Name":"inst_229CB1EC","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_229CB1EC","objectId":{"name":"obj_ShiningCityFirstNumber","path":"objects/obj_ShiningCityFirstNumber/obj_ShiningCityFirstNumber.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":304.0,"y":80.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
-    {"$GMRTileLayer":"","%Name":"Tiles_4","depth":600,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_4","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":8,"SerialiseWidth":16,"TileCompressedData":[-21,-2147483648,-7,0,-9,-2147483648,7,1,5,1,1,2,3,1,-84,-2147483648,],"TileDataFormat":1,},"tilesetId":{"name":"BarRoomTileSet","path":"tilesets/BarRoomTileSet/BarRoomTileSet.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+    {"$GMRTileLayer":"","%Name":"Tiles_4","depth":600,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_4","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":8,"SerialiseWidth":16,"TileCompressedData":[-21,-2147483648,-7,0,-9,-2147483648,8,1,5,1,1,0,3,1,2,-83,-2147483648,],"TileDataFormat":1,},"tilesetId":{"name":"BarRoomTileSet","path":"tilesets/BarRoomTileSet/BarRoomTileSet.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"Tiles_3","depth":700,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_3","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":8,"SerialiseWidth":16,"TileCompressedData":[
           -2,0,1,3,-10,29,1,4,-3,0,2,1,11,-10,37,6,12,2,0,1,9,19,-10,0,7,20,10,30,9,17,0,0,-6,-2147483648,-2,0,
           -2,-2147483648,5,18,38,17,0,0,-11,-2147483648,2,0,46,-3,0,-11,-2147483648,-5,0,-12,-2147483648,-17,0,
@@ -85,7 +87,7 @@
   "roomSettings":{
     "Height":256,
     "inheritRoomSettings":false,
-    "persistent":false,
+    "persistent":true,
     "Width":512,
   },
   "sequenceId":null,

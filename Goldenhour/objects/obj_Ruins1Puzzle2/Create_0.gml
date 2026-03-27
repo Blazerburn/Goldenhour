@@ -23,7 +23,7 @@ choice_variable		= -1;	//the variable we change depending on the player's choice
 
 collision = 0;
 
-collision = instance_create_layer(x + 0, y + 0, "Instances", TestWall);
+collision = instance_create_layer(x - 16, y - 16, "Instances", TestWall);
 with(collision) {
 image_xscale = .49;
 image_yscale = .49;

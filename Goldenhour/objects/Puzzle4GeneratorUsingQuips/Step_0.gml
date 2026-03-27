@@ -92,34 +92,39 @@ if(global.recentlyInteracted == 0)
 {
 	show_debug_message(string("Used correct item"));
 	
-	with(obj_Ruins1Puzzle5Door){
+	with(obj_Ruins1Puzzle4Generator){
 
 	
 	}
 				
 					global.inventoryOpen = 0;
 				
-					variable_instance_set(obj_Ruins1Puzzle5Door, "choice_variable", "Used");
+					variable_instance_set(obj_Ruins1Puzzle4Generator, "choice_variable", "Used");
 					
-					variable_instance_set(obj_Ruins1Puzzle5Door, "puzzleProgress", "1");
+					variable_instance_set(obj_Ruins1Puzzle4Generator, "puzzleProgress", "1");
 					
 					global.usingItem = 0;
+					
+					global.shiningCityPowered = 1;
 					
 					//[change_variable, id, "puzzleProgress", "1"]
 					
 					//script_execute_alt(change_variable( obj_BrokenPathPickup, "choice_variable", "Used"));
 				
 							create_textevent(
-	["You pull out the broken glass shard from your bag", 
-	"It fits perfectly between the cracks and you begin to cut up the gel",
-	"It takes a bit, but eventually you cut enough to be able to open the door"],
+	["You pull out the glowing rock", 
+	"The energy that radiates from it is almost overwhelming",
+	"You hold it up to the machine, and insert it",
+	"The wires in the machine latch onto it, and almost seem to drag it into place",
+	"A small humming rumble radiates from the machine",
+	"It... seems to be powered now"],
 	-1,
 	-1,
 	-1,
 	-1,
 	-1,
 	-1,
-	[[-1], [63, c_yellow, 67, c_white], [-1]],
+	-1,
 	-1,
 	-1,
 	

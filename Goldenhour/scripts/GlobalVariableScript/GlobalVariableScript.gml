@@ -16,6 +16,8 @@ global.RoomSpawnpoints = 1;
 global.currentSong = 0;
 global.roomSong = 0;
 
+global.shiningCityPowered = 0;
+
 
 global.playerFollowers = 0;
 global.shiftText = 0;

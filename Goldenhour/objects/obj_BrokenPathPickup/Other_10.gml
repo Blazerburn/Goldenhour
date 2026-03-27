@@ -144,7 +144,7 @@ switch(choice_variable){
 		myText[i]		= "You can now move the box across it";
 		mySpeaker[i]	= id;
 		
-
+		
 
 		//uncommenting this will make the first conversation begin again
 		//choice_variable	= -1;
