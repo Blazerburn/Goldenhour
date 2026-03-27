@@ -11,55 +11,51 @@ switch(choice_variable){
 		mySpeaker[i]	= id;
 		myTextCol[i]	= [2, c_aqua, 15, c_white];
 		
+		
 		//Line 1
 		i++;
-		myText[i]		= "You slide the numbers to the combination code";
+		myText[i]		= "There's an audible click as the box opens";
+		myEffects[i]	= [20,1, 25,0];
 		mySpeaker[i]	= id;
 		
 		//Line 2
 		i++;
-		myText[i]		= "There's an audible click as the lock opens";
-		myEffects[i]	= [20,1, 25,0];
-		mySpeaker[i]	= id;
-		
-		//Line 3
-		i++;
 		myText[i]		= "You lift the lid off the box and reach in to grab it";
 		mySpeaker[i]	= id;
 		
-		//Line 4
+		//Line 3
 		i++;
 		myText[i]		= "It's a blue glowing rock shaped like a four pointed star";
 		mySpeaker[i]	= id;
 		myTextCol[i]	= [7, c_aqua, 25, c_white];
 
-		//Line 5
+		//Line 4
 		i++;
 		myText[i]		= "You're not sure why, but you feel a strong energy coming from it";
 		mySpeaker[i]	= id;
 
 
-		//Line 6
+		//Line 5
 		i++;
 		myText[i]		= ["Take the Glowing Rock", "Leave it"];
 		myTypes[i]		= 1;
-		myNextLine[i]	= [7,10];
+		myNextLine[i]	= [6,9];
 		myTextCol[i]	= [9,c_aqua, 22,c_white];
 		myScripts[i]	= [[add_item, 0, "Glowing Rock", BioluminescentRock, "Glowing Rock", 1], [change_variable, id, "choice_variable", "Leave"]];
 		mySpeaker[i]	= TestPlayer;
 
-		//Line 7
+		//Line 6
 		i++;
 		myText[i]		= "You grab the glowing rock and put it into your pouch";
 		myTextCol[i]	= [13,c_aqua, 26,c_white];
 		mySpeaker[i]	= id;
 		
-		//Line 8
+		//Line 7
 		i++;
 		myText[i]		= "You can still feel the energy from when you held it";
 		mySpeaker[i]	= id;
 		
-		//Line 9
+		//Line 8
 		i++;
 		myText[i]		= "You got the Glowing Rock!";
 		myNextLine[i]   = -1;
@@ -68,7 +64,7 @@ switch(choice_variable){
 		mySpeaker[i]	= id;
 
 
-		//Line 10
+		//Line 9
 		i++;
 		myText[i]		= "You decide to leave the glowing rock for now";
 		myTextCol[i]	= [24,c_aqua, 37,c_white];
