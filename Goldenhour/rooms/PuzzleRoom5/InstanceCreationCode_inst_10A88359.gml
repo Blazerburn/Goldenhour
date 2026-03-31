@@ -3,4 +3,4 @@
 /// @DnDHash : 0AF944A4
 /// @DnDArgument : "expr" "RuinsPuzzle4BoxPuzzleController"
 /// @DnDArgument : "var" "boxPuzzleController"
-boxPuzzleController = RuinsPuzzle4BoxPuzzleController;
+boxPuzzleController = RuinsPuzzle5BoxPuzzleController;

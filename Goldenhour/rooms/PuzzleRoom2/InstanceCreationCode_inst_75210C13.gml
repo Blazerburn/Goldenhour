@@ -8,6 +8,6 @@
 /// @DnDArgument : "var" "goToRoom"
 /// @DnDArgument : "var_1" "playerSpawnpoint"
 /// @DnDArgument : "var_2" "playerDirection"
-goToRoom = PuzzleRoom1;
+goToRoom = PuzzleRoom3;
 playerSpawnpoint = 2;
 playerDirection = 3;
