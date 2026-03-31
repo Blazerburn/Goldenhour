@@ -12,7 +12,7 @@ if (l5CF0C4C3_0)
 		
 			global.playerAnimating = 1;
 		
-			pushPlayerDIrection = global.globalPlayerDirection;
+			pushPlayerDirection = global.globalPlayerDirection;
 		
 			show_debug_message(string("Pushed Box"));
 		
@@ -24,7 +24,7 @@ if (l5CF0C4C3_0)
 		
 			global.pushingBox = 1;
 		
-			with(TestPlayer1) {
+			/*with(TestPlayer1) {
 				Speed = 1;
 			}
 		
@@ -61,7 +61,7 @@ if (l5CF0C4C3_0)
 				x = pushableBoxOriginX + 48;
 				y = pushableBoxOriginY;
 				}
-}
+}*/
 }
 	}
 }

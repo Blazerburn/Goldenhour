@@ -13,6 +13,8 @@ global.StarterRoomSpawnpoint = 1;
 global.PuzzleRoom1Spawnpoint = 0;
 global.RoomSpawnpoints = 1;
 
+global.pushingBox = 0;
+
 global.currentSong = 0;
 global.roomSong = 0;
 

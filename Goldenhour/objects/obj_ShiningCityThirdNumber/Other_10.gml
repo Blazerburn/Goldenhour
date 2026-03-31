@@ -18,17 +18,7 @@ switch(choice_variable){
 		//Line 2
 		i++;
 		myText[i]		= "And the final result would show a green number 6";
-		myTextCol[i]    = [48, c_green, 50, c_white];
-		mySpeaker[i]	= id;
-		
-		//Line 3
-		i++;
-		myText[i]		= "I also don't know why the number get's bigger like that";
-		mySpeaker[i]	= id;
-		
-		//Line 4
-		i++;
-		myText[i]		= "Don't ask me";
+		myTextCol[i]    = [48, c_lime, 50, c_white];
 		mySpeaker[i]	= id;
 		
 		#endregion

@@ -5,7 +5,7 @@ draw_sprite_ext(dialogue_box, 0, pos_x,pos_y, scale,scale, 0, c_white, 1);
 if (itemSelection == 1) {
 pos_x			= itemSelection_x;
 pos_y			= itemSelection_y;
-draw_sprite_ext(spr_portraitframe, 0, pos_x,pos_y, scale*1.35,scale*.9, 0, c_white, 1);
+draw_sprite_ext(spr_portraitframe, 0, pos_x,pos_y, scale*1.3,scale*.8, 0, c_white, 1);
 }
 
 //Draw portrait

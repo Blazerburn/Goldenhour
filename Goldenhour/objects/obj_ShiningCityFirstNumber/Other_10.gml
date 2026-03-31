@@ -29,7 +29,7 @@ switch(choice_variable){
 		//Line 4
 		i++;
 		myText[i]		= "A blue 5 is painted on the bottom of this stool";
-		myTextCol[i]    = [7, c_blue, 9, c_white];
+		myTextCol[i]    = [7, c_aqua, 9, c_white];
 		mySpeaker[i]	= id;
 		
 		#endregion
@@ -40,7 +40,7 @@ switch(choice_variable){
 		var i = 0;
 		//Line 0
 		myText[i]		= "A blue 5 is painted on the bottom of this stool";
-		myTextCol[i]    = [7, c_blue, 9, c_white];
+		myTextCol[i]    = [7, c_aqua, 9, c_white];
 		mySpeaker[i]	= id;
 		
 		//uncommenting this will make the first conversation begin again

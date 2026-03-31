@@ -2,9 +2,9 @@
 // You can write your code in this editor
 draw_sprite_ext(spr_textbox, -1, pos_x, pos_y, scale * 1.1, scale * .8, 0, c_white, 1);
 draw_text_ext_colour(pos_x + 37, pos_y + textShift, (code1), 100, 1000, c_yellow, c_yellow, c_yellow, c_yellow, 1);
-draw_text_ext_colour(pos_x + 79, pos_y + textShift, (code2), 100, 1000, c_blue, c_blue, c_blue, c_blue, 1);
-draw_text_ext_colour(pos_x + 121, pos_y + textShift, (code3), 100, 1000, c_green, c_green, c_green, c_green, 1);
-draw_text_ext_colour(pos_x + 163, pos_y + textShift, (code4), 100, 1000, c_orange, c_orange, c_orange, c_orange, 1);
+draw_text_ext_colour(pos_x + 79, pos_y + textShift, (code2), 100, 1000, c_aqua, c_aqua, c_aqua, c_aqua, 1);
+draw_text_ext_colour(pos_x + 121, pos_y + textShift, (code3), 100, 1000, c_lime, c_lime, c_lime, c_lime, 1);
+draw_text_ext_colour(pos_x + 163, pos_y + textShift, (code4), 100, 1000, c_red, c_red, c_red, c_red, 1);
 
 global.Immobilize = 1
 global.Talking = 1
@@ -141,7 +141,7 @@ if (interact) {
 		global.Immobilize = 0;
 		global.Talking = 0;
 		
-		instance_create_layer(x - 16, y - 16, "Instances", puzzleObject);
+		//instance_create_layer(x - 16, y - 16, "Instances", puzzleObject);
 		with (puzzleObject) {
 			puzzleProgress = progress;
 		}

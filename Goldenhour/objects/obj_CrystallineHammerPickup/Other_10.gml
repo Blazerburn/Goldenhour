@@ -37,7 +37,7 @@ switch(choice_variable){
 		
 		//Line 5
 		i++;
-		myText[i]		= "You got the Crystal Rock!";
+		myText[i]		= "You got the Crystal Hammer!";
 		myNextLine[i]   = -1;
 		myScripts[i]    = [change_variable, id, "choice_variable", "Take"];
 		mySpeaker[i]	= id;
@@ -88,7 +88,7 @@ switch(choice_variable){
 		
 		//Line 3
 		i++;
-		myText[i]		= "You got the Crystal Rock!";
+		myText[i]		= "You got the Crystal Hammer!";
 		myNextLine[i]   = -1;
 		myScripts[i]    = [change_variable, id, "choice_variable", "Take"];
 		mySpeaker[i]	= id;

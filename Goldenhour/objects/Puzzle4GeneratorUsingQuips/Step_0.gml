@@ -18,7 +18,7 @@ if(global.recentlyInteracted == 0)
 	-1,
 	-1,
 	-1,
-	[[-1], [-1], [75, c_yellow, 79, c_white]],
+	[[-1], [-1], [78, c_yellow, 81, c_white]],
 	-1,
 	-1,
 );
@@ -57,6 +57,30 @@ if(global.recentlyInteracted == 0)
 	["You place the rock into the opening",
 	"It's way too small to be what goes here",
 	"You grab the rock and put it into your bag"],
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	
+);
+			
+				global.itemCheck = 0;
+			
+				exit;
+}
+
+			if(global.itemWrongType == itemSecretBook10thHour)
+{
+		create_textevent(
+	["The book is glowing for some reason",
+	"You flip it open, and the front page actually has something on it",
+	"A sketch of this generator is drawn",
+	"The only difference between what you're looking at, and the drawing is a blue glowing rock in the center"],
 	-1,
 	-1,
 	-1,

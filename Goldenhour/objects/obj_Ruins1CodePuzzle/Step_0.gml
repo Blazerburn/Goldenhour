@@ -17,7 +17,7 @@ if (puzzleProgress == 1) {
 	-1,
 );
 var trapdoor = 0
-trapdoor = instance_create_layer(x, y, "Instances", TestInteractTransition);
+trapdoor = instance_create_layer(x - 16, y - 16, "Instances", TestInteractTransition);
 with (trapdoor) {
 	goToRoom = HideoutRoom2;
 	playerSpawnpoint = 1;

@@ -5,29 +5,17 @@ show_debug_message(string("Item combine type 1:") + @"
 
 if(global.combining == 1)
 {
+	/// Items that WORK
 	/// Change the itemcombiningtypes, and what item it creates
 	if ((global.itemCombiningType1 == "Strange Gel" || global.itemCombiningType1 == "Broken Path") && (global.itemCombiningType2 == "Strange Gel" || global.itemCombiningType2 == "Broken Path"))
 	{
 		show_debug_message("Right items")
 		global.combining = 0;
 	
-	with(TestPlayer) {
-		itemArray[itemCombinePos1][itemUses] += -1;
-		itemArray[itemCombinePos2][itemUses] += -1;
-	
-	/*	if((itemArray[itemCombinePos1][itemAmount] <= 0) || (itemArray[itemCombinePos1][itemUses] <= 0))
-	{
-		//itemArray[itemCombinePos1][itemType] = itemNone;
-		//itemArray[itemCombinePos1][itemAmount] = 0;
-		//itemArray[itemCombinePos1][itemUses] = 0;
-	}
-	
-		if((itemArray[itemCombinePos2][itemAmount] <= 0) || (itemArray[itemCombinePos2][itemUses] <= 0))
-	{
-		itemArray[itemCombinePos2][itemType] = itemNone;
-		itemArray[itemCombinePos2][itemAmount] = 0;
-		itemArray[itemCombinePos1][itemUses] = 0;
-	}*/
+	with(TestPlayer) {	
+								
+		remove_item(itemCombinePos1);
+		remove_item(itemCombinePos2);
 	
 	itemCombineSelect1 = 0;
 	itemCombineSelect2 = 0;
@@ -64,8 +52,8 @@ if(global.combining == 1)
 		global.combining = 0;
 	
 	with(TestPlayer) {
-		itemArray[itemCombinePos1][itemUses] += -1;
-		itemArray[itemCombinePos2][itemUses] += -1;
+		remove_item(itemCombinePos1);
+		remove_item(itemCombinePos2);
 	
 	
 	
@@ -103,8 +91,8 @@ if(global.combining == 1)
 		global.combining = 0;
 	
 	with(TestPlayer) {
-		itemArray[itemCombinePos1][itemUses] += -1;
-		itemArray[itemCombinePos2][itemUses] += -1;
+		remove_item(itemCombinePos1);
+		remove_item(itemCombinePos2);
 	
 	
 	itemCombineSelect1 = 0;
@@ -137,11 +125,120 @@ if(global.combining == 1)
 	instance_destroy();
 	}
 	
+	/// Items that DON'T WORK
+	
+	if ((global.itemCombiningType1 == itemStrangeGel || global.itemCombiningType1 == itemFixedPath) && (global.itemCombiningType2 == itemStrangeGel || global.itemCombiningType2 == itemFixedPath))
+	{
+		show_debug_message("Wrong items")
+	
+	
+		create_textevent(
+		["It's uh... already stuck together", 
+		"And it doesn't seem like it needs anymore"],
+		-1,
+		-1,
+		-1,
+		-1,
+		-1,
+		-1,
+		-1,
+		-1,
+		-1,
+	);
+	instance_destroy();
+	}
+	
+	if ((global.itemCombiningType1 == itemStrangeGel || global.itemCombiningType1 == itemStickyStick) && (global.itemCombiningType2 == itemStrangeGel || global.itemCombiningType2 == itemStickyStick))
+	{
+		show_debug_message("Wrong items")
+	
+	
+		create_textevent(
+		["It is already slathered in the gel", 
+		"And it doesn't seem like it needs anymore"],
+		-1,
+		-1,
+		-1,
+		-1,
+		-1,
+		-1,
+		-1,
+		-1,
+		-1,
+	);
+	instance_destroy();
+	}
+	
+	if ((global.itemCombiningType1 == itemStrangeGel || global.itemCombiningType1 == itemMakeshiftAxe) && (global.itemCombiningType2 == itemStrangeGel || global.itemCombiningType2 == itemMakeshiftAxe))
+	{
+		show_debug_message("Wrong items")
+	
+	
+		create_textevent(
+		["It seems to already have enough of the gel on it to keep it together"],
+		-1,
+		-1,
+		-1,
+		-1,
+		-1,
+		-1,
+		-1,
+		-1,
+		-1,
+	);
+	instance_destroy();
+	}
+	
+	if ((global.itemCombiningType1 == itemStrangeGel || global.itemCombiningType1 == itemSecretBook10thHour) && (global.itemCombiningType2 == itemStrangeGel || global.itemCombiningType2 == itemSecretBook10thHour))
+	{
+		show_debug_message("Wrong items")
+	
+	
+		create_textevent(
+		["You probably shouldn't stick the pages together", 
+		"Although... that could be pretty funny if anyone found it",
+		"...",
+		"No you probably shouldn't do that"],
+		-1,
+		-1,
+		-1,
+		-1,
+		-1,
+		-1,
+		-1,
+		-1,
+		-1,
+	);
+	instance_destroy();
+	}
+	
+	if ((global.itemCombiningType1 == itemCrystallineHammer || global.itemCombiningType1 == itemBrokenGlassShard) && (global.itemCombiningType2 == itemCrystallineHammer || global.itemCombiningType2 == itemBrokenGlassShard))
+	{
+		show_debug_message("Wrong items")
+	
+	
+		create_textevent(
+		["You probably shouldn't break the glass unless you know you need to", 
+		"It seems very... permanent"],
+		-1,
+		-1,
+		-1,
+		-1,
+		-1,
+		-1,
+		-1,
+		-1,
+		-1,
+	);
+	instance_destroy();
+	}
+	
+	
 	else 
 	{
 		show_debug_message(string("Wrong item"))
 		create_textevent(
-		["That doesn't work"],
+		["You don't want to try that unless you have a reason to"],
 		-1,
 		-1,
 		-1,

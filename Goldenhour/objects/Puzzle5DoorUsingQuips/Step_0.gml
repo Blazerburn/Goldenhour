@@ -50,6 +50,31 @@ if(global.recentlyInteracted == 0)
 				exit;
 }
 
+			if(global.itemWrongType == itemSecretBook10thHour)
+{
+		create_textevent(
+	["You don't know how to use the book to open the door",
+	"So uh...",
+	"You flip open the book",
+	"The pages are blank",
+	"...",
+	"Great"],
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	
+);
+			
+				global.itemCheck = 0;
+			
+				exit;
+}
 
 }
 	

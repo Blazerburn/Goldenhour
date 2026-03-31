@@ -128,6 +128,27 @@ if(global.recentlyInteracted == 0)
 				exit;
 }
 
+			if(global.itemWrongType == itemSecretBook10thHour)
+{
+		create_textevent(
+	["How..?"],
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	
+);
+			
+				global.itemCheck = 0;
+			
+				exit;
+}
+
 }
 	
 		else

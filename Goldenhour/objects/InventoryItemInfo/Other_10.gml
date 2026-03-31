@@ -183,7 +183,7 @@ if (itemSelectedType = itemSecretBook10thHour) {
     [0, 0, 1, 0, 0, 0, 0, 0, 0, 0],                                                                   //myTypes
     [0, 0, [3, -1], 0, 0, 0, 0, 0, 0, -1],                                                            //myNextLine
     -1,                                                                                            //myScripts
-    -1,                                                                                            //myTextCol
+    [[-1], [-1], [-1], [-1], [39, c_yellow, 41, c_white], [-1], [-1], [-1], [-1], [-1]],                                                                                            //myTextCol
     -1,                                                                   //myEmotion
     -1                                                                                             //myEmote
     );

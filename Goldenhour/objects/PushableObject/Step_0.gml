@@ -15,8 +15,13 @@ if(objectID == interactedBoxID)
 		
 			var xinput = right - left;
 			var yinput = down - up;
-		
-			move_and_collide(xinput * 1, yinput * 1, [PushableWall],4,0,0,1,1);
+			
+			if (pushPlayerDirection == 0 || pushPlayerDirection == 2) {
+			move_and_collide(xinput * .25, yinput * 1, [PushableWall],4,0,0,1,1);
+			}
+			if (pushPlayerDirection == 1 || pushPlayerDirection == 3) {
+			move_and_collide(xinput * 1, yinput * .25, [PushableWall],4,0,0,1,1);
+			}
 		
 			with(pushBoxCollision) {
 			x = pushableBoxOriginX + 3;
@@ -27,7 +32,7 @@ if(objectID == interactedBoxID)
 			y = pushableBoxOriginY + 2;
 			}
 		
-			if(pushPlayerDIrection == 0)
+			if(pushPlayerDirection == 0)
 {
 	with(TestPlayer) {
 				x = pushableBoxOriginX + 16;
@@ -51,7 +56,7 @@ if(objectID == interactedBoxID)
 		
 			else
 {
-	if(pushPlayerDIrection == 1)
+	if(pushPlayerDirection == 1)
 {
 	with(TestPlayer) {
 					x = pushableBoxOriginX - 16;
@@ -75,7 +80,7 @@ if(objectID == interactedBoxID)
 			
 				else
 {
-	if(pushPlayerDIrection == 2)
+	if(pushPlayerDirection == 2)
 {
 	with(TestPlayer) {
 						x = pushableBoxOriginX + 16;
@@ -99,7 +104,7 @@ if(objectID == interactedBoxID)
 				
 					else
 {
-	if(pushPlayerDIrection == 3)
+	if(pushPlayerDirection == 3)
 {
 	with(TestPlayer) {
 							x = pushableBoxOriginX + 48;

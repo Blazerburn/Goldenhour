@@ -1,4 +1,4 @@
-pushPlayerDIrection = 0;
+pushPlayerDirection = 0;
 interactedBoxID = 0;
 
 pushableBoxOriginX = 0;

@@ -81,11 +81,13 @@ if(global.recentlyInteracted == 0)
 									if(itemArray[itemSelected][itemUses] <= 0)
 {
 	itemArray[itemSelected][itemAmount] += -1;
+	show_debug_message("No uses")
 }
 								
 									if(itemArray[itemSelected][itemAmount] <= 0)
 {
 	itemArray[itemSelected][itemType] = itemNone;
+	show_debug_message("No amount")
 }
 								
 									global.itemCheck = 2;

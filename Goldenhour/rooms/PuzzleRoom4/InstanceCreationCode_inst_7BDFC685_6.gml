@@ -8,11 +8,11 @@ if(global.RoomSpawnpoints == 1){	/// @DnDAction : YoYo Games.Instances.Create_
 	/// @DnDHash : 09972AC6
 	/// @DnDParent : 54620D23
 	/// @DnDArgument : "xpos" "32"
-	/// @DnDArgument : "ypos" "320"
+	/// @DnDArgument : "ypos" "256"
 	/// @DnDArgument : "objectid" "TestPlayer"
 	/// @DnDArgument : "layer" ""Player""
 	/// @DnDSaveInfo : "objectid" "TestPlayer"
-	instance_create_layer(32, 320, "Player", TestPlayer);}
+	instance_create_layer(32, 256, "Player", TestPlayer);}
 
 /// @DnDAction : YoYo Games.Common.Else
 /// @DnDVersion : 1
@@ -27,12 +27,12 @@ else{	/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 4843F3DE
 		/// @DnDParent : 5C63F3BF
-		/// @DnDArgument : "xpos" "256"
-		/// @DnDArgument : "ypos" "128"
+		/// @DnDArgument : "xpos" "192"
+		/// @DnDArgument : "ypos" "64"
 		/// @DnDArgument : "objectid" "TestPlayer"
 		/// @DnDArgument : "layer" ""Player""
 		/// @DnDSaveInfo : "objectid" "TestPlayer"
-		instance_create_layer(256, 128, "Player", TestPlayer);}
+		instance_create_layer(192, 64, "Player", TestPlayer);}
 
 	/// @DnDAction : YoYo Games.Common.Else
 	/// @DnDVersion : 1
@@ -48,12 +48,12 @@ else{	/// @DnDAction : YoYo Games.Common.If_Variable
 			/// @DnDVersion : 1
 			/// @DnDHash : 2ED576D3
 			/// @DnDParent : 5B3023CE
-			/// @DnDArgument : "xpos" "480"
-			/// @DnDArgument : "ypos" "320"
+			/// @DnDArgument : "xpos" "352"
+			/// @DnDArgument : "ypos" "256"
 			/// @DnDArgument : "objectid" "TestPlayer"
 			/// @DnDArgument : "layer" ""Player""
 			/// @DnDSaveInfo : "objectid" "TestPlayer"
-			instance_create_layer(480, 320, "Player", TestPlayer);}
+			instance_create_layer(352, 256, "Player", TestPlayer);}
 	
 		/// @DnDAction : YoYo Games.Common.Else
 		/// @DnDVersion : 1
@@ -69,9 +69,9 @@ else{	/// @DnDAction : YoYo Games.Common.If_Variable
 				/// @DnDVersion : 1
 				/// @DnDHash : 7C8141F8
 				/// @DnDParent : 3C5A28CF
-				/// @DnDArgument : "xpos" "256"
-				/// @DnDArgument : "ypos" "480"
+				/// @DnDArgument : "xpos" "192"
+				/// @DnDArgument : "ypos" "352"
 				/// @DnDArgument : "objectid" "TestPlayer"
 				/// @DnDArgument : "layer" ""Player""
 				/// @DnDSaveInfo : "objectid" "TestPlayer"
-				instance_create_layer(256, 480, "Player", TestPlayer);}}}}
+				instance_create_layer(192, 352, "Player", TestPlayer);}}}}

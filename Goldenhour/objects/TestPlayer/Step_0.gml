@@ -329,6 +329,8 @@ else {
 	audio_resume_sound(inventoryLoop && inventoryBeginning);
 }
 
+
+
 if(global.playerFollowers == 1)
 {
 	/// @description Execute Code
