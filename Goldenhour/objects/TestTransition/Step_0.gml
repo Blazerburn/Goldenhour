@@ -3,8 +3,8 @@
 var xScale = image_xscale;
 var yScale = image_yscale;
 
-show_debug_message(xScale);
-show_debug_message(yScale);
+//show_debug_message(xScale);
+//show_debug_message(yScale);
 if (point_in_rectangle(TestPlayer.x, TestPlayer.y, x, y, x+32*xScale, y+32*yScale) || point_in_rectangle(TestPlayer.x, TestPlayer.y + 22, x, y, x+32*xScale, y+32*yScale)) {
 if(global.recentlyInteracted == 0)
 {

@@ -343,6 +343,7 @@
     {"name":"TextBox","order":15,"path":"sprites/TextBox/TextBox.yy",},
     {"name":"TreeBaseTileSetSprite","order":8,"path":"sprites/TreeBaseTileSetSprite/TreeBaseTileSetSprite.yy",},
     {"name":"TreeSidesTileSetSprite","order":10,"path":"sprites/TreeSidesTileSetSprite/TreeSidesTileSetSprite.yy",},
+    {"name":"TreeTopsRightTileSetSprite","order":13,"path":"sprites/TreeTopsRightTileSetSprite/TreeTopsRightTileSetSprite.yy",},
     {"name":"TreeTopsTileSetSprite","order":9,"path":"sprites/TreeTopsTileSetSprite/TreeTopsTileSetSprite.yy",},
     {"name":"ValsoHeadshotNormal","order":1,"path":"sprites/ValsoHeadshotNormal/ValsoHeadshotNormal.yy",},
     {"name":"ValsoHeadshotTalking","order":3,"path":"sprites/ValsoHeadshotTalking/ValsoHeadshotTalking.yy",},
@@ -363,6 +364,7 @@
     {"name":"TileSet15","order":12,"path":"tilesets/TileSet15/TileSet15.yy",},
     {"name":"TreeBaseTileSet","order":1,"path":"tilesets/TreeBaseTileSet/TreeBaseTileSet.yy",},
     {"name":"TreeSideTileSet","order":3,"path":"tilesets/TreeSideTileSet/TreeSideTileSet.yy",},
+    {"name":"TreeTopeRightTileSet","order":7,"path":"tilesets/TreeTopeRightTileSet/TreeTopeRightTileSet.yy",},
     {"name":"TreeTopTileSet","order":2,"path":"tilesets/TreeTopTileSet/TreeTopTileSet.yy",},
   ],
 }
