@@ -268,3 +268,10 @@ else
 	
 	instance_destroy();
 }
+
+	itemCombineSelect1 = 0;
+	itemCombineSelect2 = 0;
+	itemCombinePos1 = 0;
+	itemCombinePos2 = 0;
+	itemCombineType1 = 0;
+	itemCombineType2 = 0;
