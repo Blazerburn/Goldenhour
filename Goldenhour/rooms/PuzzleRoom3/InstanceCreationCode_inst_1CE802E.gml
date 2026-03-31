@@ -1,6 +1,6 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 66149631
-/// @DnDArgument : "expr" "RuinsPuzzle1BoxPuzzleController"
+/// @DnDArgument : "expr" "RuinsPuzzle3BoxPuzzleController"
 /// @DnDArgument : "var" "boxPuzzleController"
-boxPuzzleController = RuinsPuzzle1BoxPuzzleController;
+boxPuzzleController = RuinsPuzzle3BoxPuzzleController;

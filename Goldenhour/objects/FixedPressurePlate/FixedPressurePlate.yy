@@ -1,17 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"RuinsPuzzle3BoxPuzzleController",
+  "%Name":"FixedPressurePlate",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":10,"eventType":7,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"PushableObject","path":"objects/PushableObject/PushableObject.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":7,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"RuinsPuzzle3BoxPuzzleController",
+  "name":"FixedPressurePlate",
   "overriddenProperties":[],
   "parent":{
-    "name":"Box Puzzles",
-    "path":"folders/Objects/Puzzles/Puzzle Controllers/Ruins/Box Puzzles.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,7 +31,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"BoxPressurePlate",
+    "path":"sprites/BoxPressurePlate/BoxPressurePlate.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
