@@ -12,7 +12,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Ruins",
-    "path":"folders/Objects/Puzzles/Puzzle Controllers/Ruins.yy",
+    "path":"folders/Objects/Puzzles/Interactables/Ruins.yy",
   },
   "parentObjectId":{
     "name":"par_speaker",
@@ -40,5 +40,8 @@
     "path":"sprites/TestSparkles/TestSparkles.yy",
   },
   "spriteMaskId":null,
+  "tags":[
+    "Interactable",
+  ],
   "visible":true,
 }

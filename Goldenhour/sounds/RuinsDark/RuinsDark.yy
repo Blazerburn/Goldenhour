@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":165.3526,
+  "duration":171.83347,
   "exportDir":"",
   "name":"RuinsDark",
   "parent":{

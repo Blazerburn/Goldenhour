@@ -190,6 +190,26 @@ if(global.combining == 1)
 	instance_destroy();
 	}
 	
+		if ((global.itemCombiningType1 == itemStrangeGel || global.itemCombiningType1 == itemChiselRock) && (global.itemCombiningType2 == itemStrangeGel || global.itemCombiningType2 == itemChiselRock))
+	{
+		show_debug_message("Wrong items")
+	
+	
+		create_textevent(
+		["If you wanted to attach this to something, it might be better to cover that thing in gel, and then attach this"],
+		-1,
+		-1,
+		-1,
+		-1,
+		-1,
+		-1,
+		-1,
+		-1,
+		-1,
+	);
+	instance_destroy();
+	}
+	
 	if ((global.itemCombiningType1 == itemStrangeGel || global.itemCombiningType1 == itemSecretBook10thHour) && (global.itemCombiningType2 == itemStrangeGel || global.itemCombiningType2 == itemSecretBook10thHour))
 	{
 		show_debug_message("Wrong items")

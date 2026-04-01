@@ -40,5 +40,8 @@
     "path":"sprites/TestSparkles/TestSparkles.yy",
   },
   "spriteMaskId":null,
+  "tags":[
+    "Interactable",
+  ],
   "visible":true,
 }
