@@ -324,9 +324,11 @@ if (global.inventoryOpen = 0) {
 	audio_exists(inventoryLoop || inventoryBeginning) {
 		audio_pause_sound(inventoryLoop && inventoryBeginning);
 	}
+
 }
 else {
 	audio_resume_sound(inventoryLoop && inventoryBeginning);
+	global.Immobilize = 1;
 }
 
 

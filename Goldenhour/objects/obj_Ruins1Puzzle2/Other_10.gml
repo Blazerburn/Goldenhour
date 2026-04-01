@@ -21,7 +21,7 @@ switch(choice_variable){
 		myText[i]		= ["Open your bag", "Leave it for now"];
 		myTypes[i]		= 1;
 		myNextLine[i]	= [-1,3];
-		myScripts[i]	= [[use_item, "Broken Glass", Puzzle2UsingQuips], [change_variable, id, "choice_variable", "Leave"]];
+		myScripts[i]	= [[use_item, itemBrokenGlassShard, Puzzle2UsingQuips], [change_variable, id, "choice_variable", "Leave"]];
 		mySpeaker[i]	= TestPlayer;
 
 
@@ -50,7 +50,7 @@ switch(choice_variable){
 		myText[i]		= ["Open your bag", "Leave it for now"];
 		myTypes[i]		= 1;
 		myNextLine[i]	= [-1,0];
-		myScripts[i]	= [[use_item, "Broken Glass Shard", Puzzle2UsingQuips], [change_variable, id, "choice_variable", "Leave"]];
+		myScripts[i]	= [[use_item, itemBrokenGlassShard, Puzzle2UsingQuips], [change_variable, id, "choice_variable", "Leave"]];
 		mySpeaker[i]	= TestPlayer;
 
 

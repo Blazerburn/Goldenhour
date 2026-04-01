@@ -3,6 +3,7 @@ show_debug_message(string("Item combine type 1:") + @"
 " + string("Item combine type 2:") + @"
 " + string(global.itemCombiningType2));
 
+
 if(global.combining == 1)
 {
 	/// Items that WORK
