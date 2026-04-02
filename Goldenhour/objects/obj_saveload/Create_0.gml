@@ -29,7 +29,7 @@ global.levelData =
 	RightStreet : 0,
 }
 
-global.interactableArray = 0;
+global.roomInstances = 0;
 // Array with all of the interactables in it
 // Detect which of these in the array exist in the room
 // Then collect the puzzle_progress and choice_variable on save

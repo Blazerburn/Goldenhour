@@ -447,8 +447,8 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"PersistentRoom","path":"rooms/PersistentRoom/PersistentRoom.yy",},},
     {"roomId":{"name":"PuzzleRoom1","path":"rooms/PuzzleRoom1/PuzzleRoom1.yy",},},
-    {"roomId":{"name":"StarterRoom1","path":"rooms/StarterRoom1/StarterRoom1.yy",},},
     {"roomId":{"name":"PuzzleRoom2","path":"rooms/PuzzleRoom2/PuzzleRoom2.yy",},},
+    {"roomId":{"name":"StarterRoom1","path":"rooms/StarterRoom1/StarterRoom1.yy",},},
     {"roomId":{"name":"StatueRoom","path":"rooms/StatueRoom/StatueRoom.yy",},},
     {"roomId":{"name":"StarterRoom2","path":"rooms/StarterRoom2/StarterRoom2.yy",},},
     {"roomId":{"name":"CastleEntrance","path":"rooms/CastleEntrance/CastleEntrance.yy",},},

@@ -60,7 +60,7 @@ switch(choice_variable){
 		i++;
 		myText[i]		= "You got the Broken Glass!";
 		myNextLine[i]   = -1;
-		myScripts[i]    = [change_variable, id, "choice_variable", "Take"];
+		myScripts[i]    = [change_variable, id, "choice_variable", "Destroy"];
 		mySpeaker[i]	= id;
 
 
@@ -119,7 +119,7 @@ switch(choice_variable){
 		i++;
 		myText[i]		= "You got the Broken Glass!";
 		myNextLine[i]   = -1;
-		myScripts[i]    = [change_variable, id, "choice_variable", "Take"];
+		myScripts[i]    = [change_variable, id, "choice_variable", "Destroy"];
 		mySpeaker[i]	= id;
 
 
