@@ -35,7 +35,7 @@ var cname = name[page]
 
 if(cname != "None"){
 	//Draw namebox
-	draw_sprite_ext(name_box, 0, name_box_x,name_box_y, scale,scale, 0, c_white, 1);
+	draw_sprite_ext(name_box, 0, name_box_x,name_box_y, scale,scale*.9, 0, c_white, 1);
 	
 	//Draw name text
 	c = name_col;

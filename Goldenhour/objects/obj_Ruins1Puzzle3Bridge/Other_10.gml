@@ -16,7 +16,7 @@ switch(choice_variable){
 		myText[i]		= ["Push the box", "Keep the box"];
 		myTypes[i]		= 1;
 		myNextLine[i]	= [3,2];
-		myScripts[i]	= [[change_variable, id, "choice_variable", "Push"], [change_variable, id, "choice_variable", "-1"]];
+		myScripts[i]	= [[change_variable, id, "puzzleProgress", "1"], [change_variable, id, "choice_variable", "-1"]];
 		mySpeaker[i]	= TestPlayer;
 		
 		//Line 2
@@ -43,6 +43,7 @@ switch(choice_variable){
 		//Line 6
 		i++;
 		myText[i]		= "You might be able to cross it now";
+		myScripts[i]    = [change_variable, id, "choice_variable", "Push"];
 		mySpeaker[i]	= id;
 
 		#endregion

@@ -36,6 +36,7 @@ function save_room()
 			_roomStruct.boxData[i] ={
 				x : _inst.x,
 				y : _inst.y,
+				id : _inst.id,
 			}
 		}
 		
@@ -101,35 +102,44 @@ function load_room()
 	if room == StreetRoom3 {_roomStruct = global.levelData.RightStreet;};
 	
 	
-	
 	// Exit if _roomstruct isn't a struct
 	if !is_struct(_roomStruct) {exit;};
 	
 	// Push Boxes - Get rid of both the boxes and the box spawners
 	//Then create new box spawners where the boxes were
-	if instance_exists(PushableObject) {instance_destroy(PushableObject); 
-		instance_destroy(PushableObject.pathCollision);
-		instance_destroy(PushableObject.pushBoxCollision);
-		};
-	//if instance_exists(PushableObject.pathCollision) {instance_destroy(PushableObject.pathCollision); };
-	//if instance_exists(PushableObject.pushBoxCollision) {instance_destroy(PushableObject.pushBoxCollision); };
-	if instance_exists(PushableObjectSpawner) {instance_destroy(PushableObjectSpawner); 
+	for (var i = 0; i < _roomStruct.boxNum; i++) {
+	if instance_exists(PushableObject) {
+		layer_destroy_instances("Box");
+		//instance_destroy(PushableObject.pathCollision);
+		//instance_destroy(PushableObject.pushBoxCollision);
+		//instance_destroy(PushableObject);
+		}
+	};
+	///with (PushableObject) {
+	//	instance_destroy(pathCollision);
+	//	instance_destroy(pushBoxCollision);
+	//}
+	
+	if instance_exists(PushableObjectSpawner) {instance_destroy(PushableObjectSpawner); };
 			for (var i = 0; i < _roomStruct.boxNum; i++) {
 				instance_create_layer(_roomStruct.boxData[i].x, _roomStruct.boxData[i].y, layer, PushableObjectSpawner)
+				show_debug_message(_roomStruct.boxData[i].x);
+				show_debug_message(_roomStruct.boxData[i].y);
 			}
-		};
+		
 	
 	
 	// Interactables - Change the variables to what they were
 	//if instance_exists(par_speaker) {instance_destroy(par_speaker); };
 	
 	for (var i = 0; i < _roomStruct.intNum; i++) {
-		if (_roomStruct.intData[i]._choice_variable = "Destroy") {instance_deactivate_object(_roomStruct.intData[i].id);};
+		
 		//if !(_roomStruct.intData[i]._choice_variable = "Destroy") {instance_create_layer(_roomStruct.intData[i].x, _roomStruct.intData[i].y, layer, _roomStruct.intData[i].id)}
 		with (_roomStruct.intData[i].id) {
 			choice_variable = _roomStruct.intData[i]._choice_variable;
 			puzzleProgress = _roomStruct.intData[i]._puzzleProgress;
 		}
+		//if (_roomStruct.intData[i]._choice_variable = "Destroy") {instance_deactivate_object(_roomStruct.intData[i].id);};
 		show_debug_message(_roomStruct.intData[i]._choice_variable);
 		show_debug_message(_roomStruct.intData[i]._puzzleProgress);
 	}

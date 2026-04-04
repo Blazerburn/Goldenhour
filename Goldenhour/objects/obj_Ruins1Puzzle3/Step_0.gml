@@ -2,7 +2,7 @@ event_inherited(); //so it will inherit from par_speaker
 
 
 if (puzzleProgress = 2){
-	instance_destroy();
+	instance_deactivate_object(self);
 	instance_destroy(pushCollision);
 }
 

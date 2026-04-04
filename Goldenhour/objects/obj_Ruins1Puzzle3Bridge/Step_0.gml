@@ -20,9 +20,12 @@ else {
 }
 }
 
-if (choice_variable = "Push") {
+if (puzzleProgress = 1) {
 	global.pushingBox = 0;
 	global.playerAnimating = 0;
+	with (par_speaker) {
+		playerobject = TestPlayer;
+	}
 	with (PushableObject) {
 		instance_destroy(pushBoxCollision);
 		instance_destroy(pathCollision);
@@ -30,7 +33,7 @@ if (choice_variable = "Push") {
 	instance_destroy(PushableObject);
 	instance_destroy(collision);
 	instance_destroy(pushCollision);
-
+	choice_variable = "Push";
 }
 
 /*if(createWall = 0) {

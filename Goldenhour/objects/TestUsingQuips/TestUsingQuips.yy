@@ -9,7 +9,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"ItemUseQuips",
-    "path":"folders/Objects/GUI/FC_DialogueSystem/ItemUseQuips.yy",
+    "path":"folders/Objects/Puzzles/Puzzle Controllers/Ruins/Item Use/ItemUseQuips.yy",
   },
   "parentObjectId":null,
   "persistent":false,

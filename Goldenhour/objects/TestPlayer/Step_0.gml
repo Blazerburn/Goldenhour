@@ -95,15 +95,25 @@ else
 
 if(global.Immobilize == 0)
 {
-	var right = keyboard_check(vk_right) or keyboard_check(ord("D"));
-	var left = keyboard_check(vk_left) or keyboard_check(ord("A"));
-	var up = keyboard_check(vk_up) or keyboard_check(ord("W"));
-	var down = keyboard_check(vk_down) or keyboard_check(ord("S"));
+	var right = keyboard_check(ord("D"));
+	var left = keyboard_check(ord("A"));
+	var up = keyboard_check(ord("W"));
+	var down = keyboard_check(ord("S"));
 
 	var xinput = right - left;
 	var yinput = down - up;
+	
+	var _dist = point_distance(0, 0, xinput, yinput);
+	if (_dist > 0) {
+		xinput /= _dist;
+		yinput /= _dist;
+	}
+	
+	
 
 	move_and_collide(xinput * Speed, yinput * Speed, [TestWall],4,0,0,Speed,Speed);
+	x = round(x);
+	y = round(y);
 
 	var l601DB0A5_0;
 l601DB0A5_0 = keyboard_check_pressed(ord("W"));

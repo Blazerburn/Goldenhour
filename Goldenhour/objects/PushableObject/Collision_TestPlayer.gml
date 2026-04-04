@@ -14,13 +14,13 @@ if (l5CF0C4C3_0)
 		
 			pushPlayerDirection = global.globalPlayerDirection;
 		
-			show_debug_message(string("Pushed Box"));
+			//show_debug_message(string("Pushed Box"));
 		
-			show_debug_message(string(global.globalPlayerDirection));
+			//show_debug_message(string(global.globalPlayerDirection));
 		
 			interactedBoxID = objectID;
 		
-			show_debug_message(string(interactedBoxID));
+			//show_debug_message(string(interactedBoxID));
 		
 			global.pushingBox = 1;
 		

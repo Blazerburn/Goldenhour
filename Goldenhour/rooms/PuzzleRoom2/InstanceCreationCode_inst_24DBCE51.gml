@@ -1,1 +1,0 @@
-boxPuzzleController = RuinsPuzzle2BoxPuzzleController;

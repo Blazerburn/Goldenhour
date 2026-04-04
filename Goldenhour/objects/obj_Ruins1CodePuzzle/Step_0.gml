@@ -16,6 +16,9 @@ if (puzzleProgress == 1) {
 	-1,
 	-1,
 );
+puzzleProgress = 2;
+}
+if (puzzleProgress == 2) {
 var trapdoor = 0
 trapdoor = instance_create_layer(x - 16, y - 16, "Instances", TestInteractTransition);
 with (trapdoor) {
@@ -23,7 +26,7 @@ with (trapdoor) {
 	playerSpawnpoint = 1;
 	playerDirection = 2;
 }
-instance_destroy();
+instance_deactivate_object(self);
 }
 
 

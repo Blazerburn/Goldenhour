@@ -9,7 +9,7 @@ interact_key		= vk_space;
 up_key				= ord("W");		//for dialogue choices
 down_key			= ord("S");		//for dialogue choices
 
-scale				= 3.2;
+scale				= 3.3;
 x_buffer			= 10 * scale;
 if(global.shiftText = 0){
 y_buffer			= 5 * scale;
@@ -97,7 +97,7 @@ show_debug_message(gb_diff);
 */
 
 name_box_x		= pos_x + (8 * scale);
-name_box_y		= pos_y - (23 * scale);
+name_box_y		= pos_y - (23 * scale*.9);
 name_box_text_x = name_box_x + ((sprite_get_width(name_box)*scale)/2);
 name_box_text_y = name_box_y + y_buffer;
 

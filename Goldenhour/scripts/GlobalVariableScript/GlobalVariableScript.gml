@@ -13,11 +13,15 @@ global.StarterRoomSpawnpoint = 1;
 global.PuzzleRoom1Spawnpoint = 0;
 global.RoomSpawnpoints = 1;
 
+// Push Objects
+global.pressurePlatesActive = 0;
 global.pushingBox = 0;
 
+// Music
 global.currentSong = 0;
 global.roomSong = 0;
 
+// Environment Specific Events
 global.shiningCityPowered = 0;
 
 

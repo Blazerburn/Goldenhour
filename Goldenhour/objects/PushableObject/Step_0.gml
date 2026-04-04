@@ -16,13 +16,22 @@ if(objectID == interactedBoxID)
 			var xinput = right - left;
 			var yinput = down - up;
 			
+			var _dist = point_distance(0, 0, xinput, yinput);
+			if (_dist > 0) {
+				xinput /= _dist;
+				yinput /= _dist;
+			}
+			
 			if (pushPlayerDirection == 0 || pushPlayerDirection == 2) {
-			move_and_collide(xinput * .25, yinput * 1, [PushableWall],4,0,0,1,1);
+			move_and_collide(xinput * .5, yinput * 1, [PushableWall],4,0,0,1,1);
 			}
 			if (pushPlayerDirection == 1 || pushPlayerDirection == 3) {
-			move_and_collide(xinput * 1, yinput * .25, [PushableWall],4,0,0,1,1);
+			move_and_collide(xinput * 1, yinput * .5, [PushableWall],4,0,0,1,1);
 			}
-		
+			x = round(x);
+			y = round(y);
+			
+			
 			with(pushBoxCollision) {
 			x = pushableBoxOriginX + 3;
 			y = pushableBoxOriginY + 2;
@@ -139,7 +148,7 @@ if (l35D9AC80_0)
 	global.pushingBox = 0;
 					global.playerAnimating = 0;
 				
-					with(TestPlayer1) {
+					with(TestPlayer) {
 						Speed = 3;
 					
 						global.recentlyInteracted = 30;
