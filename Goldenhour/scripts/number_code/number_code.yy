@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"number_code",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"number_code",
+  "parent":{
+    "name":"FC_DialogueSystem",
+    "path":"folders/Scripts/FC_DialogueSystem.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

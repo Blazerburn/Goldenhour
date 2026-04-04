@@ -1,0 +1,13 @@
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 24C9E9AB
+/// @DnDInput : 3
+/// @DnDArgument : "expr" "PuzzleRoom2"
+/// @DnDArgument : "expr_1" "2"
+/// @DnDArgument : "expr_2" "3"
+/// @DnDArgument : "var" "goToRoom"
+/// @DnDArgument : "var_1" "playerSpawnpoint"
+/// @DnDArgument : "var_2" "playerDirection"
+goToRoom = PuzzleRoom2;
+playerSpawnpoint = 2;
+playerDirection = 3;

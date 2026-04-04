@@ -40,11 +40,13 @@ function create_dialogue() {
 	var _script		= array_create(text_len, 0);
 	var _emotion	= array_create(text_len, 0);
 	var _emotes		= array_create(text_len, -1);
+	var _headshot	= array_create(text_len, 0);
 	var _creator	= array_create(text_len, id);
 
 	var a;
 	//Fill variables depending on argument count
 	switch(arg_count-1){
+		case 10: a = arg[10]; if(array_length_1d(a) != text_len){ a[text_len] = 0; } for(i = 0; i < text_len; i++){ if(a[i] != 0) _headshot[i] = a[i]; }
 		case 9:	a = arg[9]; if(array_length_1d(a) != text_len){ a[text_len] = 0; } for(i = 0; i < text_len; i++){ if(a[i] != 0) _emotes[i] = a[i]; }
 		case 8: a = arg[8]; if(array_length_1d(a) != text_len){ a[text_len] = 0; } for(i = 0; i < text_len; i++){ if(a[i] != 0) _emotion[i] = a[i]; }
 		case 7: a = arg[7];	if(array_length_1d(a) != text_len){ a[text_len] = 0; } for(i = 0; i < text_len; i++){ if(a[i] != 0) _textcol[i] = a[i]; }
@@ -67,6 +69,7 @@ function create_dialogue() {
 		text_col	= _textcol;
 		emotion		= _emotion;	
 		emotes		= _emotes;
+		headshot    = _headshot
 	
 		//Speaker's Variables
 		i = 0; repeat(text_len){

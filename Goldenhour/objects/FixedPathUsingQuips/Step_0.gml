@@ -76,9 +76,11 @@ if(global.recentlyInteracted == 0)
 				
 					global.inventoryOpen = 0;
 				
-					variable_instance_set(obj_BrokenPathPickup, "choice_variable", "Used");
+					variable_instance_set(obj_BrokenPathPickup, "choice_variable", "Destroy");
 					
 					variable_instance_set(obj_BrokenPathPickup, "puzzleProgress", "2");
+					
+					global.usingItem = 0;
 					
 					//[change_variable, id, "puzzleProgress", "1"]
 					

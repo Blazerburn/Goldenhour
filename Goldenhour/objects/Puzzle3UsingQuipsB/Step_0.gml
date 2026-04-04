@@ -58,6 +58,8 @@ if(global.recentlyInteracted == 0)
 					
 					variable_instance_set(obj_Ruins1Puzzle3, "puzzleProgress", "2");
 					
+					global.usingItem = 0;
+					
 					//[change_variable, id, "puzzleProgress", "1"]
 					
 					//script_execute_alt(change_variable( obj_BrokenPathPickup, "choice_variable", "Used"));
@@ -68,14 +70,17 @@ if(global.recentlyInteracted == 0)
 	"The crack expands a bit",
 	"You hit it again, the crack grows",
 	"You swing a final time, putting as much force as you can",
+	"Crack!",
 	"The stone tile wall crumbles as the crack splits it in half",
-	"You could now move the box out of the tile path"],
+	"But, the head of the hammer also cracks and shatters in your hand",
+	"You quickly drop the remains of the hammer and pick up the rock",
+	"You can now move the box out of the tile path"],
+	-1,
+	[[-1], [10, 1, 18, 0], [-1], [-1], [-1], [1, 1, 7, 0], [-1], [-1], [-1], [-1]],
 	-1,
 	-1,
 	-1,
-	-1,
-	-1,
-	-1,
+	[[0], [0], [0], [0], [0], [0], [0], [0], [add_item, 0, "Chisel Rock", ChiselRock, "Chisel Rock", 1], [0]],
 	-1,
 	-1,
 	-1,

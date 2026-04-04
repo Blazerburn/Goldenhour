@@ -14,7 +14,12 @@ keyInteract = vk_space;
 
 textSelected = 0
 
-global.Immobilize = 1
+if (global.shiftText = 0) {
+	textShift = 50;
+}
+if (global.shiftText = 1) {
+	textShift = 100;
+}
 
 code1 = 0
 code2 = 0
@@ -24,6 +29,9 @@ code1Needed = 2
 code2Needed = 5
 code3Needed = 6
 code4Needed = 2
+
+puzzleObject = 0
+puzzleObjectProgress = 0
 
 boxHeight		= sprite_get_height(dialogue_box) * scale;
 boxWidth		= sprite_get_width(dialogue_box) * scale;

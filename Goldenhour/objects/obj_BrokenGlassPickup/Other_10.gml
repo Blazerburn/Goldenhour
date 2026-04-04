@@ -37,7 +37,7 @@ switch(choice_variable){
 		myText[i]		= ["Take the Broken Glass", "Leave it"];
 		myTypes[i]		= 1;
 		myNextLine[i]	= [6,10];
-		myScripts[i]	= [[add_item, 0, "Broken Glass", BrokenGlassShard, "Broken Glass", 1], [change_variable, id, "choice_variable", "Leave"]];
+		myScripts[i]	= [[add_item, 0, "Broken Glass", BrokenGlassShard, "Broken Glass", 2], [change_variable, id, "choice_variable", "Leave"]];
 		mySpeaker[i]	= TestPlayer;
 
 		//Line 6
@@ -60,7 +60,7 @@ switch(choice_variable){
 		i++;
 		myText[i]		= "You got the Broken Glass!";
 		myNextLine[i]   = -1;
-		myScripts[i]    = [change_variable, id, "choice_variable", "Take"];
+		myScripts[i]    = [change_variable, id, "choice_variable", "Destroy"];
 		mySpeaker[i]	= id;
 
 
@@ -96,7 +96,7 @@ switch(choice_variable){
 		myText[i]		= ["Take the Broken Glass", "Leave it"];
 		myTypes[i]		= 1;
 		myNextLine[i]	= [2,6];
-		myScripts[i]	= [[add_item, 0, "Broken Glass", BrokenGlassShard, "Broken Glass", 1], [change_variable, id, "choice_variable", "Leave"]];
+		myScripts[i]	= [[add_item, 0, "Broken Glass", BrokenGlassShard, "Broken Glass", 2], [change_variable, id, "choice_variable", "Leave"]];
 		mySpeaker[i]	= TestPlayer;
 
 		//Line 2
@@ -119,7 +119,7 @@ switch(choice_variable){
 		i++;
 		myText[i]		= "You got the Broken Glass!";
 		myNextLine[i]   = -1;
-		myScripts[i]    = [change_variable, id, "choice_variable", "Take"];
+		myScripts[i]    = [change_variable, id, "choice_variable", "Destroy"];
 		mySpeaker[i]	= id;
 
 

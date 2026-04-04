@@ -37,7 +37,6 @@ switch(choice_variable){
 		//Line 5
 		i++;
 		myText[i]		= "You grab the chiseled rock and put it into your pouch";
-		myTextCol[i]	= [13,c_aqua, 26,c_white];
 		mySpeaker[i]	= id;
 		
 		//Line 6

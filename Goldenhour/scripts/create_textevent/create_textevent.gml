@@ -25,6 +25,7 @@ function create_textevent() {
 		reset_dialogue_defaults();
 	
 		switch(arg_count-1){
+			case 10: myHeadshot	= arg[10];
 			case 9: myEmote		= arg[9];
 			case 8: myEmotion	= arg[8];
 			case 7: myTextCol	= arg[7];

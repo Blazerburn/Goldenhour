@@ -20,9 +20,14 @@ switch(choice_variable){
 		i++;
 		myText[i]		= ["Open your bag", "Leave it for now"];
 		myTypes[i]		= 1;
-		myNextLine[i]	= [-1,-1];
+		myNextLine[i]	= [-1,3];
 		myScripts[i]	= [[use_item, "Chisel Rock", Puzzle3UsingQuipsA], [change_variable, id, "choice_variable", "Leave"]];
 		mySpeaker[i]	= TestPlayer;
+		
+		//Line 3
+		i++;
+		myText[i]		= "You back away from the tile for now";
+		mySpeaker[i]	= id;
 
 		#endregion
 	break;
@@ -39,14 +44,20 @@ switch(choice_variable){
 		i++;
 		myText[i]		= ["Open your bag", "Leave it for now"];
 		myTypes[i]		= 1;
-		myNextLine[i]	= [-1,0];
+		myNextLine[i]	= [-1,2];
 		myScripts[i]	= [[use_item, "Chisel Rock", Puzzle3UsingQuipsA], [change_variable, id, "choice_variable", "Leave"]];
 		mySpeaker[i]	= TestPlayer;
+		
+		//Line 2
+		i++;
+		myText[i]		= "You back away from the tile for now";
+		mySpeaker[i]	= id;
 
 
 		//uncommenting this will make the first conversation begin again
 		//choice_variable	= -1;
 	#endregion
+		break;
 	
 	case "Used":
 	#region If you chose blue
@@ -56,6 +67,7 @@ switch(choice_variable){
 		mySpeaker[i]	= id;
 		
 		//Line 1
+		i++;
 		myText[i]		= "You might be able to break it now";
 		mySpeaker[i]	= id;
 		
@@ -68,6 +80,7 @@ switch(choice_variable){
 		mySpeaker[i]	= TestPlayer;
 		
 		//Line 3
+		i++;
 		myText[i]		= "You back away from the tile for now";
 		mySpeaker[i]	= id;
 
@@ -75,6 +88,7 @@ switch(choice_variable){
 		//uncommenting this will make the first conversation begin again
 		//choice_variable	= -1;
 	#endregion
+		break;
 	
 	case "Leave Again":
 	#region If you chose blue
@@ -84,6 +98,7 @@ switch(choice_variable){
 		mySpeaker[i]	= id;
 		
 		//Line 1
+		i++;
 		myText[i]		= "You might be able to break the tile";
 		mySpeaker[i]	= id;
 		
@@ -96,6 +111,7 @@ switch(choice_variable){
 		mySpeaker[i]	= TestPlayer;
 		
 		//Line 3
+		i++;
 		myText[i]		= "You back away from the tile for now";
 		mySpeaker[i]	= id;
 

@@ -21,5 +21,10 @@ myPortraitIdle		= -1;
 
 choice_variable		= -1;	//the variable we change depending on the player's choice in dialogue
 
-collision = 0;
+pushCollision = 0;
 
+pushCollision = instance_create_layer(x + 1, y - 16, "Instances", PushableWall);
+with(pushCollision) {
+image_xscale = .01;
+image_yscale = .5;
+}

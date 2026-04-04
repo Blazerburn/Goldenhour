@@ -9,7 +9,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Ruins",
-    "path":"folders/Objects/GUI/Conversations/ItemUseQuips/Ruins.yy",
+    "path":"folders/Objects/Puzzles/Puzzle Controllers/Ruins/Item Use/ItemUseQuips/Ruins.yy",
   },
   "parentObjectId":null,
   "persistent":false,

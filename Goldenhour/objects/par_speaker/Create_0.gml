@@ -1,8 +1,10 @@
 
 //-----------Customise (FOR USER)
+scale = 1;
+
 playerobject = TestPlayer;
 interact_key = vk_space;
-detection_radius = 32;
+detection_radius = 28 * scale;
 
 myVoice			= snd_voice1;
 myPortrait		= -1;

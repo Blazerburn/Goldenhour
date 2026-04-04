@@ -5,13 +5,13 @@ draw_sprite_ext(dialogue_box, 0, pos_x,pos_y, scale,scale, 0, c_white, 1);
 if (itemSelection == 1) {
 pos_x			= itemSelection_x;
 pos_y			= itemSelection_y;
-draw_sprite_ext(spr_portraitframe, 0, pos_x,pos_y, scale*1.35,scale*.9, 0, c_white, 1);
+draw_sprite_ext(spr_portraitframe, 0, pos_x,pos_y, scale*1.3,scale*.8, 0, c_white, 1);
 }
 
 //Draw portrait
 if(portrait[page] != -1){
 	draw_sprite_ext(portrait_frame, 0, pos_x-portraitWidth, pos_y, scale,scale, 0, c_white, 1);
-	draw_sprite_ext(portrait[page], emotion[page], pos_x-portraitWidth, pos_y, scale,scale, 0, c_white, 1);
+	draw_sprite_ext(portrait[page], headshot[page], pos_x-portraitWidth, pos_y, scale,scale, 0, c_white, 1);
 
 	#region Idle Animated Portrait
 if(type[page] == 1 or charCount >= str_len) {
@@ -35,7 +35,7 @@ var cname = name[page]
 
 if(cname != "None"){
 	//Draw namebox
-	draw_sprite_ext(name_box, 0, name_box_x,name_box_y, scale,scale, 0, c_white, 1);
+	draw_sprite_ext(name_box, 0, name_box_x,name_box_y, scale,scale*.9, 0, c_white, 1);
 	
 	//Draw name text
 	c = name_col;
