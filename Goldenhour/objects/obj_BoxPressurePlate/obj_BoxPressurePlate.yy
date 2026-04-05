@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"BoxPressurePlate",
-    "path":"sprites/BoxPressurePlate/BoxPressurePlate.yy",
+    "name":"Pressure_Plate",
+    "path":"sprites/Pressure_Plate/Pressure_Plate.yy",
   },
   "spriteMaskId":null,
   "visible":true,

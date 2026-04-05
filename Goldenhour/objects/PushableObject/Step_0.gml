@@ -8,10 +8,10 @@ if(objectID == interactedBoxID)
 	var pushableBoxOriginX = x;
 			var pushableBoxOriginY = y;
 		
-			var right = keyboard_check(vk_right) or keyboard_check(ord("D"));
-			var left = keyboard_check(vk_left) or keyboard_check(ord("A"));
-			var up = keyboard_check(vk_up) or keyboard_check(ord("W"));
-			var down = keyboard_check(vk_down) or keyboard_check(ord("S"));
+			var right = keyboard_check(ord("D"));
+			var left = keyboard_check(ord("A"));
+			var up = keyboard_check(ord("W"));
+			var down = keyboard_check(ord("S"));
 		
 			var xinput = right - left;
 			var yinput = down - up;
@@ -23,13 +23,28 @@ if(objectID == interactedBoxID)
 			}
 			
 			if (pushPlayerDirection == 0 || pushPlayerDirection == 2) {
-			move_and_collide(xinput * .5, yinput * 1, [PushableWall],4,0,0,1,1);
+				/*if (keyboard_check(ord("A")) or keyboard_check(ord("D"))) {
+					if (_dist > 0) {
+						xinput /= _dist;
+						yinput /= _dist;
+					}
+					xinput *= .25
+					yinput *= .25
+				}*/
+			move_and_collide(xinput * SlowSpeed, yinput * NormalSpeed, [PushableWall],4,0,0,SlowSpeed,NormalSpeed);
 			}
 			if (pushPlayerDirection == 1 || pushPlayerDirection == 3) {
-			move_and_collide(xinput * 1, yinput * .5, [PushableWall],4,0,0,1,1);
+			move_and_collide(xinput * NormalSpeed, yinput * SlowSpeed, [PushableWall],4,0,0,NormalSpeed,SlowSpeed);
+				/*if (keyboard_check(ord("W")) or keyboard_check(ord("S"))) {
+					if (_dist > 0) {
+						xinput /= _dist;
+						yinput /= _dist;
+					}
+					xinput *= .25
+					yinput *= .25
+				}*/
 			}
-			x = round(x);
-			y = round(y);
+			
 			
 			
 			with(pushBoxCollision) {

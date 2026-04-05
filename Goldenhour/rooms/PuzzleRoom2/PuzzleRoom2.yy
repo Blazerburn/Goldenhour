@@ -90,7 +90,7 @@
         {"$GMRInstance":"v4","%Name":"inst_5BA2441B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5BA2441B","objectId":{"name":"Gate","path":"objects/Gate/Gate.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":704.0,"y":352.0,},
         {"$GMRInstance":"v4","%Name":"inst_7A0F7570","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7A0F7570","objectId":{"name":"RuinsDarkMusicPlayer","path":"objects/RuinsDarkMusicPlayer/RuinsDarkMusicPlayer.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":224.0,"y":-96.0,},
         {"$GMRInstance":"v4","%Name":"inst_16935C43","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_16935C43","objectId":{"name":"RuinsPuzzleBoxPuzzleController","path":"objects/RuinsPuzzleBoxPuzzleController/RuinsPuzzleBoxPuzzleController.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":192.0,"y":-64.0,},
-        {"$GMRInstance":"v4","%Name":"inst_361A662F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_361A662F","objectId":{"name":"obj_BoxPressurePlate","path":"objects/obj_BoxPressurePlate/obj_BoxPressurePlate.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":-90.0,"scaleX":1.0,"scaleY":1.0,"x":240.0,"y":432.0,},
+        {"$GMRInstance":"v4","%Name":"inst_361A662F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_361A662F","objectId":{"name":"obj_BoxPressurePlate","path":"objects/obj_BoxPressurePlate/obj_BoxPressurePlate.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":240.0,"y":432.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"TreesBase","depth":1000,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"TreesBase","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":16,"SerialiseWidth":23,"TileCompressedData":[
           4,-2147483648,16,17,18,-15,-2147483648,2,20,21,-3,-2147483648,3,24,25,26,-15,-2147483648,2,28,29,-3,
@@ -186,7 +186,7 @@
   "resourceType":"GMRoom",
   "resourceVersion":"2.0",
   "roomSettings":{
-    "Height":511,
+    "Height":512,
     "inheritRoomSettings":false,
     "persistent":false,
     "Width":730,

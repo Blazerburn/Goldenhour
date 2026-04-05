@@ -31,6 +31,7 @@ choice_col			= c_yellow;
 select_col			= c_orange;
 name_col			= c_orange;
 
+
 name_font			= fnt_dialogue;
 
 itemSelection       = global.selectionOpen;
@@ -84,17 +85,8 @@ else {
 pos_x			= itemSelection_x;
 pos_y			= itemSelection_y;
 }
-/*
-show_debug_message(pos_x);
-show_debug_message(pos_y);
 
 
-show_debug_message(boxHeight);
-show_debug_message(boxWidth);
-show_debug_message(gui_width);
-show_debug_message(gui_height);
-show_debug_message(gb_diff);
-*/
 
 name_box_x		= pos_x + (8 * scale);
 name_box_y		= pos_y - (23 * scale*.9);

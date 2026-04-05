@@ -8,7 +8,7 @@ if(global.combining == 1)
 {
 	/// Items that WORK
 	/// Change the itemcombiningtypes, and what item it creates
-	if ((global.itemCombiningType1 == "Strange Gel" || global.itemCombiningType1 == "Broken Path") && (global.itemCombiningType2 == "Strange Gel" || global.itemCombiningType2 == "Broken Path"))
+	if ((global.itemCombiningType1 == "Strange Gel" || global.itemCombiningType1 == itemBrokenPath) && (global.itemCombiningType2 == "Strange Gel" || global.itemCombiningType2 == itemBrokenPath))
 	{
 		show_debug_message("Right items")
 		global.combining = 0;
@@ -25,7 +25,7 @@ if(global.combining == 1)
 	itemCombineType1 = 0;
 	itemCombineType2 = 0;
 	
-	add_item(0, "Fixed Path", FixedPath, "Fixed Path", 1);
+	add_item(0, itemFixedPath, pressureplatebrokentnot, "Fixed Plate", 1);
 	
 	
 		create_textevent(

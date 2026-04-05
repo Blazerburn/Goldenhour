@@ -69,16 +69,16 @@ if(global.recentlyInteracted == 0)
 {
 	show_debug_message(string("Used correct item"));
 	
-	with(obj_BrokenPathPickup){
+	with(obj_BrokenPressurePlatePickup){
 
 	
 	}
 				
 					global.inventoryOpen = 0;
 				
-					variable_instance_set(obj_BrokenPathPickup, "choice_variable", "Destroy");
+					variable_instance_set(obj_BrokenPressurePlatePickup, "choice_variable", "Destroy");
 					
-					variable_instance_set(obj_BrokenPathPickup, "puzzleProgress", "2");
+					variable_instance_set(obj_BrokenPressurePlatePickup, "puzzleProgress", "2");
 					
 					global.usingItem = 0;
 					

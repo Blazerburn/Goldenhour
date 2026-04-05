@@ -67,6 +67,8 @@ for(var _pos = 0; _pos < 9; _pos += 1) {
 	itemArray[_pos][itemUses] = 0;
 }
 
+//create_instance_layer(x, y, "Instances", PlayerSmoothingCamera);
+
 if(global.playerFollowers == 1)
 {
 	/// @description Execute Code

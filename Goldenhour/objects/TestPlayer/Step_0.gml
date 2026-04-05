@@ -108,12 +108,9 @@ if(global.Immobilize == 0)
 		xinput /= _dist;
 		yinput /= _dist;
 	}
-	
-	
 
-	move_and_collide(xinput * Speed, yinput * Speed, [TestWall],4,0,0,Speed,Speed);
-	x = round(x);
-	y = round(y);
+	move_and_collide(xinput * Speed, yinput * Speed, [TestWall],5,0,0,Speed,Speed);
+
 
 	var l601DB0A5_0;
 l601DB0A5_0 = keyboard_check_pressed(ord("W"));

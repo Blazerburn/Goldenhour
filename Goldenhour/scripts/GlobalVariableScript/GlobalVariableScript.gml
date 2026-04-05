@@ -7,6 +7,9 @@ global.keepPlayerDirection = 0;
 global.playerSpawnpointX = 0;
 global.playerSpawnpointY = 0;
 
+global.playerX = 0;
+global.playerY = 0;
+
 // RoomSpawnpoints
 global.Room2SetSpawnpoint = 0;
 global.StarterRoomSpawnpoint = 1;

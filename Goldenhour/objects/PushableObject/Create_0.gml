@@ -1,6 +1,9 @@
 pushPlayerDirection = 0;
 interactedBoxID = 0;
 
+NormalSpeed = 1;
+SlowSpeed = .33;
+
 pushableBoxOriginX = 0;
 pushableBoxOriginY = 0;
 

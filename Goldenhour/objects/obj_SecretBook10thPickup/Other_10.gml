@@ -33,7 +33,7 @@ switch(choice_variable){
 		//Line 5
 		i++;
 		myText[i]		= "You slowly grab it and put it into your bag";
-		myScripts[i]	= [add_item, 0, "Secret Book 10th", SecretBook10thHour, "Secret Book", 1];
+		myScripts[i]	= [add_item, 0, "Secret Book 10th", book10, "Secret Book", 1];
 		mySpeaker[i]	= id;
 		
 		//Line 6
