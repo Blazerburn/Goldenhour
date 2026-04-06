@@ -22,6 +22,9 @@ if(objectID == interactedBoxID)
 				yinput /= _dist;
 			}
 			
+			//x = floor(x)
+			//y = floor(y)
+			
 			if (pushPlayerDirection == 0 || pushPlayerDirection == 2) {
 				/*if (keyboard_check(ord("A")) or keyboard_check(ord("D"))) {
 					if (_dist > 0) {

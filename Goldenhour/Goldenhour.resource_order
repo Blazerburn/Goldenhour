@@ -212,6 +212,7 @@
     {"name":"BottomBrokenCobbleFloor","order":3,"path":"sprites/BottomBrokenCobbleFloor/BottomBrokenCobbleFloor.yy",},
     {"name":"BoxPath","order":7,"path":"sprites/BoxPath/BoxPath.yy",},
     {"name":"BoxPathOverlapTileSetSprite","order":11,"path":"sprites/BoxPathOverlapTileSetSprite/BoxPathOverlapTileSetSprite.yy",},
+    {"name":"BoxPathTileSetSprite_1","order":14,"path":"sprites/BoxPathTileSetSprite_1/BoxPathTileSetSprite_1.yy",},
     {"name":"BoxPathTileSetSprite","order":4,"path":"sprites/BoxPathTileSetSprite/BoxPathTileSetSprite.yy",},
     {"name":"BoxPathTileSetSpriteOLD","order":3,"path":"sprites/BoxPathTileSetSpriteOLD/BoxPathTileSetSpriteOLD.yy",},
     {"name":"BoxPressurePlate","order":5,"path":"sprites/BoxPressurePlate/BoxPressurePlate.yy",},

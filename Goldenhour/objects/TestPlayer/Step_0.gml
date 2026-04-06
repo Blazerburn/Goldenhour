@@ -109,8 +109,12 @@ if(global.Immobilize == 0)
 		yinput /= _dist;
 	}
 
-	move_and_collide(xinput * Speed, yinput * Speed, [TestWall],5,0,0,Speed,Speed);
+	//x = round(x)
+	//y = round(y)
 
+	move_and_collide(xinput * Speed, yinput * Speed, [TestWall],4,0,0,Speed,Speed);
+	
+	
 
 	var l601DB0A5_0;
 l601DB0A5_0 = keyboard_check_pressed(ord("W"));
@@ -338,7 +342,16 @@ else {
 	global.Immobilize = 1;
 }
 
-
+/*if (global.playerMoving == 1) {
+	if !(instance_exists(PlayerSmoothingCamera)) {
+		instance_create_layer(x, y, "Instances", PlayerSmoothingCamera)
+	}
+}
+else {
+	if (instance_exists(PlayerSmoothingCamera)) {
+		instance_destroy(PlayerSmoothingCamera)
+	}
+}*/
 
 if(global.playerFollowers == 1)
 {

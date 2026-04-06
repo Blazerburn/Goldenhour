@@ -97,9 +97,9 @@
         ],"TileDataFormat":1,},"tilesetId":{"name":"TreeSideTileSet","path":"tilesets/TreeSideTileSet/TreeSideTileSet.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRInstanceLayer":"","%Name":"Player","depth":700,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"Player","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"BoxPathABOVE","depth":800,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"BoxPathABOVE","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":20,"SerialiseWidth":16,"TileCompressedData":[
-          -195,-2147483648,7,42,-2147483648,-2147483648,35,28,29,39,-9,-2147483648,4,32,-2147483648,-2147483648,
-          16,-12,-2147483648,1,41,-4,33,1,23,-15,-2147483648,1,19,-15,-2147483648,1,16,-11,-2147483648,1,43,-3,
-          30,1,39,-39,-2147483648,
+          -195,-2147483648,7,42,-2147483648,-2147483648,35,28,33,45,-9,-2147483648,4,32,-2147483648,-2147483648,
+          32,-12,-2147483648,6,41,33,33,31,33,37,-15,-2147483648,1,32,-15,-2147483648,1,32,-11,-2147483648,1,43,
+          -3,33,1,39,-39,-2147483648,
         ],"TileDataFormat":1,},"tilesetId":{"name":"BoxPathOverlapTileSet","path":"tilesets/BoxPathOverlapTileSet/BoxPathOverlapTileSet.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRInstanceLayer":"","%Name":"Box","depth":900,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_3D093C89","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3D093C89","objectId":{"name":"PushableObjectSpawner","path":"objects/PushableObjectSpawner/PushableObjectSpawner.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":128.0,"y":544.0,},

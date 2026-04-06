@@ -24,44 +24,6 @@ if (l5CF0C4C3_0)
 		
 			global.pushingBox = 1;
 		
-			/*with(TestPlayer1) {
-				Speed = 1;
-			}
-		
-			show_debug_message(string(pushableBoxOriginX) + @"
-			" + string(pushableBoxOriginY));
-		
-			if(pushPlayerDIrection == 0)
-{
-	with(TestPlayer1) {
-				x = pushableBoxOriginX + 16;
-				y = pushableBoxOriginY + 16;
-				}
-}
-		
-			if(pushPlayerDIrection == 1)
-{
-	with(TestPlayer1) {
-				x = pushableBoxOriginX - 16;
-				y = pushableBoxOriginY;
-				}
-}
-		
-			if(pushPlayerDIrection == 2)
-{
-	with(TestPlayer1) {
-				x = pushableBoxOriginX + 16;
-				y = pushableBoxOriginY - 28;
-				}
-}
-		
-			if(pushPlayerDIrection == 3)
-{
-	with(TestPlayer1) {
-				x = pushableBoxOriginX + 48;
-				y = pushableBoxOriginY;
-				}
-}*/
 }
 	}
 }
