@@ -26,26 +26,10 @@ if(objectID == interactedBoxID)
 			//y = floor(y)
 			
 			if (pushPlayerDirection == 0 || pushPlayerDirection == 2) {
-				/*if (keyboard_check(ord("A")) or keyboard_check(ord("D"))) {
-					if (_dist > 0) {
-						xinput /= _dist;
-						yinput /= _dist;
-					}
-					xinput *= .25
-					yinput *= .25
-				}*/
 			move_and_collide(xinput * SlowSpeed, yinput * NormalSpeed, [PushableWall],4,0,0,SlowSpeed,NormalSpeed);
 			}
 			if (pushPlayerDirection == 1 || pushPlayerDirection == 3) {
 			move_and_collide(xinput * NormalSpeed, yinput * SlowSpeed, [PushableWall],4,0,0,NormalSpeed,SlowSpeed);
-				/*if (keyboard_check(ord("W")) or keyboard_check(ord("S"))) {
-					if (_dist > 0) {
-						xinput /= _dist;
-						yinput /= _dist;
-					}
-					xinput *= .25
-					yinput *= .25
-				}*/
 			}
 			
 			

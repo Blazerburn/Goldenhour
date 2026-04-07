@@ -1,7 +1,7 @@
 {
   "$GMShader":"",
-  "%Name":"Shader1",
-  "name":"Shader1",
+  "%Name":"sh_layerfade",
+  "name":"sh_layerfade",
   "parent":{
     "name":"Shaders",
     "path":"folders/Shaders.yy",

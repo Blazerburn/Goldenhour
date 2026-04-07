@@ -353,6 +353,11 @@ else {
 	}
 }*/
 
+// Inside Building Fade Code
+/*if tile_meeting(x, y, "OutsideBuilding") { global.lay_alpha -= 0.05; }
+else { global.lay_alpha += 0.05; }
+global.lay_alpha = clamp(global.lay_alpha, 0.25, 1);*/
+
 if(global.playerFollowers == 1)
 {
 	/// @description Execute Code
