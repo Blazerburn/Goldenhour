@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_FixedPathDepth",
+  "%Name":"obj_tile_checker",
   "eventList":[],
   "managed":true,
-  "name":"obj_FixedPathDepth",
+  "name":"obj_tile_checker",
   "overriddenProperties":[],
   "parent":{
-    "name":"Ruins",
-    "path":"folders/Objects/Puzzles/Puzzle Controllers/Ruins.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -27,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"FixedPathTileDepth",
-    "path":"sprites/FixedPathTileDepth/FixedPathTileDepth.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

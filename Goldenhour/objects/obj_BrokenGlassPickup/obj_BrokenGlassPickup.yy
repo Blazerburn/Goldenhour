@@ -10,8 +10,8 @@
   "name":"obj_BrokenGlassPickup",
   "overriddenProperties":[],
   "parent":{
-    "name":"ItemPickups",
-    "path":"folders/Objects/Puzzles/ItemPickups.yy",
+    "name":"Ruins",
+    "path":"folders/Objects/Puzzles/ItemPickups/Ruins.yy",
   },
   "parentObjectId":{
     "name":"par_speaker",
