@@ -101,11 +101,12 @@ if(global.recentlyInteracted == 0)
 	-1,
 	
 );
-				
+					
+					reset_room_song()
 					global.itemCheck = 0;
 				
 					instance_destroy();
-				
+					
 					exit;
 }
 }

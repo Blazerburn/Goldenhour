@@ -2,16 +2,8 @@ if(global.inventoryOpen == 0)
 {
 	if(global.Talking == 0)
 {
-	if(global.roomSong != undefined)
-{
-	with(global.roomSong) {
-				roomSongPosition = audio_sound_get_track_position(songID);
-			
-				show_debug_message(string(roomSongPosition));
-			}
-}
-	
-		instance_create_layer(0, 0, "Instances", InventoryMusicPlayer);
+		
+		set_song_ingame(sng_inventoryBeginning, 30, 0)
 	
 		global.inventoryOpen = 1;
 		global.shiftText = 1;
@@ -34,13 +26,7 @@ else
 {
 	global.inventoryOpen = 0;
 				
-					with(InventoryMusicPlayer) instance_destroy();
-					
-					with(global.roomSong) {
-						event_user(0);
-					
-						show_debug_message(string("Restarted room song"));
-					}
+					reset_room_song()
 				
 					global.Immobilize = 0;
 					global.usingItem = 0;

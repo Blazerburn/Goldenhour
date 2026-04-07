@@ -16,13 +16,7 @@ if(global.recentlyInteracted == 0)
 			show_debug_message(string(itemNeeded));
 		}
 	
-		with(global.roomSong) {
-			roomSongPosition = audio_sound_get_track_position(songID);
-		
-			show_debug_message(string(roomSongPosition));
-		}
-	
-		instance_create_layer(0, 0, "Instances", InventoryMusicPlayer);
+		set_song_ingame(sng_inventoryBeginning, 30)
 	
 		instance_create_layer(0, 0, "Instances", invItemQuips);
 }

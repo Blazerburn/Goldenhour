@@ -63,10 +63,10 @@
     {"$GMRInstanceLayer":"","%Name":"Player","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"Player","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"BoxPathABOVE","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"BoxPathABOVE","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":12,"SerialiseWidth":12,"TileCompressedData":[
           -40,-2147483648,4,42,-2147483648,-2147483648,42,-8,-2147483648,4,41,27,-2147483648,18,-9,-2147483648,
-          3,18,-2147483648,16,-5,-2147483648,6,42,-2147483648,42,-2147483648,16,28,-3,29,7,45,-2147483648,-2147483648,
-          18,-2147483648,41,27,-8,-2147483648,9,18,-2147483648,-2147483648,16,-2147483648,-2147483648,35,28,27,
-          -3,-2147483648,9,41,29,29,27,-2147483648,-2147483648,16,-2147483648,44,-6,-2147483648,4,41,29,29,45,
-          -16,-2147483648,
+          3,18,-2147483648,16,-5,-2147483648,6,42,-2147483648,42,-2147483648,16,28,-3,29,8,45,-2147483648,-2147483648,
+          18,-2147483648,41,27,38,-7,-2147483648,9,18,-2147483648,-2147483648,16,-2147483648,-2147483648,35,28,
+          27,-3,-2147483648,9,41,29,29,27,-2147483648,-2147483648,16,-2147483648,44,-6,-2147483648,4,41,29,29,
+          45,-16,-2147483648,
         ],"TileDataFormat":1,},"tilesetId":{"name":"BoxPathOverlapTileSet","path":"tilesets/BoxPathOverlapTileSet/BoxPathOverlapTileSet.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRInstanceLayer":"","%Name":"Box","depth":600,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"Box","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":700,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[

@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"sng_EmptyChurch",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":3,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":75.23265,
+  "exportDir":"",
+  "name":"sng_EmptyChurch",
+  "parent":{
+    "name":"Ruins",
+    "path":"folders/Sounds/Music/Ruins.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"sng_EmptyChurch.mp3",
+  "volume":1.0,
+}

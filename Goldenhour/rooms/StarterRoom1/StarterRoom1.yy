@@ -18,6 +18,7 @@
     {"name":"inst_3E8B1938","path":"rooms/StarterRoom1/StarterRoom1.yy",},
     {"name":"inst_4D9EAA","path":"rooms/StarterRoom1/StarterRoom1.yy",},
     {"name":"inst_577B5C2D","path":"rooms/StarterRoom1/StarterRoom1.yy",},
+    {"name":"inst_3C86911C","path":"rooms/StarterRoom1/StarterRoom1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -39,6 +40,7 @@
     {"$GMRInstanceLayer":"","%Name":"Player","depth":600,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"Player","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":700,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_4D9EAA","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4D9EAA","objectId":{"name":"TestTransition","path":"objects/TestTransition/TestTransition.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":2.0,"x":512.0,"y":192.0,},
+        {"$GMRInstance":"v4","%Name":"inst_3C86911C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3C86911C","objectId":{"name":"obj_MusicPlayer","path":"objects/obj_MusicPlayer/obj_MusicPlayer.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":160.0,"y":-64.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"TreesTops","depth":800,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"TreesTops","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":12,"SerialiseWidth":16,"TileCompressedData":[-15,-2147483648,1,0,-15,-2147483648,1,0,-15,-2147483648,1,0,-115,-2147483648,-3,0,-16,-2147483648,-3,0,-7,-2147483648,],"TileDataFormat":1,},"tilesetId":{"name":"TreeTopTileSet","path":"tilesets/TreeTopTileSet/TreeTopTileSet.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"TreesSides","depth":900,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"TreesSides","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":12,"SerialiseWidth":16,"TileCompressedData":[
@@ -47,7 +49,7 @@
           -2,0,-14,-2147483648,-2,0,-14,-2147483648,-2,0,
         ],"TileDataFormat":1,},"tilesetId":{"name":"TreeSideTileSet","path":"tilesets/TreeSideTileSet/TreeSideTileSet.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"TreesBase","depth":1000,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"TreesBase","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":12,"SerialiseWidth":16,"TileCompressedData":[
-          64,-2147483648,16,17,18,19,20,20,22,23,16,17,18,19,20,21,0,-2147483648,24,25,26,27,28,29,30,31,24,25,
+          64,-2147483648,16,17,18,19,20,21,22,23,16,17,18,19,20,21,0,-2147483648,24,25,26,27,28,29,30,31,24,25,
           26,27,28,29,0,-2147483648,32,33,34,35,36,37,38,39,32,33,34,35,36,37,38,-2147483648,40,41,42,43,44,45,
           46,7,40,41,42,43,44,45,46,-15,-2147483648,1,0,-15,-2147483648,1,0,-26,-2147483648,1,0,-15,-2147483648,
           -2,0,-4,-2147483648,-15,0,1,-2147483648,-32,0,

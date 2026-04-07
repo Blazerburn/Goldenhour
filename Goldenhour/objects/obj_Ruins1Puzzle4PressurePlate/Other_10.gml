@@ -7,7 +7,7 @@ switch(choice_variable){
 	#region First Dialogue
 		//Line 0
 		var i = 0;
-		myText[i]		= "THe pressure plate that the box is supposed to go on";
+		myText[i]		= "The pressure plate that the box is supposed to go on";
 		mySpeaker[i]	= id;
 		
 		//Line 1

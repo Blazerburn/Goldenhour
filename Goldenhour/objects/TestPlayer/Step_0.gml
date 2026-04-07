@@ -331,17 +331,18 @@ var selectionY = y;
 previousPlayerX = xprevious;
 previousPlayerY = yprevious;
 
+/*
 if (global.inventoryOpen = 0) {
-	audio_exists(inventoryLoop || inventoryBeginning) {
-		audio_pause_sound(inventoryLoop && inventoryBeginning);
+	audio_exists(sng_inventoryLoop || sng_inventoryBeginning) {
+		audio_pause_sound(sng_inventoryLoop && sng_inventoryBeginning);
 	}
 
 }
 else {
-	audio_resume_sound(inventoryLoop && inventoryBeginning);
+	audio_resume_sound(sng_inventoryLoop && sng_inventoryBeginning);
 	global.Immobilize = 1;
 }
-
+*/
 /*if (global.playerMoving == 1) {
 	if !(instance_exists(PlayerSmoothingCamera)) {
 		instance_create_layer(x, y, "Instances", PlayerSmoothingCamera)
