@@ -10,7 +10,7 @@
   "compression":3,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":171.83347,
+  "duration":75.42857,
   "exportDir":"",
   "name":"sng_RuinsOutskirts",
   "parent":{
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"sng_RuinsOutskirts.mp3",
+  "soundFile":"sng_RuinsOutskirts.ogg",
   "volume":1.0,
 }

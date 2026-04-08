@@ -11,6 +11,6 @@ function item_info(argument){
 	itemSelectedType = argument;
 	
 	}
-	
+	global.selectionOpen = 0;
 }
 

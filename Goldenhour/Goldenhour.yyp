@@ -446,10 +446,10 @@
         {"children":[
             {"roomId":{"name":"StarterRoom1","path":"rooms/StarterRoom1/StarterRoom1.yy",},},
             {"roomId":{"name":"StarterRoom2","path":"rooms/StarterRoom2/StarterRoom2.yy",},},
+            {"roomId":{"name":"PuzzleRoom3","path":"rooms/PuzzleRoom3/PuzzleRoom3.yy",},},
             {"roomId":{"name":"ShowRoom","path":"rooms/ShowRoom/ShowRoom.yy",},},
             {"roomId":{"name":"PuzzleRoom1","path":"rooms/PuzzleRoom1/PuzzleRoom1.yy",},},
             {"roomId":{"name":"PuzzleRoom2","path":"rooms/PuzzleRoom2/PuzzleRoom2.yy",},},
-            {"roomId":{"name":"PuzzleRoom3","path":"rooms/PuzzleRoom3/PuzzleRoom3.yy",},},
             {"roomId":{"name":"Crossroads1","path":"rooms/Crossroads1/Crossroads1.yy",},},
             {"roomId":{"name":"StatueRoom","path":"rooms/StatueRoom/StatueRoom.yy",},},
             {"roomId":{"name":"PuzzleRoom4","path":"rooms/PuzzleRoom4/PuzzleRoom4.yy",},},

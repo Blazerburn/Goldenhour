@@ -55,7 +55,9 @@ if(type[page] == 1){
 	if (itemSelection == 0){
 	//Variables we need
 	var col = default_col, tp = text[page], tpl = array_length_1d(tp), txtwidth = boxWidth-(2*x_buffer);
-	var cc = 1, yy = pos_y+y_buffer, xx = pos_x+x_buffer, ii = 0, iy = 0;
+	var cc = 1, yy = pos_y+y_buffer, 
+	ii = 0, iy = 0;
+	if global.textEventChoice == 0 {var xx = pos_x+x_buffer } else {var xx = pos_x+x_buffer*5.5 show_debug_message("Text Choice")}
 	
 	//Loop through our choices, draw them, highlight the one we are selecting
 	repeat(tpl){
@@ -77,7 +79,6 @@ if(type[page] == 1){
 	//Variables we need
 	var col = default_col, tp = text[page], tpl = array_length_1d(tp), txtwidth = boxWidth-(2*x_buffer);
 	var cc = 1, yy = pos_y+y_buffer, xx = pos_x+x_buffer+95, ii = 0, iy = 0;
-	
 	//Loop through our choices, draw them, highlight the one we are selecting
 	repeat(tpl){
 		if(choice == ii){ 

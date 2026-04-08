@@ -164,6 +164,8 @@ if (itemSelectedType = itemBioluminescentRock) {
 
 if (itemSelectedType = itemSecretBook10thHour) {
 	
+	global.textEventChoice = 1;
+	
 	create_textevent(
      [ 
 	"A large thick book bound in a red leather",

@@ -6,7 +6,7 @@
     "path":"audiogroups/audiogroup_default",
   },
   "bitDepth":1,
-  "channelFormat":0,
+  "channelFormat":1,
   "compression":3,
   "compressionQuality":4,
   "conversionMode":0,
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"sng_inventoryLoop.wav",
+  "soundFile":"sng_inventoryLoop.ogg",
   "volume":1.0,
 }

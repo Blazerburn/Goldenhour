@@ -56,6 +56,18 @@ switch(choice_variable){
 		//uncommenting this will make the first conversation begin again
 		//choice_variable	= -1;
 	#endregion
+	break;
 	
+		case "Used":
+	#region If you chose blue
+		var i = 0;
+		//Line 0
+		myText[i]		= "You can now move the box past the rock";
+		mySpeaker[i]	= id;
+
+
+		//uncommenting this will make the first conversation begin again
+		//choice_variable	= -1;
+	#endregion
 	break;
 }

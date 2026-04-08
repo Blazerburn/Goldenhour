@@ -10,7 +10,7 @@
   "compression":3,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":75.23265,
+  "duration":79.2,
   "exportDir":"",
   "name":"sng_EmptyChurch",
   "parent":{
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"sng_EmptyChurch.mp3",
+  "soundFile":"sng_EmptyChurch.ogg",
   "volume":1.0,
 }

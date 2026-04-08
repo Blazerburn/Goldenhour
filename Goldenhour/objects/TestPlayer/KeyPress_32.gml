@@ -60,13 +60,6 @@ if(global.recentlyInteracted == 0)
 									" + string(combiningItemX) + @"
 									" + string(combiningItemY));
 }
-							
-								with(TestInventoryDecisions) {
-									with(TestInventoryDecisions) {
-									itemSelectedType = _selected;
-									
-									}
-								}
 }
 }
 					

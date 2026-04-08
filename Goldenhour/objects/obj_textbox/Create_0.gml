@@ -32,6 +32,7 @@ select_col			= c_orange;
 name_col			= c_orange;
 
 
+
 name_font			= fnt_dialogue;
 
 itemSelection       = global.selectionOpen;
