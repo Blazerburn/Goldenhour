@@ -72,7 +72,7 @@ if(global.recentlyInteracted == 0)
 {
 	show_debug_message(string("Used correct item"));
 	
-	with(obj_Ruins1Puzzle3){
+	with(obj_Ruins1Puzzle4){
 
 	
 	}

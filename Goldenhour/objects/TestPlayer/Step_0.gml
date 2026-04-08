@@ -331,33 +331,6 @@ var selectionY = y;
 previousPlayerX = xprevious;
 previousPlayerY = yprevious;
 
-/*
-if (global.inventoryOpen = 0) {
-	audio_exists(sng_inventoryLoop || sng_inventoryBeginning) {
-		audio_pause_sound(sng_inventoryLoop && sng_inventoryBeginning);
-	}
-
-}
-else {
-	audio_resume_sound(sng_inventoryLoop && sng_inventoryBeginning);
-	global.Immobilize = 1;
-}
-*/
-/*if (global.playerMoving == 1) {
-	if !(instance_exists(PlayerSmoothingCamera)) {
-		instance_create_layer(x, y, "Instances", PlayerSmoothingCamera)
-	}
-}
-else {
-	if (instance_exists(PlayerSmoothingCamera)) {
-		instance_destroy(PlayerSmoothingCamera)
-	}
-}*/
-
-// Inside Building Fade Code
-/*if tile_meeting(x, y, "OutsideBuilding") { global.lay_alpha -= 0.05; }
-else { global.lay_alpha += 0.05; }
-global.lay_alpha = clamp(global.lay_alpha, 0.25, 1);*/
 
 if(global.playerFollowers == 1)
 {

@@ -72,7 +72,7 @@ switch(choice_variable){
 		myText[i]		= ["Open your bag", "Leave it for now"];
 		myTypes[i]		= 1;
 		myNextLine[i]	= [-1,2];
-		myScripts[i]	= [[use_item, "Fixed Path", FixedPathUsingQuips], [change_variable, id, "choice_variable", "Take"]];
+		myScripts[i]	= [[use_item, "Fixed Path", Puzzle3UsingQuips], [change_variable, id, "choice_variable", "Take"]];
 		mySpeaker[i]	= TestPlayer;
 		
 		

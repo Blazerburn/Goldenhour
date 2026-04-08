@@ -20,8 +20,8 @@ if songAsset != targetSongAsset
 	}
 	
 	// Play the song if the old song has faded out
-	if array_length(fadeOutInstances) == 0
-	{
+	//if array_length(fadeOutInstances) == 0
+	//{
 		if audio_exists(targetSongAsset) {
 			// Play the song and store it's instance in a variable
 			songInstance = audio_play_sound(targetSongAsset, 4, true);
@@ -32,7 +32,7 @@ if songAsset != targetSongAsset
 		}
 		// Set the song to the target song
 		songAsset = targetSongAsset
-	}
+	//}
 }
 
 //Volume Control

@@ -21,7 +21,7 @@ switch(choice_variable){
 		myText[i]		= ["Open your bag", "Leave it for now"];
 		myTypes[i]		= 1;
 		myNextLine[i]	= [-1,3];
-		myScripts[i]	= [[use_item, "Chisel Rock", Puzzle3UsingQuipsA], [change_variable, id, "choice_variable", "Leave"]];
+		myScripts[i]	= [[use_item, "Chisel Rock", Puzzle4UsingQuipsA], [change_variable, id, "choice_variable", "Leave"]];
 		mySpeaker[i]	= TestPlayer;
 		
 		//Line 3
@@ -45,7 +45,7 @@ switch(choice_variable){
 		myText[i]		= ["Open your bag", "Leave it for now"];
 		myTypes[i]		= 1;
 		myNextLine[i]	= [-1,2];
-		myScripts[i]	= [[use_item, "Chisel Rock", Puzzle3UsingQuipsA], [change_variable, id, "choice_variable", "Leave"]];
+		myScripts[i]	= [[use_item, "Chisel Rock", Puzzle4UsingQuipsA], [change_variable, id, "choice_variable", "Leave"]];
 		mySpeaker[i]	= TestPlayer;
 		
 		//Line 2
@@ -76,7 +76,7 @@ switch(choice_variable){
 		myText[i]		= ["Open your bag", "Leave it for now"];
 		myTypes[i]		= 1;
 		myNextLine[i]	= [-1,3];
-		myScripts[i]	= [[use_item, "Crystal Hammer", Puzzle3UsingQuipsB], [change_variable, id, "choice_variable", "Leave Again"]];
+		myScripts[i]	= [[use_item, "Crystal Hammer", Puzzle4UsingQuipsB], [change_variable, id, "choice_variable", "Leave Again"]];
 		mySpeaker[i]	= TestPlayer;
 		
 		//Line 3
@@ -107,7 +107,7 @@ switch(choice_variable){
 		myText[i]		= ["Open your bag", "Leave it for now"];
 		myTypes[i]		= 1;
 		myNextLine[i]	= [-1,3];
-		myScripts[i]	= [[use_item, "Crystal Hammer", Puzzle3UsingQuipsB], [change_variable, id, "choice_variable", "Leave Again"]];
+		myScripts[i]	= [[use_item, "Crystal Hammer", Puzzle4UsingQuipsB], [change_variable, id, "choice_variable", "Leave Again"]];
 		mySpeaker[i]	= TestPlayer;
 		
 		//Line 3

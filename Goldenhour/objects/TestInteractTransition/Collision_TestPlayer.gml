@@ -40,13 +40,6 @@ var l176BE8A8_0;l176BE8A8_0 = keyboard_check_pressed(vk_space);if (l176BE8A8_0
 				/// @DnDArgument : "var" "global.recentlyInteracted"
 				global.recentlyInteracted = 60;
 			
-				/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
-				/// @DnDVersion : 1
-				/// @DnDHash : 114E8D84
-				/// @DnDParent : 0FF5EC71
-				/// @DnDArgument : "msg" "global.recentlyInteracted"
-				show_debug_message(string(global.recentlyInteracted));
-			
 				/// @DnDAction : YoYo Games.Rooms.Go_To_Room
 				/// @DnDVersion : 1
 				/// @DnDHash : 3792E4CD

@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"Puzzle4GeneratorUsingQuips",
+  "%Name":"Puzzle4UsingQuipsA",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Puzzle4GeneratorUsingQuips",
+  "name":"Puzzle4UsingQuipsA",
   "overriddenProperties":[],
   "parent":{
     "name":"Ruins",

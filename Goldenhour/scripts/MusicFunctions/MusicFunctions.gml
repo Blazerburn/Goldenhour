@@ -17,7 +17,7 @@ function reset_room_song() {
 	or room == CoreRoom
 
 	{
-		set_song_ingame(noone, 60, 30)
+		set_song_ingame(noone, 30, 15)
 	}
 
 	// Ruins Outskirts
@@ -36,11 +36,11 @@ function reset_room_song() {
 	{
 		// If the city is not powered, play the dark theme
 		if global.shiningCityPowered = 0 {
-			set_song_ingame(sng_RuinsOutskirts, 120, 60)
+			set_song_ingame(sng_RuinsOutskirts, 60, 30)
 		}
 		else // If the city is powered play the light theme
 		{
-			set_song_ingame(sng_RuinsLight, 120, 60)
+			set_song_ingame(sng_RuinsLight, 60, 30)
 		}
 	}
 
@@ -49,7 +49,7 @@ function reset_room_song() {
 	if room == ChurchRoom1
 	or room == ChurchRoom2
 	{
-		set_song_ingame(sng_EmptyChurch, 60, 60)
+		set_song_ingame(sng_EmptyChurch, 30, 30)
 	}
 
 	// Ruins Castle
@@ -67,11 +67,11 @@ function reset_room_song() {
 	{
 		// If the city is not powered, play the dark theme
 		if global.shiningCityPowered = 0 {
-			set_song_ingame(sng_RuinsDark, 120, 60)
+			set_song_ingame(sng_RuinsDark, 60, 30)
 		}
 		else // If the city is powered play the light theme
 		{
-			set_song_ingame(sng_RuinsLight, 120, 60)
+			set_song_ingame(sng_RuinsLight, 60, 30)
 		}
 	}
 }

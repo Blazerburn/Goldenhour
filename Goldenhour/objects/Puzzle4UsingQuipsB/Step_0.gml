@@ -54,9 +54,9 @@ if(global.recentlyInteracted == 0)
 				
 					global.inventoryOpen = 0;
 				
-					variable_instance_set(obj_Ruins1Puzzle3, "choice_variable", "Used Again");
+					variable_instance_set(obj_Ruins1Puzzle4, "choice_variable", "Used Again");
 					
-					variable_instance_set(obj_Ruins1Puzzle3, "puzzleProgress", "2");
+					variable_instance_set(obj_Ruins1Puzzle4, "puzzleProgress", "2");
 					
 					global.usingItem = 0;
 					

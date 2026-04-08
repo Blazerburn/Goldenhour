@@ -166,16 +166,16 @@ if(global.recentlyInteracted == 0)
 {
 	show_debug_message(string("Used correct item"));
 	
-	with(obj_Ruins1Puzzle5){
+	with(obj_Ruins1Puzzle6){
 
 	
 	}
 				
 					global.inventoryOpen = 0;
 				
-					variable_instance_set(obj_Ruins1Puzzle5, "choice_variable", "Used");
+					variable_instance_set(obj_Ruins1Puzzle6, "choice_variable", "Used");
 					
-					variable_instance_set(obj_Ruins1Puzzle5, "puzzleProgress", "1");
+					variable_instance_set(obj_Ruins1Puzzle6, "puzzleProgress", "1");
 					
 					global.usingItem = 0;
 					
