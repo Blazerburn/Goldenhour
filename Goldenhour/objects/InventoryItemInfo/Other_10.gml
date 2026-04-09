@@ -29,11 +29,11 @@ if (itemSelectedType = itemStrangeGel) {
 	instance_destroy();
 }
 
-if (itemSelectedType = itemBrokenPath) {
+if (itemSelectedType = itemBrokenPlate) {
 	
 	create_textevent(
      [ 
-	"A collection of broken tile pieces from the box path",
+	"A collection of broken pressure plate pieces from the box path",
 	"It seems like you have all of the pieces"
     ],
     -1,                                                          //mySpeakers
@@ -50,11 +50,11 @@ if (itemSelectedType = itemBrokenPath) {
 	instance_destroy();
 }
 
-if (itemSelectedType = itemFixedPath) {
+if (itemSelectedType = itemFixedPlate) {
 	
 	create_textevent(
      [ 
-	"The broken pieces of the path have been put together with the sticky gel",
+	"The broken pieces of the pressure plate have been put together with the sticky gel",
 	"It should be able to hold itself together now"
     ],
     -1,                                                          //mySpeakers

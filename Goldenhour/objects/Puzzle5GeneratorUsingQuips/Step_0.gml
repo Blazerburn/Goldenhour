@@ -10,15 +10,15 @@ if(global.recentlyInteracted == 0)
 	
 	create_textevent(
 	["It doesn't seem like this is what it needs", 
-	"It's definitely whatever is meant to go in this machine",
-	"But it also seems like whatever is needed, will fit just fine and not need this gel"],
+	"And the wires in the generator seem to be in tact",
+	"So it seems like whatever is needed, will fit just fine and not need this gel"],
 	-1,
 	-1,
 	-1,
 	-1,
 	-1,
 	-1,
-	[[-1], [-1], [78, c_yellow, 81, c_white]],
+	[[-1], [-1], [75, c_yellow, 78, c_white]],
 	-1,
 	-1,
 );

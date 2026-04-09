@@ -8,7 +8,7 @@ if(global.combining == 1)
 {
 	/// Items that WORK
 	/// Change the itemcombiningtypes, and what item it creates
-	if ((global.itemCombiningType1 == "Strange Gel" || global.itemCombiningType1 == itemBrokenPath) && (global.itemCombiningType2 == "Strange Gel" || global.itemCombiningType2 == itemBrokenPath))
+	if ((global.itemCombiningType1 == "Strange Gel" || global.itemCombiningType1 == itemBrokenPlate) && (global.itemCombiningType2 == "Strange Gel" || global.itemCombiningType2 == itemBrokenPlate))
 	{
 		show_debug_message("Right items")
 		global.combining = 0;
@@ -25,13 +25,13 @@ if(global.combining == 1)
 	itemCombineType1 = 0;
 	itemCombineType2 = 0;
 	
-	add_item(0, itemFixedPath, pressureplatebrokentnot, "Fixed Plate", 1);
+	add_item(0, itemFixedPlate, pressureplatebrokentnot, "Fixed Plate", 1);
 	
 	
 		create_textevent(
-		["You stick the strange gel to the sides of the broken pieces and try to stick them back together", 
+		["You stick the strange gel to the sides of the broken pressure plate pieces and try to stick them back together", 
 		"It takes a bit, but you eventually get all the pieces where you think they belong", 
-		"You got a Fixed Path!"],
+		"You got a Fixed Pressure Plate!"],
 		-1,
 		-1,
 		-1,
@@ -128,7 +128,7 @@ if(global.combining == 1)
 	
 	/// Items that DON'T WORK
 	
-	if ((global.itemCombiningType1 == itemStrangeGel || global.itemCombiningType1 == itemFixedPath) && (global.itemCombiningType2 == itemStrangeGel || global.itemCombiningType2 == itemFixedPath))
+	if ((global.itemCombiningType1 == itemStrangeGel || global.itemCombiningType1 == itemFixedPlate) && (global.itemCombiningType2 == itemStrangeGel || global.itemCombiningType2 == itemFixedPlate))
 	{
 		show_debug_message("Wrong items")
 	

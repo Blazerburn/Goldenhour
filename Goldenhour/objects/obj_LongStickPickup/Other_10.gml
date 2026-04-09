@@ -20,12 +20,13 @@ switch(choice_variable){
 		myText[i]		= ["Open the Chest", "Leave it"];
 		myTypes[i]		= 1;
 		myNextLine[i]	= [3,7];
-		myScripts[i]	= [[add_item, 0, "Long Stick", LongStick, "Long Stick", 1], [change_variable, id, "choice_variable", "Leave"]];
+		myScripts[i]	= [[change_variable, id, "choice_variable", "Take"], [change_variable, id, "choice_variable", "Leave"]];
 		mySpeaker[i]	= TestPlayer;
 
 		//Line 3
 		i++;
 		myText[i]		= "You swing open the chest and begin to rummage through it's contents";
+		myScripts[i]    = [add_item, 0, "Long Stick", LongStick, "Long Stick", 1];
 		mySpeaker[i]	= id;
 		
 		//Line 4
@@ -42,7 +43,6 @@ switch(choice_variable){
 		i++;
 		myText[i]		= "You got the Long Stick!";
 		myNextLine[i]   = -1;
-		myScripts[i]    = [change_variable, id, "choice_variable", "Take"];
 		mySpeaker[i]	= id;
 
 
@@ -58,7 +58,7 @@ switch(choice_variable){
 		var i = 0;
 		//Line 11
 		myText[i]		= "The chest doesn't look like it has anything else useful";
-		myTextSpeed[i]	= [1, 0.3];
+		myTextSpeed[i]	= [1, 0.5];
 		mySpeaker[i]	= id;
 		
 

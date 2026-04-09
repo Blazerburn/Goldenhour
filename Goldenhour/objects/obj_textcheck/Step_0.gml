@@ -8,5 +8,6 @@ else
 {
 	global.Talking = 0
 	global.Immobilize = 0
+	global.textEventChoice = 0
 	instance_destroy(self)
 }

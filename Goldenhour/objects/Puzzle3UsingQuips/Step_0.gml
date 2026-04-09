@@ -4,12 +4,12 @@ if(global.recentlyInteracted == 0)
 {
 	if(global.itemCheck == 1)
 {
-	if(global.itemWrongType == itemBrokenPath)
+	if(global.itemWrongType == itemBrokenPlate)
 {
 
 	
 	create_textevent(
-	["You place down the broken tile pieces where they belong", 
+	["You place down the broken pressure plate", 
 	"...", 
 	"It's still broken...",
 	"What did you think that would accomplish?",
@@ -35,7 +35,7 @@ if(global.recentlyInteracted == 0)
 {
 		create_textevent(
 	["You could put some of the strange gel on the floor", 
-	"But... it might make more sense to place it on the broken piece, and then stick that to the floor"],
+	"But... it might make more sense to place it on the broken pieces, and then stick that to the floor"],
 	-1,
 	-1,
 	-1,
@@ -87,9 +87,8 @@ if(global.recentlyInteracted == 0)
 					//script_execute_alt(change_variable( obj_BrokenPathPickup, "choice_variable", "Used"));
 				
 							create_textevent(
-	["The tile pieces you stuck together fit into where the path was", 
-	"It fits perfectly!",
-	"It seems like you should be able to move the box across"],
+	["You press the fixed pressure plate to back where it belongs", 
+	"It fits perfectly!"],
 	-1,
 	-1,
 	-1,

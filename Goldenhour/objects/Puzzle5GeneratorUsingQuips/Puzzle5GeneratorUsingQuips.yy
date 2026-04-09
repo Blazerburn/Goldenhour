@@ -8,8 +8,8 @@
   "name":"Puzzle5GeneratorUsingQuips",
   "overriddenProperties":[],
   "parent":{
-    "name":"Ruins",
-    "path":"folders/Objects/Puzzles/Puzzle Controllers/Ruins/Item Use/ItemUseQuips/Ruins.yy",
+    "name":"ItemUseQuips",
+    "path":"folders/Objects/Puzzles/Puzzle Controllers/Ruins/Item Use/ItemUseQuips.yy",
   },
   "parentObjectId":null,
   "persistent":false,
