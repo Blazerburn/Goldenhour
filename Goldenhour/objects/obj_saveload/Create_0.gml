@@ -27,6 +27,7 @@ global.levelData =
 	Rubble : 0,
 	Statue : 0,
 	RightStreet : 0,
+	JamboMeeting : 0,
 }
 
 global.roomInstances = 0;

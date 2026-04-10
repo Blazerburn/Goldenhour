@@ -3,7 +3,7 @@ if(global.inventoryOpen == 0)
 	if(global.Talking == 0)
 	{
 		
-			set_song_ingame(sng_inventoryBeginning, 15, 0)
+			set_song_ingame(sng_inventoryBeginning, 15, 0, 24)
 	
 			global.inventoryOpen = 1;
 			global.shiftText = 1;

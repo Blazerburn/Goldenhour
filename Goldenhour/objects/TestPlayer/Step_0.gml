@@ -331,6 +331,7 @@ var selectionY = y;
 previousPlayerX = xprevious;
 previousPlayerY = yprevious;
 
+depth = -y;
 
 if(global.playerFollowers == 1)
 {

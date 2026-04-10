@@ -1,12 +1,13 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function set_song_ingame(_song, _fadeOutCurrentSong = 0, _fadeIn = 0){
+function set_song_ingame(_song, _fadeOutCurrentSong = 0, _fadeIn = 0, _loopPos = 0){
 	// _song = set song, including "noone" to stop or fade the track out)
 	
 	with (obj_MusicPlayer) {
 		targetSongAsset = _song;
 		endFadeOutTime = _fadeOutCurrentSong;
 		startFadeInTime = _fadeIn;
+		loopPosition = _loopPos
 	}
 }
 

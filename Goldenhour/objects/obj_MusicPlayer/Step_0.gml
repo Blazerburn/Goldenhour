@@ -14,10 +14,20 @@ if songAsset != targetSongAsset
 		
 		array_push(fadeOutInstTime, endFadeOutTime);
 		
+		// If the song is the inventory song, save the previous song's position
+		if targetSongAsset = sng_inventoryBeginning or songAsset = sng_inventoryBeginning{
+			songPosition = audio_sound_get_track_position(songInstance)
+		}
+		else {
+			songPosition = 0;
+		}
+		
 		// Reset the songInstance and songAsset variables
 		songInstance = noone;
 		songAsset = noone;
 	}
+	
+	
 	
 	// Play the song if the old song has faded out
 	//if array_length(fadeOutInstances) == 0
@@ -25,7 +35,16 @@ if songAsset != targetSongAsset
 		if audio_exists(targetSongAsset) {
 			// Play the song and store it's instance in a variable
 			songInstance = audio_play_sound(targetSongAsset, 4, true);
-		
+			
+			audio_sound_loop_start(songInstance, loopPosition)
+			
+			// If the target song is not the inventory song, set it to it's previous position
+			if !(targetSongAsset = sng_inventoryBeginning) {
+				audio_sound_set_track_position(songInstance, songPosition)
+				show_debug_message(songPosition)
+				}
+			
+			
 			// Start the song's volume at 0
 			audio_sound_gain(songInstance, 0, 0);
 			fadeInInstVol = 0;

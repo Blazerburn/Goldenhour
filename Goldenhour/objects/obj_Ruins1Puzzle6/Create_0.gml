@@ -25,9 +25,8 @@ choice_variable		= -1;	//the variable we change depending on the player's choice
 
 collision = 0;
 
-collision = instance_create_layer(x - 32, y - 32, "Instances", TestWall);
-collision2 = instance_create_layer(x - 32, y - 32, "Instances", TestWall);
+collision = instance_create_layer(x-16 , y-16, "Instances", TestWall);
 
-pathCollision = instance_create_layer(x - 32, y - 32, "Instances", PushableWall);
+pathCollision = instance_create_layer(x-16, y-16, "Instances", PushableWall);
 
 

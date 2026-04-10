@@ -25,6 +25,7 @@ global.currentSong = 0;
 global.roomSong = 0;
 
 // Environment Specific Events
+global.Puzzle4SecondHalf = 0;
 global.shiningCityPowered = 0;
 
 

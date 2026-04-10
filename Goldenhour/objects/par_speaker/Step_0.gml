@@ -4,7 +4,8 @@ if(global.inventoryOpen == 0)
 {
 if(global.Talking == 0)
 {
-if(point_in_rectangle(playerobject.x, playerobject.y, x-dr, y-dr, x+dr, y+dr) || point_in_rectangle(playerobject.x, playerobject.y+16, x-dr, y-dr, x+dr, y+dr)){
+if(point_in_rectangle(playerobject.x, playerobject.y, x-dr*xscale, y-dr*yscale, x+dr*xscale, y+dr*yscale) 
+|| point_in_rectangle(playerobject.x, playerobject.y+16, x-dr*xscale, y-dr*yscale, x+dr*xscale, y+dr*yscale)){
 	if (playerobject == TestPlayer) {
 		if (global.pushingBox == 0) {
 	if(myTextbox != noone){ 

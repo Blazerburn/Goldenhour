@@ -1,6 +1,8 @@
 // Info for the song we are currently playing/trying to play
 songInstance = noone;
 songAsset = noone;
+songPosition = 0;
+loopPosition = 0;
 targetSongAsset = noone;
 endFadeOutTime = 0;//how many frames to fade out the song currently playing
 startFadeInTime = 0;//how many frams to fade in the new song

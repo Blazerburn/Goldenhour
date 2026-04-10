@@ -8,7 +8,9 @@ switch(choice_variable){
 		//Line 0
 		var i = 0;
 		myText[i]		= "The pressure plate that the box is supposed to go on";
+		myScripts[i]	= [change_variable, id, "choice_variable", "Leave"]
 		mySpeaker[i]	= id;
+		
 		
 		//Line 1
 		i++;

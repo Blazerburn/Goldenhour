@@ -210,6 +210,27 @@ if(global.combining == 1)
 	instance_destroy();
 	}
 	
+	if ((global.itemCombiningType1 == itemLongStick || global.itemCombiningType1 == itemChiselRock) && (global.itemCombiningType2 == itemLongStick || global.itemCombiningType2 == itemChiselRock))
+	{
+		show_debug_message("Wrong items")
+	
+	
+		create_textevent(
+		["If you want to stick the rock to the stick",
+		"You're going to need to use something else first"],
+		-1,
+		-1,
+		-1,
+		-1,
+		-1,
+		-1,
+		-1,
+		-1,
+		-1,
+	);
+	instance_destroy();
+	}
+	
 	if ((global.itemCombiningType1 == itemStrangeGel || global.itemCombiningType1 == itemSecretBook10thHour) && (global.itemCombiningType2 == itemStrangeGel || global.itemCombiningType2 == itemSecretBook10thHour))
 	{
 		show_debug_message("Wrong items")

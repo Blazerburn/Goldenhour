@@ -73,6 +73,7 @@ function save_room()
 	if room == RubbleRoom {global.levelData.Rubble = _roomStruct;};
 	if room == StatueRoom {global.levelData.Statue = _roomStruct;};
 	if room == StreetRoom3 {global.levelData.RightStreet = _roomStruct;};
+	if room == JamboRoom {global.levelData.JamboMeeting = _roomStruct;};
 	
 	show_debug_message(global.levelData);
 	 
@@ -100,6 +101,8 @@ function load_room()
 	if room == RubbleRoom {_roomStruct = global.levelData.Rubble;};
 	if room == StatueRoom {_roomStruct = global.levelData.Statue;};
 	if room == StreetRoom3 {_roomStruct = global.levelData.RightStreet;};
+	if room == JamboRoom {_roomStruct = global.levelData.JamboMeeting;};
+	
 	
 	
 	// Exit if _roomstruct isn't a struct

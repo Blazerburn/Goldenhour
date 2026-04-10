@@ -88,7 +88,7 @@ if(global.recentlyInteracted == 0)
 );
 					reset_room_song()
 					global.itemCheck = 0;
-				
+					BreakablePathWall.image_index = 1
 					instance_destroy();
 				
 					exit;
