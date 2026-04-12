@@ -15,7 +15,7 @@ if songAsset != targetSongAsset
 		array_push(fadeOutInstTime, endFadeOutTime);
 		
 		// If the song is the inventory song, save the previous song's position
-		if targetSongAsset = sng_inventoryBeginning or songAsset = sng_inventoryBeginning{
+		if targetSongAsset = sng_inventory or songAsset = sng_inventory{
 			songPosition = audio_sound_get_track_position(songInstance)
 		}
 		else {
@@ -39,7 +39,7 @@ if songAsset != targetSongAsset
 			audio_sound_loop_start(songInstance, loopPosition)
 			
 			// If the target song is not the inventory song, set it to it's previous position
-			if !(targetSongAsset = sng_inventoryBeginning) {
+			if !(targetSongAsset = sng_inventory) {
 				audio_sound_set_track_position(songInstance, songPosition)
 				show_debug_message(songPosition)
 				}

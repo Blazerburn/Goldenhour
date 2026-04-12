@@ -12,7 +12,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Item Use",
-    "path":"folders/Objects/Puzzles/Puzzle Controllers/Ruins/Item Use.yy",
+    "path":"folders/Objects/Puzzles/Puzzle Controllers/Item Use.yy",
   },
   "parentObjectId":{
     "name":"par_speaker",

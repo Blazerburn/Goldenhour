@@ -123,9 +123,9 @@ function load_room()
 	//	instance_destroy(pushBoxCollision);
 	//}
 	
-	if instance_exists(PushableObjectSpawner) {instance_destroy(PushableObjectSpawner); };
+	if instance_exists(obj_PushableObjectSpawner) {instance_destroy(obj_PushableObjectSpawner); };
 			for (var i = 0; i < _roomStruct.boxNum; i++) {
-				instance_create_layer(_roomStruct.boxData[i].x, _roomStruct.boxData[i].y, layer, PushableObjectSpawner)
+				instance_create_layer(_roomStruct.boxData[i].x, _roomStruct.boxData[i].y, layer, obj_PushableObjectSpawner)
 				show_debug_message(_roomStruct.boxData[i].x);
 				show_debug_message(_roomStruct.boxData[i].y);
 			}

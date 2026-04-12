@@ -28,9 +28,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite1",
-    "path":"sprites/Sprite1/Sprite1.yy",
+    "name":"PlayerCollision",
+    "path":"sprites/PlayerCollision/PlayerCollision.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }

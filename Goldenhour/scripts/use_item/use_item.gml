@@ -16,7 +16,7 @@ if(global.recentlyInteracted == 0)
 			show_debug_message(string(itemNeeded));
 		}
 	
-		set_song_ingame(sng_inventoryBeginning, 15)
+		set_song_ingame(sng_inventory, 15)
 	
 		instance_create_layer(0, 0, "Instances", invItemQuips);
 }
