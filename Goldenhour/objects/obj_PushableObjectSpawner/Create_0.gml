@@ -13,9 +13,9 @@ var pushableObjectID = 0;
 /// @DnDArgument : "var" "pushableObjectID"
 /// @DnDArgument : "var_temp" "1"
 /// @DnDArgument : "objectid" "PushableObject"
-/// @DnDArgument : "layer" ""Box""
+/// @DnDArgument : "layer" ""sort_begin""
 /// @DnDSaveInfo : "objectid" "PushableObject"
-var pushableObjectID = instance_create_layer(x + 0, y + 0, "Box", PushableObject);
+var pushableObjectID = instance_create_layer(x + 0, y + 0, "sort_begin", PushableObject);
 
 /// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
 /// @DnDVersion : 1

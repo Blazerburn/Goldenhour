@@ -19,9 +19,9 @@
     {"name":"Ruins","order":1,"path":"folders/Objects/Puzzles/Interactables/Ruins.yy",},
     {"name":"Ruins","order":12,"path":"folders/Objects/Puzzles/ItemPickups/Ruins.yy",},
     {"name":"Puzzle Controllers","order":1,"path":"folders/Objects/Puzzles/Puzzle Controllers.yy",},
-    {"name":"Code Puzzles","order":2,"path":"folders/Objects/Puzzles/Puzzle Controllers/Ruins/Code Puzzles.yy",},
     {"name":"Item Use","order":1,"path":"folders/Objects/Puzzles/Puzzle Controllers/Item Use.yy",},
     {"name":"ItemUseQuips","order":6,"path":"folders/Objects/Puzzles/Puzzle Controllers/Item Use/ItemUseQuips.yy",},
+    {"name":"Code Puzzles","order":2,"path":"folders/Objects/Puzzles/Puzzle Controllers/Ruins/Code Puzzles.yy",},
     {"name":"Test","order":18,"path":"folders/Objects/Test.yy",},
     {"name":"Particle Systems","order":14,"path":"folders/Particle Systems.yy",},
     {"name":"Paths","order":3,"path":"folders/Paths.yy",},
@@ -67,6 +67,7 @@
   ],
   "ResourceOrderSettings":[
     {"name":"fnt_dialogue","order":1,"path":"fonts/fnt_dialogue/fnt_dialogue.yy",},
+    {"name":"Boulder","order":6,"path":"objects/Boulder/Boulder.yy",},
     {"name":"BreakablePathWall","order":3,"path":"objects/BreakablePathWall/BreakablePathWall.yy",},
     {"name":"InventoryCombining","order":13,"path":"objects/InventoryCombining/InventoryCombining.yy",},
     {"name":"InventoryCombiningText","order":1,"path":"objects/InventoryCombiningText/InventoryCombiningText.yy",},

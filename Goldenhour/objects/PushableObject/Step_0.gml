@@ -35,12 +35,12 @@ if(objectID == interactedBoxID)
 			
 			
 			with(pushBoxCollision) {
-			x = pushableBoxOriginX + 3;
-			y = pushableBoxOriginY + 2;
+			x = pushableBoxOriginX + 2;
+			y = pushableBoxOriginY + 6;
 			}
 			with(pathCollision) {
-			x = pushableBoxOriginX + 3;
-			y = pushableBoxOriginY + 2;
+			x = pushableBoxOriginX + 8;
+			y = pushableBoxOriginY + 8;
 			}
 		
 			if(pushPlayerDirection == 0)
@@ -162,8 +162,8 @@ if (l35D9AC80_0)
 					
 					instance_activate_object(pathCollision);
 					with(pathCollision) {
-					x = pushableBoxOriginX + 2;
-					y = pushableBoxOriginY + 2;
+					x = pushableBoxOriginX + 8;
+					y = pushableBoxOriginY + 8;
 					}
 	}
 }
@@ -175,5 +175,5 @@ else {
 }
 }
 }
-
-depth = -y;
+//show_debug_message(depth)
+update_layer()

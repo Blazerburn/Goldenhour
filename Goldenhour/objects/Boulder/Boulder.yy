@@ -1,15 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"PushableWall",
-  "eventList":[],
+  "%Name":"Boulder",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"PushableWall",
+  "name":"Boulder",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Ruins",
+    "path":"folders/Objects/Puzzles/Interactables/Ruins.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_props",
+    "path":"objects/obj_props/obj_props.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -28,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"BoxCollision",
-    "path":"sprites/BoxCollision/BoxCollision.yy",
+    "name":"boulder",
+    "path":"sprites/boulder/boulder.yy",
   },
   "spriteMaskId":null,
   "visible":true,
