@@ -19,9 +19,9 @@
   "height":384,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"cfcd8177-0cf3-4de6-8b29-b50e54ee8eb3","blendMode":0,"displayName":"default","isLocked":false,"name":"cfcd8177-0cf3-4de6-8b29-b50e54ee8eb3","opacity":43.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":false,},
-    {"$GMImageLayer":"","%Name":"431a486d-4d24-4c0a-a7fb-eb497f692083","blendMode":0,"displayName":"Layer 3","isLocked":false,"name":"431a486d-4d24-4c0a-a7fb-eb497f692083","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
-    {"$GMImageLayer":"","%Name":"1aa6d011-eb03-47ef-bee6-a59ab7446886","blendMode":0,"displayName":"Layer 6","isLocked":false,"name":"1aa6d011-eb03-47ef-bee6-a59ab7446886","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"cfcd8177-0cf3-4de6-8b29-b50e54ee8eb3","blendMode":0,"displayName":"default","isLocked":false,"name":"cfcd8177-0cf3-4de6-8b29-b50e54ee8eb3","opacity":43.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"ff0029d6-0bb8-4743-bf5e-60714cc3adcf","blendMode":0,"displayName":"Layer 3","isLocked":false,"name":"ff0029d6-0bb8-4743-bf5e-60714cc3adcf","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"28d9a7c3-42cd-4e4d-b16f-3957d9e70412","blendMode":0,"displayName":"Layer 6","isLocked":false,"name":"28d9a7c3-42cd-4e4d-b16f-3957d9e70412","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"206c1388-6b63-408f-8cc7-bf53050aa9e9","blendMode":0,"displayName":"Layer 2","isLocked":false,"name":"206c1388-6b63-408f-8cc7-bf53050aa9e9","opacity":50.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":false,},
     {"$GMImageLayer":"","%Name":"08a415e2-cf8a-40bd-9fdb-b70e919c9903","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"08a415e2-cf8a-40bd-9fdb-b70e919c9903","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
