@@ -112,7 +112,7 @@ if(global.Immobilize == 0)
 	//x = round(x)
 	//y = round(y)
 
-	move_and_collide(xinput * Speed, yinput * Speed, [TestWall],4,0,0,Speed,Speed);
+	move_and_collide(xinput * Speed, yinput * Speed, [TestWall, TestAngleWall],4,0,0,Speed,Speed);
 	
 	
 
@@ -333,7 +333,7 @@ previousPlayerY = yprevious;
 
 //depth = room_height - y;
 //depth = room_height + 32 - y;
-show_debug_message(depth)
+//show_debug_message(depth)
 
 	
 if !place_meeting(x, y, obj_SpecificDepthCollision) {
