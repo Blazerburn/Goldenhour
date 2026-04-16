@@ -4,7 +4,7 @@
   "bboxMode":0,
   "bbox_bottom":383,
   "bbox_left":0,
-  "bbox_right":511,
+  "bbox_right":767,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -19,9 +19,8 @@
   "height":384,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"cfcd8177-0cf3-4de6-8b29-b50e54ee8eb3","blendMode":0,"displayName":"default","isLocked":false,"name":"cfcd8177-0cf3-4de6-8b29-b50e54ee8eb3","opacity":43.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
-    {"$GMImageLayer":"","%Name":"ff0029d6-0bb8-4743-bf5e-60714cc3adcf","blendMode":0,"displayName":"Layer 3","isLocked":false,"name":"ff0029d6-0bb8-4743-bf5e-60714cc3adcf","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
-    {"$GMImageLayer":"","%Name":"28d9a7c3-42cd-4e4d-b16f-3957d9e70412","blendMode":0,"displayName":"Layer 6","isLocked":false,"name":"28d9a7c3-42cd-4e4d-b16f-3957d9e70412","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"cfcd8177-0cf3-4de6-8b29-b50e54ee8eb3","blendMode":0,"displayName":"default","isLocked":false,"name":"cfcd8177-0cf3-4de6-8b29-b50e54ee8eb3","opacity":43.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":false,},
+    {"$GMImageLayer":"","%Name":"ff026854-08af-498f-95ec-c5e5453b4c8d","blendMode":0,"displayName":"Layer 6","isLocked":false,"name":"ff026854-08af-498f-95ec-c5e5453b4c8d","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"206c1388-6b63-408f-8cc7-bf53050aa9e9","blendMode":0,"displayName":"Layer 2","isLocked":false,"name":"206c1388-6b63-408f-8cc7-bf53050aa9e9","opacity":50.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":false,},
     {"$GMImageLayer":"","%Name":"08a415e2-cf8a-40bd-9fdb-b70e919c9903","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"08a415e2-cf8a-40bd-9fdb-b70e919c9903","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
@@ -92,5 +91,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":512,
+  "width":768,
 }

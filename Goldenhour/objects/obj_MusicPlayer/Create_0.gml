@@ -2,6 +2,7 @@
 songInstance = noone;
 songAsset = noone;
 songPosition = 0;
+savedSongPosition = "False";
 loopPosition = 0;
 targetSongAsset = noone;
 endFadeOutTime = 0;//how many frames to fade out the song currently playing

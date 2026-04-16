@@ -3,9 +3,10 @@
   "%Name":"tile_RuinFloors",
   "autoTileSets":[],
   "macroPageTiles":{
-    "SerialiseHeight":0,
-    "SerialiseWidth":0,
-    "TileSerialiseData":[],
+    "SerialiseHeight":21,
+    "SerialiseWidth":5,
+    "TileCompressedData":[-2,0,8,32,33,34,0,0,40,41,42,-95,0,],
+    "TileDataFormat":1,
   },
   "name":"tile_RuinFloors",
   "out_columns":7,

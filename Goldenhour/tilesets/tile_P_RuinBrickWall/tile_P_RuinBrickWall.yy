@@ -8,7 +8,7 @@
     "TileSerialiseData":[],
   },
   "name":"tile_P_RuinBrickWall",
-  "out_columns":14,
+  "out_columns":17,
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
@@ -34,5 +34,5 @@
   "tileWidth":32,
   "tilexoff":0,
   "tileyoff":0,
-  "tile_count":192,
+  "tile_count":288,
 }

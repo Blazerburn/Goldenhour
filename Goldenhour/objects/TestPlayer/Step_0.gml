@@ -335,11 +335,15 @@ previousPlayerY = yprevious;
 //depth = room_height + 32 - y;
 //show_debug_message(depth)
 
+
+
+
+
 	
 if !place_meeting(x, y, obj_SpecificDepthCollision) {
 	
 	with (obj_SpecificDepthController) {
-		show_debug_message("Not Colliding")
+		//show_debug_message("Not Colliding")
 		colliding = 0;
 	}
 }
@@ -348,7 +352,7 @@ if !place_meeting(x, y, obj_SpecificDepthCollision) {
 if place_meeting(x, y, obj_SpecificDepthCollision) {
 	
 	with (obj_SpecificDepthController) {
-		show_debug_message("Colliding")
+		//show_debug_message("Colliding")
 		colliding = 1;
 	}
 }

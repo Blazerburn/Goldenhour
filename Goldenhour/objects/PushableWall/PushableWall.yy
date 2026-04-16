@@ -32,5 +32,5 @@
     "path":"sprites/BoxCollision/BoxCollision.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

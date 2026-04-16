@@ -14,7 +14,10 @@
     "name":"Item Use",
     "path":"folders/Objects/Puzzles/Puzzle Controllers/Item Use.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"par_speaker",
+    "path":"objects/par_speaker/par_speaker.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
