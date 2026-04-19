@@ -27,12 +27,12 @@ else{	/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 4843F3DE
 		/// @DnDParent : 5C63F3BF
-		/// @DnDArgument : "xpos" "528"
+		/// @DnDArgument : "xpos" "848"
 		/// @DnDArgument : "ypos" "178"
 		/// @DnDArgument : "objectid" "TestPlayer"
 		/// @DnDArgument : "layer" ""Player""
 		/// @DnDSaveInfo : "objectid" "TestPlayer"
-		instance_create_layer(528, 178, "Player", TestPlayer);}
+		instance_create_layer(848, 178, "Player", TestPlayer);}
 
 	/// @DnDAction : YoYo Games.Common.Else
 	/// @DnDVersion : 1

@@ -3,7 +3,7 @@
 
 
 if (puzzleProgress == 1) {
-draw_sprite(PushableBox, -1, x + 8, y - 16);
+draw_sprite(PushBox, -1, x + 8, y - 16);
 }
 else {
 	draw_self()
