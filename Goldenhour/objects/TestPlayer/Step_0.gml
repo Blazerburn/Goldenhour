@@ -331,15 +331,7 @@ var selectionY = y;
 previousPlayerX = xprevious;
 previousPlayerY = yprevious;
 
-//depth = room_height - y;
-//depth = room_height + 32 - y;
-//show_debug_message(depth)
-
-
-
-
-
-	
+// Specific Depth Controller
 if !place_meeting(x, y, obj_SpecificDepthCollision) {
 	
 	with (obj_SpecificDepthController) {
@@ -355,6 +347,34 @@ if place_meeting(x, y, obj_SpecificDepthCollision) {
 		//show_debug_message("Colliding")
 		colliding = 1;
 	}
+}
+
+// Collision Change Controller
+/*if !place_meeting(x, y, obj_CollisionChangeCollision) {
+	
+	with (obj_CollisionChangeController) {
+		show_debug_message("Not Colliding")
+		colliding = 0;
+	}
+}*/
+
+if place_meeting(x, y, obj_CollisionChangeCollision) {
+	if _colliding = "False" {
+		with (obj_CollisionChangeController) {
+			if colliding = 0 {
+				show_debug_message("Colliding")
+				colliding = 1;
+			}
+			else if colliding = 1 {
+				show_debug_message("Not Colliding")
+				colliding = 0;
+			}
+		}
+		_colliding = "True"
+	}
+}
+else {
+	_colliding = "False"
 }
 
 if(global.playerFollowers == 1)
