@@ -11,7 +11,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Ruins",
-    "path":"folders/Objects/Puzzles/Interactables/Ruins.yy",
+    "path":"folders/Objects/Interactables/Ruins.yy",
   },
   "parentObjectId":{
     "name":"par_speaker",

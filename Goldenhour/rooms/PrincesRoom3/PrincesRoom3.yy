@@ -47,11 +47,11 @@
         {"$GMRInstance":"v4","%Name":"inst_3FF1C1FD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3FF1C1FD","objectId":{"name":"obj_ShiningCityLockedDoor","path":"objects/obj_ShiningCityLockedDoor/obj_ShiningCityLockedDoor.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":128.0,"y":96.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Wall","depth":900,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Wall","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":8,"SerialiseWidth":22,"TileCompressedData":[
-          -3,-2147483648,2,11,1,-12,101,1,73,-6,-2147483648,3,11,74,227,-12,101,2,97,73,-4,-2147483648,4,11,74,
-          98,251,-12,101,-2,97,8,2,-2147483648,-2147483648,11,74,98,98,275,-7,-2147483648,-5,0,9,121,97,226,73,
-          -2147483648,74,98,98,122,-9,-2147483648,-5,0,7,121,250,97,73,98,98,122,-11,-2147483648,-3,0,7,-2147483648,
-          0,274,97,97,98,122,-13,-2147483648,-2,0,-3,-2147483648,3,121,97,122,-15,-2147483648,1,0,-4,-2147483648,
-          1,121,
+          -3,-2147483648,2,11,1,-11,101,3,5,6,15,-5,-2147483648,3,11,74,227,-11,101,4,29,30,73,15,-3,-2147483648,
+          4,11,196,98,251,-11,101,11,29,30,97,2,15,-2147483648,11,219,220,98,275,-7,-2147483648,-4,0,10,53,54,
+          97,226,73,15,76,243,220,122,-9,-2147483648,-5,0,7,121,250,97,78,100,243,244,-11,-2147483648,-3,0,8,-2147483648,
+          0,274,97,102,100,267,268,-12,-2147483648,-2,0,-3,-2147483648,3,121,102,124,-15,-2147483648,1,0,-4,-2147483648,
+          1,126,
         ],"TileDataFormat":1,},"tilesetId":{"name":"tile_P_RuinBrickWall","path":"tilesets/tile_P_RuinBrickWall/tile_P_RuinBrickWall.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"Floor","depth":1000,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Floor","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":8,"SerialiseWidth":22,"TileCompressedData":[
           -69,-2147483648,16,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,-6,-2147483648,16,9,10,9,10,9,10,9,10,9,10,9,10,9,

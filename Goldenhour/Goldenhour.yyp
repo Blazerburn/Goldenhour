@@ -487,6 +487,7 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"PersistentRoom","path":"rooms/PersistentRoom/PersistentRoom.yy",},},
     {"children":[
+        {"roomId":{"name":"StreetRoom1","path":"rooms/StreetRoom1/StreetRoom1.yy",},},
         {"roomId":{"name":"PrincesRoom1","path":"rooms/PrincesRoom1/PrincesRoom1.yy",},},
         {"children":[
             {"roomId":{"name":"PuzzleRoom4","path":"rooms/PuzzleRoom4/PuzzleRoom4.yy",},},
@@ -506,7 +507,6 @@
             {"roomId":{"name":"JamboRoom","path":"rooms/JamboRoom/JamboRoom.yy",},},
           ],"groupName":"Outskirts",},
         {"children":[
-            {"roomId":{"name":"StreetRoom1","path":"rooms/StreetRoom1/StreetRoom1.yy",},},
             {"roomId":{"name":"StreetRoom2","path":"rooms/StreetRoom2/StreetRoom2.yy",},},
             {"roomId":{"name":"StreetRoom3","path":"rooms/StreetRoom3/StreetRoom3.yy",},},
             {"roomId":{"name":"StreetRoom4","path":"rooms/StreetRoom4/StreetRoom4.yy",},},

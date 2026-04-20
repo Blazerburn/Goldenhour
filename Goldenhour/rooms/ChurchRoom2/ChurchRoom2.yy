@@ -55,11 +55,11 @@
           104,105,-6,106,4,108,109,110,0,-38,-2147483648,
         ],"TileDataFormat":1,},"tilesetId":{"name":"tile_P_RuinBrickWall","path":"tilesets/tile_P_RuinBrickWall/tile_P_RuinBrickWall.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"Walls","depth":1000,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Walls","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":8,"SerialiseWidth":18,"TileCompressedData":[
-          -2,-2147483648,13,0,11,145,147,101,72,101,101,72,101,150,152,15,-4,-2147483648,58,0,11,219,169,171,101,
-          96,101,101,96,101,174,176,222,15,-2147483648,-2147483648,0,11,1,243,193,171,101,96,101,101,96,101,174,
-          200,246,2,15,-2147483648,11,1,25,243,217,195,0,120,0,0,120,0,198,224,246,26,2,15,5,25,25,267,241,-8,
-          0,8,248,270,26,158,78,29,25,49,-12,0,6,50,182,102,29,49,0,-5,-2147483648,3,0,-2147483648,-2147483648,
-          -5,0,3,206,102,53,-16,-2147483648,1,126,
+          -2,-2147483648,13,0,11,3,4,101,72,101,101,72,101,5,6,15,-4,-2147483648,57,0,11,74,27,28,101,96,101,101,
+          96,101,29,30,73,15,-2147483648,-2147483648,0,11,1,98,27,28,101,96,101,101,96,101,29,30,97,2,15,-2147483648,
+          11,1,25,98,51,52,0,120,0,0,120,0,53,54,97,26,2,15,76,25,25,122,-10,0,7,121,26,158,78,100,25,49,-12,0,
+          6,50,182,102,100,49,0,-5,-2147483648,3,0,-2147483648,-2147483648,-5,0,3,206,102,124,-16,-2147483648,
+          1,126,
         ],"TileDataFormat":1,},"tilesetId":{"name":"tile_P_RuinBrickWall","path":"tilesets/tile_P_RuinBrickWall/tile_P_RuinBrickWall.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"FloorDetails","depth":1100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"FloorDetails","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":8,"SerialiseWidth":18,"TileCompressedData":[
           -59,-2147483648,1,27,-6,-2147483648,1,27,-26,-2147483648,1,18,-17,-2147483648,1,20,-5,-2147483648,1,

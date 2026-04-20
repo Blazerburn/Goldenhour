@@ -47,7 +47,14 @@
           0,-12,-2147483648,3,0,16,36,-12,-2147483648,3,0,16,24,-13,-2147483648,2,16,24,-13,-2147483648,2,16,2,
           -13,20,1,1,
         ],"TileDataFormat":1,},"tilesetId":{"name":"RuinBrickTileSet","path":"tilesets/RuinBrickTileSet/RuinBrickTileSet.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
-    {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4294170830,"depth":1100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
+    {"$GMRTileLayer":"","%Name":"Floor","depth":1100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Floor","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":14,"SerialiseWidth":15,"TileCompressedData":[
+          -76,-2147483648,134,24,25,26,24,25,26,24,25,26,24,25,26,24,25,-2147483648,32,33,34,32,33,34,32,33,34,
+          32,33,34,32,33,-2147483648,40,41,42,40,41,42,40,41,42,40,41,42,40,41,37,24,25,26,24,25,26,24,25,26,24,
+          25,26,24,25,45,32,33,34,32,33,34,32,33,34,32,33,34,32,33,-2147483648,40,41,42,40,41,42,40,41,42,40,41,
+          42,40,41,-2147483648,24,25,26,24,25,26,24,25,26,24,25,26,24,25,-2147483648,32,33,34,32,33,34,32,33,34,
+          32,33,34,32,33,-2147483648,40,41,42,40,41,42,40,41,42,40,41,42,40,41,
+        ],"TileDataFormat":1,},"tilesetId":{"name":"tile_RuinFloors","path":"tilesets/tile_RuinFloors/tile_RuinFloors.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+    {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4294170830,"depth":1200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
   "name":"ParkRoom",
   "parent":{

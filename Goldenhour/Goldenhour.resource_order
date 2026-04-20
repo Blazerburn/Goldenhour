@@ -114,7 +114,6 @@
     {"name":"obj_Ruins1Puzzle6Door","order":3,"path":"objects/obj_Ruins1Puzzle6Door/obj_Ruins1Puzzle6Door.yy",},
     {"name":"obj_SecretBook10thPickup","order":8,"path":"objects/obj_SecretBook10thPickup/obj_SecretBook10thPickup.yy",},
     {"name":"obj_ShiningCityFirstNumber","order":3,"path":"objects/obj_ShiningCityFirstNumber/obj_ShiningCityFirstNumber.yy",},
-    {"name":"obj_ShiningCityLockedDoor","order":7,"path":"objects/obj_ShiningCityLockedDoor/obj_ShiningCityLockedDoor.yy",},
     {"name":"obj_ShiningCitySecondNumber","order":1,"path":"objects/obj_ShiningCitySecondNumber/obj_ShiningCitySecondNumber.yy",},
     {"name":"obj_ShiningCityThirdNumber","order":2,"path":"objects/obj_ShiningCityThirdNumber/obj_ShiningCityThirdNumber.yy",},
     {"name":"obj_SpecificDepthCollision","order":5,"path":"objects/obj_SpecificDepthCollision/obj_SpecificDepthCollision.yy",},
