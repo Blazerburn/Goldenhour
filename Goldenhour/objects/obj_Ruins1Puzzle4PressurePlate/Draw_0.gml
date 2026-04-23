@@ -15,6 +15,7 @@ if(puzzleProgress == 1)
 		image_xscale = .49;
 		image_yscale = .49;
 	}*/
+	draw_sprite(TestSpriteObject, -1, x-16, y-24)
 	instance_deactivate_object(obj_Ruins1Puzzle4Gate);
 }
 

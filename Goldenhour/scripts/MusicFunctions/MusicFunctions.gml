@@ -65,6 +65,9 @@ function reset_room_song() {
 	or room == ParkRoom
 	or room == PrincesRoom1
 	or room == PrincesRoom2
+	or room == PrincesRoom3
+	or room == PrincesRoom4
+	or room == PrincesRoom5
 	{
 		// If the city is not powered, play the dark theme
 		if global.shiningCityPowered = 0 {

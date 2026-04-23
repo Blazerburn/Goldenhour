@@ -47,6 +47,8 @@ itemCombinePos2 = 0;
 global.playerMoving = 0;
 global.globalPlayerDirection = 2;
 
+_colliding = "False"
+
 // Inventory Stuff
 itemPos = 0;
 itemPosIndex = 0;

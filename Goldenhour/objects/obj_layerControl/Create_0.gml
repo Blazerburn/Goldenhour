@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 // Set the cell size based on slowest mover speed
-global.CELL = 2
+global.CELL = 4
 
 // Set the grid height
 global.GRID_H = room_height div global.CELL;

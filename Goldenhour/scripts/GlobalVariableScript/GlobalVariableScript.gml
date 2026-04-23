@@ -16,6 +16,8 @@ global.StarterRoomSpawnpoint = 1;
 global.PuzzleRoom1Spawnpoint = 0;
 global.RoomSpawnpoints = 1;
 
+
+
 // Push Objects
 global.pressurePlatesActive = 0;
 global.pushingBox = 0;

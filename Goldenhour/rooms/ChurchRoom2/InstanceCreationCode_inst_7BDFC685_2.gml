@@ -7,9 +7,9 @@ if(global.RoomSpawnpoints == 1){	/// @DnDAction : YoYo Games.Instances.Create_
 	/// @DnDVersion : 1
 	/// @DnDHash : 09972AC6
 	/// @DnDParent : 54620D23
-	/// @DnDArgument : "xpos" "366"
-	/// @DnDArgument : "ypos" "288"
+	/// @DnDArgument : "xpos" "512"
+	/// @DnDArgument : "ypos" "228"
 	/// @DnDArgument : "objectid" "TestPlayer"
 	/// @DnDArgument : "layer" ""Player""
 	/// @DnDSaveInfo : "objectid" "TestPlayer"
-	instance_create_layer(366, 288, "Player", TestPlayer);}
+	instance_create_layer(512, 228, "Player", TestPlayer);}
