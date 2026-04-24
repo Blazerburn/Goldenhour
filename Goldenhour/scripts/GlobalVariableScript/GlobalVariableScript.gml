@@ -16,7 +16,18 @@ global.StarterRoomSpawnpoint = 1;
 global.PuzzleRoom1Spawnpoint = 0;
 global.RoomSpawnpoints = 1;
 
-
+// Settings
+global.masterVolume = 1;
+global.musicVolume = 1;
+global.sfxVolume = 1;
+global.fullscreen = 0;
+global.upKey = ord("W");
+global.rightKey = ord("D");
+global.downKey = ord("S");
+global.leftKey = ord("A");
+global.interactKey = vk_space;
+global.inventoryKey = vk_tab;
+global.pauseKey = vk_escape;
 
 // Push Objects
 global.pressurePlatesActive = 0;

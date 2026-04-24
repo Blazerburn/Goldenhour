@@ -4,7 +4,7 @@ if(global.recentlyInteracted == 0)
 {
 	if (global.Talking == 0) {
 	var l5CF0C4C3_0;
-l5CF0C4C3_0 = keyboard_check_pressed(vk_space);
+l5CF0C4C3_0 = keyboard_check_pressed(global.interactKey);
 if (l5CF0C4C3_0)
 {
 	var pushableBoxOriginX = x;

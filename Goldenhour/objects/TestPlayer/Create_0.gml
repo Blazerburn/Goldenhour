@@ -31,6 +31,8 @@ global.playerAnimating = 0;
 global.inventoryOpen = 0;
 combinedText = 0;
 
+pauseMenu = "Closed";
+
 previousPlayerY = 0;
 playerXMoving = 0;
 playerYMoving = 0;

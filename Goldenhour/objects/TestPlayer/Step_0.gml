@@ -95,10 +95,10 @@ else
 
 if(global.Immobilize == 0)
 {
-	var right = keyboard_check(ord("D"));
-	var left = keyboard_check(ord("A"));
-	var up = keyboard_check(ord("W"));
-	var down = keyboard_check(ord("S"));
+	var right = keyboard_check(global.rightKey);
+	var left = keyboard_check(global.leftKey);
+	var up = keyboard_check(global.upKey);
+	var down = keyboard_check(global.downKey);
 
 	var xinput = right - left;
 	var yinput = down - up;
@@ -117,7 +117,7 @@ if(global.Immobilize == 0)
 	
 
 	var l601DB0A5_0;
-l601DB0A5_0 = keyboard_check_pressed(ord("W"));
+l601DB0A5_0 = keyboard_check_pressed(global.upKey);
 if (l601DB0A5_0)
 {
 	global.startPlayerDirection = 4;
@@ -128,7 +128,7 @@ if (l601DB0A5_0)
 }
 
 	var l36039074_0;
-l36039074_0 = keyboard_check_pressed(ord("D"));
+l36039074_0 = keyboard_check_pressed(global.rightKey);
 if (l36039074_0)
 {
 	global.startPlayerDirection = 4;
@@ -139,7 +139,7 @@ if (l36039074_0)
 }
 
 	var l3BA31F1F_0;
-l3BA31F1F_0 = keyboard_check_pressed(ord("S"));
+l3BA31F1F_0 = keyboard_check_pressed(global.downKey);
 if (l3BA31F1F_0)
 {
 	global.startPlayerDirection = 4;
@@ -150,7 +150,7 @@ if (l3BA31F1F_0)
 }
 
 	var l6FE386E6_0;
-l6FE386E6_0 = keyboard_check_pressed(ord("A"));
+l6FE386E6_0 = keyboard_check_pressed(global.leftKey);
 if (l6FE386E6_0)
 {
 	global.startPlayerDirection = 4;
@@ -161,11 +161,11 @@ if (l6FE386E6_0)
 }
 
 	var l74A54030_0;
-l74A54030_0 = keyboard_check_released(ord("W") or ord("D") or ord("S") or ord("A"));
+l74A54030_0 = keyboard_check_released(global.upKey or global.rightKey or global.downKey or global.leftKey);
 if (l74A54030_0)
 {
 	var l7BDD122B_0;
-l7BDD122B_0 = keyboard_check(ord("W"));
+l7BDD122B_0 = keyboard_check(global.upKey);
 if (l7BDD122B_0)
 {
 	playerDirection = 0;
@@ -174,7 +174,7 @@ if (l7BDD122B_0)
 }
 	
 		var l28D13ED9_0;
-l28D13ED9_0 = keyboard_check(ord("D"));
+l28D13ED9_0 = keyboard_check(global.rightKey);
 if (l28D13ED9_0)
 {
 	playerDirection = 1;
@@ -183,7 +183,7 @@ if (l28D13ED9_0)
 }
 	
 		var l31249281_0;
-l31249281_0 = keyboard_check(ord("S"));
+l31249281_0 = keyboard_check(global.downKey);
 if (l31249281_0)
 {
 	playerDirection = 2;
@@ -192,7 +192,7 @@ if (l31249281_0)
 }
 	
 		var l62652CE5_0;
-l62652CE5_0 = keyboard_check(ord("A"));
+l62652CE5_0 = keyboard_check(global.leftKey);
 if (l62652CE5_0)
 {
 	playerDirection = 3;
@@ -376,6 +376,317 @@ if place_meeting(x, y, obj_CollisionChangeCollision) {
 else {
 	_colliding = "False"
 }
+
+// Opening/Closing Inventory
+if keyboard_check_pressed(global.inventoryKey) {
+	if(global.inventoryOpen == 0)
+	{
+		if(global.Talking == 0)
+		{
+		
+				set_song_ingame(sng_inventory, 15, 0, 24)
+	
+				global.inventoryOpen = 1;
+				global.shiftText = 1;
+	
+				global.Immobilize = 1;
+	
+				show_debug_message(string(itemArray));
+		}
+	}
+
+	else
+	{
+		if(global.combining == 0)
+		{
+			if(global.selectionOpen == 0)
+			{
+				if(global.Talking == 0)
+				{
+					if(global.infoOpen == 0)
+					{
+						global.inventoryOpen = 0;
+						reset_room_song()
+						global.Immobilize = 0;
+						global.usingItem = 0;
+					}
+								else
+					{
+						global.infoOpen = 0;
+					}
+				}
+			}
+				else
+			{
+				global.selectionOpen = 0;
+			}
+		}
+			else
+		{
+			global.combining = 0;
+		
+			itemCombineSelect1 = 0;
+			itemCombineSelect2 = 0;
+			itemCombinePos1 = 0;
+			itemCombinePos2 = 0;
+			itemCombineType1 = 0;
+			itemCombineType2 = 0;
+		}
+	}
+}
+
+// Interacting with menus mostly
+if keyboard_check_pressed(global.interactKey) {
+		if(global.recentlyInteracted == 0)
+	{
+		if(global.selectionOpen == 0)
+	{
+			if(global.infoOpen == 0)
+		{
+				if(global.Talking == 0)
+			{
+					if(global.inventoryOpen == 1)
+				{
+						if(global.combining == 0)
+					{
+							if(global.usingItem == 0)
+						{
+								if(!(itemArray[itemSelected][itemType] == itemNone))
+							{
+								global.selectionOpen = 1;
+							
+								global.recentlyInteracted = 20;
+							
+								itemSelection_x = 101 + rowPos * 280;
+								itemSelection_y = 101 + colPos * 301;
+							
+									
+							
+								var _selected = itemArray[itemSelected][itemType];
+							
+												
+								create_textevent(
+								    [ 
+									["Combine", "Info", "Cancel"]
+									],
+								    -1,                                                          //mySpeakers
+								    -1,   //myEffects
+								    -1,                                                                                            //myTextSpeed
+								    [1],                                                                   //myTypes
+								    -1,                                                            //myNextLine
+								    [[[combining, id], [item_info, _selected], [change_globalvariable, "selectionOpen", 0]]],                                                                                            //myScripts
+								    -1,                                                                                            //myTextCol
+								    -1,                                                                   //myEmotion
+								    -1                                                                                             //myEmote
+								    );
+									itemCombineSelect1 = 0;
+									itemCombineSelect2 = 0;
+									itemCombinePos1 = 0;
+									itemCombinePos2 = 0;
+									itemCombineType1 = 0;
+									itemCombineType2 = 0;
+							
+									if(itemCombineSelect1 == 0)
+									{
+										itemCombineType1 = itemArray[itemSelected][itemType];
+										itemCombinePos1 = itemSelected;
+								
+										itemCombineSelect1 = 1;
+										itemCombineSelect2 = 1;
+								
+										var itemCombineRow = rowPos;
+										var itemCombineCol = colPos;
+								
+										combiningItemX = rowPos * 280;
+										combiningItemY = colPos * 301;
+								
+										show_debug_message(string("First item selected") + @"
+										" + string(itemCombineType1) + @"
+										" + string(combiningItemX) + @"
+										" + string(combiningItemY));
+									}
+								}
+							}
+					
+								else
+							{
+									if(global.usingItem == 1)
+								{
+										if(itemArray[itemSelected][itemType] == itemNeeded)
+									{
+										itemArray[itemSelected][itemUses] += -1;
+								
+										if(itemArray[itemSelected][itemUses] <= 0)
+									{
+										itemArray[itemSelected][itemAmount] += -1;
+										show_debug_message("No uses")
+									}
+								
+										if(itemArray[itemSelected][itemAmount] <= 0)
+									{
+										itemArray[itemSelected][itemType] = itemNone;
+										show_debug_message("No amount")
+									}
+								
+										global.itemCheck = 2;
+										global.inventoryOpen = 0;
+								
+										show_debug_message(string("Used item") + @"
+										" + string(global.itemCheck));
+									}
+							
+										else
+									{
+										global.itemWrongType = itemArray[itemSelected][itemType];
+								
+										global.itemCheck = 1;
+								
+										show_debug_message(string("Wrong item"));
+									}
+								}
+							}
+						}
+				
+												else
+							{
+								if(global.Talking == 0)
+							{
+								if(itemCombineSelect2 == 1)
+							{
+								if(!(itemArray[itemSelected][itemType] == itemCombineType1))
+							{
+								if(!(itemArray[itemSelected][itemType] == itemNone))
+							{
+								itemCombineType2 = itemArray[itemSelected][itemType];
+																	itemCombinePos2 = itemSelected;
+									
+																	show_debug_message(string("Second item selected") + @"
+																	" + string(itemCombineType2));
+									
+																	instance_create_layer(0, 0, "Instances", InventoryCombining);
+									
+																	show_debug_message(string("Item combine 1:") + @"
+																	" + string(itemCombineType1) + @"
+																	" + string("Item combine 2:") + @"
+																	" + string(itemCombineType2));
+									
+																	global.itemCombiningType1 = itemCombineType1;
+																	global.itemCombiningType2 = itemCombineType2;
+										
+										
+							}
+							}
+							
+															else
+							{
+								show_debug_message(string("Same item type"));
+							}
+							}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+// Moving in inventory
+if keyboard_check_pressed(global.leftKey) {
+	if(global.inventoryOpen == 1)
+	{
+		if(global.Talking == 0)
+		{
+				if(global.selectionOpen == 0)
+				{
+					rowPos += -1;
+							itemSelected += -1;
+		
+					if(rowPos < 0)
+					{
+					rowPos = 2;
+								itemSelected += 3;
+					}
+			}
+		}
+	}
+}
+if keyboard_check_pressed(global.rightKey) {
+	if(global.inventoryOpen == 1)
+	{
+		if(global.Talking == 0)
+	{
+		if(global.selectionOpen == 0)
+	{
+		rowPos += 1;
+				itemSelected += 1;
+		
+				if(rowPos > 2)
+	{
+		rowPos = 0;
+					itemSelected += -3;
+	}
+	}
+	}
+	}
+}
+if keyboard_check_pressed(global.upKey) {
+		if(global.inventoryOpen == 1)
+	{
+		if(global.Talking == 0)
+	{
+		if(global.selectionOpen == 0)
+	{
+		colPos += -1;
+				itemSelected += -3;
+		
+				if(colPos < 0)
+	{
+		colPos = 2;
+					itemSelected += 9;
+	}
+	}
+	}
+	}
+}
+if keyboard_check_pressed(global.downKey) {
+		if(global.inventoryOpen == 1)
+	{
+		if(global.Talking == 0)
+	{
+		if(global.selectionOpen == 0)
+	{
+		colPos += 1;
+				itemSelected += 3;
+		
+				if(colPos > 2)
+	{
+		colPos = 0;
+					itemSelected += -9;
+	}
+	}
+	}
+	}
+}
+
+// Pause Menu
+if keyboard_check_pressed(global.pauseKey) {
+	if pauseMenu = "Closed" {
+		create_instance_layer(x, y,"Instances", obj_PauseMenu)
+		pauseMenu = "Open"
+		global.Immobilize = 1;
+	}
+	else if pauseMenu = "Open" {
+		instance_destroy(obj_PauseMenu)
+		pauseMenu = "Closed"
+		global.Immobilize = 0;
+	}
+}
+
+
+
+
+
 
 if(global.playerFollowers == 1)
 {

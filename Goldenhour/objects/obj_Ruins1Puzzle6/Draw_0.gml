@@ -18,6 +18,6 @@ if(puzzleProgress == 1)
 {
 	instance_destroy(collision);
 	instance_destroy(pathCollision);
-	
+	Boulder.sprite_index = boulderbroken
 }
 

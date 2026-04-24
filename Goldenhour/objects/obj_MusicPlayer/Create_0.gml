@@ -9,7 +9,7 @@ endFadeOutTime = 0;//how many frames to fade out the song currently playing
 startFadeInTime = 0;//how many frams to fade in the new song
 fadeInInstVol = 1;// the volume of songInstance
 
-global.musicVolume = 1;
+
 
 // For fading music out and stopping the songs that are no longer playing
 fadeOutInstances = array_create(0); // The audio instances to fade out

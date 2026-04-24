@@ -5,7 +5,7 @@ xscale = image_xscale
 yscale = image_yscale
 
 playerobject = TestPlayer;
-interact_key = vk_space;
+interact_key = global.interactKey;
 detection_radius = 28;
 
 myVoice			= snd_voice1;

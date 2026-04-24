@@ -8,10 +8,10 @@ if(objectID == interactedBoxID)
 	var pushableBoxOriginX = x;
 			var pushableBoxOriginY = y;
 		
-			var right = keyboard_check(ord("D"));
-			var left = keyboard_check(ord("A"));
-			var up = keyboard_check(ord("W"));
-			var down = keyboard_check(ord("S"));
+			var right = keyboard_check(global.rightKey);
+			var left = keyboard_check(global.leftKey);
+			var up = keyboard_check(global.upKey);
+			var down = keyboard_check(global.downKey);
 		
 			var xinput = right - left;
 			var yinput = down - up;
@@ -143,7 +143,7 @@ if(objectID == interactedBoxID)
 			if(global.recentlyInteracted == 0)
 {
 	var l35D9AC80_0;
-l35D9AC80_0 = keyboard_check_pressed(vk_space);
+l35D9AC80_0 = keyboard_check_pressed(global.interactKey);
 if (l35D9AC80_0)
 {
 	if (global.keepPushing = 0) {
@@ -157,8 +157,6 @@ if (l35D9AC80_0)
 					}
 				
 					interactedBoxID = 0;
-				
-					show_debug_message(string(interactedBoxID));
 					
 					instance_activate_object(pathCollision);
 					with(pathCollision) {
