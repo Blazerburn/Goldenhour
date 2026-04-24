@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-var _finalVol = global.musicVolume
+var _finalVol = global.musicVolume * global.masterVolume
 
 //Play current song
 if songAsset != targetSongAsset

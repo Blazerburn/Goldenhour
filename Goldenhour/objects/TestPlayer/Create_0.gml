@@ -32,6 +32,7 @@ global.inventoryOpen = 0;
 combinedText = 0;
 
 pauseMenu = "Closed";
+settingsMenu = "Closed";
 
 previousPlayerY = 0;
 playerXMoving = 0;

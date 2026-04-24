@@ -9,13 +9,11 @@ gb_diff			= gui_width - boxWidth;
 
 selected = 0;
 buttonPressed = 0;
+settingsOpen = "Closed";
+adjustingVolume = "False";
+controlsOpen = "Closed";
 
 buttonA = 1;
 buttonB = 0;
 buttonC = 0;
 
-show_debug_message(boxHeight)
-show_debug_message(boxWidth)
-show_debug_message(gui_width)
-show_debug_message(gui_height)
-show_debug_message(gb_diff)

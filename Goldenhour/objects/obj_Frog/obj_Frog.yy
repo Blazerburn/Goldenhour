@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"Frog",
+  "%Name":"obj_Frog",
   "eventList":[],
   "managed":true,
-  "name":"Frog",
+  "name":"obj_Frog",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
