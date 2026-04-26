@@ -453,6 +453,7 @@
     {"id":{"name":"TestSpriteObjectInventory","path":"sprites/TestSpriteObjectInventory/TestSpriteObjectInventory.yy",},},
     {"id":{"name":"TextBox","path":"sprites/TextBox/TextBox.yy",},},
     {"id":{"name":"TopBrokenCobbleFloor","path":"sprites/TopBrokenCobbleFloor/TopBrokenCobbleFloor.yy",},},
+    {"id":{"name":"TransitionTileSetSprite","path":"sprites/TransitionTileSetSprite/TransitionTileSetSprite.yy",},},
     {"id":{"name":"Trapdoor","path":"sprites/Trapdoor/Trapdoor.yy",},},
     {"id":{"name":"TreeBaseTileSetSprite","path":"sprites/TreeBaseTileSetSprite/TreeBaseTileSetSprite.yy",},},
     {"id":{"name":"TreeSidesTileSetSprite","path":"sprites/TreeSidesTileSetSprite/TreeSidesTileSetSprite.yy",},},
@@ -482,6 +483,7 @@
     {"id":{"name":"TileSet","path":"tilesets/TileSet/TileSet.yy",},},
     {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},},
     {"id":{"name":"TileSet15","path":"tilesets/TileSet15/TileSet15.yy",},},
+    {"id":{"name":"TransitionTileSet","path":"tilesets/TransitionTileSet/TransitionTileSet.yy",},},
     {"id":{"name":"TreeBaseTileSet","path":"tilesets/TreeBaseTileSet/TreeBaseTileSet.yy",},},
     {"id":{"name":"TreeSideTileSet","path":"tilesets/TreeSideTileSet/TreeSideTileSet.yy",},},
     {"id":{"name":"TreeTopeRightTileSet","path":"tilesets/TreeTopeRightTileSet/TreeTopeRightTileSet.yy",},},
@@ -493,6 +495,7 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"PersistentRoom","path":"rooms/PersistentRoom/PersistentRoom.yy",},},
     {"children":[
+        {"roomId":{"name":"StreetRoom1","path":"rooms/StreetRoom1/StreetRoom1.yy",},},
         {"children":[
             {"roomId":{"name":"StarterRoom1","path":"rooms/StarterRoom1/StarterRoom1.yy",},},
             {"roomId":{"name":"StarterRoom2","path":"rooms/StarterRoom2/StarterRoom2.yy",},},
@@ -511,7 +514,6 @@
             {"roomId":{"name":"JamboRoom","path":"rooms/JamboRoom/JamboRoom.yy",},},
           ],"groupName":"Outskirts",},
         {"children":[
-            {"roomId":{"name":"StreetRoom1","path":"rooms/StreetRoom1/StreetRoom1.yy",},},
             {"roomId":{"name":"StreetRoom2","path":"rooms/StreetRoom2/StreetRoom2.yy",},},
             {"roomId":{"name":"StreetRoom3","path":"rooms/StreetRoom3/StreetRoom3.yy",},},
             {"roomId":{"name":"StreetRoom4","path":"rooms/StreetRoom4/StreetRoom4.yy",},},

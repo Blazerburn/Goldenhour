@@ -12,6 +12,7 @@ buttonPressed = 0;
 settingsOpen = "Closed";
 adjustingVolume = "False";
 controlsOpen = "Closed";
+rebindingKey = false;
 
 buttonA = 1;
 buttonB = 0;

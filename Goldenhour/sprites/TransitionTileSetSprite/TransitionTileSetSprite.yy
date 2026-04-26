@@ -1,9 +1,9 @@
 {
   "$GMSprite":"v2",
-  "%Name":"BarRoomTileSetSprite",
+  "%Name":"TransitionTileSetSprite",
   "bboxMode":0,
   "bbox_bottom":191,
-  "bbox_left":0,
+  "bbox_left":64,
   "bbox_right":255,
   "bbox_top":0,
   "collisionKind":1,
@@ -19,24 +19,23 @@
   "height":192,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"69fac9b6-45f1-496a-b031-79d753ccb19f","blendMode":0,"displayName":"Hide","isLocked":false,"name":"69fac9b6-45f1-496a-b031-79d753ccb19f","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
-    {"$GMImageLayer":"","%Name":"cfcd8177-0cf3-4de6-8b29-b50e54ee8eb3","blendMode":0,"displayName":"default","isLocked":false,"name":"cfcd8177-0cf3-4de6-8b29-b50e54ee8eb3","opacity":50.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"cfcd8177-0cf3-4de6-8b29-b50e54ee8eb3","blendMode":0,"displayName":"default","isLocked":false,"name":"cfcd8177-0cf3-4de6-8b29-b50e54ee8eb3","opacity":27.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":false,},
     {"$GMImageLayer":"","%Name":"206c1388-6b63-408f-8cc7-bf53050aa9e9","blendMode":0,"displayName":"Layer 2","isLocked":false,"name":"206c1388-6b63-408f-8cc7-bf53050aa9e9","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"08a415e2-cf8a-40bd-9fdb-b70e919c9903","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"08a415e2-cf8a-40bd-9fdb-b70e919c9903","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"BarRoomTileSetSprite",
+  "name":"TransitionTileSetSprite",
   "nineSlice":null,
   "origin":0,
   "parent":{
     "name":"Tiles",
-    "path":"folders/Sprites/Ruins/Tiles.yy",
+    "path":"folders/Sprites/TestStuff/Tiles.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"BarRoomTileSetSprite",
+    "%Name":"TransitionTileSetSprite",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -60,7 +59,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"BarRoomTileSetSprite",
+    "name":"TransitionTileSetSprite",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -74,7 +73,7 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ab071f08-603d-4a41-bcc7-f7f20182a068","path":"sprites/BarRoomTileSetSprite/BarRoomTileSetSprite.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ab071f08-603d-4a41-bcc7-f7f20182a068","path":"sprites/TransitionTileSetSprite/TransitionTileSetSprite.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"90b9b28b-000b-48b3-aa49-b08197bac57f","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],

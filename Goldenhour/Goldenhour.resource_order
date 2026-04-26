@@ -384,6 +384,7 @@
     {"name":"TestSpriteObject","order":13,"path":"sprites/TestSpriteObject/TestSpriteObject.yy",},
     {"name":"TestSpriteObjectInventory","order":14,"path":"sprites/TestSpriteObjectInventory/TestSpriteObjectInventory.yy",},
     {"name":"TextBox","order":15,"path":"sprites/TextBox/TextBox.yy",},
+    {"name":"TransitionTileSetSprite","order":8,"path":"sprites/TransitionTileSetSprite/TransitionTileSetSprite.yy",},
     {"name":"Trapdoor","order":26,"path":"sprites/Trapdoor/Trapdoor.yy",},
     {"name":"TreeBaseTileSetSprite","order":8,"path":"sprites/TreeBaseTileSetSprite/TreeBaseTileSetSprite.yy",},
     {"name":"TreeSidesTileSetSprite","order":10,"path":"sprites/TreeSidesTileSetSprite/TreeSidesTileSetSprite.yy",},
