@@ -3,7 +3,7 @@
   "%Name":"TransitionTileSetSprite",
   "bboxMode":0,
   "bbox_bottom":191,
-  "bbox_left":64,
+  "bbox_left":15,
   "bbox_right":255,
   "bbox_top":0,
   "collisionKind":1,
