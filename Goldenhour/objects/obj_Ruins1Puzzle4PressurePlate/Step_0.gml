@@ -3,9 +3,7 @@ event_inherited(); //so it will inherit from par_speaker
 var _depth = BreakablePathWall.depth
 depth = _depth - 1
 
-if choice_variable = "Leave" {
-global.Puzzle4SecondHalf = 1
-}
+
 
 /*if(createWall = 0) {
 var pathPushableWall = create_instance_layer(x, y, "Collisions", PushableWall);

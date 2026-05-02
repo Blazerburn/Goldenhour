@@ -68,6 +68,14 @@ function reset_room_song() {
 	or room == PrincesRoom3
 	or room == PrincesRoom4
 	or room == PrincesRoom5
+	or room == AlleyBarRoom
+	or room == AlleyUpRoomA
+	or room == AlleyUpRoomB
+	or room == AlleyDownRoomA
+	or room == AlleyDownRoomB
+	or room == AlleyLeftRoomA
+	or room == AlleyLeftRoomB
+	or room == AlleyRightRoomA
 	{
 		// If the city is not powered, play the dark theme
 		if global.shiningCityPowered = 0 {

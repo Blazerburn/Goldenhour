@@ -12,3 +12,5 @@ else { global.lay_alpha += 0.05;
 	show_debug_message("Outside Building");}
 global.lay_alpha = clamp(global.lay_alpha, 0.25, 1);
 show_debug_message(global.lay_alpha);*/
+
+show_debug_message(global.Puzzle4SecondHalf);

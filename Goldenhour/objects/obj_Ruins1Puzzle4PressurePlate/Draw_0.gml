@@ -5,6 +5,7 @@ if (puzzleProgress == -1) {
 if(puzzleProgress == 0)
 {
 	draw_self()
+	
 }
 
 if(puzzleProgress == 1)

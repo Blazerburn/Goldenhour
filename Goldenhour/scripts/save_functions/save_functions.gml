@@ -70,7 +70,7 @@ function save_room()
 	if room == HideoutRoom2 {global.levelData.HideoutBasement = _roomStruct;};
 	if room == ParkRoom {global.levelData.Park = _roomStruct;};
 	if room == PrincesRoom2 {global.levelData.PrinceBedroom = _roomStruct;};
-	if room == RubbleRoom {global.levelData.Rubble = _roomStruct;};
+	if room == RubbleRoom {global.levelData.Sculptor = _roomStruct;};
 	if room == StatueRoom {global.levelData.Statue = _roomStruct;};
 	if room == StreetRoom3 {global.levelData.RightStreet = _roomStruct;};
 	if room == JamboRoom {global.levelData.JamboMeeting = _roomStruct;};
@@ -98,7 +98,7 @@ function load_room()
 	if room == HideoutRoom2 {_roomStruct = global.levelData.HideoutBasement;};
 	if room == ParkRoom {_roomStruct = global.levelData.Park;};
 	if room == PrincesRoom2 {_roomStruct = global.levelData.PrinceBedroom;};
-	if room == RubbleRoom {_roomStruct = global.levelData.Rubble;};
+	if room == RubbleRoom {_roomStruct = global.levelData.Sculptor;};
 	if room == StatueRoom {_roomStruct = global.levelData.Statue;};
 	if room == StreetRoom3 {_roomStruct = global.levelData.RightStreet;};
 	if room == JamboRoom {_roomStruct = global.levelData.JamboMeeting;};

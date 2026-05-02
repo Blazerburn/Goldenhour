@@ -39,8 +39,8 @@
     {"$GMRAssetLayer":"","%Name":"HUD","assets":[],"depth":-200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"HUD","properties":[],"resourceType":"GMRAssetLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Darkness","depth":-100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Darkness","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":8,"SerialiseWidth":23,"TileCompressedData":[
           -2,28,-19,15,-2,3,3,28,34,37,-17,23,6,10,33,3,4,37,43,-17,-2147483648,5,40,10,7,4,5,-19,-2147483648,
-          4,6,7,12,13,-8,14,3,18,16,17,-8,14,4,30,31,20,21,-8,22,3,26,24,25,-8,22,2,38,39,-10,-2147483648,5,34,
-          32,33,7,0,-17,-2147483648,-5,22,1,0,-8,-2147483648,
+          4,6,7,12,13,-8,14,3,18,8,17,-8,14,4,30,31,20,21,-8,22,3,26,9,25,-8,22,2,38,39,-10,-2147483648,5,34,9,
+          33,7,0,-17,-2147483648,-5,22,1,0,-8,-2147483648,
         ],"TileDataFormat":1,},"tilesetId":{"name":"TransitionTileSet","path":"tilesets/TransitionTileSet/TransitionTileSet.yy",},"userdefinedDepth":true,"visible":true,"x":0,"y":0,},
     {"$GMRInstanceLayer":"","%Name":"Text","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"Text","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Collisions","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[

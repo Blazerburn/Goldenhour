@@ -24,7 +24,7 @@ global.levelData =
 	HideoutBasement : 0,
 	Park : 0,
 	PrinceBedroom : 0,
-	Rubble : 0,
+	Sculptor : 0,
 	Statue : 0,
 	RightStreet : 0,
 	JamboMeeting : 0,

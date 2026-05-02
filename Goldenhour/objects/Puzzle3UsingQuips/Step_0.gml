@@ -87,7 +87,7 @@ if(global.recentlyInteracted == 0)
 					//script_execute_alt(change_variable( obj_BrokenPathPickup, "choice_variable", "Used"));
 				
 							create_textevent(
-	["You press the fixed pressure plate to back where it belongs", 
+	["You press the fixed pressure plate back to where it belongs", 
 	"It fits perfectly!"],
 	-1,
 	-1,

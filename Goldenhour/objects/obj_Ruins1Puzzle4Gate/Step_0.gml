@@ -5,6 +5,8 @@ if (puzzleProgress = 1) {
 	with (obj_Ruins1Puzzle4PressurePlate) {
 		puzzleProgress = 0;
 	}
+	global.Puzzle4SecondHalf = 1
+	
 	puzzleProgress = 2;
 }
 
