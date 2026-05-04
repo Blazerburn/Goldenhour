@@ -68,7 +68,7 @@
         {"$GMRInstance":"v4","%Name":"inst_19C8292C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_19C8292C","objectId":{"name":"TestAngleWall","path":"objects/TestAngleWall/TestAngleWall.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":90.0,"scaleX":3.0,"scaleY":3.0,"x":128.0,"y":352.0,},
         {"$GMRInstance":"v4","%Name":"inst_2A4E84A3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2A4E84A3","objectId":{"name":"TestWall","path":"objects/TestWall/TestWall.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":6.5,"scaleY":3.0,"x":320.0,"y":160.0,},
         {"$GMRInstance":"v4","%Name":"inst_6E3BDEDB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6E3BDEDB","objectId":{"name":"obj_Frog","path":"objects/obj_Frog/obj_Frog.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":448.0,"y":128.0,},
-      ],"layers":[],"name":"Collisions","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
+      ],"layers":[],"name":"Collisions","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":false,},
     {"$GMRTileLayer":"","%Name":"TreesBaseABOVE","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"TreesBaseABOVE","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":16,"SerialiseWidth":23,"TileCompressedData":[
           -297,-2147483648,-2,0,-20,-2147483648,-2,0,47,-2147483648,9,10,11,12,13,14,15,8,9,10,11,12,13,14,15,
           8,9,10,11,12,13,14,15,17,18,19,20,21,22,23,16,17,18,19,20,21,22,23,16,17,18,19,20,21,22,23,
@@ -117,7 +117,7 @@
           20,237,238,97,26,26,97,101,96,101,101,96,101,101,96,101,101,96,101,101,96,-4,-2147483648,-2,97,-2,26,
           15,97,101,96,101,101,96,101,101,96,101,101,96,101,101,96,-4,-2147483648,-2,97,-2,26,15,258,101,96,101,
           101,96,101,101,96,101,101,96,101,101,96,-3,-2147483648,20,0,97,97,26,26,282,259,263,262,262,263,262,
-          262,263,262,262,263,262,262,263,-3,-2147483648,20,0,121,97,130,131,282,283,286,287,286,286,287,286,286,
+          262,263,262,262,263,262,262,263,-3,-2147483648,20,0,121,97,130,131,97,283,286,287,286,286,287,286,286,
           287,286,286,287,286,286,-3,-2147483648,-2,0,18,121,154,155,97,97,101,96,101,101,96,101,101,96,101,101,
           96,101,101,-5,-2147483648,18,0,178,179,97,97,101,96,101,101,96,101,101,96,101,101,96,101,101,-6,-2147483648,
           17,0,203,97,97,101,96,101,101,96,101,101,96,101,101,96,101,101,-8,-2147483648,15,121,97,101,96,101,101,

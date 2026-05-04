@@ -96,7 +96,7 @@
           -35,47,1,4,-8,28,1,8,-6,47,1,24,-8,0,1,16,-6,47,1,24,-8,-2147483648,1,16,-6,47,1,24,-8,-2147483648,1,
           16,-6,47,1,24,-5,0,-3,-2147483648,1,16,-6,47,1,2,-3,20,1,36,-4,-2147483648,1,16,-10,47,1,24,-4,0,1,16,
           -10,47,6,2,20,20,36,0,16,-13,47,3,2,20,1,-51,47,-16,28,-80,-2147483648,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"RuinBrickTileSet","path":"tilesets/RuinBrickTileSet/RuinBrickTileSet.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+        ],"TileDataFormat":1,},"tilesetId":{"name":"RuinBrickTileSet","path":"tilesets/RuinBrickTileSet/RuinBrickTileSet.yy",},"userdefinedDepth":false,"visible":false,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"TreesBaseABOVE","depth":700,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"TreesBaseABOVE","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":20,"SerialiseWidth":16,"TileCompressedData":[
           -238,-2147483648,2,15,8,-48,-2147483648,32,8,9,10,11,12,13,14,15,8,9,10,11,12,13,14,15,16,17,18,19,20,
           21,22,23,16,17,18,19,20,21,22,23,
