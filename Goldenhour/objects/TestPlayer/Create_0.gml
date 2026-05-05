@@ -30,6 +30,7 @@ global.playerAnimating = 0;
 
 global.inventoryOpen = 0;
 combinedText = 0;
+skipInvSave = false;
 
 pauseMenu = "Closed";
 settingsMenu = "Closed";

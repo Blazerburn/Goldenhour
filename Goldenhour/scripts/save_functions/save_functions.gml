@@ -147,3 +147,65 @@ function load_room()
 		show_debug_message(_roomStruct.intData[i]._puzzleProgress);
 	}
 }
+
+// Overall Saving
+function save_game(_fileNum = 0)
+{
+	var _saveArray = array_create(0);
+	
+	// Save the room you're in
+	instance_activate_all();
+	save_room();
+	
+	// Set and save stat related stuff
+	global.statData.save_rm = room_get_name(room);
+	
+	global.statData.item_inv = global.inventoryArray;
+	
+	array_push(_saveArray, global.statData);
+	
+	// Save all the room data
+	
+	array_push(_saveArray, global.levelData);
+	
+	// Actual saving
+	var _filename = "SaveData" + string(_fileNum) + ".sav";
+	var _json = json_stringify(_saveArray);
+	var _buffer = buffer_create(string_byte_length(_json) + 1, buffer_fixed, 1);
+	buffer_write(_buffer, buffer_string, _json)
+	
+	buffer_save(_buffer, _filename);
+	
+	buffer_delete(_buffer);
+}
+
+function load_game(_fileNum = 0)
+{
+	// Loading our saved data
+	var _filename = "SaveData" + string(_fileNum) + ".sav";
+	if !file_exists(_filename) exit;
+	
+	// Load the buffer, get the JSON, delete the buffer to free memory
+	var _buffer = buffer_load(_filename);
+	var _json = buffer_read(_buffer, buffer_string);
+	buffer_delete(_buffer)
+	
+	// Unstringify and get the data array
+	var _loadArray = json_parse(_json);
+	
+	// Set the data in our game to match our loaded data
+	global.statData = array_get(_loadArray, 0);
+	global.levelData = array_get(_loadArray, 1);
+	
+	global.inventoryArray = global.statData.item_inv;
+	
+	// Go to correct room
+	var _loadRoom = asset_get_index(global.statData.save_rm);
+	room_goto(_loadRoom);
+		// Make sure our saveload doesn't save the room we're exiting from
+		obj_saveload.skipRoomSave = true;
+		TestPlayer.skipInvSave = true;
+	
+	// Manually load the room
+	load_room();
+}

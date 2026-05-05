@@ -113,7 +113,7 @@
           4,32,33,34,35,-19,-2147483648,4,40,41,42,43,-92,-2147483648,
         ],"TileDataFormat":1,},"tilesetId":{"name":"TreeBaseTileSet","path":"tilesets/TreeBaseTileSet/TreeBaseTileSet.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"PerspectiveBuilding","depth":1500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"PerspectiveBuilding","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":16,"SerialiseWidth":23,"TileCompressedData":[
-          -3,-2147483648,20,0,214,215,26,26,97,101,96,101,101,96,101,101,96,101,101,96,101,101,96,-3,-2147483648,
+          -3,-2147483648,20,0,214,215,26,26,283,286,287,286,286,287,286,286,287,286,286,287,286,286,287,-3,-2147483648,
           20,237,238,97,26,26,97,101,96,101,101,96,101,101,96,101,101,96,101,101,96,-4,-2147483648,-2,97,-2,26,
           15,97,101,96,101,101,96,101,101,96,101,101,96,101,101,96,-4,-2147483648,-2,97,-2,26,15,258,101,96,101,
           101,96,101,101,96,101,101,96,101,101,96,-3,-2147483648,20,0,97,97,26,26,282,259,263,262,262,263,262,

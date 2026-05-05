@@ -87,7 +87,7 @@
       ],"layers":[],"name":"Collisions","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":false,},
     {"$GMRTileLayer":"","%Name":"OutsideBuilding","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"OutsideBuilding","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":20,"SerialiseWidth":16,"TileCompressedData":[
           -18,-2147483648,1,1,-3,2,1,4,-6,2,1,3,-3,-2147483648,2,0,9,-3,10,1,12,-6,10,1,11,-3,-2147483648,2,0,
-          17,-3,18,1,20,-6,18,1,11,-4,-2147483648,1,25,-3,26,1,28,-6,26,1,27,-4,-2147483648,1,25,-3,26,1,28,-6,
+          17,-3,18,1,20,-6,18,1,19,-4,-2147483648,1,25,-3,26,1,28,-6,26,1,27,-4,-2147483648,1,25,-3,26,1,28,-6,
           26,1,27,-3,-2147483648,2,0,25,-3,26,1,28,-6,26,6,27,0,-2147483648,-2147483648,0,33,-3,34,1,36,-6,26,
           1,27,-7,-2147483648,2,0,25,-6,26,1,27,-7,-2147483648,2,0,33,-6,34,1,35,-8,-2147483648,-5,0,-12,-2147483648,
           1,0,-136,-2147483648,
@@ -96,7 +96,7 @@
           -35,47,1,4,-8,28,1,8,-6,47,1,24,-8,0,1,16,-6,47,1,24,-8,-2147483648,1,16,-6,47,1,24,-8,-2147483648,1,
           16,-6,47,1,24,-5,0,-3,-2147483648,1,16,-6,47,1,2,-3,20,1,36,-4,-2147483648,1,16,-10,47,1,24,-4,0,1,16,
           -10,47,6,2,20,20,36,0,16,-13,47,3,2,20,1,-51,47,-16,28,-80,-2147483648,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"RuinBrickTileSet","path":"tilesets/RuinBrickTileSet/RuinBrickTileSet.yy",},"userdefinedDepth":false,"visible":false,"x":0,"y":0,},
+        ],"TileDataFormat":1,},"tilesetId":{"name":"RuinBrickTileSet","path":"tilesets/RuinBrickTileSet/RuinBrickTileSet.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"TreesBaseABOVE","depth":700,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"TreesBaseABOVE","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":20,"SerialiseWidth":16,"TileCompressedData":[
           -238,-2147483648,2,15,8,-48,-2147483648,32,8,9,10,11,12,13,14,15,8,9,10,11,12,13,14,15,16,17,18,19,20,
           21,22,23,16,17,18,19,20,21,22,23,

@@ -9,6 +9,16 @@ for(var _pos = 0; _pos < 9; _pos += 1) {
 	global.inventoryArray[_pos][itemUses] = 0;
 };
 
+skipRoomSave = false;
+
+global.statData =
+{
+	save_rm : "StarterRoom1", 
+	
+	item_inv : 0, 
+	
+}
+
 global.levelData =
 { 
 	Puzzle1 : 0,
