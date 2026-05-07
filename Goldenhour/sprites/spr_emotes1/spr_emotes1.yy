@@ -37,7 +37,7 @@
   "origin":9,
   "parent":{
     "name":"FC_DialogueSystem",
-    "path":"folders/Sprites/FC_DialogueSystem.yy",
+    "path":"folders/Sprites/GUI's/FC_DialogueSystem.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
