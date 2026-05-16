@@ -2,6 +2,7 @@ var dr = detection_radius;
 if(instance_exists(playerobject)) {
 if(global.inventoryOpen == 0)
 {
+if global.menuOpen = false {
 if(global.Talking == 0)
 {
 if(point_in_rectangle(playerobject.x, playerobject.y, x-dr*xscale, y-dr*yscale, x+dr*xscale, y+dr*yscale) 
@@ -52,4 +53,4 @@ global.Immobilize = 1;
 	
 }
 }
-
+}

@@ -159,6 +159,8 @@ function save_game(_fileNum = 0)
 	
 	// Set and save stat related stuff
 	global.statData.save_rm = room_get_name(room);
+	global.statData.save_area = global.room
+	global.statData.save_region = global.region
 	
 	global.statData.item_inv = global.inventoryArray;
 	
@@ -202,9 +204,14 @@ function load_game(_fileNum = 0)
 	// Go to correct room
 	var _loadRoom = asset_get_index(global.statData.save_rm);
 	room_goto(_loadRoom);
-		// Make sure our saveload doesn't save the room we're exiting from
-		obj_saveload.skipRoomSave = true;
-		TestPlayer.skipInvSave = true;
+	
+	// Set the correct area and region variables
+	global.room = global.statData.save_area
+	global.region = global.statData.save_region
+	
+	// Make sure our saveload doesn't save the room we're exiting from
+	obj_saveload.skipRoomSave = true;
+	TestPlayer.skipInvSave = true;
 	
 	// Manually load the room
 	load_room();

@@ -312,6 +312,7 @@ if global.recentlyInteracted = 0 {
 		if selected = 2 {
 			show_debug_message("Quit")
 			buttonPressed = 0;
+			global.menuOpen = false;
 			game_end()
 		}
 	}
@@ -346,6 +347,7 @@ if settingsOpen = "Open" {
 				with TestPlayer {
 						settingsMenu = "Closed";
 					}
+				global.menuOpen = false;
 			}
 			else if controlsOpen = "Open" {
 				controlsOpen = "Closed"

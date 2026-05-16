@@ -13,6 +13,7 @@ settingsOpen = "Closed";
 adjustingVolume = "False";
 controlsOpen = "Closed";
 rebindingKey = false;
+global.menuOpen = true;
 
 buttonA = 1;
 buttonB = 0;

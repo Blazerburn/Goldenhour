@@ -10,6 +10,10 @@ global.playerSpawnpointY = 0;
 global.playerX = 0;
 global.playerY = 0;
 
+// Place Tracker
+global.room = 0;
+global.region = 0;
+
 // RoomSpawnpoints
 global.Room2SetSpawnpoint = 0;
 global.StarterRoomSpawnpoint = 1;
@@ -29,6 +33,7 @@ global.leftKey = ord("A");
 global.interactKey = vk_space;
 global.inventoryKey = vk_tab;
 global.pauseKey = vk_escape;
+global.menuOpen = false;
 
 // Push Objects
 global.pressurePlatesActive = 0;

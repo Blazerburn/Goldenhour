@@ -673,16 +673,18 @@ if keyboard_check_pressed(global.downKey) {
 
 // Pause Menu
 if keyboard_check_pressed(global.pauseKey) {
-	if pauseMenu = "Closed" {
-		create_instance_layer(x, y,"Instances", obj_PauseMenu)
-		pauseMenu = "Open"
-		global.Immobilize = 1;
-	}
-	else if pauseMenu = "Open" {
-		if settingsMenu = "Closed" {
-			instance_destroy(obj_PauseMenu)
-			pauseMenu = "Closed"
-			global.Immobilize = 0;
+	if !instance_exists(obj_SaveMenu) {
+		if pauseMenu = "Closed" {
+			create_instance_layer(x, y,"Instances", obj_PauseMenu)
+			pauseMenu = "Open"
+			global.Immobilize = 1;
+		}
+		else if pauseMenu = "Open" {
+			if settingsMenu = "Closed" {
+				instance_destroy(obj_PauseMenu)
+				pauseMenu = "Closed"
+				global.Immobilize = 0;
+			}
 		}
 	}
 }

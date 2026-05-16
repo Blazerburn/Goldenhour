@@ -14,6 +14,8 @@ skipRoomSave = false;
 global.statData =
 {
 	save_rm : "StarterRoom1", 
+	save_area : "",
+	save_region : "",
 	
 	item_inv : 0, 
 	

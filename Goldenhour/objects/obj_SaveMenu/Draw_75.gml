@@ -74,7 +74,6 @@ if global.recentlyInteracted = 0 {
 
 if keyboard_check_pressed(global.interactKey) {
 	if global.recentlyInteracted = 0 {
-		if saving = false {
 			if selected = 0 {
 				buttonA = 2;
 				buttonB = 0;
@@ -92,7 +91,6 @@ if keyboard_check_pressed(global.interactKey) {
 			}
 			global.recentlyInteracted = 10;
 			buttonPressed = 1;
-		}
 	}
 }
 
@@ -100,30 +98,59 @@ if keyboard_check_pressed(global.interactKey) {
 
 if global.recentlyInteracted = 0 {
 	if buttonPressed = 1 {
-		saving = true
-		if selected = 0 {
-			/*show_debug_message("Resume")
-			with (TestPlayer) {
-				instance_destroy(obj_SaveMenu)
-				pauseMenu = "Closed"
-				global.Immobilize = 0;
-			}*/
-			buttonPressed = 0;
-			
-		}
-		if selected = 1 {
-			show_debug_message("Settings")
-			selected = 0;
-			with TestPlayer {
-				settingsMenu = "Open";
+		if saving = false {
+			if selected = 0 {
+				show_debug_message("File 1")
+				/*show_debug_message("Resume")
+				with (TestPlayer) {
+					instance_destroy(obj_SaveMenu)
+					pauseMenu = "Closed"
+					global.Immobilize = 0;
+				}*/
+				saving = true;
+				buttonPressed = 0;
+				fileSelected = 0;
+			show_debug_message(saving)
 			}
-			settingsOpen = "Open";
-			buttonPressed = 0;
+			if selected = 1 {
+				show_debug_message("File 2")
+				saving = true;
+				buttonPressed = 0;
+				fileSelected = 1;
+			}
+			if selected = 2 {
+				show_debug_message("File 3")
+				saving = true;
+				buttonPressed = 0;
+				fileSelected = 2;
+			}
 		}
-		if selected = 2 {
-			show_debug_message("Quit")
-			buttonPressed = 0;
-			game_end()
+		else if saving = true {
+			if selected = 0 {
+				show_debug_message("Save Game")
+				/*show_debug_message("Resume")
+				with (TestPlayer) {
+					instance_destroy(obj_SaveMenu)
+					pauseMenu = "Closed"
+					global.Immobilize = 0;
+				}*/
+				save_game(fileSelected)
+				buttonPressed = 0;
+			
+			}
+			if selected = 1 {
+				show_debug_message("Load Game")
+				load_game(fileSelected)
+				buttonPressed = 0;
+			}
+			if selected = 2 {
+				show_debug_message("Exit")
+				selected = 0;
+				fileSelected = 0;
+				saving = false
+				buttonPressed = 0;
+				show_debug_message(saving)
+			}
 		}
 	}
 	
@@ -142,14 +169,24 @@ if global.recentlyInteracted = 0 {
 		buttonB = 0;
 		buttonC = 1;
 	}
+	if keyboard_check_pressed(global.pauseKey) {
+		if saving = true {
+			saving = false
+			selected = 0;
+			fileSelected = 0;
+			show_debug_message(saving)
+		}
+		else if saving = false {
+			show_debug_message("Destroy")
+			global.Immobilize = 0;
+			global.menuOpen = false;
+			instance_destroy()
+		}
+	}
 }
 
 if saving = true {
-	if global.recentlyInteracted = 0 {
-		if keyboard_check_pressed(global.pauseKey) {
-			if saving = true {
-				saving = false
-			}
+		
 			/*if adjustingVolume = "True" {
 				adjustingVolume = "False"
 			}
@@ -165,8 +202,7 @@ if saving = true {
 				controlsOpen = "Closed"
 				selected = 0;
 			}*/
-		}
-	}
+
 
 	/* All the text in the settings menu
 	I know there's probably a nice easy way to do this but I don't know how :sob:
@@ -178,9 +214,11 @@ if saving = true {
 	draw_set_halign(fa_center);
 	draw_set_font(fnt_dialogue);
 	
-	draw_text_ext_transformed(gui_width/2, gui_height/2 - 250, "File 1", 4, 1000, 2, 2, 0)
-	draw_text_ext_transformed(gui_width/2, gui_height/2 + 250, "Outskirts", 4, 1000, 1, 1, 0)
-	draw_text_ext_transformed(gui_width/2, gui_height/2 + 290, "Shining Ruins", 4, 1000, 1, 1, 0)
+	
+	
+	draw_text_ext_transformed(gui_width/2, gui_height/2 - 250, "File " + string(fileSelected + 1), 4, 1000, 2, 2, 0)
+	draw_text_ext_transformed(gui_width/2, gui_height/2 + 250, string(global.room), 4, 1000, 1, 1, 0)
+	draw_text_ext_transformed(gui_width/2, gui_height/2 + 290, string(global.region), 4, 1000, 1, 1, 0)
 	
 	if selected = 0 {
 		draw_text_ext_transformed_colour(gui_width/2, (gui_height/2) - 125, "Save", 4, 1000, 2, 2, 0, c_yellow, c_yellow, c_yellow, c_yellow, 1)
