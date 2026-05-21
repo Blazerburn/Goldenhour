@@ -16,6 +16,17 @@ global.statData =
 	save_rm : "StarterRoom1", 
 	save_area : "",
 	save_region : "",
+	save_area1 : "",
+	save_region1 : "",
+	save_area2 : "",
+	save_region2 : "",
+	save_area3 : "",
+	save_region3 : "",
+	
+	saveroom : 0,
+	savespawnpoint : 0,
+	savedirection : 0,
+	savedoor : 0,
 	
 	item_inv : 0, 
 	

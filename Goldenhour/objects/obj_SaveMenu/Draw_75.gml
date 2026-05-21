@@ -109,6 +109,7 @@ if global.recentlyInteracted = 0 {
 				}*/
 				saving = true;
 				buttonPressed = 0;
+				selected = 0;
 				fileSelected = 0;
 			show_debug_message(saving)
 			}
@@ -116,12 +117,14 @@ if global.recentlyInteracted = 0 {
 				show_debug_message("File 2")
 				saving = true;
 				buttonPressed = 0;
+				selected = 0;
 				fileSelected = 1;
 			}
 			if selected = 2 {
 				show_debug_message("File 3")
 				saving = true;
 				buttonPressed = 0;
+				selected = 0;
 				fileSelected = 2;
 			}
 		}
@@ -145,13 +148,14 @@ if global.recentlyInteracted = 0 {
 			}
 			if selected = 2 {
 				show_debug_message("Exit")
-				selected = 0;
+				selected = fileSelected;
 				fileSelected = 0;
 				saving = false
 				buttonPressed = 0;
 				show_debug_message(saving)
 			}
 		}
+		global.saveSelected = obj_SaveMenu.fileSelected
 	}
 	
 	if selected = 0 {
@@ -172,7 +176,7 @@ if global.recentlyInteracted = 0 {
 	if keyboard_check_pressed(global.pauseKey) {
 		if saving = true {
 			saving = false
-			selected = 0;
+			selected = fileSelected;
 			fileSelected = 0;
 			show_debug_message(saving)
 		}
@@ -217,8 +221,21 @@ if saving = true {
 	
 	
 	draw_text_ext_transformed(gui_width/2, gui_height/2 - 250, "File " + string(fileSelected + 1), 4, 1000, 2, 2, 0)
-	draw_text_ext_transformed(gui_width/2, gui_height/2 + 250, string(global.room), 4, 1000, 1, 1, 0)
-	draw_text_ext_transformed(gui_width/2, gui_height/2 + 290, string(global.region), 4, 1000, 1, 1, 0)
+	if fileSelected = 0 {
+		draw_text_ext_transformed(gui_width/2, gui_height/2 + 250, string(global.statData.save_area1), 4, 1000, 1, 1, 0)
+		draw_text_ext_transformed(gui_width/2, gui_height/2 + 290, string(global.statData.save_region1), 4, 1000, 1, 1, 0)
+	}
+	if fileSelected = 1 {
+		draw_text_ext_transformed(gui_width/2, gui_height/2 + 250, string(global.statData.save_area2), 4, 1000, 1, 1, 0)
+		draw_text_ext_transformed(gui_width/2, gui_height/2 + 290, string(global.statData.save_region2), 4, 1000, 1, 1, 0)
+	}
+	if fileSelected = 2 {
+		draw_text_ext_transformed(gui_width/2, gui_height/2 + 250, string(global.statData.save_area3), 4, 1000, 1, 1, 0)
+		draw_text_ext_transformed(gui_width/2, gui_height/2 + 290, string(global.statData.save_region3), 4, 1000, 1, 1, 0)
+	}
+	
+	//draw_text_ext_transformed(gui_width/2, gui_height/2 + 250, string(global.room), 4, 1000, 1, 1, 0)
+	//draw_text_ext_transformed(gui_width/2, gui_height/2 + 290, string(global.region), 4, 1000, 1, 1, 0)
 	
 	if selected = 0 {
 		draw_text_ext_transformed_colour(gui_width/2, (gui_height/2) - 125, "Save", 4, 1000, 2, 2, 0, c_yellow, c_yellow, c_yellow, c_yellow, 1)
@@ -247,7 +264,7 @@ if saving = true {
 	draw_text_ext_transformed(gui_width/2, gui_height/2 - 150, "File 1", 4, 1000, 2, 2, 0)
 	draw_text_ext_transformed(gui_width/2, gui_height/2, "File 2", 4, 1000, 2, 2, 0)
 	draw_text_ext_transformed(gui_width/2, gui_height/2 + 150, "File 3", 4, 1000, 2, 2, 0)*/
-	
+	/*
 	if controlsOpen = "Open" {
 	
 	// Control rebinding menu
@@ -425,6 +442,8 @@ if saving = true {
 		else {
 			draw_text_ext_transformed_colour(gui_width/5 + 25, (gui_height/12) * 8, "Move Left: " + _leftKey_text, 4, 1000, 1, 1, 0, c_white, c_white, c_white, c_white, 1)
 		}
+		
 	}
+	*/
 }
 

@@ -1,5 +1,5 @@
 var l176BE8A8_0;
-l176BE8A8_0 = keyboard_check_pressed(vk_space);
+l176BE8A8_0 = keyboard_check_pressed(global.interactKey);
 if (l176BE8A8_0)
 {
 	if(global.Talking == 0)

@@ -15,6 +15,7 @@ function save_room()
 	// Box saving
 	var _boxNum = instance_number(PushableObject);
 	
+	
 	var _roomStruct =
 	{
 		// Boxes
@@ -25,6 +26,10 @@ function save_room()
 		intNum : _intNum,
 		intData : array_create(_intNum),
 	}
+	
+	/*if instance_exists(obj_SaveMenu) {
+		global.saveSelected = obj_SaveMenu.fileSelected
+	}*/
 	
 	//Get the data from the different savable objects
 		
@@ -103,6 +108,15 @@ function load_room()
 	if room == StreetRoom3 {_roomStruct = global.levelData.RightStreet;};
 	if room == JamboRoom {_roomStruct = global.levelData.JamboMeeting;};
 	
+	if global.menuOpen = true {
+		create_instance_layer(x, y, "Instances", obj_SaveMenu)
+		with obj_SaveMenu {
+			saving = true;
+			selected = 1;
+			fileSelected = global.saveSelected;
+		}
+	}
+	
 	
 	
 	// Exit if _roomstruct isn't a struct
@@ -159,16 +173,60 @@ function save_game(_fileNum = 0)
 	
 	// Set and save stat related stuff
 	global.statData.save_rm = room_get_name(room);
-	global.statData.save_area = global.room
-	global.statData.save_region = global.region
+	
+	with obj_SaveMenu {
+		if fileSelected = 0 {
+			global.statData.save_area1 = global.room
+			global.statData.save_region1 = global.region
+			global.statData.save_area2 = global.area2
+			global.statData.save_region2 = global.region2
+			global.statData.save_area3 = global.area3
+			global.statData.save_region3 = global.region3
+		}
+		if fileSelected = 1 {
+			global.statData.save_area2 = global.room
+			global.statData.save_region2 = global.region
+			global.statData.save_area1 = global.area1
+			global.statData.save_region1 = global.region1
+			global.statData.save_area3 = global.area3
+			global.statData.save_region3 = global.region3
+		}
+		if fileSelected = 2 {
+			global.statData.save_area3 = global.room
+			global.statData.save_region3 = global.region
+			global.statData.save_area2 = global.area2
+			global.statData.save_region2 = global.region2
+			global.statData.save_area1 = global.area1
+			global.statData.save_region1 = global.region1
+		}
+	}
+	
+	global.area1 = global.statData.save_area1
+	global.region1 = global.statData.save_region1
+	global.area2 = global.statData.save_area2
+	global.region2 = global.statData.save_region2
+	global.area3 = global.statData.save_area3
+	global.region3 = global.statData.save_region3
+
 	
 	global.statData.item_inv = global.inventoryArray;
+	
+	// Save the save room information
+	global.statData.saveroom = global.saveRoom;
+	global.statData.savespawnpoint = global.saveSpawnpoint;
+	global.statData.savedirection = global.saveDirection;
+	global.statData.savedoor = global.saveDoor;
 	
 	array_push(_saveArray, global.statData);
 	
 	// Save all the room data
 	
 	array_push(_saveArray, global.levelData);
+	
+	show_debug_message("Area 1" + string(global.statData.save_area1))
+	show_debug_message("Region 1" + string(global.statData.save_region1))
+	show_debug_message("Area 2" + string(global.statData.save_area2))
+	show_debug_message("Region 2" + string(global.statData.save_region2))
 	
 	// Actual saving
 	var _filename = "SaveData" + string(_fileNum) + ".sav";
@@ -201,13 +259,48 @@ function load_game(_fileNum = 0)
 	
 	global.inventoryArray = global.statData.item_inv;
 	
+	global.statData.save_area1 = global.area1
+	global.statData.save_region1 = global.region1
+	global.statData.save_area2 = global.area2
+	global.statData.save_region2 = global.region2
+	global.statData.save_area3 = global.area3
+	global.statData.save_region3 = global.region3
+	
 	// Go to correct room
 	var _loadRoom = asset_get_index(global.statData.save_rm);
 	room_goto(_loadRoom);
 	
-	// Set the correct area and region variables
+	/*// Set the correct area and region variables
 	global.room = global.statData.save_area
 	global.region = global.statData.save_region
+	
+	
+	
+	with obj_SaveMenu {
+		if fileSelected = 0 {
+			global.room = global.statData.save_area1
+			global.region = global.statData.save_region1
+		}
+		if fileSelected = 1 {
+			global.room = global.statData.save_area2
+			global.region = global.statData.save_region2
+		}
+		if fileSelected = 2 {
+			global.room = global.statData.save_area3
+			global.region = global.statData.save_region3
+		}
+	}*/
+	
+	show_debug_message("Area 1" + string(global.statData.save_area1))
+	show_debug_message("Region 1" + string(global.statData.save_region1))
+	show_debug_message("Area 2" + string(global.statData.save_area2))
+	show_debug_message("Region 2" + string(global.statData.save_region2))
+	
+	// Load the save room information
+	global.saveRoom = global.statData.saveroom;
+	global.saveSpawnpoint = global.statData.savespawnpoint;
+	global.saveDirection = global.statData.savedirection;
+	global.saveDoor = global.statData.savedoor;
 	
 	// Make sure our saveload doesn't save the room we're exiting from
 	obj_saveload.skipRoomSave = true;

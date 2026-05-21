@@ -14,6 +14,19 @@ global.playerY = 0;
 global.room = 0;
 global.region = 0;
 
+// Save System
+global.saveSelected = 0;
+global.area1 = 0;
+global.region1 = 0;
+global.area2 = 0;
+global.region2 = 0;
+global.area3 = 0;
+global.region3 = 0;
+global.saveDoor = 0;
+global.saveRoom = 0;
+global.saveSpawnpoint = 0;
+global.saveDirection = 0;
+
 // RoomSpawnpoints
 global.Room2SetSpawnpoint = 0;
 global.StarterRoomSpawnpoint = 1;

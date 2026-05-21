@@ -11,8 +11,8 @@
   "name":"obj_SaveInt",
   "overriddenProperties":[],
   "parent":{
-    "name":"Interactables",
-    "path":"folders/Objects/Interactables.yy",
+    "name":"SaveSystem",
+    "path":"folders/SaveSystem.yy",
   },
   "parentObjectId":{
     "name":"par_speaker",

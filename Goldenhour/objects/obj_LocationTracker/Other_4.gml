@@ -24,6 +24,13 @@
 		global.room = "Outskirts"
 		global.region = "Shining Ruins"
 	}
+	
+	if room == ChurchRoom1
+	or room == ChurchRoom2
+	{
+		global.room = "Abandoned Church"
+		global.region = "Shining Ruins"
+	}
 
 
 	// Ruins Castle

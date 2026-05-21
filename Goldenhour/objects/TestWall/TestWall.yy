@@ -32,5 +32,5 @@
     "path":"sprites/PlayerCollision/PlayerCollision.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }

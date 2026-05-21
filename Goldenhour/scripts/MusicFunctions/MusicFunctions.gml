@@ -16,6 +16,7 @@ function reset_room_song() {
 	if room == StarterRoom1
 	or room == StarterRoom2
 	or room == CoreRoom
+	or room == InfiniteRoom
 
 	{
 		set_song_ingame(noone, 60, 30)

@@ -9,8 +9,8 @@
   "name":"obj_SaveMenu",
   "overriddenProperties":[],
   "parent":{
-    "name":"GUI",
-    "path":"folders/Objects/GUI.yy",
+    "name":"SaveSystem",
+    "path":"folders/SaveSystem.yy",
   },
   "parentObjectId":null,
   "persistent":false,
