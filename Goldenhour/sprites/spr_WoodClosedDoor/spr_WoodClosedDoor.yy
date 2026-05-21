@@ -26,7 +26,7 @@
   "origin":3,
   "parent":{
     "name":"Objects",
-    "path":"folders/Sprites/Objects.yy",
+    "path":"folders/Sprites/Ruins/Objects.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
