@@ -1,6 +1,6 @@
 {
   "$GMSprite":"v2",
-  "%Name":"spr_WoodClosedDoor",
+  "%Name":"spr_SaveDoorEmblemOff",
   "bboxMode":2,
   "bbox_bottom":64,
   "bbox_left":-1,
@@ -19,10 +19,11 @@
   "height":64,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"92ad70ab-c107-4099-a4d5-1aeb69e7c743","blendMode":0,"displayName":"Layer 2","isLocked":false,"name":"92ad70ab-c107-4099-a4d5-1aeb69e7c743","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":false,},
+    {"$GMImageLayer":"","%Name":"1065e3ff-0e0e-45a1-b257-f9b19a70b6c0","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"1065e3ff-0e0e-45a1-b257-f9b19a70b6c0","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"92ad70ab-c107-4099-a4d5-1aeb69e7c743","blendMode":0,"displayName":"Layer 2","isLocked":false,"name":"92ad70ab-c107-4099-a4d5-1aeb69e7c743","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"a142ba5e-0c0e-493c-838d-208116200549","blendMode":0,"displayName":"default","isLocked":false,"name":"a142ba5e-0c0e-493c-838d-208116200549","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_WoodClosedDoor",
+  "name":"spr_SaveDoorEmblemOff",
   "nineSlice":null,
   "origin":3,
   "parent":{
@@ -34,7 +35,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"spr_WoodClosedDoor",
+    "%Name":"spr_SaveDoorEmblemOff",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -58,9 +59,9 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"spr_WoodClosedDoor",
+    "name":"spr_SaveDoorEmblemOff",
     "playback":1,
-    "playbackSpeed":0.0,
+    "playbackSpeed":8.0,
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
@@ -70,7 +71,7 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"fbae52c7-ce16-4790-8a7a-f3fa66fcf79a","path":"sprites/spr_WoodClosedDoor/spr_WoodClosedDoor.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"fbae52c7-ce16-4790-8a7a-f3fa66fcf79a","path":"sprites/spr_SaveDoorEmblemOff/spr_SaveDoorEmblemOff.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"1c3a21fe-80cd-41a2-b86f-54a669bb675c","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
