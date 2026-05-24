@@ -1,4 +1,4 @@
-var l176BE8A8_0;
+/*var l176BE8A8_0;
 l176BE8A8_0 = keyboard_check_pressed(global.interactKey);
 if (l176BE8A8_0)
 {

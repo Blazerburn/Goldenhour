@@ -2,6 +2,20 @@
 // You can write your code in this editor
 event_inherited();
 
+if puzzleProgress = 3 {
+	global.saveDirection = 2;
+	global.saveSpawnpoint = spawnpoint;
+	global.saveRoom = room
+	global.saveDoor = image_index;
+	global.RoomSpawnpoints = playerSpawnpoint;
+	global.Immobilize = 1;
+	global.recentlyInteracted = 60;
+	alpha = 0;
+	fadeIn = true;
+	puzzleProgress = 2;
+}
+
+
 if fadeIn = true {
 	alpha += .05
 	clamp(alpha, 0, 1)
@@ -27,3 +41,4 @@ if fadeOut = true {
 		room_goto(goToRoom);
 	}
 }
+

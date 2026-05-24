@@ -21,13 +21,14 @@ switch(choice_variable){
 		myText[i]		= ["Inspect the hole", "Leave it"];
 		myTypes[i]		= 1;
 		myNextLine[i]	= [3,4];
-		myScripts[i]	= [[change_variable, id, "puzzleProgress", "1"], [change_variable, id, "choice_variable", "-1"]];
+		//myScripts[i]	= [[change_variable, id, "puzzleProgress", "1"], [change_variable, id, "choice_variable", "-1"]];
 		mySpeaker[i]	= TestPlayer;
 		
 		//Line 3
 		i++;
 		myText[i]		= "You put your hand up to the hole";
 		myNextLine[i]   = -1;
+		myScripts[i]	= [change_variable, id, "puzzleProgress", "1"]
 		mySpeaker[i]	= id;
 		
 		//Line 4
@@ -38,11 +39,13 @@ switch(choice_variable){
 	#endregion
 	break;
 	
-	case "Opened":
+	case "On":
 	#region First Dialogue
 		//Line 0
 		var i = 0;
-		myText[i]		= "The door is open";
+		myText[i]		= "You open the door";
+		myNextLine[i]   = -1;
+		myScripts[i]	= [change_variable, id, "puzzleProgress", "3"]
 		mySpeaker[i]	= id;
 	#endregion
 	break;

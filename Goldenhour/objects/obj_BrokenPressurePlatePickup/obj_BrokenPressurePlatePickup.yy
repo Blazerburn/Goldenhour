@@ -36,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"TestSparkles",
-    "path":"sprites/TestSparkles/TestSparkles.yy",
+    "name":"PressurePlateBrokent",
+    "path":"sprites/PressurePlateBrokent/PressurePlateBrokent.yy",
   },
   "spriteMaskId":null,
   "tags":[

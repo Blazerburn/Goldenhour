@@ -41,6 +41,7 @@ global.levelData =
 	Puzzle5 : 0,
 	Puzzle6 : 0,
 	RuinsBar : 0,
+	Pews : 0,
 	Mosaic : 0,
 	RuinsCore : 0,
 	HideoutTop : 0,
@@ -49,6 +50,7 @@ global.levelData =
 	PrinceBedroom : 0,
 	Sculptor : 0,
 	Statue : 0,
+	LeftStreet : 0,
 	RightStreet : 0,
 	JamboMeeting : 0,
 }

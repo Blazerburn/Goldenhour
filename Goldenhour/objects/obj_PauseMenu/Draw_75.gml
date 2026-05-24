@@ -294,6 +294,7 @@ if global.recentlyInteracted = 0 {
 			show_debug_message("Resume")
 			with (TestPlayer) {
 				instance_destroy(obj_PauseMenu)
+				global.menuOpen = false;
 				pauseMenu = "Closed"
 				global.Immobilize = 0;
 			}

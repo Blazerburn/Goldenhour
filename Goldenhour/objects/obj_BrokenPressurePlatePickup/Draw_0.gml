@@ -2,7 +2,7 @@
 
 if(puzzleProgress == 0)
 {
-	draw_sprite_ext(PressurePlateBrokent, 0, x, y, 1, 1, 0, c_white, 1);
+	draw_self()
 }
 
 if(puzzleProgress == 2)
@@ -15,7 +15,4 @@ if(puzzleProgress == 2)
 	instance_deactivate_object(self);
 }
 
-if(puzzleProgress < 2)
-{
-	draw_self();
-}
+

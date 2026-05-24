@@ -69,6 +69,7 @@ function save_room()
 	if room == PuzzleRoom5 {global.levelData.Puzzle5 = _roomStruct;};
 	if room == PuzzleRoom6 {global.levelData.Puzzle6 = _roomStruct;};
 	if room == BarRoom {global.levelData.RuinsBar = _roomStruct;};
+	if room == ChurchRoom1 {global.levelData.Pews = _roomStruct;};
 	if room == ChurchRoom2 {global.levelData.Mosaic = _roomStruct;};
 	if room == CoreRoom {global.levelData.RuinsCore = _roomStruct;};
 	if room == HideoutRoom1 {global.levelData.HideoutTop = _roomStruct;};
@@ -77,6 +78,7 @@ function save_room()
 	if room == PrincesRoom2 {global.levelData.PrinceBedroom = _roomStruct;};
 	if room == RubbleRoom {global.levelData.Sculptor = _roomStruct;};
 	if room == StatueRoom {global.levelData.Statue = _roomStruct;};
+	if room == StreetRoom1 {global.levelData.LeftStreet = _roomStruct;};
 	if room == StreetRoom3 {global.levelData.RightStreet = _roomStruct;};
 	if room == JamboRoom {global.levelData.JamboMeeting = _roomStruct;};
 	
@@ -97,6 +99,7 @@ function load_room()
 	if room == PuzzleRoom5 {_roomStruct = global.levelData.Puzzle5;};
 	if room == PuzzleRoom6 {_roomStruct = global.levelData.Puzzle6;};
 	if room == BarRoom {_roomStruct = global.levelData.RuinsBar;};
+	if room == ChurchRoom1 {_roomStruct = global.levelData.Pews;};
 	if room == ChurchRoom2 {_roomStruct = global.levelData.Mosaic;};
 	if room == CoreRoom {_roomStruct = global.levelData.RuinsCore;};
 	if room == HideoutRoom1 {_roomStruct = global.levelData.HideoutTop;};
@@ -105,6 +108,7 @@ function load_room()
 	if room == PrincesRoom2 {_roomStruct = global.levelData.PrinceBedroom;};
 	if room == RubbleRoom {_roomStruct = global.levelData.Sculptor;};
 	if room == StatueRoom {_roomStruct = global.levelData.Statue;};
+	if room == StreetRoom1 {_roomStruct = global.levelData.LeftStreet;};
 	if room == StreetRoom3 {_roomStruct = global.levelData.RightStreet;};
 	if room == JamboRoom {_roomStruct = global.levelData.JamboMeeting;};
 	

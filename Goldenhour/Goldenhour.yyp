@@ -528,12 +528,14 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"PersistentRoom","path":"rooms/PersistentRoom/PersistentRoom.yy",},},
-    {"roomId":{"name":"ChurchRoom1","path":"rooms/ChurchRoom1/ChurchRoom1.yy",},},
-    {"roomId":{"name":"PuzzleRoom3","path":"rooms/PuzzleRoom3/PuzzleRoom3.yy",},},
-    {"roomId":{"name":"PuzzleRoom6","path":"rooms/PuzzleRoom6/PuzzleRoom6.yy",},},
+    {"roomId":{"name":"PuzzleRoom1","path":"rooms/PuzzleRoom1/PuzzleRoom1.yy",},},
+    {"roomId":{"name":"StarterRoom1","path":"rooms/StarterRoom1/StarterRoom1.yy",},},
     {"roomId":{"name":"PuzzleRoom2","path":"rooms/PuzzleRoom2/PuzzleRoom2.yy",},},
     {"roomId":{"name":"StreetRoom1","path":"rooms/StreetRoom1/StreetRoom1.yy",},},
+    {"roomId":{"name":"ChurchRoom1","path":"rooms/ChurchRoom1/ChurchRoom1.yy",},},
+    {"roomId":{"name":"PuzzleRoom6","path":"rooms/PuzzleRoom6/PuzzleRoom6.yy",},},
     {"roomId":{"name":"InfiniteRoom","path":"rooms/InfiniteRoom/InfiniteRoom.yy",},},
+    {"roomId":{"name":"PuzzleRoom3","path":"rooms/PuzzleRoom3/PuzzleRoom3.yy",},},
     {"roomId":{"name":"PuzzleRoom4","path":"rooms/PuzzleRoom4/PuzzleRoom4.yy",},},
     {"roomId":{"name":"StreetRoom2","path":"rooms/StreetRoom2/StreetRoom2.yy",},},
     {"roomId":{"name":"PrincesRoom1","path":"rooms/PrincesRoom1/PrincesRoom1.yy",},},
@@ -541,10 +543,8 @@
     {"roomId":{"name":"StreetRoom3","path":"rooms/StreetRoom3/StreetRoom3.yy",},},
     {"children":[
         {"children":[
-            {"roomId":{"name":"StarterRoom1","path":"rooms/StarterRoom1/StarterRoom1.yy",},},
             {"roomId":{"name":"StarterRoom2","path":"rooms/StarterRoom2/StarterRoom2.yy",},},
             {"roomId":{"name":"ShowRoom","path":"rooms/ShowRoom/ShowRoom.yy",},},
-            {"roomId":{"name":"PuzzleRoom1","path":"rooms/PuzzleRoom1/PuzzleRoom1.yy",},},
             {"roomId":{"name":"SecretRoom","path":"rooms/SecretRoom/SecretRoom.yy",},},
             {"roomId":{"name":"Crossroads1","path":"rooms/Crossroads1/Crossroads1.yy",},},
             {"roomId":{"name":"StatueRoom","path":"rooms/StatueRoom/StatueRoom.yy",},},

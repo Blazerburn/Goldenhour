@@ -11,6 +11,7 @@ if (point_in_rectangle(TestPlayer.x, TestPlayer.y, x, y, x+32*xScale, y+32*yScal
 		global.Immobilize = 1;
 		global.RoomSpawnpoints = playerSpawnpoint;
 		fadeIn = true;
+		
 		if fadeIn = true {
 			alpha += .05
 			clamp(alpha, 0, 1)

@@ -12,13 +12,18 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"d8231f32-f941-475f-a6a4-1474f1531b40","name":"d8231f32-f941-475f-a6a4-1474f1531b40","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"2b52e888-704f-45f8-ba9c-e70b3b042ed5","name":"2b52e888-704f-45f8-ba9c-e70b3b042ed5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"159f0a11-6288-42a9-aac4-edd851e15f14","name":"159f0a11-6288-42a9-aac4-edd851e15f14","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b4ea132e-fdcc-4581-9a4b-8cef890f6227","name":"b4ea132e-fdcc-4581-9a4b-8cef890f6227","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"6823eeb6-4a8d-4b34-b1bd-51728b6305c3","name":"6823eeb6-4a8d-4b34-b1bd-51728b6305c3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0441fcef-c10c-4710-804b-32bbe1e64343","name":"0441fcef-c10c-4710-804b-32bbe1e64343","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":32,
   "HTile":false,
   "layers":[
+    {"$GMImageLayer":"","%Name":"62f80161-c2ef-41fd-882b-9922daf597d1","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"62f80161-c2ef-41fd-882b-9922daf597d1","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"10d7572d-0b67-44a1-ac16-25d69efc407a","blendMode":0,"displayName":"default","isLocked":false,"name":"10d7572d-0b67-44a1-ac16-25d69efc407a","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"PressurePlateBrokent",
@@ -49,7 +54,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":1.0,
+    "length":5.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -59,7 +64,7 @@
     },
     "name":"PressurePlateBrokent",
     "playback":1,
-    "playbackSpeed":30.0,
+    "playbackSpeed":6.0,
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
@@ -69,8 +74,20 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d8231f32-f941-475f-a6a4-1474f1531b40","path":"sprites/PressurePlateBrokent/PressurePlateBrokent.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"b38884e7-4ddf-42a0-b36a-f5e95f568dd7","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2b52e888-704f-45f8-ba9c-e70b3b042ed5","path":"sprites/PressurePlateBrokent/PressurePlateBrokent.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"64b9cd7d-412f-478d-9436-cb302f55e601","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"159f0a11-6288-42a9-aac4-edd851e15f14","path":"sprites/PressurePlateBrokent/PressurePlateBrokent.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"b970a1ab-4d5e-4ec5-85ad-3ba95191bdc4","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b4ea132e-fdcc-4581-9a4b-8cef890f6227","path":"sprites/PressurePlateBrokent/PressurePlateBrokent.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"556a2d78-422b-4877-b589-92e26b79dbdc","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6823eeb6-4a8d-4b34-b1bd-51728b6305c3","path":"sprites/PressurePlateBrokent/PressurePlateBrokent.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"163d19eb-67cc-4505-a5dd-0f8a682e3d46","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0441fcef-c10c-4710-804b-32bbe1e64343","path":"sprites/PressurePlateBrokent/PressurePlateBrokent.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"1c556ec2-08d3-4759-a754-8f5fb9b4887b","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

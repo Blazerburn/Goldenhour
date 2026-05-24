@@ -681,9 +681,11 @@ if keyboard_check_pressed(global.pauseKey) {
 		}
 		else if pauseMenu = "Open" {
 			if settingsMenu = "Closed" {
-				instance_destroy(obj_PauseMenu)
+				show_debug_message("Closed settings")
 				pauseMenu = "Closed"
 				global.Immobilize = 0;
+				global.menuOpen = false;
+				instance_destroy(obj_PauseMenu)
 			}
 		}
 	}
