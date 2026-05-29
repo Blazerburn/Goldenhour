@@ -16,12 +16,17 @@ function reset_room_song() {
 	if room == StarterRoom1
 	or room == StarterRoom2
 	or room == CoreRoom
-	or room == InfiniteRoom
 
 	{
 		set_song_ingame(noone, 60, 30)
 	}
-
+	
+	if room == InfiniteRoom
+	
+	{
+		set_song_ingame(sng_Projection, 60, 30)
+	}
+	
 	// Ruins Outskirts
 	if room == ShowRoom
 	or room == PuzzleRoom1
@@ -80,7 +85,7 @@ function reset_room_song() {
 	{
 		// If the city is not powered, play the dark theme
 		if global.shiningCityPowered = 0 {
-			set_song_ingame(sng_RuinsDark, 120, 60)
+			set_song_ingame(sng_Discovery, 120, 60)
 		}
 		else // If the city is powered play the light theme
 		{

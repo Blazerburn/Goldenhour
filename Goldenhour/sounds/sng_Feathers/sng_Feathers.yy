@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"sng_Feathers",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":3,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":95.68653,
+  "exportDir":"",
+  "name":"sng_Feathers",
+  "parent":{
+    "name":"Unknown Where to Put",
+    "path":"folders/Sounds/Music/Unknown Where to Put.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"sng_Feathers.mp3",
+  "volume":1.0,
+}

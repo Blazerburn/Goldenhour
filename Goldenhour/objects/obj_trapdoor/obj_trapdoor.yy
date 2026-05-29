@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Trapdoor",
-    "path":"sprites/Trapdoor/Trapdoor.yy",
+    "name":"spr_TrapdoorOpened",
+    "path":"sprites/spr_TrapdoorOpened/spr_TrapdoorOpened.yy",
   },
   "spriteMaskId":null,
   "visible":true,
