@@ -8,12 +8,12 @@ if puzzleProgress = 0 {
 }
 
 if puzzleProgress = 1 {
-	emblem = draw_sprite(spr_SaveUnlockingDoor, _frame, x, y)
+	emblem = draw_sprite(spr_SaveUnlockingDoor, frame, x, y)
 	global.Immobilize = 1;
 	global.menuOpen = 1;
-	if _frame = 10 {
+	if frame = 10 {
 		puzzleProgress = 2;
-		_frame = 0;
+		frame = 0;
 		choice_variable = "On";
 		global.Immobilize = 0;
 		global.menuOpen = 0;
@@ -21,12 +21,19 @@ if puzzleProgress = 1 {
 }
 
 if puzzleProgress = 2 {
-	emblem = draw_sprite(spr_SaveDoorEmblemOn, _frame, x, y)
-	if _frame = 7 {
-		_frame = 0;
+	emblem = draw_sprite(spr_SaveDoorEmblemOn, frame, x, y)
+	if frame = 7 {
+		frame = 0;
 	}
 }
 
+if puzzleProgress = 3 {
+	var _frame = image_index
+	sprite_index = spr_SaveDoorOpening
+	image_index = _frame
+	puzzleProgress = 4
+}
+
 if puzzleProgress >> 0 {
-	_frame += .1;
+	frame += .1;
 }

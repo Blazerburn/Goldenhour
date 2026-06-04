@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"HideoutDoor_1",
-    "path":"sprites/HideoutDoor_1/HideoutDoor_1.yy",
+    "name":"spr_SaveDoorOpening",
+    "path":"sprites/spr_SaveDoorOpening/spr_SaveDoorOpening.yy",
   },
   "spriteMaskId":null,
   "visible":true,

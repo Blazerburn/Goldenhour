@@ -12,3 +12,4 @@ if skipTransition = true {
 		show_debug_message("Created transition")
 	}
 }
+

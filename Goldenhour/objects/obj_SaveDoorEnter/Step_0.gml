@@ -2,7 +2,11 @@
 // You can write your code in this editor
 event_inherited();
 
-if puzzleProgress = 3 {
+var _vol = global.sfxVolume * global.masterVolume
+
+if puzzleProgress = 4 {
+	audio_play_sound(sfx_DoorOpening, 5, false, _vol)
+	
 	global.saveDirection = 2;
 	global.saveSpawnpoint = spawnpoint;
 	global.saveRoom = room
