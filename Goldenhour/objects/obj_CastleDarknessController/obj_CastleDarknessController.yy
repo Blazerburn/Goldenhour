@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"CastleDarknessController",
+  "%Name":"obj_CastleDarknessController",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"CastleDarknessController",
+  "name":"obj_CastleDarknessController",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",

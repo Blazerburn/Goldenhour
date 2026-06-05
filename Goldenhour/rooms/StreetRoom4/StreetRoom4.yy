@@ -42,6 +42,7 @@
     {"name":"inst_2CA6D0BD","path":"rooms/StreetRoom4/StreetRoom4.yy",},
     {"name":"inst_15A1406","path":"rooms/StreetRoom4/StreetRoom4.yy",},
     {"name":"inst_78E7F503","path":"rooms/StreetRoom4/StreetRoom4.yy",},
+    {"name":"inst_2EA9C972","path":"rooms/StreetRoom4/StreetRoom4.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -129,6 +130,7 @@
         {"$GMRInstance":"v4","%Name":"inst_2CA6D0BD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2CA6D0BD","objectId":{"name":"obj_ShiningCityLockedDoor","path":"objects/obj_ShiningCityLockedDoor/obj_ShiningCityLockedDoor.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":224.0,"y":800.0,},
         {"$GMRInstance":"v4","%Name":"inst_15A1406","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_15A1406","objectId":{"name":"obj_ShiningCityLockedDoor","path":"objects/obj_ShiningCityLockedDoor/obj_ShiningCityLockedDoor.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":224.0,"y":384.0,},
         {"$GMRInstance":"v4","%Name":"inst_78E7F503","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_78E7F503","objectId":{"name":"obj_ShiningCityLockedDoor","path":"objects/obj_ShiningCityLockedDoor/obj_ShiningCityLockedDoor.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":224.0,"y":160.0,},
+        {"$GMRInstance":"v4","%Name":"inst_2EA9C972","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2EA9C972","objectId":{"name":"obj_CastleDarknessController","path":"objects/obj_CastleDarknessController/obj_CastleDarknessController.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":64.0,"y":-96.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Outline","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Outline","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":30,"SerialiseWidth":8,"TileCompressedData":[
           -8,-2147483648,1,6,-7,-2147483648,1,6,-7,-2147483648,1,6,-7,-2147483648,1,6,-7,-2147483648,1,11,-86,

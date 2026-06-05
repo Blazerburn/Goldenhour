@@ -7,7 +7,7 @@ if global.shiningCityPowered = 1 {
 	if layer_exists("DarknessAbove") {
 		layer_destroy("DarknessAbove")
 	}
-	if layer_exists("Transition") {
+	/*if layer_exists("Transition") {
 		layer_destroy("Transition")
-	}
+	}*/
 }

@@ -10,7 +10,7 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":1.7493197,
+  "duration":0.42469388,
   "exportDir":"",
   "name":"sfx_DoorOpening",
   "parent":{
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"sfx_DoorOpening.wav",
+  "soundFile":"sfx_DoorOpening.mp3",
   "volume":1.0,
 }

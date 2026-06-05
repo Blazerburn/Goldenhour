@@ -69,7 +69,6 @@
   "ResourceOrderSettings":[
     {"name":"fnt_dialogue","order":1,"path":"fonts/fnt_dialogue/fnt_dialogue.yy",},
     {"name":"BreakablePathWall","order":3,"path":"objects/BreakablePathWall/BreakablePathWall.yy",},
-    {"name":"CastleDarknessController","order":27,"path":"objects/CastleDarknessController/CastleDarknessController.yy",},
     {"name":"InventoryCombining","order":13,"path":"objects/InventoryCombining/InventoryCombining.yy",},
     {"name":"InventoryCombiningText","order":1,"path":"objects/InventoryCombiningText/InventoryCombiningText.yy",},
     {"name":"InventoryInsideObject","order":2,"path":"objects/InventoryInsideObject/InventoryInsideObject.yy",},
@@ -87,6 +86,7 @@
     {"name":"obj_BrokenGlassPickup","order":1,"path":"objects/obj_BrokenGlassPickup/obj_BrokenGlassPickup.yy",},
     {"name":"obj_BrokenPressurePlatePickup","order":2,"path":"objects/obj_BrokenPressurePlatePickup/obj_BrokenPressurePlatePickup.yy",},
     {"name":"obj_BuildingCol","order":23,"path":"objects/obj_BuildingCol/obj_BuildingCol.yy",},
+    {"name":"obj_CastleDarknessController","order":27,"path":"objects/obj_CastleDarknessController/obj_CastleDarknessController.yy",},
     {"name":"obj_ChiselRockPickup","order":3,"path":"objects/obj_ChiselRockPickup/obj_ChiselRockPickup.yy",},
     {"name":"obj_CollisionChangeCollision","order":3,"path":"objects/obj_CollisionChangeCollision/obj_CollisionChangeCollision.yy",},
     {"name":"obj_CollisionChangeController","order":4,"path":"objects/obj_CollisionChangeController/obj_CollisionChangeController.yy",},
