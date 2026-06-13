@@ -311,6 +311,7 @@
     {"id":{"name":"sng_RuinsOutskirts","path":"sounds/sng_RuinsOutskirts/sng_RuinsOutskirts.yy",},},
     {"id":{"name":"typing_sound_01_229863__1___1_","path":"sounds/typing_sound_01_229863__1___1_/typing_sound_01_229863__1___1_.yy",},},
     {"id":{"name":"Arrow","path":"sprites/Arrow/Arrow.yy",},},
+    {"id":{"name":"bar_counter_type_shit","path":"sprites/bar_counter_type_shit/bar_counter_type_shit.yy",},},
     {"id":{"name":"BarRoomTileSetSprite","path":"sprites/BarRoomTileSetSprite/BarRoomTileSetSprite.yy",},},
     {"id":{"name":"BioluminescentRock","path":"sprites/BioluminescentRock/BioluminescentRock.yy",},},
     {"id":{"name":"BlackBlock","path":"sprites/BlackBlock/BlackBlock.yy",},},

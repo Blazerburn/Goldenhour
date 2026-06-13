@@ -248,6 +248,7 @@
     {"name":"sng_RuinsLight","order":1,"path":"sounds/sng_RuinsLight/sng_RuinsLight.yy",},
     {"name":"sng_RuinsOutskirts","order":3,"path":"sounds/sng_RuinsOutskirts/sng_RuinsOutskirts.yy",},
     {"name":"typing_sound_01_229863__1___1_","order":4,"path":"sounds/typing_sound_01_229863__1___1_/typing_sound_01_229863__1___1_.yy",},
+    {"name":"bar_counter_type_shit","order":23,"path":"sprites/bar_counter_type_shit/bar_counter_type_shit.yy",},
     {"name":"BarRoomTileSetSprite","order":12,"path":"sprites/BarRoomTileSetSprite/BarRoomTileSetSprite.yy",},
     {"name":"BlackBlock","order":19,"path":"sprites/BlackBlock/BlackBlock.yy",},
     {"name":"BlackOutlineTileSetSprite","order":20,"path":"sprites/BlackOutlineTileSetSprite/BlackOutlineTileSetSprite.yy",},
