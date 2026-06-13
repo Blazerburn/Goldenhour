@@ -243,6 +243,7 @@
     {"name":"snd_voice2","order":3,"path":"sounds/snd_voice2/snd_voice2.yy",},
     {"name":"sng_Discovery","order":4,"path":"sounds/sng_Discovery/sng_Discovery.yy",},
     {"name":"sng_EmptyChurch","order":2,"path":"sounds/sng_EmptyChurch/sng_EmptyChurch.yy",},
+    {"name":"sng_light_mix","order":5,"path":"sounds/sng_light_mix/sng_light_mix.yy",},
     {"name":"sng_Projection","order":1,"path":"sounds/sng_Projection/sng_Projection.yy",},
     {"name":"sng_RuinsLight","order":1,"path":"sounds/sng_RuinsLight/sng_RuinsLight.yy",},
     {"name":"sng_RuinsOutskirts","order":3,"path":"sounds/sng_RuinsOutskirts/sng_RuinsOutskirts.yy",},

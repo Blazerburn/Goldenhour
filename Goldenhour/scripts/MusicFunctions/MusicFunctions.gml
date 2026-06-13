@@ -47,7 +47,7 @@ function reset_room_song() {
 		}
 		else // If the city is powered play the light theme
 		{
-			set_song_ingame(sng_RuinsLight, 120, 60)
+			set_song_ingame(sng_light_mix, 120, 60)
 		}
 	}
 
@@ -89,7 +89,7 @@ function reset_room_song() {
 		}
 		else // If the city is powered play the light theme
 		{
-			set_song_ingame(sng_RuinsLight, 120, 60)
+			set_song_ingame(sng_light_mix, 120, 60)
 		}
 	}
 }

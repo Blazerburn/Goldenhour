@@ -304,6 +304,7 @@
     {"id":{"name":"sng_EmptyChurch","path":"sounds/sng_EmptyChurch/sng_EmptyChurch.yy",},},
     {"id":{"name":"sng_Feathers","path":"sounds/sng_Feathers/sng_Feathers.yy",},},
     {"id":{"name":"sng_inventory","path":"sounds/sng_inventory/sng_inventory.yy",},},
+    {"id":{"name":"sng_light_mix","path":"sounds/sng_light_mix/sng_light_mix.yy",},},
     {"id":{"name":"sng_Projection","path":"sounds/sng_Projection/sng_Projection.yy",},},
     {"id":{"name":"sng_RuinsDarkDemo","path":"sounds/sng_RuinsDarkDemo/sng_RuinsDarkDemo.yy",},},
     {"id":{"name":"sng_RuinsLight","path":"sounds/sng_RuinsLight/sng_RuinsLight.yy",},},
@@ -552,6 +553,8 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"PersistentRoom","path":"rooms/PersistentRoom/PersistentRoom.yy",},},
+    {"roomId":{"name":"HideoutRoom2","path":"rooms/HideoutRoom2/HideoutRoom2.yy",},},
+    {"roomId":{"name":"PrincesRoom1","path":"rooms/PrincesRoom1/PrincesRoom1.yy",},},
     {"roomId":{"name":"StreetRoom1","path":"rooms/StreetRoom1/StreetRoom1.yy",},},
     {"roomId":{"name":"StarterRoom1","path":"rooms/StarterRoom1/StarterRoom1.yy",},},
     {"children":[
@@ -577,8 +580,6 @@
             {"roomId":{"name":"StreetRoom4","path":"rooms/StreetRoom4/StreetRoom4.yy",},},
             {"roomId":{"name":"PuzzleRoom5","path":"rooms/PuzzleRoom5/PuzzleRoom5.yy",},},
             {"roomId":{"name":"HideoutRoom1","path":"rooms/HideoutRoom1/HideoutRoom1.yy",},},
-            {"roomId":{"name":"HideoutRoom2","path":"rooms/HideoutRoom2/HideoutRoom2.yy",},},
-            {"roomId":{"name":"PrincesRoom1","path":"rooms/PrincesRoom1/PrincesRoom1.yy",},},
             {"roomId":{"name":"PrincesRoom2","path":"rooms/PrincesRoom2/PrincesRoom2.yy",},},
             {"roomId":{"name":"PrincesRoom3","path":"rooms/PrincesRoom3/PrincesRoom3.yy",},},
             {"roomId":{"name":"PrincesRoom4","path":"rooms/PrincesRoom4/PrincesRoom4.yy",},},
