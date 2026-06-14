@@ -2,8 +2,8 @@
   "$GMSprite":"v2",
   "%Name":"BreakableBoxWall",
   "bboxMode":0,
-  "bbox_bottom":29,
-  "bbox_left":6,
+  "bbox_bottom":31,
+  "bbox_left":0,
   "bbox_right":31,
   "bbox_top":0,
   "collisionKind":1,
@@ -21,6 +21,7 @@
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"29c52f27-d53c-4c9f-b5c5-70c6ec926b53","blendMode":0,"displayName":"default","isLocked":false,"name":"29c52f27-d53c-4c9f-b5c5-70c6ec926b53","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"4c119069-c4ea-4044-912e-ee2f8cebf51d","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"4c119069-c4ea-4044-912e-ee2f8cebf51d","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"BreakableBoxWall",
   "nineSlice":null,

@@ -102,7 +102,7 @@
     {"name":"obj_Gate","order":7,"path":"objects/obj_Gate/obj_Gate.yy",},
     {"name":"obj_HeavyRockPickup","order":5,"path":"objects/obj_HeavyRockPickup/obj_HeavyRockPickup.yy",},
     {"name":"obj_HideoutDoor","order":20,"path":"objects/obj_HideoutDoor/obj_HideoutDoor.yy",},
-    {"name":"obj_interactableDoor","order":28,"path":"objects/obj_interactableDoor/obj_interactableDoor.yy",},
+    {"name":"obj_interactableDoor","order":2,"path":"objects/obj_interactableDoor/obj_interactableDoor.yy",},
     {"name":"obj_layerControl","order":3,"path":"objects/obj_layerControl/obj_layerControl.yy",},
     {"name":"obj_LocationTracker","order":24,"path":"objects/obj_LocationTracker/obj_LocationTracker.yy",},
     {"name":"obj_LongStickPickup","order":6,"path":"objects/obj_LongStickPickup/obj_LongStickPickup.yy",},

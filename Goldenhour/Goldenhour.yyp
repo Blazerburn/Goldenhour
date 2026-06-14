@@ -554,6 +554,7 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"PersistentRoom","path":"rooms/PersistentRoom/PersistentRoom.yy",},},
+    {"roomId":{"name":"PuzzleRoom4","path":"rooms/PuzzleRoom4/PuzzleRoom4.yy",},},
     {"roomId":{"name":"StarterRoom1","path":"rooms/StarterRoom1/StarterRoom1.yy",},},
     {"children":[
         {"children":[
@@ -565,7 +566,6 @@
             {"roomId":{"name":"PuzzleRoom3","path":"rooms/PuzzleRoom3/PuzzleRoom3.yy",},},
             {"roomId":{"name":"Crossroads1","path":"rooms/Crossroads1/Crossroads1.yy",},},
             {"roomId":{"name":"StatueRoom","path":"rooms/StatueRoom/StatueRoom.yy",},},
-            {"roomId":{"name":"PuzzleRoom4","path":"rooms/PuzzleRoom4/PuzzleRoom4.yy",},},
             {"roomId":{"name":"RubbleRoom","path":"rooms/RubbleRoom/RubbleRoom.yy",},},
             {"roomId":{"name":"CastleEntrance","path":"rooms/CastleEntrance/CastleEntrance.yy",},},
             {"roomId":{"name":"CastleExit","path":"rooms/CastleExit/CastleExit.yy",},},
@@ -586,8 +586,8 @@
             {"roomId":{"name":"PrincesRoom4","path":"rooms/PrincesRoom4/PrincesRoom4.yy",},},
             {"roomId":{"name":"PrincesRoom5","path":"rooms/PrincesRoom5/PrincesRoom5.yy",},},
             {"roomId":{"name":"ParkRoom","path":"rooms/ParkRoom/ParkRoom.yy",},},
-            {"roomId":{"name":"BarRoom","path":"rooms/BarRoom/BarRoom.yy",},},
             {"roomId":{"name":"AlleyBarRoom","path":"rooms/AlleyBarRoom/AlleyBarRoom.yy",},},
+            {"roomId":{"name":"BarRoom","path":"rooms/BarRoom/BarRoom.yy",},},
             {"roomId":{"name":"AlleyUpRoomA","path":"rooms/AlleyUpRoomA/AlleyUpRoomA.yy",},},
             {"roomId":{"name":"AlleyUpRoomB","path":"rooms/AlleyUpRoomB/AlleyUpRoomB.yy",},},
             {"roomId":{"name":"AlleyDownRoomA","path":"rooms/AlleyDownRoomA/AlleyDownRoomA.yy",},},
