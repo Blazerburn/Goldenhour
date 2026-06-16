@@ -17,7 +17,22 @@ if puzzleProgress = 1 {
 		choice_variable = "On";
 		global.Immobilize = 0;
 		global.menuOpen = 0;
-	}
+		create_textevent(
+	     [ 
+		"The hole is now glowing a golden light",
+		"There's some sort of energy coming from the door"
+	    ],
+	    -1,                                                          //mySpeakers
+	    -1,   //myEffects
+	    -1,                                                                                            //myTextSpeed
+	    -1,                                                                   //myTypes
+	    -1,                                                            //myNextLine
+	    -1,                                                                                            //myScripts
+	    -1,                                                                                            //myTextCol
+	    -1,                                                                   //myEmotion
+	    -1                                                                                             //myEmote
+	    );
+		}
 }
 
 if puzzleProgress = 2 {

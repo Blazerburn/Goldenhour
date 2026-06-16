@@ -14,6 +14,7 @@ if(global.recentlyInteracted == 0)
 			global.Talking = 0;
 			itemNeeded = invItemNeeded;
 			show_debug_message(string(itemNeeded));
+			
 		}
 	
 		set_song_ingame(sng_inventory, 15)

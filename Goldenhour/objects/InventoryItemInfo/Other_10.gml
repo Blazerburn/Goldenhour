@@ -257,6 +257,28 @@ if (itemSelectedType = itemMakeshiftAxe) {
 	instance_destroy();
 }
 
+if (itemSelectedType = itemHeavyRock) {
+	
+	create_textevent(
+     [ 
+	"A rock that has been carved into the shape of one of the crates",
+	"Whoever did this did a pretty good job",
+	"But man is it heavy"
+    ],
+    -1,                                                          //mySpeakers
+    -1,   //myEffects
+    -1,                                                                                            //myTextSpeed
+    -1,                                                                   //myTypes
+    -1,                                                            //myNextLine
+    -1,                                                                                            //myScripts
+    -1,                                                                                            //myTextCol
+    -1,                                                                   //myEmotion
+    -1                                                                                             //myEmote
+    );
+	
+	instance_destroy();
+}
+
 else
 {
 	show_debug_message("No info item");

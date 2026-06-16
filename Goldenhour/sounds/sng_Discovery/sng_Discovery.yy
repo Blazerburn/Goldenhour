@@ -6,11 +6,11 @@
     "path":"audiogroups/audiogroup_default",
   },
   "bitDepth":1,
-  "channelFormat":1,
+  "channelFormat":0,
   "compression":3,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":134.0,
+  "duration":171.33333,
   "exportDir":"",
   "name":"sng_Discovery",
   "parent":{

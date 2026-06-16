@@ -3,6 +3,7 @@ if(instance_exists(playerobject)) {
 if(global.inventoryOpen == 0)
 {
 if global.menuOpen = false {
+if global.animating = false {
 if(global.Talking == 0)
 {
 if(point_in_rectangle(playerobject.x, playerobject.y, x-dr*xscale, y-dr*yscale, x+dr*xscale, y+dr*yscale) 
@@ -43,6 +44,7 @@ else {	//if player moves outside of detection radius
 		with(myTextbox) instance_destroy();
 		myTextbox = noone;
 	}
+}
 }
 }
 }

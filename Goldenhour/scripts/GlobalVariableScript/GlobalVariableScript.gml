@@ -10,6 +10,9 @@ global.playerSpawnpointY = 0;
 global.playerX = 0;
 global.playerY = 0;
 
+// Busy doing things variables
+global.animating = false;
+
 // Place Tracker
 global.room = 0;
 global.region = 0;
@@ -60,7 +63,7 @@ global.roomSong = 0;
 global.Puzzle4SecondHalf = 0;
 global.shiningCityPowered = 0;
 
-
+// Other shit
 global.playerFollowers = 0;
 global.shiftText = 0;
 global.textEventChoice = 0;

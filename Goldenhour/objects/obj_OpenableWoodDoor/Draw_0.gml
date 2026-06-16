@@ -11,10 +11,12 @@ if choice_variable = "Open" {
 	}
 	if image_index = 1 {
 		audio_play_sound(sfx_DoorOpening, 5, false, _vol)
+		global.animating = true;
 	}
 }
 
 if choice_variable = "Opened" {
 	sprite_index = spr_WoodOpenedDoor
+	global.animating = false;
 	instance_destroy(collision)
 }

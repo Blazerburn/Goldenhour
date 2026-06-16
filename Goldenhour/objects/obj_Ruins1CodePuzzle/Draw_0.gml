@@ -25,6 +25,7 @@ if puzzleProgress = 3 {
 		puzzleProgress = 4;
 		show_debug_message(puzzleProgress)
 	}
+	global.animating = true;
 	show_debug_message(image_index)
 }
 
@@ -33,6 +34,7 @@ if (puzzleProgress == 4) {
 	var trapdoor = 0
 	trapdoor = instance_create_layer(x - 16, y - 16, "Instances", TestInteractTransition);
 	instance_create_layer(x, y, "Instances", obj_trapdoor);
+	global.animating = false;
 	with (trapdoor) {
 		skipTransition = true;
 		goToRoom = HideoutRoom2;
