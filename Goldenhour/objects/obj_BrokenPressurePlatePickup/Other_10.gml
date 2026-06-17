@@ -53,7 +53,12 @@ switch(choice_variable){
 	#region If you chose green
 		var i = 0;
 		//Line 0
-		myText[i]		= "An empty spot where the broken tile was";
+		myText[i]		= "An empty spot where the broken pressure plate was";
+		mySpeaker[i]	= id;
+		
+		//Line 1
+		i++;
+		myText[i]		= "There's a sturdy wire poking out of the ground that connected to the pressure plate";
 		mySpeaker[i]	= id;
 		
 		//Line 1
@@ -100,7 +105,7 @@ switch(choice_variable){
 		
 		//Line 3
 		i++;
-		myText[i]		= "You got the Broken Tile!";
+		myText[i]		= "You got the Broken Pressure Plate!";
 		myNextLine[i]   = -1;
 		myScripts[i]    = [change_variable, id, "choice_variable", "Take"];
 		mySpeaker[i]	= id;

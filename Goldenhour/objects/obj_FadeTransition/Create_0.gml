@@ -3,3 +3,4 @@
 fadeIn = false;
 fadeOut = true;
 alpha = 1;
+show_debug_message("Alpha:" + string(alpha))

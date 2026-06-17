@@ -392,7 +392,12 @@ if settingsOpen = "Open" {
 	draw_text_ext_transformed_colour(gui_width/5 + 25, (gui_height/12) * 5, "Borderless Window", 4, 1000, 1, 1, 0, c_yellow, c_yellow, c_yellow, c_yellow, 1)
 	}
 	else {
-		draw_text_ext_transformed_colour(gui_width/5 + 25, (gui_height/12) * 5, "Borderless Window", 4, 1000, 1, 1, 0, c_white, c_white, c_white, c_white, 1)
+		if global.fullscreen = false {
+			draw_text_ext_transformed_colour(gui_width/5 + 25, (gui_height/12) * 5, "Borderless Window", 4, 1000, 1, 1, 0, c_white, c_white, c_white, c_white, 1)
+		}
+		else {
+			draw_text_ext_transformed_colour(gui_width/5 + 25, (gui_height/12) * 5, "Borderless Window", 4, 1000, 1, 1, 0, c_gray, c_gray, c_gray, c_gray, 1)
+		}
 	}
 	// Box that gets filled in when it's activated
 	if global.borderlessWindow = "False" {
@@ -405,7 +410,12 @@ if settingsOpen = "Open" {
 	draw_text_ext_transformed_colour(gui_width/5 + 25, (gui_height/12) * 6, "Fullscreen", 4, 1000, 1, 1, 0, c_yellow, c_yellow, c_yellow, c_yellow, 1)
 	}
 	else {
-		draw_text_ext_transformed_colour(gui_width/5 + 25, (gui_height/12) * 6, "Fullscreen", 4, 1000, 1, 1, 0, c_white, c_white, c_white, c_white, 1)
+		if global.borderlessWindow = false {
+			draw_text_ext_transformed_colour(gui_width/5 + 25, (gui_height/12) * 6, "Fullscreen", 4, 1000, 1, 1, 0, c_white, c_white, c_white, c_white, 1)
+		}
+		else {
+			draw_text_ext_transformed_colour(gui_width/5 + 25, (gui_height/12) * 6, "Fullscreen", 4, 1000, 1, 1, 0, c_gray, c_gray, c_gray, c_gray, 1)
+		}
 	}
 	// Box that gets filled in when it's activated
 	if global.fullscreen = "False" {

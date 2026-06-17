@@ -1,9 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-
-
-
 if fadeIn = true {
 	alpha += .05
 	clamp(alpha, 0, 1)

@@ -14,6 +14,7 @@ file2 = false;
 file3 = false;
 saving = false;
 fileSelected = 0;
+global.savingOpen = true;
 global.menuOpen = true;
 buttonA = 1;
 buttonB = 0;

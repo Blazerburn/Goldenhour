@@ -140,6 +140,7 @@
     {"id":{"name":"obj_examplepickup","path":"objects/obj_examplepickup/obj_examplepickup.yy",},},
     {"id":{"name":"obj_FadeTransition","path":"objects/obj_FadeTransition/obj_FadeTransition.yy",},},
     {"id":{"name":"obj_Frog","path":"objects/obj_Frog/obj_Frog.yy",},},
+    {"id":{"name":"obj_FullScreenChecker","path":"objects/obj_FullScreenChecker/obj_FullScreenChecker.yy",},},
     {"id":{"name":"obj_Gate","path":"objects/obj_Gate/obj_Gate.yy",},},
     {"id":{"name":"obj_HeavyRockPickup","path":"objects/obj_HeavyRockPickup/obj_HeavyRockPickup.yy",},},
     {"id":{"name":"obj_HideoutDoor","path":"objects/obj_HideoutDoor/obj_HideoutDoor.yy",},},
@@ -431,6 +432,7 @@
     {"id":{"name":"PerspectiveWallTileSetSprite","path":"sprites/PerspectiveWallTileSetSprite/PerspectiveWallTileSetSprite.yy",},},
     {"id":{"name":"PlayerAngleCollision","path":"sprites/PlayerAngleCollision/PlayerAngleCollision.yy",},},
     {"id":{"name":"PlayerCollision","path":"sprites/PlayerCollision/PlayerCollision.yy",},},
+    {"id":{"name":"Pressure_Plate_Print","path":"sprites/Pressure_Plate_Print/Pressure_Plate_Print.yy",},},
     {"id":{"name":"Pressure_Plate","path":"sprites/Pressure_Plate/Pressure_Plate.yy",},},
     {"id":{"name":"pressureplate","path":"sprites/pressureplate/pressureplate.yy",},},
     {"id":{"name":"pressureplatebroken","path":"sprites/pressureplatebroken/pressureplatebroken.yy",},},
@@ -478,6 +480,7 @@
     {"id":{"name":"spr_SaveDoor","path":"sprites/spr_SaveDoor/spr_SaveDoor.yy",},},
     {"id":{"name":"spr_SaveDoorEmblemOff","path":"sprites/spr_SaveDoorEmblemOff/spr_SaveDoorEmblemOff.yy",},},
     {"id":{"name":"spr_SaveDoorEmblemOn","path":"sprites/spr_SaveDoorEmblemOn/spr_SaveDoorEmblemOn.yy",},},
+    {"id":{"name":"spr_SaveDoorExiting","path":"sprites/spr_SaveDoorExiting/spr_SaveDoorExiting.yy",},},
     {"id":{"name":"spr_SaveDoorOpening","path":"sprites/spr_SaveDoorOpening/spr_SaveDoorOpening.yy",},},
     {"id":{"name":"spr_SaveUnlockingDoor","path":"sprites/spr_SaveUnlockingDoor/spr_SaveUnlockingDoor.yy",},},
     {"id":{"name":"spr_settingbox","path":"sprites/spr_settingbox/spr_settingbox.yy",},},
@@ -554,13 +557,13 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"PersistentRoom","path":"rooms/PersistentRoom/PersistentRoom.yy",},},
-    {"roomId":{"name":"PuzzleRoom2","path":"rooms/PuzzleRoom2/PuzzleRoom2.yy",},},
     {"roomId":{"name":"StarterRoom1","path":"rooms/StarterRoom1/StarterRoom1.yy",},},
     {"children":[
         {"children":[
             {"roomId":{"name":"StarterRoom2","path":"rooms/StarterRoom2/StarterRoom2.yy",},},
             {"roomId":{"name":"ShowRoom","path":"rooms/ShowRoom/ShowRoom.yy",},},
             {"roomId":{"name":"PuzzleRoom1","path":"rooms/PuzzleRoom1/PuzzleRoom1.yy",},},
+            {"roomId":{"name":"PuzzleRoom2","path":"rooms/PuzzleRoom2/PuzzleRoom2.yy",},},
             {"roomId":{"name":"SecretRoom","path":"rooms/SecretRoom/SecretRoom.yy",},},
             {"roomId":{"name":"PuzzleRoom3","path":"rooms/PuzzleRoom3/PuzzleRoom3.yy",},},
             {"roomId":{"name":"Crossroads1","path":"rooms/Crossroads1/Crossroads1.yy",},},

@@ -90,8 +90,8 @@ if(global.recentlyInteracted == 0)
 					//script_execute_alt(change_variable( obj_BrokenPathPickup, "choice_variable", "Used"));
 				
 							create_textevent(
-	["You lift the heavy rock out of your pouch and slowly drop it onto the pressure plate", 
-	"It seems to the trick and the gate opens"],
+	["You lift the crate shaped rock out of your pouch and slowly drop it onto the pressure plate", 
+	"It seems to do the trick and the gate opens"],
 	-1,
 	-1,
 	-1,

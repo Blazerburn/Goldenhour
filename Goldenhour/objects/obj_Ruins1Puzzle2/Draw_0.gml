@@ -2,7 +2,7 @@
 
 if(puzzleProgress == 0)
 {
-	draw_sprite(PushBoxC, 0, x - 16, y - 16);
+	draw_sprite(PushBoxB, 0, x - 16, y - 16);
 	draw_self();
 }
 

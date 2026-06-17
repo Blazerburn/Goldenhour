@@ -16,7 +16,7 @@ if puzzleProgress = 4 {
 	global.recentlyInteracted = 60;
 	alpha = 0;
 	fadeIn = true;
-	puzzleProgress = 2;
+	puzzleProgress = 5;
 }
 
 

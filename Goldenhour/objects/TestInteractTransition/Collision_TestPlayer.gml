@@ -1,4 +1,5 @@
 var _doorObject = instance_nearest(x, y, obj_interactableDoor)
+var _saveExit = instance_nearest(x, y, obj_SaveDoorExit)
 
 
 var l176BE8A8_0;
@@ -11,12 +12,20 @@ if (l176BE8A8_0)
 		{
 			if(global.recentlyInteracted == 0)
 			{
+				// Normal doors
 				with _doorObject {
 					var _frame = image_index
 					
 					sprite_index = spr_RoomDoorOpening
 					
 					image_index = _frame
+				}
+				
+				// Save door
+				with _saveExit {
+					y += 4
+					sprite_index = spr_SaveDoorExiting
+					
 				}
 				global.RoomSpawnpoints = playerSpawnpoint;
 				global.Immobilize = 1;

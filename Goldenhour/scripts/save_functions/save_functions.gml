@@ -223,6 +223,10 @@ function save_game(_fileNum = 0)
 	
 	array_push(_saveArray, global.statData);
 	
+	// Save Important World Variables
+	
+	
+	
 	// Save all the room data
 	
 	array_push(_saveArray, global.levelData);

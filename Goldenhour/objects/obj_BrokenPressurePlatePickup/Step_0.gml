@@ -1,6 +1,7 @@
 event_inherited(); //so it will inherit from par_speaker
 
 
+
 /*if(createWall = 0) {
 var pathPushableWall = create_instance_layer(x, y, "Collisions", PushableWall);
 createWall = 1;

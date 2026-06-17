@@ -28,3 +28,5 @@ if fadeOut = true {
 		global.Immobilize = 1;
 	}
 }
+
+show_debug_message(alpha)

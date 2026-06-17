@@ -1,8 +1,11 @@
 
 
-if(puzzleProgress == 0)
-{
+
 	draw_self()
+
+
+if (puzzleProgress == 1) {
+	sprite_index = Pressure_Plate_Print;
 }
 
 if(puzzleProgress == 2)
