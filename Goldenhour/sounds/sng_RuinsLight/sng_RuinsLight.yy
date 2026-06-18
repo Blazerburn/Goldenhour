@@ -6,11 +6,11 @@
     "path":"audiogroups/audiogroup_default",
   },
   "bitDepth":1,
-  "channelFormat":1,
-  "compression":3,
+  "channelFormat":0,
+  "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":173.08734,
+  "duration":178.10526,
   "exportDir":"",
   "name":"sng_RuinsLight",
   "parent":{
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"sng_RuinsLight.mp3",
-  "volume":0.8,
+  "soundFile":"sng_RuinsLight.ogg",
+  "volume":1.0,
 }

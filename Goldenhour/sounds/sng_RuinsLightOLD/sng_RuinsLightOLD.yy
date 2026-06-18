@@ -1,18 +1,18 @@
 {
   "$GMSound":"v2",
-  "%Name":"sng_light_mix",
+  "%Name":"sng_RuinsLightOLD",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
   },
   "bitDepth":1,
-  "channelFormat":0,
-  "compression":0,
+  "channelFormat":1,
+  "compression":3,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":178.10526,
+  "duration":173.08734,
   "exportDir":"",
-  "name":"sng_light_mix",
+  "name":"sng_RuinsLightOLD",
   "parent":{
     "name":"Ruins",
     "path":"folders/Sounds/Music/Ruins.yy",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"sng_light_mix.ogg",
-  "volume":1.0,
+  "soundFile":"sng_RuinsLightOLD.mp3",
+  "volume":0.8,
 }
