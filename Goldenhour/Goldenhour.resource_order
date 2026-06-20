@@ -147,7 +147,7 @@
     {"name":"obj_WallLight","order":26,"path":"objects/obj_WallLight/obj_WallLight.yy",},
     {"name":"par_speaker","order":3,"path":"objects/par_speaker/par_speaker.yy",},
     {"name":"PlayerCamera","order":1,"path":"objects/PlayerCamera/PlayerCamera.yy",},
-    {"name":"PushableObject","order":2,"path":"objects/PushableObject/PushableObject.yy",},
+    {"name":"PushableObject","order":4,"path":"objects/PushableObject/PushableObject.yy",},
     {"name":"Puzzle2UsingQuips","order":1,"path":"objects/Puzzle2UsingQuips/Puzzle2UsingQuips.yy",},
     {"name":"Puzzle3UsingQuips","order":2,"path":"objects/Puzzle3UsingQuips/Puzzle3UsingQuips.yy",},
     {"name":"Puzzle4UsingQuipsA","order":3,"path":"objects/Puzzle4UsingQuipsA/Puzzle4UsingQuipsA.yy",},

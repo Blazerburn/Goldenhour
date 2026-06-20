@@ -11,8 +11,8 @@
   "name":"PushableObject",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"SaveSystem",
+    "path":"folders/SaveSystem.yy",
   },
   "parentObjectId":{
     "name":"obj_active",

@@ -75,6 +75,7 @@ for(var _pos = 0; _pos < 9; _pos += 1) {
 
 create_instance_layer(x, y, "Instances", PlayerCamera);
 
+global.playerFollowers = 1
 if(global.playerFollowers == 1)
 {
 	/// @description Execute Code
