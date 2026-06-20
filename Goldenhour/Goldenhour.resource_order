@@ -350,6 +350,7 @@
     {"name":"JamboLeftWalking","order":4,"path":"sprites/JamboLeftWalking/JamboLeftWalking.yy",},
     {"name":"JamboRightIdle","order":5,"path":"sprites/JamboRightIdle/JamboRightIdle.yy",},
     {"name":"JamboRightWalking","order":6,"path":"sprites/JamboRightWalking/JamboRightWalking.yy",},
+    {"name":"lectern","order":23,"path":"sprites/lectern/lectern.yy",},
     {"name":"LeftBlackGradient","order":12,"path":"sprites/LeftBlackGradient/LeftBlackGradient.yy",},
     {"name":"LeftBrokenCobbleFloor","order":4,"path":"sprites/LeftBrokenCobbleFloor/LeftBrokenCobbleFloor.yy",},
     {"name":"LongStick","order":12,"path":"sprites/LongStick/LongStick.yy",},

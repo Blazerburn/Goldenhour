@@ -423,6 +423,7 @@
     {"id":{"name":"JamboLeftWalking","path":"sprites/JamboLeftWalking/JamboLeftWalking.yy",},},
     {"id":{"name":"JamboRightIdle","path":"sprites/JamboRightIdle/JamboRightIdle.yy",},},
     {"id":{"name":"JamboRightWalking","path":"sprites/JamboRightWalking/JamboRightWalking.yy",},},
+    {"id":{"name":"lectern","path":"sprites/lectern/lectern.yy",},},
     {"id":{"name":"LeftBlackGradient","path":"sprites/LeftBlackGradient/LeftBlackGradient.yy",},},
     {"id":{"name":"LeftBrokenCobbleFloor","path":"sprites/LeftBrokenCobbleFloor/LeftBrokenCobbleFloor.yy",},},
     {"id":{"name":"LongStick","path":"sprites/LongStick/LongStick.yy",},},
