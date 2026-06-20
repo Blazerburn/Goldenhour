@@ -104,9 +104,9 @@
         {"$GMRInstance":"v4","%Name":"inst_43C05C9A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_43C05C9A","objectId":{"name":"TestSpawnpoint","path":"objects/TestSpawnpoint/TestSpawnpoint.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":400.0,"y":176.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"PerspectiveBuilding","depth":1000,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"PerspectiveBuilding","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":8,"SerialiseWidth":18,"TileCompressedData":[
-          -43,-2147483648,2,7,8,-15,-2147483648,3,30,31,32,-15,-2147483648,2,54,55,-29,-2147483648,9,76,77,-2147483648,
-          -2147483648,73,74,-2147483648,-2147483648,5,-8,-2147483648,10,99,100,101,-2147483648,96,97,98,-2147483648,
-          -2147483648,29,-8,-2147483648,
+          -43,-2147483648,2,7,8,-15,-2147483648,3,30,31,32,-15,-2147483648,2,54,55,-4,-2147483648,2,33,0,-16,-2147483648,
+          2,57,0,-5,-2147483648,9,76,77,-2147483648,-2147483648,73,74,-2147483648,-2147483648,5,-8,-2147483648,
+          10,99,100,101,-2147483648,96,97,98,-2147483648,-2147483648,29,-8,-2147483648,
         ],"TileDataFormat":1,},"tilesetId":{"name":"tile_Church","path":"tilesets/tile_Church/tile_Church.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"Props","depth":1100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Props","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":8,"SerialiseWidth":18,"TileCompressedData":[
           -41,-2147483648,7,1,2,3,4,5,0,0,-10,-2147483648,8,24,25,26,27,28,29,0,0,-10,-2147483648,8,48,49,50,51,
