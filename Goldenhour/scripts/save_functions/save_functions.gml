@@ -13,7 +13,7 @@ function save_room()
 	var _intNum = instance_number(par_speaker);
 
 	// Box saving
-	var _boxNum = instance_number(PushableObject);
+	var _boxNum = instance_number(obj_PushableObject);
 	
 	
 	var _roomStruct =
@@ -36,7 +36,7 @@ function save_room()
 		// Boxes
 		for (var i = 0; i < _boxNum; i++) {
 			
-			var _inst = instance_find(PushableObject, i);
+			var _inst = instance_find(obj_PushableObject, i);
 			
 			_roomStruct.boxData[i] ={
 				x : _inst.x,
@@ -129,7 +129,7 @@ function load_room()
 	// Push Boxes - Get rid of both the boxes and the box spawners
 	//Then create new box spawners where the boxes were
 	for (var i = 0; i < _roomStruct.boxNum; i++) {
-	if instance_exists(PushableObject) {
+	if instance_exists(obj_PushableObject) {
 		layer_destroy_instances("Box");
 		//instance_destroy(PushableObject.pathCollision);
 		//instance_destroy(PushableObject.pushBoxCollision);

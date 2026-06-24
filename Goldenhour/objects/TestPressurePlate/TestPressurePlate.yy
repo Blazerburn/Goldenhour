@@ -2,7 +2,7 @@
   "$GMObject":"",
   "%Name":"TestPressurePlate",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"PushableObject","path":"objects/PushableObject/PushableObject.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_PushableObject","path":"objects/obj_PushableObject/obj_PushableObject.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":7,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,

@@ -7,6 +7,8 @@ if(objectID == interactedBoxID)
 	instance_deactivate_object(pathCollision);
 	var pushableBoxOriginX = x;
 			var pushableBoxOriginY = y;
+			show_debug_message(x)
+			show_debug_message(y)
 		
 			var right = keyboard_check(global.rightKey);
 			var left = keyboard_check(global.leftKey);
@@ -35,13 +37,13 @@ if(objectID == interactedBoxID)
 			
 			
 			with(pushBoxCollision) {
-			x = pushableBoxOriginX + 2;
-			y = pushableBoxOriginY + 6;
+			x = pushableBoxOriginX + 3;
+			y = pushableBoxOriginY + 3;
 			}
-			with(pathCollision) {
+			/*with(pathCollision) {
 			x = pushableBoxOriginX + 8;
 			y = pushableBoxOriginY + 8;
-			}
+			}*/
 		
 			if(pushPlayerDirection == 0)
 {
@@ -162,6 +164,8 @@ if (l35D9AC80_0)
 					with(pathCollision) {
 					x = pushableBoxOriginX + 8;
 					y = pushableBoxOriginY + 8;
+					show_debug_message(x)
+					show_debug_message(y)
 					}
 	}
 }

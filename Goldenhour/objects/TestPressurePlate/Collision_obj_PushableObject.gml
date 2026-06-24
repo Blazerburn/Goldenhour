@@ -23,7 +23,7 @@ if(boxInteracted == 0){	/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_M
 	/// @DnDParent : 71EDB8F4
 	/// @DnDArgument : "soundid" "PressurePlateSound"
 	/// @DnDSaveInfo : "soundid" "PressurePlateSound"
-	audio_play_sound(PressurePlateSound, 0, 0, 1.0, undefined, 1.0);
+	audio_play_sound(sfx_PressurePlateSound, 0, 0, 1.0, undefined, 1.0);
 
 	/// @DnDAction : YoYo Games.Common.Apply_To
 	/// @DnDVersion : 1

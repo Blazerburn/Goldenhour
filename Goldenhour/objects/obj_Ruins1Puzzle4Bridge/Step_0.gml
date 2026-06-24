@@ -2,11 +2,11 @@ event_inherited(); //so it will inherit from par_speaker
 
 var dr = 24;
 if (global.Talking = 0) {
-	if instance_exists(PushableObject) {
-if(point_in_rectangle(PushableObject.x+16, PushableObject.y+16, x-dr, y-dr, x+dr, y+dr)){
+	if instance_exists(obj_PushableObject) {
+if(point_in_rectangle(obj_PushableObject.x+16, obj_PushableObject.y+16, x-dr, y-dr, x+dr, y+dr)){
 	global.keepPushing = 1;
 	with (par_speaker) {
-		playerobject = PushableObject;
+		playerobject = obj_PushableObject;
 	}
 	choice_variable = -1;
 }
@@ -26,11 +26,11 @@ if (puzzleProgress = 1) {
 	with (par_speaker) {
 		playerobject = TestPlayer;
 	}
-	with (PushableObject) {
+	with (obj_PushableObject) {
 		instance_destroy(pushBoxCollision);
 		instance_destroy(pathCollision);
 	}
-	instance_destroy(PushableObject);
+	instance_destroy(obj_PushableObject);
 	instance_destroy(collision);
 	instance_destroy(pushCollision);
 	choice_variable = "Push";

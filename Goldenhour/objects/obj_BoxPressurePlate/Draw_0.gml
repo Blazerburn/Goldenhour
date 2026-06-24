@@ -5,4 +5,10 @@
 //draw_rectangle(nearestBox.x + 1, nearestBox.y + 10, nearestBox.x + 30, nearestBox.y + 27, false)
 //}
 draw_self();
+if pressurePlateActive = 0 {
+	image_index = 0;
+}
+else {
+	image_index = 1;
+}
 //draw_rectangle(x - 2, y - 2, x + 2, y + 2, false)

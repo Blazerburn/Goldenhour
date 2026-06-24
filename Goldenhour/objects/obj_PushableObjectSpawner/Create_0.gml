@@ -12,10 +12,10 @@ var pushableObjectID = 0;
 /// @DnDArgument : "ypos_relative" "1"
 /// @DnDArgument : "var" "pushableObjectID"
 /// @DnDArgument : "var_temp" "1"
-/// @DnDArgument : "objectid" "PushableObject"
+/// @DnDArgument : "objectid" "obj_PushableObject"
 /// @DnDArgument : "layer" ""Box""
-/// @DnDSaveInfo : "objectid" "PushableObject"
-var pushableObjectID = instance_create_layer(x + 0, y + 0, "Box", PushableObject);
+/// @DnDSaveInfo : "objectid" "obj_PushableObject"
+var pushableObjectID = instance_create_layer(x + 0, y + 0, "Box", obj_PushableObject);
 
 /// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
 /// @DnDVersion : 1

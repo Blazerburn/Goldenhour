@@ -89,8 +89,7 @@ if(global.recentlyInteracted == 0)
 							create_textevent(
 	["You pull out the piece of broken glass you got from the mosaic", 
 	"You hold it against the rope and begin to slice through it",
-	"It takes a minute",
-	"But you slice through it all",
+	"It takes a minute, but you slice through it all",
 	"The ropes come undone with a snap"],
 	-1,
 	-1,

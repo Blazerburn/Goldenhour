@@ -6,6 +6,6 @@ if layer_exists("BoxPathABOVE") {
 	layer_depth("BoxPathABOVE", _playerDepth + 1)
 }
 
-if instance_exists(PushableObject) {
-	PushableObject.depth = _playerDepth + 2
+if instance_exists(obj_PushableObject) {
+	obj_PushableObject.depth = _playerDepth + 2
 }

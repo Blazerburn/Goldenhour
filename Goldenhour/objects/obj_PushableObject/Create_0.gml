@@ -16,17 +16,17 @@ var objectID = 0;
 
 pushBoxCollision = 0;
 
-pushBoxCollision = instance_create_layer(x + 2, y + 6, "Box", TestWall);
+pushBoxCollision = instance_create_layer(x + 3, y + 3, "Box", TestWall);
 
 with(pushBoxCollision) {
 image_xscale = .4;
-image_yscale = .35;
+image_yscale = .4;
 }
 
 pathCollision = instance_create_layer(x + 8, y + 8, "Box", PushableWall);
 
 with(pathCollision) {
-image_xscale = .225;
-image_yscale = .2;
+image_xscale = .25;
+image_yscale = .25;
 }
 

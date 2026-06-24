@@ -1,18 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_Ruins1Puzzle6",
+  "%Name":"obj_Lecturn",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":10,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_Ruins1Puzzle6",
+  "name":"obj_Lecturn",
   "overriddenProperties":[],
   "parent":{
-    "name":"ItemUseQuips",
-    "path":"folders/Objects/Puzzles/Puzzle Controllers/Item Use/ItemUseQuips.yy",
+    "name":"Ruins",
+    "path":"folders/Objects/Interactables/Ruins.yy",
   },
   "parentObjectId":{
     "name":"par_speaker",
@@ -35,7 +34,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_Lecturn",
+    "path":"sprites/spr_Lecturn/spr_Lecturn.yy",
+  },
   "spriteMaskId":null,
   "tags":[
     "Interactable",
