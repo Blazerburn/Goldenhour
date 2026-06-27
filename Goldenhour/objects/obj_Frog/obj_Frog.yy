@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"frog",
-    "path":"sprites/frog/frog.yy",
+    "name":"obj_frog",
+    "path":"sprites/obj_frog/obj_frog.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -190,24 +190,47 @@ if(global.combining == 1)
 	instance_destroy();
 	}
 	
+	if global.shiningCityPowered = 0 {
 		if ((global.itemCombiningType1 == itemStrangeGel || global.itemCombiningType1 == itemChiselRock) && (global.itemCombiningType2 == itemStrangeGel || global.itemCombiningType2 == itemChiselRock))
-	{
-		show_debug_message("Wrong items")
+		{
+			show_debug_message("Wrong items")
 	
 	
-		create_textevent(
-		["If you wanted to attach this to something, it might be better to cover that thing in gel, and then attach this"],
-		-1,
-		-1,
-		-1,
-		-1,
-		-1,
-		-1,
-		-1,
-		-1,
-		-1,
-	);
-	instance_destroy();
+			create_textevent(
+			["You don't want to try that unless you have a reason to"],
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+		);
+		instance_destroy();
+		}
+	}
+	else {
+		if ((global.itemCombiningType1 == itemStrangeGel || global.itemCombiningType1 == itemChiselRock) && (global.itemCombiningType2 == itemStrangeGel || global.itemCombiningType2 == itemChiselRock))
+		{
+			show_debug_message("Wrong items")
+	
+	
+			create_textevent(
+			["If you wanted to attach this to something, it might be better to cover that thing in gel, and then attach this"],
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+		);
+		instance_destroy();
+		}
 	}
 	
 	if ((global.itemCombiningType1 == itemLongStick || global.itemCombiningType1 == itemChiselRock) && (global.itemCombiningType2 == itemLongStick || global.itemCombiningType2 == itemChiselRock))
@@ -254,14 +277,13 @@ if(global.combining == 1)
 	instance_destroy();
 	}
 	
-	if ((global.itemCombiningType1 == itemCrystallineHammer || global.itemCombiningType1 == itemBrokenGlassShard) && (global.itemCombiningType2 == itemCrystallineHammer || global.itemCombiningType2 == itemBrokenGlassShard))
+	if ((global.itemCombiningType1 == itemBrokenGlassShard || global.itemCombiningType1 == itemSecretBook10thHour) && (global.itemCombiningType2 == itemBrokenGlassShard || global.itemCombiningType2 == itemSecretBook10thHour))
 	{
 		show_debug_message("Wrong items")
 	
 	
 		create_textevent(
-		["You probably shouldn't break the glass unless you know you need to", 
-		"It seems very... permanent"],
+		["You don't want to cut up the book"],
 		-1,
 		-1,
 		-1,
@@ -275,6 +297,49 @@ if(global.combining == 1)
 	instance_destroy();
 	}
 	
+	
+	if ((global.itemCombiningType1 == itemCrystallineHammer || global.itemCombiningType1 == itemBrokenGlassShard) && (global.itemCombiningType2 == itemCrystallineHammer || global.itemCombiningType2 == itemBrokenGlassShard))
+	{                 
+		show_debug_message("Wrong items")
+	
+	
+		create_textevent(
+		["You probably shouldn't break the glass unless you know you need to", 
+		"That seems very... permanent"],
+		-1,
+		-1,
+		-1,
+		-1,
+		-1,
+		-1,
+		-1,
+		-1,
+		-1,
+	);
+	instance_destroy();
+	}
+	
+	if ((global.itemCombiningType1 == itemFixedPlate || global.itemCombiningType1 == itemBrokenGlassShard) && (global.itemCombiningType2 == itemCrystallineHammer || global.itemCombiningType2 == itemBrokenGlassShard))
+	{
+		show_debug_message("Wrong items")
+	
+	
+		create_textevent(
+		["You might be able to cut off the gel using the glass shard", 
+		"But... you just put the pressure plate together",
+		"Why would you want to do that?"],
+		-1,
+		-1,
+		-1,
+		-1,
+		-1,
+		-1,
+		-1,
+		-1,
+		-1,
+	);
+	instance_destroy();
+	}
 	
 	else 
 	{
