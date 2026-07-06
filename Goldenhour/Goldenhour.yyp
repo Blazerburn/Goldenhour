@@ -53,6 +53,7 @@
     {"$GMFolder":"","%Name":"FC_DialogueSystem","folderPath":"folders/Sounds/FC_DialogueSystem.yy","name":"FC_DialogueSystem","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Music","folderPath":"folders/Sounds/Music.yy","name":"Music","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"General","folderPath":"folders/Sounds/Music/General.yy","name":"General","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Character Themes","folderPath":"folders/Sounds/Music/Character Themes.yy","name":"Character Themes","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Ruins","folderPath":"folders/Sounds/Music/Ruins.yy","name":"Ruins","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Unknown Where to Put","folderPath":"folders/Sounds/Music/Unknown Where to Put.yy","name":"Unknown Where to Put","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sound Effects","folderPath":"folders/Sounds/Sound Effects.yy","name":"Sound Effects","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -305,6 +306,8 @@
     {"id":{"name":"snd_select","path":"sounds/snd_select/snd_select.yy",},},
     {"id":{"name":"snd_voice1","path":"sounds/snd_voice1/snd_voice1.yy",},},
     {"id":{"name":"snd_voice2","path":"sounds/snd_voice2/snd_voice2.yy",},},
+    {"id":{"name":"sng_Church","path":"sounds/sng_Church/sng_Church.yy",},},
+    {"id":{"name":"sng_Condi","path":"sounds/sng_Condi/sng_Condi.yy",},},
     {"id":{"name":"sng_Discovery","path":"sounds/sng_Discovery/sng_Discovery.yy",},},
     {"id":{"name":"sng_EmptyChurch","path":"sounds/sng_EmptyChurch/sng_EmptyChurch.yy",},},
     {"id":{"name":"sng_Feathers","path":"sounds/sng_Feathers/sng_Feathers.yy",},},
@@ -569,6 +572,7 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"PersistentRoom","path":"rooms/PersistentRoom/PersistentRoom.yy",},},
+    {"roomId":{"name":"ChurchRoom1","path":"rooms/ChurchRoom1/ChurchRoom1.yy",},},
     {"roomId":{"name":"StarterRoom1","path":"rooms/StarterRoom1/StarterRoom1.yy",},},
     {"roomId":{"name":"PuzzleRoom2","path":"rooms/PuzzleRoom2/PuzzleRoom2.yy",},},
     {"roomId":{"name":"BarRoom","path":"rooms/BarRoom/BarRoom.yy",},},
@@ -613,7 +617,6 @@
             {"roomId":{"name":"CoreRoom","path":"rooms/CoreRoom/CoreRoom.yy",},},
           ],"groupName":"Castle",},
         {"children":[
-            {"roomId":{"name":"ChurchRoom1","path":"rooms/ChurchRoom1/ChurchRoom1.yy",},},
             {"roomId":{"name":"ChurchRoom2","path":"rooms/ChurchRoom2/ChurchRoom2.yy",},},
           ],"groupName":"Church",},
       ],"groupName":"Ruins",},

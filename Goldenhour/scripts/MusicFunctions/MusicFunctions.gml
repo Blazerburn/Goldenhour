@@ -56,7 +56,7 @@ function reset_room_song() {
 	if room == ChurchRoom1
 	or room == ChurchRoom2
 	{
-		set_song_ingame(sng_EmptyChurch, 60, 60)
+		set_song_ingame(sng_Church, 60, 60, 7)
 	}
 
 	// Ruins Castle
