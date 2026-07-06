@@ -462,6 +462,7 @@
     {"name":"BoxPathTileSet_1","order":5,"path":"tilesets/BoxPathTileSet_1/BoxPathTileSet_1.yy",},
     {"name":"BoxPathTileSet","order":5,"path":"tilesets/BoxPathTileSet/BoxPathTileSet.yy",},
     {"name":"OutlineTileSet","order":1,"path":"tilesets/OutlineTileSet/OutlineTileSet.yy",},
+    {"name":"OutskirtsPropTileSet","order":13,"path":"tilesets/OutskirtsPropTileSet/OutskirtsPropTileSet.yy",},
     {"name":"PerspectiveTestTileSet","order":8,"path":"tilesets/PerspectiveTestTileSet/PerspectiveTestTileSet.yy",},
     {"name":"RuinBrickTileSet","order":2,"path":"tilesets/RuinBrickTileSet/RuinBrickTileSet.yy",},
     {"name":"RuinPathTileSet","order":7,"path":"tilesets/RuinPathTileSet/RuinPathTileSet.yy",},
