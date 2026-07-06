@@ -277,6 +277,7 @@ if(global.Immobilize == 1)
 }
 }
 
+
 if(global.recentlyInteracted > 1)
 {
 	global.recentlyInteracted += -1;
@@ -375,6 +376,14 @@ if place_meeting(x, y, obj_CollisionChangeCollision) {
 }
 else {
 	_colliding = "False"
+}
+
+// When the player is using an item make them not be able to move
+if global.usingItem = 1 {
+	global.Immobilize = 1
+}
+else {
+	global.Immobilize = 0
 }
 
 // Opening/Closing Inventory
@@ -693,8 +702,9 @@ if keyboard_check_pressed(global.pauseKey) {
 	}
 }
 
-
-
+if global.animating = true {
+	global.Immobilize = 1;
+}
 
 
 

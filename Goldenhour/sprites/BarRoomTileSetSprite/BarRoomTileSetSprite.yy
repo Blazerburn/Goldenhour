@@ -3,7 +3,7 @@
   "%Name":"BarRoomTileSetSprite",
   "bboxMode":0,
   "bbox_bottom":191,
-  "bbox_left":10,
+  "bbox_left":0,
   "bbox_right":255,
   "bbox_top":0,
   "collisionKind":1,

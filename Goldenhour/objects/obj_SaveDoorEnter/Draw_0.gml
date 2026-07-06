@@ -43,6 +43,7 @@ if puzzleProgress = 2 {
 }
 
 if puzzleProgress = 3 {
+	global.immobilize = 1;
 	var _frame = image_index
 	sprite_index = spr_SaveDoorOpening
 	image_index = _frame

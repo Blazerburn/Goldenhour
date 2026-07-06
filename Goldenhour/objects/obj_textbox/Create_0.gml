@@ -1,5 +1,6 @@
 /// @description
 
+
 if(instance_number(obj_textevent)>1 or instance_number(obj_textbox)>1){ instance_destroy(); exit; }
 
 
@@ -133,5 +134,10 @@ t			= 0;
 amplitude	= 4;
 freq		= 2;
 ec			= 0;	//effect c
+
+
+
+
+
 
 #endregion

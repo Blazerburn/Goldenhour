@@ -12,6 +12,7 @@ global.playerY = 0;
 
 // Busy doing things variables
 global.animating = false;
+global.noText = false;
 
 // Place Tracker
 global.room = 0;

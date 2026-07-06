@@ -7,6 +7,7 @@ yscale = image_yscale
 playerobject = TestPlayer;
 interact_key = global.interactKey;
 detection_radius = 28;
+active = true;
 
 myVoice			= snd_voice1;
 myPortrait		= -1;
