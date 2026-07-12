@@ -34,7 +34,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_BrickBrokenDoor",
+    "path":"sprites/spr_BrickBrokenDoor/spr_BrickBrokenDoor.yy",
+  },
   "spriteMaskId":null,
   "tags":[
     "Interactable",

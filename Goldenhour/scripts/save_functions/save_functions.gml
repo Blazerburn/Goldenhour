@@ -221,13 +221,20 @@ function save_game(_fileNum = 0)
 	global.statData.savedirection = global.saveDirection;
 	global.statData.savedoor = global.saveDoor;
 	
-	array_push(_saveArray, global.statData);
-	
 	// Save Important World Variables
 	
+	global.statData.rpuzzle1 = global.ruinsPuzzle1
+	global.statData.rpuzzle2 = global.ruinsPuzzle2
+	global.statData.rpuzzle3 = global.ruinsPuzzle3
+	global.statData.rpuzzle4 = global.ruinsPuzzle4
+	global.statData.rpuzzle5 = global.ruinsPuzzle5
+	global.statData.rpuzzle6 = global.ruinsPuzzle6
 	
+	global.statData.castlePower = global.shiningCityPowered
 	
 	// Save all the room data
+	
+	array_push(_saveArray, global.statData);
 	
 	array_push(_saveArray, global.levelData);
 	
@@ -309,6 +316,16 @@ function load_game(_fileNum = 0)
 	global.saveSpawnpoint = global.statData.savespawnpoint;
 	global.saveDirection = global.statData.savedirection;
 	global.saveDoor = global.statData.savedoor;
+	
+	// Load the world information
+	global.ruinsPuzzle1 = global.statData.rpuzzle1;
+	global.ruinsPuzzle2 = global.statData.rpuzzle2;
+	global.ruinsPuzzle3 = global.statData.rpuzzle3;
+	global.ruinsPuzzle4 = global.statData.rpuzzle4;
+	global.ruinsPuzzle5 = global.statData.rpuzzle5;
+	global.ruinsPuzzle6 = global.statData.rpuzzle6;
+	
+	global.shiningCityPowered = global.statData.castlePower
 	
 	// Make sure our saveload doesn't save the room we're exiting from
 	obj_saveload.skipRoomSave = true;

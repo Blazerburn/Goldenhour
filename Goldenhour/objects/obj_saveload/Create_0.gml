@@ -30,6 +30,14 @@ global.statData =
 	
 	item_inv : 0, 
 	
+	rpuzzle1 : 0,
+	rpuzzle2 : 0,
+	rpuzzle3 : 0,
+	rpuzzle4 : 0,
+	rpuzzle5 : 0,
+	rpuzzle6 : 0,
+	
+	castlePower : 0,
 }
 
 global.levelData =
