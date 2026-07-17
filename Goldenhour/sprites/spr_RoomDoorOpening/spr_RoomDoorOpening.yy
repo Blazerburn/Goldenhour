@@ -20,6 +20,8 @@
     {"$GMSpriteFrame":"v1","%Name":"117f7087-891c-4a3f-86c4-ba809c66897d","name":"117f7087-891c-4a3f-86c4-ba809c66897d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"v1","%Name":"81ccaafb-e1e4-467c-a98d-4ddd671dc4ea","name":"81ccaafb-e1e4-467c-a98d-4ddd671dc4ea","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"v1","%Name":"ff387b5c-ec5f-4402-9628-4630caef0d30","name":"ff387b5c-ec5f-4402-9628-4630caef0d30","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7eb9f83f-3bb6-4d14-97e5-9c42119ea047","name":"7eb9f83f-3bb6-4d14-97e5-9c42119ea047","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"8da726b1-812c-400a-b35b-95c049e03d18","name":"8da726b1-812c-400a-b35b-95c049e03d18","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -60,7 +62,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":8.0,
+    "length":10.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -103,6 +105,12 @@
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ff387b5c-ec5f-4402-9628-4630caef0d30","path":"sprites/spr_RoomDoorOpening/spr_RoomDoorOpening.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"d8bcb3f9-e89a-4c53-9fbd-ec673aab2eb5","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7eb9f83f-3bb6-4d14-97e5-9c42119ea047","path":"sprites/spr_RoomDoorOpening/spr_RoomDoorOpening.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"a6248a6d-32b7-4749-a1fb-b48890f32fed","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8da726b1-812c-400a-b35b-95c049e03d18","path":"sprites/spr_RoomDoorOpening/spr_RoomDoorOpening.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"8c844b73-d58b-4898-a883-ad4217a70d24","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

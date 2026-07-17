@@ -1,17 +1,21 @@
 {
   "$GMObject":"",
   "%Name":"obj_RuinSideDoor",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":10,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_RuinSideDoor",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Ruins",
+    "path":"folders/Objects/Interactables/Ruins.yy",
   },
   "parentObjectId":{
-    "name":"obj_static",
-    "path":"objects/obj_static/obj_static.yy",
+    "name":"par_speaker",
+    "path":"objects/par_speaker/par_speaker.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
