@@ -1,19 +1,42 @@
-if StreetRoom1 or
-	StreetRoom2 or
-	StreetRoom3 or
-	StreetRoom4 or
-	PuzzleRoom5 or
-	ParkRoom or
-	AlleyBarRoom or
-	AlleyUpRoomA or
-	AlleyUpRoomB or
-	AlleyDownRoomA or
-	AlleyDownRoomB or
-	AlleyLeftRoomA or
-	AlleyLeftRoomB or
-	AlleyRightRoomA {
+// Outside Castle
+if room == StreetRoom1 or
+	room == StreetRoom2 or
+	room == StreetRoom3 or
+	room == StreetRoom4 or
+	room == PuzzleRoom5 or
+	room == ParkRoom or
+	room == AlleyBarRoom or
+	room == AlleyUpRoomA or
+	room == AlleyUpRoomB or
+	room == AlleyDownRoomA or
+	room == AlleyDownRoomB or
+	room == AlleyLeftRoomA or
+	room == AlleyLeftRoomB or
+	room == AlleyRightRoomA {
+		
+		show_debug_message("Outside")
+		
 	if global.shiningCityPowered = 0 {
-		alpha = .25
+		alpha = .5
+	}
+	else if global.shiningCityPowered = 1 {
+		alpha = 0
+	}
+}
+
+// Inside Castle
+if room == HideoutRoom1 or
+	room == HideoutRoom2 or
+	room == PrincesRoom1 or
+	room == PrincesRoom2 or
+	room == PrincesRoom3 or
+	room == PrincesRoom4 or
+	room == PrincesRoom5 or
+	room == BarRoom {
+		
+		show_debug_message("Inside")
+	if global.shiningCityPowered = 0 {
+		alpha = .75
 	}
 	else if global.shiningCityPowered = 1 {
 		alpha = 0

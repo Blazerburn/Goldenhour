@@ -3,10 +3,10 @@
 
 
 if global.shiningCityPowered = 1 {
-	
-}
-
-sprite_index = spr_WallSideLightOn
+	sprite_index = spr_WallSideLightOn
 image_index = 1;
 instance_create_layer(x, y, "Light", obj_WallLightLeftColor)
+}
+
+
 
