@@ -18,8 +18,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"RuinShadingTileSetSprite",
-    "path":"sprites/RuinShadingTileSetSprite/RuinShadingTileSetSprite.yy",
+    "name":"spr_RuinShadingTileSet",
+    "path":"sprites/spr_RuinShadingTileSet/spr_RuinShadingTileSet.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{
