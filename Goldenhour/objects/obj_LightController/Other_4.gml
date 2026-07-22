@@ -20,7 +20,7 @@ if room == StreetRoom1 or
 		alpha = .5
 	}
 	else if global.shiningCityPowered = 1 {
-		alpha = 0
+		alpha = .25
 	}
 }
 
@@ -39,6 +39,6 @@ if room == HideoutRoom1 or
 		alpha = .75
 	}
 	else if global.shiningCityPowered = 1 {
-		alpha = 0
+		alpha = .5
 	}
 }

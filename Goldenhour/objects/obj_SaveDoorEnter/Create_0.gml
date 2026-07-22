@@ -1,4 +1,4 @@
-goToRoom = InfiniteRoom;
+goToRoom = rm_Infinite;
 playerSpawnpoint = 2;
 playerDirection = 0;
 fadeIn = false;

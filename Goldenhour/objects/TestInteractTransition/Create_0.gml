@@ -5,6 +5,7 @@ fadeIn = false;
 fadeOut = false;
 alpha = 0;
 skipTransition = false;
+type = 0;
 
 if skipTransition = false {
 	if !instance_exists(obj_FadeTransition) {

@@ -40,6 +40,7 @@ if (puzzleProgress == 4) {
 		goToRoom = HideoutRoom2;
 		playerSpawnpoint = 1;
 		playerDirection = 2;
+		type = "none";
 	}
 	instance_deactivate_object(self);
 }

@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if keyboard_check_pressed(ord("1")) { room_goto(InfiniteRoom)};
+if keyboard_check_pressed(ord("1")) { room_goto(rm_Infinite)};
 if keyboard_check_pressed(ord("2")) { room_goto(StreetRoom1)};
 if keyboard_check_pressed(ord("3")) { room_goto(ChurchRoom1)};
 

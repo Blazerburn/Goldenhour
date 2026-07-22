@@ -12,21 +12,37 @@ if (l176BE8A8_0)
 		{
 			if(global.recentlyInteracted == 0)
 			{
-				// Normal doors
-				with _doorObject {
-					var _frame = image_index
+				switch type {
+					case "door": 
+						// Normal doors
+						with _doorObject {
+							var _frame = image_index
 					
-					sprite_index = spr_RoomDoorOpening
+							sprite_index = spr_RoomDoorOpening
 					
-					image_index = _frame
+							image_index = _frame
+						}
+						break;
+					
+					case "save":
+						// Save Door
+						with _saveExit {
+						y += 4
+						sprite_index = spr_SaveDoorExiting
+						}
+					break;
+					
+					case "none":
+						show_debug_message("No specific transitionary")
+						
+						
+					break;
+					
 				}
 				
-				// Save door
-				with _saveExit {
-					y += 4
-					sprite_index = spr_SaveDoorExiting
-					
-				}
+				
+				
+				
 				global.RoomSpawnpoints = playerSpawnpoint;
 				global.Immobilize = 1;
 				global.recentlyInteracted = 60;
