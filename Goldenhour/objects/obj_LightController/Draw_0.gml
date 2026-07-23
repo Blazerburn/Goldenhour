@@ -24,8 +24,10 @@ else if (surface_exists(surf)) {
 	show_debug_message(surf)
 	var _cw = room_width;
 	var _ch = room_height;
-	var _cx = camera_get_view_x(view_camera[0]);
+	var _cx = camera_get_view_x(view_camera[0]); 
 	var _cy = camera_get_view_y(view_camera[0]);
+	show_debug_message(_cx)
+		show_debug_message(_cy)
 	//if amount <= 2 {
 	//surf = surface_create(_cw, _ch); //}0
 	
