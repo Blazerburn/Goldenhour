@@ -1,4 +1,9 @@
-if surface_exists(surf)
+if surface_exists(masksurf)
     {
-    surface_free(surf);
+    surface_free(masksurf);
+    }
+	
+if surface_exists(lightsurf)
+    {
+    surface_free(lightsurf);
     }

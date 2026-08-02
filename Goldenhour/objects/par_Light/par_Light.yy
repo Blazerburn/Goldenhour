@@ -6,8 +6,8 @@
   "name":"par_Light",
   "overriddenProperties":[],
   "parent":{
-    "name":"Lights",
-    "path":"folders/Objects/Lights.yy",
+    "name":"Lighting",
+    "path":"folders/Objects/Lighting.yy",
   },
   "parentObjectId":null,
   "persistent":false,

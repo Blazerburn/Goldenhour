@@ -36,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"TestSparkles",
-    "path":"sprites/TestSparkles/TestSparkles.yy",
+    "name":"Number_Stool",
+    "path":"sprites/Number_Stool/Number_Stool.yy",
   },
   "spriteMaskId":null,
   "tags":[

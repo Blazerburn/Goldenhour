@@ -396,7 +396,7 @@ if keyboard_check_pressed(global.inventoryKey) {
 				{
 		
 						set_song_ingame(sng_inventory, 15, 0, 24)
-	
+						draw_set_colour(c_white)
 						global.inventoryOpen = 1;
 						global.shiftText = 1;
 	

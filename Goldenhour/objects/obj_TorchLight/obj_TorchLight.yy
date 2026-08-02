@@ -9,7 +9,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
-    "path":"folders/Objects/Lights/Ruins/Objects.yy",
+    "path":"folders/Objects/Lighting/Ruins/Objects.yy",
   },
   "parentObjectId":{
     "name":"par_Light",

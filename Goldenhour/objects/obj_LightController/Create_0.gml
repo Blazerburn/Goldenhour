@@ -1,4 +1,5 @@
-surf = -1;
+masksurf = -1;
+lightsurf = -1;
 amount = 0;
 alpha = 0
 startingAlpha = alpha
@@ -9,4 +10,8 @@ shadowMapA = layer_tilemap_get_id(shadowLayerA)
 if layer_exists("ShadowsBelow") {
 shadowLayerB = layer_get_id("ShadowsBelow")
 shadowMapB = layer_tilemap_get_id(shadowLayerB)
+}
+if layer_exists("NoLight") {
+NoLightLayer = layer_get_id("NoLight")
+NoLightMap = layer_tilemap_get_id(NoLightLayer)
 }

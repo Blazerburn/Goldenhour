@@ -80,12 +80,12 @@
     {"$GMRTileLayer":"","%Name":"Shadows","depth":100,"effectEnabled":true,"effectType":"none","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Shadows","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":12,"SerialiseWidth":31,"TileCompressedData":[
           4,-2147483648,1,1,5,-10,0,-2,1,-15,0,4,-2147483648,1,1,5,-10,0,-2,1,-16,0,-2,1,1,5,-10,0,-2,1,-16,0,
           -2,1,1,5,-10,0,-2,16,-16,0,-2,1,1,5,-28,0,-2,1,1,5,-28,0,-2,1,1,5,-27,0,-3,1,1,5,-27,0,4,8,1,1,23,-27,
-          3,1,0,-30,1,1,0,-7,8,-2,1,-11,8,-2,1,-8,8,-8,0,-2,1,1,13,-10,0,-2,1,1,13,-7,0,
+          3,1,0,-30,1,2,0,1,-6,8,-2,1,-2,8,1,1,-8,8,-2,1,-8,8,-8,0,-2,1,1,13,-10,0,-2,1,1,13,-7,0,
         ],"TileDataFormat":1,},"tilesetId":{"name":"tile_RuinShadingTileSet","path":"tilesets/tile_RuinShadingTileSet/tile_RuinShadingTileSet.yy",},"userdefinedDepth":false,"visible":false,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"WallAbove","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"WallAbove","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":12,"SerialiseWidth":31,"TileCompressedData":[
-          -134,-2147483648,-4,0,-110,-2147483648,1,62,-30,-2147483648,1,86,-30,-2147483648,1,66,-6,64,4,62,0,-2147483648,
-          63,-9,64,4,62,-2147483648,-2147483648,63,-7,64,1,90,-6,88,4,86,0,-2147483648,87,-9,88,4,86,-2147483648,
-          -2147483648,87,-7,88,
+          -134,-2147483648,-4,0,-110,-2147483648,1,62,-30,-2147483648,1,86,-30,-2147483648,2,66,44,-5,64,6,62,
+          0,-2147483648,63,64,19,-4,64,10,43,64,64,62,-2147483648,-2147483648,63,64,64,20,-4,64,1,90,-6,88,4,86,
+          0,-2147483648,87,-9,88,4,86,-2147483648,-2147483648,87,-7,88,
         ],"TileDataFormat":1,},"tilesetId":{"name":"tile_P_RuinBrickWall","path":"tilesets/tile_P_RuinBrickWall/tile_P_RuinBrickWall.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"FloorAbove","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"FloorAbove","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":12,"SerialiseWidth":31,"TileCompressedData":[
           -13,-2147483648,4,0,-2147483648,-2147483648,0,-262,-2147483648,1,36,-30,-2147483648,1,44,-30,-2147483648,

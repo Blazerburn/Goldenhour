@@ -1,3 +1,5 @@
+// Ruins
+
 // Outside Castle
 if room == StreetRoom1 or
 	room == StreetRoom2 or
@@ -32,6 +34,8 @@ if room == HideoutRoom1 or
 	room == PrincesRoom3 or
 	room == PrincesRoom4 or
 	room == PrincesRoom5 or
+	room == ChurchRoom1 or
+	room == ChurchRoom2 or
 	room == BarRoom {
 		
 		show_debug_message("Inside")
