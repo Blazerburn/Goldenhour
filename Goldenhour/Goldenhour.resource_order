@@ -400,6 +400,7 @@
     {"name":"RuinRoofTileSetSprite","order":17,"path":"sprites/RuinRoofTileSetSprite/RuinRoofTileSetSprite.yy",},
     {"name":"RuinsOutskirts","order":4,"path":"sprites/RuinsOutskirts/RuinsOutskirts.yy",},
     {"name":"RuinTileSetSprite","order":1,"path":"sprites/RuinTileSetSprite/RuinTileSetSprite.yy",},
+    {"name":"sadroyal_bedoutline","order":15,"path":"sprites/sadroyal_bedoutline/sadroyal_bedoutline.yy",},
     {"name":"SecretBook10thHour","order":4,"path":"sprites/SecretBook10thHour/SecretBook10thHour.yy",},
     {"name":"SecretBook11thHour","order":5,"path":"sprites/SecretBook11thHour/SecretBook11thHour.yy",},
     {"name":"SecretBook12thHour","order":6,"path":"sprites/SecretBook12thHour/SecretBook12thHour.yy",},
