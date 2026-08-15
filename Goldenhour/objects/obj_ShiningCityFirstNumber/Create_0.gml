@@ -1,5 +1,10 @@
 event_inherited(); //so it will inherit from par_speaker
 
+var _collision = instance_create_layer(x-6, y, "Collisions", TestWall)
+with _collision {
+	image_xscale = .2
+	image_yscale = .2
+}
 
 //-------DIALOGUE STUFF
 

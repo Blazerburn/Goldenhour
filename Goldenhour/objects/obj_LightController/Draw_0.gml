@@ -9,10 +9,7 @@ if !surface_exists(masksurf)
 	gpu_set_blendenable(false)
     draw_set_colour(c_black);
     draw_set_alpha(0);
-    draw_rectangle(0, 0, _cw, _cw, false);
 	
-	if layer_exists("Shadows") {
-	draw_tilemap(shadowMapA, 0 - _cx, 0 - _cy) }
 	if layer_exists("NoLight") {
 	draw_tilemap(NoLightMap, 0 - _cx, 0 - _cy) }
 	//if layer_exists("ShadowsBelow") {
@@ -36,8 +33,6 @@ if !surface_exists(lightsurf)
 	
 	if layer_exists("Shadows") {
 	draw_tilemap(shadowMapA, 0 - _cx, 0 - _cy) }
-	if layer_exists("NoLight") {
-	draw_tilemap(NoLightMap, 0 - _cx, 0 - _cy) }
 	//if layer_exists("ShadowsBelow") {
 	//draw_tilemap(shadowMapB, 0 - _cx, 0 - _cy) }
     surface_reset_target();
@@ -114,6 +109,9 @@ if (surface_exists(masksurf)) {
 	//draw_surface(masksurf, _cx, _cy);
 	
 	surface_set_target(lightsurf)
+	draw_clear_alpha(c_black, 0)
+	draw_set_color(c_black);
+	draw_set_alpha(1)
 	
 	gpu_set_blendmode_ext(bm_one, bm_inv_dest_alpha);
 	
@@ -135,9 +133,9 @@ if (surface_exists(masksurf)) {
 	draw_surface(masksurf, 0, 0)
 	gpu_set_blendmode(bm_normal)
 	surface_reset_target()
-	
-	draw_surface(lightsurf, _cx, _cy);
 	draw_set_alpha(1)
+	draw_surface(lightsurf, _cx, _cy);
+	
 	}
 //}
 
@@ -235,7 +233,7 @@ if (surface_exists(masksurf)) {
 	
 	
 	surface_reset_target();
-	draw_surface(surf, _cx, _cy);
+	draw_surface(masksurf, _cx, _cy);
 	
 	}
 //}

@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_BrickBrokenDoor",
-    "path":"sprites/spr_BrickBrokenDoor/spr_BrickBrokenDoor.yy",
+    "name":"spr_BrokenDoor",
+    "path":"sprites/spr_BrokenDoor/spr_BrokenDoor.yy",
   },
   "spriteMaskId":null,
   "tags":[

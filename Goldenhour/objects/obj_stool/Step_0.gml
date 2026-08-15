@@ -1,6 +1,19 @@
 event_inherited()
 
-var _depthID = layer_get_id("PerspectiveBuilding")
-var _depth = layer_get_depth(_depthID) - 1
+update_layer()
 
-depth = _depth
+var _depthID = layer_get_id("PerspectiveBuilding")
+var _layerDepth = layer_get_depth(_depthID) - 1
+var _depth = depth + 1
+
+//layer_depth(_depthID, _depth)
+
+with obj_SpecificDepthController {
+	lightDepth = _depth
+}
+
+if obj_SpecificDepthController.colliding = 1 {
+	depth = _layerDepth
+}	
+
+//depth = _layerDepth

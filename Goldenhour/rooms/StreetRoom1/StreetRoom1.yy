@@ -152,9 +152,10 @@
           77,-30,-2147483648,1,35,-185,-2147483648,
         ],"TileDataFormat":1,},"tilesetId":{"name":"tile_P_RuinBrickWall","path":"tilesets/tile_P_RuinBrickWall/tile_P_RuinBrickWall.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"Tiles_2","depth":1200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_2","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":12,"SerialiseWidth":31,"TileCompressedData":[
-          1,31,-12,107,-4,0,-14,107,1,55,-12,101,-4,0,-14,101,1,0,-12,101,-4,0,-14,101,1,0,-12,101,-4,0,-14,101,
-          1,0,-4,33,1,101,-4,33,3,101,33,33,-4,0,-3,33,1,101,-4,33,1,101,-5,33,1,0,-19,-2147483648,-2,0,-9,-2147483648,
-          1,0,-164,-2147483648,-2,0,-19,-2147483648,
+          1,31,-5,107,1,68,-6,107,-4,0,-3,107,1,67,-3,107,1,91,-6,107,1,55,-8,101,1,22,-3,101,-4,0,-14,101,5,0,
+          101,93,101,213,-8,101,-4,0,-4,101,1,69,-5,101,1,22,-3,101,1,0,-5,101,1,46,-6,101,-4,0,1,47,-6,101,1,
+          212,-4,101,3,46,101,0,-4,33,1,101,-4,33,3,101,33,33,-4,0,-3,33,2,101,23,-3,33,1,101,-5,33,1,0,-19,-2147483648,
+          -2,0,-9,-2147483648,1,0,-164,-2147483648,-2,0,-19,-2147483648,
         ],"TileDataFormat":1,},"tilesetId":{"name":"tile_P_RuinBrickWall","path":"tilesets/tile_P_RuinBrickWall/tile_P_RuinBrickWall.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"Tiles_1","depth":1300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":12,"SerialiseWidth":31,"TileCompressedData":[
           1,4,-12,28,4,38,0,0,40,-14,28,1,24,-30,-2147483648,1,24,-13,-2147483648,1,0,-16,-2147483648,1,24,-13,

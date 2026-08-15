@@ -14,8 +14,8 @@
     "path":"folders/Objects/Interactables/Ruins.yy",
   },
   "parentObjectId":{
-    "name":"par_speaker",
-    "path":"objects/par_speaker/par_speaker.yy",
+    "name":"obj_props",
+    "path":"objects/obj_props/obj_props.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

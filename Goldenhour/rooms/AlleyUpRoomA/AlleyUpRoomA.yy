@@ -115,7 +115,7 @@
           2,5,6,-6,-2147483648,2,5,6,-3,-2147483648,
         ],"TileDataFormat":1,},"tilesetId":{"name":"TransitionTileSet","path":"tilesets/TransitionTileSet/TransitionTileSet.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"Tiles_1","depth":1800,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":16,"SerialiseWidth":8,"TileCompressedData":[
-          -2,-2147483648,4,0,106,106,0,-4,-2147483648,4,0,101,101,0,-4,-2147483648,4,0,101,101,0,-4,-2147483648,
+          -2,-2147483648,4,0,106,106,0,-4,-2147483648,4,0,101,101,0,-4,-2147483648,4,0,212,101,0,-4,-2147483648,
           4,0,101,101,0,-4,-2147483648,4,0,101,101,0,-4,-2147483648,-4,0,-4,-2147483648,4,0,-2147483648,0,0,-4,
           -2147483648,4,0,-2147483648,0,0,-4,-2147483648,4,0,-2147483648,0,0,-4,-2147483648,4,0,-2147483648,-2147483648,
           0,-4,-2147483648,-2,0,2,-2147483648,0,-4,-2147483648,-4,0,-4,-2147483648,-2,0,2,-2147483648,0,-4,-2147483648,

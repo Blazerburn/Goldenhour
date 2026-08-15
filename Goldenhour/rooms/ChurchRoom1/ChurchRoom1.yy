@@ -57,6 +57,7 @@
     {"name":"inst_21132EA5","path":"rooms/ChurchRoom1/ChurchRoom1.yy",},
     {"name":"inst_5B4B27BC","path":"rooms/ChurchRoom1/ChurchRoom1.yy",},
     {"name":"inst_65EED491","path":"rooms/ChurchRoom1/ChurchRoom1.yy",},
+    {"name":"inst_10B07F7A","path":"rooms/ChurchRoom1/ChurchRoom1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -124,6 +125,7 @@
         {"$GMRInstance":"v4","%Name":"inst_21132EA5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_21132EA5","objectId":{"name":"obj_TorchLight","path":"objects/obj_TorchLight/obj_TorchLight.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":36.0,"y":172.0,},
         {"$GMRInstance":"v4","%Name":"inst_5B4B27BC","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5B4B27BC","objectId":{"name":"obj_WindowLight","path":"objects/obj_WindowLight/obj_WindowLight.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":320.0,"y":0.0,},
         {"$GMRInstance":"v4","%Name":"inst_65EED491","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":1,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_65EED491","objectId":{"name":"obj_WindowLight","path":"objects/obj_WindowLight/obj_WindowLight.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":224.0,"y":0.0,},
+        {"$GMRInstance":"v4","%Name":"inst_10B07F7A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":2,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_10B07F7A","objectId":{"name":"obj_TorchLight","path":"objects/obj_TorchLight/obj_TorchLight.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":272.0,"y":32.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"PerspectiveBuilding","depth":1100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"PerspectiveBuilding","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":8,"SerialiseWidth":18,"TileCompressedData":[
           -43,-2147483648,2,7,8,-15,-2147483648,3,30,31,32,-15,-2147483648,2,54,55,-4,-2147483648,2,33,0,-16,-2147483648,
@@ -136,7 +138,7 @@
           -2147483648,-13,0,-5,-2147483648,
         ],"TileDataFormat":1,},"tilesetId":{"name":"tile_Church","path":"tilesets/tile_Church/tile_Church.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"Walls","depth":1300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Walls","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":8,"SerialiseWidth":18,"TileCompressedData":[
-          -3,-2147483648,13,11,3,4,142,143,72,142,143,101,5,6,15,0,-4,-2147483648,14,11,74,27,28,166,167,96,166,
+          -3,-2147483648,13,11,3,4,142,143,72,142,143,93,5,6,15,0,-4,-2147483648,14,11,74,27,28,166,167,96,166,
           167,101,29,30,73,15,-3,-2147483648,41,11,1,98,27,28,190,191,96,190,191,101,29,30,97,2,15,-2147483648,
           11,205,25,98,51,52,0,120,120,-2147483648,0,0,53,54,97,26,2,15,76,25,25,122,0,0,-5,-2147483648,-3,0,7,
           121,26,26,78,100,25,49,-3,0,-8,-2147483648,9,0,50,26,102,100,49,-2147483648,-2147483648,0,-10,-2147483648,

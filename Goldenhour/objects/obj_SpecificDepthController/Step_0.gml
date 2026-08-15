@@ -9,10 +9,10 @@ if colliding = 0 {
 if colliding = 1 {
 	if layer_exists("Light") {
 		layer_depth(layerID, lightDepth)
-		//show_debug_message(light)
+		show_debug_message(lightDepth)
 	}
 	else {
-		layer_depth(layerID, 0)
+		layer_depth(layerID, newDepth)
 	}
 	//layer_depth(shadowID, -1)
 	//layer_depth(shadowBelowID, -1)

@@ -1,5 +1,5 @@
 //---You can update variables here!---//
-reset_dialogue_defaults();
+/*reset_dialogue_defaults();
 
 
 switch(choice_variable){

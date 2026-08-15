@@ -5,6 +5,7 @@ layerID = layer_get_id("PerspectiveBuilding")
 //shadowID = layer_get_id("Shadows")
 //shadowBelowID = layer_get_id("ShadowsBelow")
 oldDepth = layer_get_depth(layerID)
+newDepth = 0
 //shadowDepth = layer_get_depth(shadowID)
 //shadowBelowDepth = layer_get_depth(shadowBelowID)
 if layer_exists("Light") {

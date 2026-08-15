@@ -56,7 +56,7 @@
           -2,-2147483648,4,55,0,0,56,-4,-2147483648,4,55,-2147483648,-2147483648,56,-4,-2147483648,4,55,-2147483648,
           -2147483648,56,-4,-2147483648,4,55,-2147483648,-2147483648,56,-4,-2147483648,4,55,-2147483648,-2147483648,
           56,-4,-2147483648,4,55,-2147483648,-2147483648,56,-4,-2147483648,4,55,-2147483648,0,56,-4,-2147483648,
-          4,55,-2147483648,0,56,-4,-2147483648,4,66,64,64,65,-4,-2147483648,5,90,88,88,89,0,-3,-2147483648,-4,
+          4,55,-2147483648,0,56,-4,-2147483648,4,66,64,45,65,-4,-2147483648,5,90,88,88,89,0,-3,-2147483648,-4,
           0,-2,-2147483648,
         ],"TileDataFormat":1,},"tilesetId":{"name":"tile_P_RuinBrickWall","path":"tilesets/tile_P_RuinBrickWall/tile_P_RuinBrickWall.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"DarknessAbove","depth":900,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"DarknessAbove","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":11,"SerialiseWidth":8,"TileCompressedData":[
