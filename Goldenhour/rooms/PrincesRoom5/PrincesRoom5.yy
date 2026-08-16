@@ -22,6 +22,8 @@
     {"name":"inst_69BEF764","path":"rooms/PrincesRoom5/PrincesRoom5.yy",},
     {"name":"inst_5654307D","path":"rooms/PrincesRoom5/PrincesRoom5.yy",},
     {"name":"inst_21CB52FD","path":"rooms/PrincesRoom5/PrincesRoom5.yy",},
+    {"name":"inst_5FD2395E","path":"rooms/PrincesRoom5/PrincesRoom5.yy",},
+    {"name":"inst_71D0CAC2","path":"rooms/PrincesRoom5/PrincesRoom5.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -38,6 +40,8 @@
         {"$GMRInstance":"v4","%Name":"inst_7C1935F4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7C1935F4","objectId":{"name":"TestAngleWall","path":"objects/TestAngleWall/TestAngleWall.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":180.0,"scaleX":1.0,"scaleY":1.0,"x":160.0,"y":160.0,},
         {"$GMRInstance":"v4","%Name":"inst_2B28AED6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2B28AED6","objectId":{"name":"TestAngleWall","path":"objects/TestAngleWall/TestAngleWall.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":180.0,"scaleX":1.0,"scaleY":1.0,"x":96.0,"y":224.0,},
         {"$GMRInstance":"v4","%Name":"inst_44008D6D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_44008D6D","objectId":{"name":"TestAngleWall","path":"objects/TestAngleWall/TestAngleWall.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":180.0,"scaleX":1.0,"scaleY":1.0,"x":32.0,"y":288.0,},
+        {"$GMRInstance":"v4","%Name":"inst_5FD2395E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5FD2395E","objectId":{"name":"TestAngleWall","path":"objects/TestAngleWall/TestAngleWall.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":192.0,"y":64.0,},
+        {"$GMRInstance":"v4","%Name":"inst_71D0CAC2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_71D0CAC2","objectId":{"name":"TestAngleWall","path":"objects/TestAngleWall/TestAngleWall.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":-90.0,"scaleX":1.0,"scaleY":1.0,"x":320.0,"y":64.0,},
       ],"layers":[],"name":"Collisions","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":false,},
     {"$GMRTileLayer":"","%Name":"Darkness","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Darkness","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":8,"SerialiseWidth":16,"TileCompressedData":[
           -3,-2147483648,2,28,29,-6,15,2,2,3,-5,-2147483648,3,28,34,37,-6,23,3,10,33,3,-3,-2147483648,3,28,34,

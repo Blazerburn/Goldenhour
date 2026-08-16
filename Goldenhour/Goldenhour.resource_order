@@ -85,7 +85,7 @@
     {"name":"InventoryStarsObject1","order":8,"path":"objects/InventoryStarsObject1/InventoryStarsObject1.yy",},
     {"name":"InventoryTextBox_1","order":9,"path":"objects/InventoryTextBox_1/InventoryTextBox_1.yy",},
     {"name":"InventoryTextBox_2","order":10,"path":"objects/InventoryTextBox_2/InventoryTextBox_2.yy",},
-    {"name":"obj_BarTable","order":40,"path":"objects/obj_BarTable/obj_BarTable.yy",},
+    {"name":"obj_BarTable","order":7,"path":"objects/obj_BarTable/obj_BarTable.yy",},
     {"name":"obj_Boulder","order":6,"path":"objects/obj_Boulder/obj_Boulder.yy",},
     {"name":"obj_BoxDepthControl","order":6,"path":"objects/obj_BoxDepthControl/obj_BoxDepthControl.yy",},
     {"name":"obj_BoxPressurePlate","order":11,"path":"objects/obj_BoxPressurePlate/obj_BoxPressurePlate.yy",},
