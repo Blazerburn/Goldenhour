@@ -92,6 +92,12 @@ if (surface_exists(masksurf)) {
 					draw_sprite_ext(spr_WindowLight, image_index, x - _cx, y - _cy, 1, 1, 0, c_white, 1);
 				}
 				break;
+				
+			case obj_MosaicLIght:
+				with obj_MosaicLIght {
+					draw_sprite_ext(spr_MosaicWindowLight, image_index, x - _cx, y - _cy, 1, 1, 0, c_white, 1);
+				}
+				break;
 		}
 	}
 	
