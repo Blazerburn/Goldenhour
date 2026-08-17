@@ -16,6 +16,7 @@ function save_room()
 	var _boxNum = instance_number(obj_PushableObject);
 	
 	
+	
 	var _roomStruct =
 	{
 		// Boxes
@@ -38,12 +39,15 @@ function save_room()
 			
 			var _inst = instance_find(obj_PushableObject, i);
 			
-			_roomStruct.boxData[i] ={
+			_roomStruct.boxData[i] = {
 				x : _inst.x,
 				y : _inst.y,
 				id : _inst.id,
+				_greenPuzzle : _inst.greenPuzzle,
+				_image : _inst.image,
 			}
 		}
+		
 		
 		// Interactables
 		for (var i = 0; i < _intNum; i++) {
@@ -143,7 +147,11 @@ function load_room()
 	
 	if instance_exists(obj_PushableObjectSpawner) {instance_destroy(obj_PushableObjectSpawner); };
 			for (var i = 0; i < _roomStruct.boxNum; i++) {
-				instance_create_layer(_roomStruct.boxData[i].x, _roomStruct.boxData[i].y, layer, obj_PushableObjectSpawner)
+				instance_create_layer(_roomStruct.boxData[i].x, _roomStruct.boxData[i].y, layer, obj_PushableObjectSpawner, {
+					greenPuzzle : _roomStruct.boxData[i]._greenPuzzle,
+					image : _roomStruct.boxData[i]._image,
+				})
+
 				show_debug_message(_roomStruct.boxData[i].x);
 				show_debug_message(_roomStruct.boxData[i].y);
 			}

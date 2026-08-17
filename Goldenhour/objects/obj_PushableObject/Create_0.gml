@@ -4,6 +4,9 @@ interactedBoxID = 0;
 NormalSpeed = 1;
 SlowSpeed = .33;
 
+image = 0;
+greenPuzzle = false;
+
 pushableBoxOriginX = 0;
 pushableBoxOriginY = 0;
 

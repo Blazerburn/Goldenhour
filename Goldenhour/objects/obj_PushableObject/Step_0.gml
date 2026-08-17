@@ -48,6 +48,7 @@ if(objectID == interactedBoxID)
 			if(pushPlayerDirection == 0)
 {
 	with(TestPlayer) {
+		
 				x = pushableBoxOriginX + 16;
 				y = pushableBoxOriginY + 16;
 				}
@@ -164,8 +165,8 @@ if (l35D9AC80_0)
 					with(pathCollision) {
 					x = pushableBoxOriginX + 8;
 					y = pushableBoxOriginY + 8;
-					show_debug_message(x)
-					show_debug_message(y)
+					//show_debug_message(x)
+					//show_debug_message(y)
 					}
 	}
 }
