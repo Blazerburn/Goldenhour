@@ -3,7 +3,7 @@
   "%Name":"PushBoxCollisionLeft",
   "bboxMode":2,
   "bbox_bottom":43,
-  "bbox_left":4,
+  "bbox_left":-4,
   "bbox_right":43,
   "bbox_top":20,
   "collisionKind":5,

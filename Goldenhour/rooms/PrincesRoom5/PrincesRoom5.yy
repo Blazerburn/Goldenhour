@@ -65,7 +65,7 @@
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Objects","depth":1100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Objects","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":8,"SerialiseWidth":16,"TileCompressedData":[
           -2,-2147483648,-3,0,-6,-2147483648,-2,0,-4,-2147483648,-5,0,1,-2147483648,-3,0,1,-2147483648,-3,0,-3,
-          -2147483648,-2,0,1,7,-4,0,5,11,12,0,5,6,-6,0,1,31,-4,0,5,35,36,0,29,30,-4,0,7,7,8,55,56,0,-2147483648,
+          -2147483648,-2,0,10,7,0,0,9,10,11,12,0,5,6,-6,0,10,31,0,0,33,34,35,36,0,29,30,-4,0,7,7,8,55,56,0,-2147483648,
           -2147483648,-3,0,8,53,54,5,6,0,0,31,32,-3,0,-5,-2147483648,-2,0,6,29,30,0,0,55,56,-3,0,-5,-2147483648,
           -2,0,2,53,54,-7,0,-6,-2147483648,-2,0,-2,-2147483648,
         ],"TileDataFormat":1,},"tilesetId":{"name":"tile_Prince","path":"tilesets/tile_Prince/tile_Prince.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
@@ -76,12 +76,17 @@
           2,15,76,25,25,49,-8,-2147483648,7,50,26,26,78,100,25,49,-10,-2147483648,5,50,26,102,100,49,-12,-2147483648,
           3,50,102,124,-14,-2147483648,1,126,
         ],"TileDataFormat":1,},"tilesetId":{"name":"tile_P_RuinBrickWall","path":"tilesets/tile_P_RuinBrickWall/tile_P_RuinBrickWall.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
-    {"$GMRTileLayer":"","%Name":"Floor","depth":1400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Floor","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":8,"SerialiseWidth":16,"TileCompressedData":[
+    {"$GMRTileLayer":"","%Name":"Carpet","depth":1400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Carpet","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":8,"SerialiseWidth":16,"TileCompressedData":[
+          -53,-2147483648,6,173,174,175,176,177,178,-10,-2147483648,6,197,198,199,200,201,202,-9,-2147483648,8,
+          220,221,222,223,224,225,226,227,-8,-2147483648,8,244,245,246,247,248,249,250,251,-8,-2147483648,8,268,
+          269,270,271,272,273,274,275,-4,-2147483648,
+        ],"TileDataFormat":1,},"tilesetId":{"name":"tile_Prince","path":"tilesets/tile_Prince/tile_Prince.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+    {"$GMRTileLayer":"","%Name":"Floor","depth":1500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Floor","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":8,"SerialiseWidth":16,"TileCompressedData":[
           -51,-2147483648,10,1,2,21,2,1,2,1,2,1,2,-6,-2147483648,10,9,10,9,10,9,10,9,22,9,10,-4,-2147483648,47,
           1,2,1,2,7,2,1,2,1,2,1,23,1,2,-2147483648,-2147483648,9,10,9,10,9,10,9,10,6,10,9,10,9,10,-2147483648,
           2,1,2,7,2,1,2,1,2,1,2,1,2,1,2,1,
         ],"TileDataFormat":1,},"tilesetId":{"name":"tile_RuinFloors","path":"tilesets/tile_RuinFloors/tile_RuinFloors.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
-    {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":1500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
+    {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":1600,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
   "name":"PrincesRoom5",
   "parent":{
