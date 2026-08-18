@@ -65,7 +65,7 @@
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Objects","depth":1100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Objects","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":8,"SerialiseWidth":16,"TileCompressedData":[
           -2,-2147483648,-3,0,-6,-2147483648,-2,0,-4,-2147483648,-5,0,1,-2147483648,-3,0,1,-2147483648,-3,0,-3,
-          -2147483648,-2,0,10,7,8,0,9,10,11,12,0,5,6,-6,0,10,31,32,0,33,34,35,36,0,29,30,-4,0,7,7,8,55,56,0,-2147483648,
+          -2147483648,-2,0,1,7,-4,0,5,11,12,0,5,6,-6,0,1,31,-4,0,5,35,36,0,29,30,-4,0,7,7,8,55,56,0,-2147483648,
           -2147483648,-3,0,8,53,54,5,6,0,0,31,32,-3,0,-5,-2147483648,-2,0,6,29,30,0,0,55,56,-3,0,-5,-2147483648,
           -2,0,2,53,54,-7,0,-6,-2147483648,-2,0,-2,-2147483648,
         ],"TileDataFormat":1,},"tilesetId":{"name":"tile_Prince","path":"tilesets/tile_Prince/tile_Prince.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
