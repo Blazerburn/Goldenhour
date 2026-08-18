@@ -53,6 +53,8 @@ global.globalPlayerDirection = 2;
 
 _colliding = "False"
 
+mask_index = CondiLeftIdle
+
 // Inventory Stuff
 itemPos = 0;
 itemPosIndex = 0;

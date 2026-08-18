@@ -1,4 +1,4 @@
-if(global.recentlyInteracted == 0)
+/*if(global.recentlyInteracted == 0)
 {
 	if(global.pushingBox == 0)
 {

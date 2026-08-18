@@ -17,16 +17,19 @@ var objectID = 0;
 
 //show_debug_message(string("Object ID:", objectID));
 
-pushBoxCollision = 0;
+mask_index = PushBoxB
 
-pushBoxCollision = instance_create_layer(x + 3, y + 3, "Box", TestWall);
+pushBoxCollision = 0;
+pathCollision = 0;
+
+pushBoxCollision = instance_create_layer(x + 4, y + 4, "Box", TestWall);
 
 with(pushBoxCollision) {
 image_xscale = .4;
 image_yscale = .4;
 }
 
-pathCollision = instance_create_layer(x + 8, y + 8, "Box", PushableWall);
+/*pathCollision = instance_create_layer(x + 8, y + 8, "Box", PushableWall);
 
 with(pathCollision) {
 image_xscale = .25;
