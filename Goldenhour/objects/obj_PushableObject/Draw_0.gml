@@ -6,7 +6,7 @@ var _spritey = round(y)
 
 draw_sprite(sprite_index, -1, _spritex, _spritey)
 
-/*draw_set_colour(c_white)
+draw_set_colour(c_white)
 draw_rectangle(x+1, y+1, x+31, y+31, true)
 draw_rectangle(TestPlayer.x-10, TestPlayer.y+16, TestPlayer.x+10, TestPlayer.y+30, true)
 
@@ -30,9 +30,9 @@ draw_rectangle(x+4, y+2, x+28, y, true)
 draw_rectangle(x+30, y+4, x+32, y+28, true)
 draw_rectangle(x+4, y+30, x+28, y+32, true)
 
-draw_rectangle(x, y+8, x-16, y+24, true)
-draw_rectangle(x+8, y, x+24, y-16, true)
-draw_rectangle(x+32, y+8, x+48, y+24, true)
-draw_rectangle(x+8, y+32, x+24, y+48, true)
+draw_rectangle(x, y+16, x-20, y+28, true)
+draw_rectangle(x+4, y, x+28, y-12, true)
+draw_rectangle(x+32, y+16, x+52, y+28, true)
+draw_rectangle(x+4, y+32, x+28, y+44, true)
 
 draw_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, true);

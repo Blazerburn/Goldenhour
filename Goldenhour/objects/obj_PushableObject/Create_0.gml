@@ -10,6 +10,8 @@ greenPuzzle = false;
 pushableBoxOriginX = 0;
 pushableBoxOriginY = 0;
 
+inst = 0;
+
 global.pushingBox = 0;
 global.keepPushing = 0;
 

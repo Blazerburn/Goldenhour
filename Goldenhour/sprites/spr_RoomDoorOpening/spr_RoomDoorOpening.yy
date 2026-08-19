@@ -22,6 +22,7 @@
     {"$GMSpriteFrame":"v1","%Name":"ff387b5c-ec5f-4402-9628-4630caef0d30","name":"ff387b5c-ec5f-4402-9628-4630caef0d30","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"v1","%Name":"7eb9f83f-3bb6-4d14-97e5-9c42119ea047","name":"7eb9f83f-3bb6-4d14-97e5-9c42119ea047","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"v1","%Name":"8da726b1-812c-400a-b35b-95c049e03d18","name":"8da726b1-812c-400a-b35b-95c049e03d18","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"79c676df-59ec-4f4d-bae6-bf2234fad71d","name":"79c676df-59ec-4f4d-bae6-bf2234fad71d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -29,6 +30,7 @@
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"0da16365-e276-4269-9c7e-015a44b79d9e","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"0da16365-e276-4269-9c7e-015a44b79d9e","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":false,},
+    {"$GMImageLayer":"","%Name":"e416243c-277e-4900-b22e-419738fa8a60","blendMode":0,"displayName":"Layer 4","isLocked":false,"name":"e416243c-277e-4900-b22e-419738fa8a60","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"1a6a8e4f-77fa-4057-88e3-43fff23f163b","blendMode":0,"displayName":"Layer 3","isLocked":false,"name":"1a6a8e4f-77fa-4057-88e3-43fff23f163b","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"1a9a75f3-7bbe-41cc-be6f-41f9cebc09b3","blendMode":0,"displayName":"Layer 2","isLocked":false,"name":"1a9a75f3-7bbe-41cc-be6f-41f9cebc09b3","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"11ec8155-a5a9-4d86-9809-317d6d6e6177","blendMode":0,"displayName":"default1","isLocked":false,"name":"11ec8155-a5a9-4d86-9809-317d6d6e6177","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -62,7 +64,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":10.0,
+    "length":11.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -111,6 +113,9 @@
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8da726b1-812c-400a-b35b-95c049e03d18","path":"sprites/spr_RoomDoorOpening/spr_RoomDoorOpening.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"8c844b73-d58b-4898-a883-ad4217a70d24","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"79c676df-59ec-4f4d-bae6-bf2234fad71d","path":"sprites/spr_RoomDoorOpening/spr_RoomDoorOpening.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"07e6375e-b72e-4123-b1af-174a92fb0fdf","IsCreationKey":false,"Key":10.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

@@ -1,82 +1,125 @@
 var looking = false;
 var _stop = false;
+var _inst = inst;
 //var _inst = 0;
 
+if global.pushingBox = 0 {
 with TestPlayer {
 						if playerDirection = 0 {
-							if collision_line(x, y, x, y+16, obj_PushableObject, false, false) {
+							_inst = collision_line(x, y, x, y+16, obj_PushableObject, false, false)
+								if _inst {	
 								looking = true;
-								var _inst = collision_line(x, y, x, y+16, obj_PushableObject, false, false);
+								
 								//show_debug_message("Looking up")
 								//show_debug_message(looking)
 							}
 						}
 						else if playerDirection = 1 {
-							if collision_line(x, y+16, x+16, y+16, obj_PushableObject, false, false) {
+							_inst = collision_line(x, y+16, x+16, y+16, obj_PushableObject, false, false) 
+								if _inst {	
 								looking = true;
-								var _inst = collision_line(x, y+16, x+16, y+16, obj_PushableObject, false, false)
 								//show_debug_message("Looking right")
 								//show_debug_message(looking)
 							}
 						}
 						else if playerDirection = 2 {
-							if collision_line(x, y+16, x, y+32, obj_PushableObject, false, false) {
+							_inst = collision_line(x, y+16, x, y+32, obj_PushableObject, false, false)
+								if _inst {	
 								looking = true;
-								var _inst = collision_line(x, y+16, x, y+32, obj_PushableObject, false, false)
 								//show_debug_message("Looking down")
 								//show_debug_message(looking)
 							}
 						}
 						else if playerDirection = 3 {
-							if collision_line(x-16, y+16, x, y+16, obj_PushableObject, false, false) {
+							_inst = collision_line(x-16, y+16, x, y+16, obj_PushableObject, false, false) 
+								if _inst {	
 								looking = true;
-								var _inst = collision_line(x-16, y+16, x, y+16, obj_PushableObject, false, false)
 								//show_debug_message("Looking left")
 								//show_debug_message(looking)
 							}
 						}
 					}
 
+
+with _inst {
 if collision_rectangle(x+2, y+4, x, y+28, TestPlayer, false, false) {
 								pushPlayerDirection = 1
 								show_debug_message("Left")
-								if collision_rectangle(x, y+8, x-16, y+24, TestWall, false, false) {
+								with _inst {
+								if collision_rectangle(x, y+16, x-20, y+32, TestWall, false, false) {
 									_stop = true;
 									show_debug_message("Space occupied")
+								}
 								}
 							}
 							else if collision_rectangle(x+4, y+2, x+28, y, TestPlayer, false, false) {
 								pushPlayerDirection = 2
 								show_debug_message("Up")
-								if collision_rectangle(x+8, y, x+24, y-16, TestWall, false, false) {
+								with _inst {
+								if collision_rectangle(x+4, y, x+28, y-12, TestWall, false, false) {
 									_stop = true;
 									show_debug_message("Space occupied")
+								}
 								}
 							}
 							else if collision_rectangle(x+30, y+4, x+32, y+28, TestPlayer, false, false) {
 								pushPlayerDirection = 3
 								show_debug_message("Right")
-								if collision_rectangle(x+32, y+8, x+48, y+24, TestWall, false, false) {
+								with _inst {
+								if collision_rectangle(x+32, y+16, x+52, y+28, TestWall, false, false) {
 									_stop = true;
 									show_debug_message("Space occupied")
+								}
 								}
 							}
 							else if collision_rectangle(x+4, y+30, x+28, y+32, TestPlayer, false, false) {
 								pushPlayerDirection = 0
 								show_debug_message("Down")
-								if collision_rectangle(x+8, y+32, x+24, y+48, TestWall, false, false) {
+								with _inst {
+								if collision_rectangle(x+4, y+28, x+28, y+44, TestWall, false, false) {
 									_stop = true;
 									show_debug_message("Space occupied")
 								}
+								}
 							}
+							
+	if pushPlayerDirection = 1 {
+			if collision_rectangle(x, y+16, x-20, y+32, TestWall, false, false) {
+				_stop = true;
+				show_debug_message("Space occupied")
+			}
+		}
+		else if pushPlayerDirection = 2 {
+			if collision_rectangle(x+4, y, x+28, y-12, TestWall, false, false) {
+				_stop = true;
+				show_debug_message("Space occupied")
+			}
+		}
+		else if pushPlayerDirection = 3 {
+			if collision_rectangle(x+32, y+16, x+52, y+28, TestWall, false, false) {
+				_stop = true;
+				show_debug_message("Space occupied")
+			}
+		}
+		else if pushPlayerDirection = 0 {
+			if collision_rectangle(x+4, y+28, x+28, y+44, TestWall, false, false) {
+				_stop = true;
+				show_debug_message("Space occupied")
+			}
+		}
+}
 
+
+
+}
 //show_debug_message(looking)
-if looking = true {
+
 	if rectangle_in_rectangle(TestPlayer.x-10, TestPlayer.y+16, TestPlayer.x+10, TestPlayer.y+30, x + 1, y + 1, x + 31, y + 31) {
 		if(global.recentlyInteracted == 0)
 		{
 			if(global.pushingBox == 0)
 			{
+				if looking = true {
 				if (global.Talking == 0) {
 					if _stop == false {
 						var l5CF0C4C3_0;
@@ -111,6 +154,7 @@ if looking = true {
 						}
 					}
 				}
+				}
 			}
 		}
 	
@@ -122,8 +166,10 @@ if looking = true {
 
 
 
-	if(objectID == interactedBoxID)
+	if(_inst == interactedBoxID)
 	{
+		
+		if _stop == false {
 		with(interactedBoxID) {
 			if(global.pushingBox == 1)
 	{
@@ -307,6 +353,8 @@ if looking = true {
 	}
 	}
 	}
-}
+	}
 //show_debug_message(depth)
+
+inst = _inst
 update_layer()
