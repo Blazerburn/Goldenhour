@@ -1,9 +1,12 @@
 var looking = false;
+var _stop = false;
+//var _inst = 0;
 
 with TestPlayer {
 						if playerDirection = 0 {
 							if collision_line(x, y, x, y+16, obj_PushableObject, false, false) {
 								looking = true;
+								var _inst = collision_line(x, y, x, y+16, obj_PushableObject, false, false);
 								//show_debug_message("Looking up")
 								//show_debug_message(looking)
 							}
@@ -11,6 +14,7 @@ with TestPlayer {
 						else if playerDirection = 1 {
 							if collision_line(x, y+16, x+16, y+16, obj_PushableObject, false, false) {
 								looking = true;
+								var _inst = collision_line(x, y+16, x+16, y+16, obj_PushableObject, false, false)
 								//show_debug_message("Looking right")
 								//show_debug_message(looking)
 							}
@@ -18,6 +22,7 @@ with TestPlayer {
 						else if playerDirection = 2 {
 							if collision_line(x, y+16, x, y+32, obj_PushableObject, false, false) {
 								looking = true;
+								var _inst = collision_line(x, y+16, x, y+32, obj_PushableObject, false, false)
 								//show_debug_message("Looking down")
 								//show_debug_message(looking)
 							}
@@ -25,6 +30,7 @@ with TestPlayer {
 						else if playerDirection = 3 {
 							if collision_line(x-16, y+16, x, y+16, obj_PushableObject, false, false) {
 								looking = true;
+								var _inst = collision_line(x-16, y+16, x, y+16, obj_PushableObject, false, false)
 								//show_debug_message("Looking left")
 								//show_debug_message(looking)
 							}
@@ -34,18 +40,34 @@ with TestPlayer {
 if collision_rectangle(x+2, y+4, x, y+28, TestPlayer, false, false) {
 								pushPlayerDirection = 1
 								show_debug_message("Left")
+								if collision_rectangle(x, y+8, x-16, y+24, TestWall, false, false) {
+									_stop = true;
+									show_debug_message("Space occupied")
+								}
 							}
 							else if collision_rectangle(x+4, y+2, x+28, y, TestPlayer, false, false) {
 								pushPlayerDirection = 2
 								show_debug_message("Up")
+								if collision_rectangle(x+8, y, x+24, y-16, TestWall, false, false) {
+									_stop = true;
+									show_debug_message("Space occupied")
+								}
 							}
 							else if collision_rectangle(x+30, y+4, x+32, y+28, TestPlayer, false, false) {
 								pushPlayerDirection = 3
 								show_debug_message("Right")
+								if collision_rectangle(x+32, y+8, x+48, y+24, TestWall, false, false) {
+									_stop = true;
+									show_debug_message("Space occupied")
+								}
 							}
 							else if collision_rectangle(x+4, y+30, x+28, y+32, TestPlayer, false, false) {
 								pushPlayerDirection = 0
 								show_debug_message("Down")
+								if collision_rectangle(x+8, y+32, x+24, y+48, TestWall, false, false) {
+									_stop = true;
+									show_debug_message("Space occupied")
+								}
 							}
 
 //show_debug_message(looking)
@@ -56,35 +78,37 @@ if looking = true {
 			if(global.pushingBox == 0)
 			{
 				if (global.Talking == 0) {
-				var l5CF0C4C3_0;
-				l5CF0C4C3_0 = keyboard_check_pressed(global.interactKey);
-					if (l5CF0C4C3_0)
-						{
-						var pushableBoxOriginX = x;
-						var pushableBoxOriginY = y;
+					if _stop == false {
+						var l5CF0C4C3_0;
+						l5CF0C4C3_0 = keyboard_check_pressed(global.interactKey);
+						if (l5CF0C4C3_0)
+							{
+							var pushableBoxOriginX = x;
+							var pushableBoxOriginY = y;
 		
-						global.playerAnimating = 1;
+							global.playerAnimating = 1;
 					
-						global.recentlyInteracted = 15;
+							global.recentlyInteracted = 15;
 					
 					
-						//show_debug_message(looking)
+							//show_debug_message(looking)
 					
 							
 					
 					
-						//pushPlayerDirection = global.globalPlayerDirection;
+							//pushPlayerDirection = global.globalPlayerDirection;
 					
-						//show_debug_message(string("Pushed Box"));
+							//show_debug_message(string("Pushed Box"));
 					
-						//show_debug_message(string(global.globalPlayerDirection));
+							//show_debug_message(string(global.globalPlayerDirection));
 		
-						interactedBoxID = objectID;
+							interactedBoxID = _inst;
 		
-						//show_debug_message(string(interactedBoxID));
+							//show_debug_message(string(interactedBoxID));
 		
-						global.pushingBox = 1;
+							global.pushingBox = 1;
 		
+						}
 					}
 				}
 			}

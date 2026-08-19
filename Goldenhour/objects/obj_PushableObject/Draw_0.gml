@@ -29,4 +29,10 @@ draw_rectangle(x+2, y+4, x, y+28, true)
 draw_rectangle(x+4, y+2, x+28, y, true)
 draw_rectangle(x+30, y+4, x+32, y+28, true)
 draw_rectangle(x+4, y+30, x+28, y+32, true)
+
+draw_rectangle(x, y+8, x-16, y+24, true)
+draw_rectangle(x+8, y, x+24, y-16, true)
+draw_rectangle(x+32, y+8, x+48, y+24, true)
+draw_rectangle(x+8, y+32, x+24, y+48, true)
+
 draw_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, true);
