@@ -485,6 +485,7 @@
     {"id":{"name":"PushBoxCollisionUp","path":"sprites/PushBoxCollisionUp/PushBoxCollisionUp.yy",},},
     {"id":{"name":"RightBlackGradient","path":"sprites/RightBlackGradient/RightBlackGradient.yy",},},
     {"id":{"name":"RightBrokenCobbleFloor","path":"sprites/RightBrokenCobbleFloor/RightBrokenCobbleFloor.yy",},},
+    {"id":{"name":"rugdamaged","path":"sprites/rugdamaged/rugdamaged.yy",},},
     {"id":{"name":"RuinBrickTileSetSprite","path":"sprites/RuinBrickTileSetSprite/RuinBrickTileSetSprite.yy",},},
     {"id":{"name":"RuinFloorTileSetSprite","path":"sprites/RuinFloorTileSetSprite/RuinFloorTileSetSprite.yy",},},
     {"id":{"name":"RuinRoofTileSetSprite","path":"sprites/RuinRoofTileSetSprite/RuinRoofTileSetSprite.yy",},},
