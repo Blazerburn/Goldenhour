@@ -403,6 +403,7 @@
     {"name":"PushBoxCollisionUp","order":70,"path":"sprites/PushBoxCollisionUp/PushBoxCollisionUp.yy",},
     {"name":"RightBlackGradient","order":2,"path":"sprites/RightBlackGradient/RightBlackGradient.yy",},
     {"name":"RightBrokenCobbleFloor","order":1,"path":"sprites/RightBrokenCobbleFloor/RightBrokenCobbleFloor.yy",},
+    {"name":"rugdamaged","order":15,"path":"sprites/rugdamaged/rugdamaged.yy",},
     {"name":"RuinFloorTileSetSprite","order":16,"path":"sprites/RuinFloorTileSetSprite/RuinFloorTileSetSprite.yy",},
     {"name":"RuinRoofTileSetSprite","order":17,"path":"sprites/RuinRoofTileSetSprite/RuinRoofTileSetSprite.yy",},
     {"name":"RuinsOutskirts","order":4,"path":"sprites/RuinsOutskirts/RuinsOutskirts.yy",},
