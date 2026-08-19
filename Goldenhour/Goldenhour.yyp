@@ -169,6 +169,7 @@
     {"id":{"name":"obj_PosTP","path":"objects/obj_PosTP/obj_PosTP.yy",},},
     {"id":{"name":"obj_props","path":"objects/obj_props/obj_props.yy",},},
     {"id":{"name":"obj_PushableObject","path":"objects/obj_PushableObject/obj_PushableObject.yy",},},
+    {"id":{"name":"obj_PushableObjectCollision","path":"objects/obj_PushableObjectCollision/obj_PushableObjectCollision.yy",},},
     {"id":{"name":"obj_PushableObjectSpawner","path":"objects/obj_PushableObjectSpawner/obj_PushableObjectSpawner.yy",},},
     {"id":{"name":"obj_PuzzleTracker","path":"objects/obj_PuzzleTracker/obj_PuzzleTracker.yy",},},
     {"id":{"name":"obj_RockPile","path":"objects/obj_RockPile/obj_RockPile.yy",},},

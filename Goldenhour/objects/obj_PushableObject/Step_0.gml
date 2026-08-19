@@ -1,6 +1,10 @@
 var looking = false;
 var _stop = false;
 var _inst = inst;
+var _nextPos = 0;
+var _dont = false;
+
+
 //var _inst = 0;
 
 if global.pushingBox = 0 {
@@ -76,7 +80,7 @@ if collision_rectangle(x+2, y+4, x, y+28, TestPlayer, false, false) {
 								pushPlayerDirection = 0
 								show_debug_message("Down")
 								with _inst {
-								if collision_rectangle(x+4, y+28, x+28, y+44, TestWall, false, false) {
+								if collision_rectangle(x+4, y+32, x+28, y+44, TestWall, false, false) {
 									_stop = true;
 									show_debug_message("Space occupied")
 								}
@@ -102,7 +106,7 @@ if collision_rectangle(x+2, y+4, x, y+28, TestPlayer, false, false) {
 			}
 		}
 		else if pushPlayerDirection = 0 {
-			if collision_rectangle(x+4, y+28, x+28, y+44, TestWall, false, false) {
+			if collision_rectangle(x+4, y+32, x+28, y+44, TestWall, false, false) {
 				_stop = true;
 				show_debug_message("Space occupied")
 			}
@@ -174,7 +178,7 @@ if collision_rectangle(x+2, y+4, x, y+28, TestPlayer, false, false) {
 			if(global.pushingBox == 1)
 	{
 		if (global.Talking == 0) {
-			instance_deactivate_object(pathCollision);
+			//instance_deactivate_object(pathCollision);
 			instance_deactivate_object(pushBoxCollision);
 			var pushableBoxOriginX = x;
 				var pushableBoxOriginY = y;
@@ -197,15 +201,70 @@ if collision_rectangle(x+2, y+4, x, y+28, TestPlayer, false, false) {
 			
 				//x = floor(x)
 				//y = floor(y)
-			
-				if (pushPlayerDirection == 0 || pushPlayerDirection == 2) {
-				move_and_collide(xinput * SlowSpeed, yinput * NormalSpeed, [obj_PushableObject, obj_StuckPuzzleBox],4,0,0,SlowSpeed,NormalSpeed);
+
+				
+				
+				
+				/*with pathCollision {
+					if (pushPlayerDirection == 0 || pushPlayerDirection == 2) {
+					move_and_collide(xinput * SlowSpeed, yinput * NormalSpeed, [PushableWall],4,0,0,SlowSpeed,NormalSpeed);
+					}
+					if (pushPlayerDirection == 1 || pushPlayerDirection == 3) {
+					move_and_collide(xinput * NormalSpeed, yinput * SlowSpeed, [PushableWall],4,0,0,NormalSpeed,SlowSpeed);
+					}
+					//prevColX = x;
+					
 				}
-				if (pushPlayerDirection == 1 || pushPlayerDirection == 3) {
-				move_and_collide(xinput * NormalSpeed, yinput * SlowSpeed, [obj_PushableObject, obj_StuckPuzzleBox],4,0,0,NormalSpeed,SlowSpeed);
+				
+				colX = pathCollision.x
+				colY = pathCollision.y*/
+				
+				/*if TestPlayer.playerDirection == 0 {
+					_nextPos = y + 3
+					if place_meeting(x, _nextPos, PushableWall) {
+						_dont = true;
+						show_debug_message("Colliding")
+					}
 				}
+				if TestPlayer.playerDirection == 1 {
+					_nextPos = x + 3
+					if place_meeting(_nextPos, y, PushableWall) {
+						_dont = true;
+						show_debug_message("Colliding")
+					}
+				}
+				if TestPlayer.playerDirection == 2 {
+					_nextPos = y + 29
+					if place_meeting(x, _nextPos, PushableWall) {
+						_dont = true;
+						show_debug_message("Colliding")
+					}
+				}
+				if TestPlayer.playerDirection == 3 {
+					_nextPos = x + 29
+					if place_meeting(_nextPos, y, PushableWall) {
+						_dont = true;
+						show_debug_message("Colliding")
+					}
+				}*/
+				
+				if _dont = false {
+					if (pushPlayerDirection == 0 || pushPlayerDirection == 2) {
+					move_and_collide(xinput * SlowSpeed, yinput * NormalSpeed, [obj_PushableObject, obj_StuckPuzzleBox, PushableWall],4,0,0,SlowSpeed,NormalSpeed);
+					}
+					if (pushPlayerDirection == 1 || pushPlayerDirection == 3) {
+					move_and_collide(xinput * NormalSpeed, yinput * SlowSpeed, [obj_PushableObject, obj_StuckPuzzleBox, PushableWall],4,0,0,NormalSpeed,SlowSpeed);
+					}
+				}
+				
 			
+				//if place_meeting(x + _nextPos, y, PushableWall)
+				
+				
 			
+				//if collision_rectangle(x+4, y+4, x+28, y+28, PushableWall, false, false) {
+					
+				//}
 			
 				with(pushBoxCollision) {
 				x = pushableBoxOriginX + 3;
@@ -218,9 +277,9 @@ if collision_rectangle(x+2, y+4, x, y+28, TestPlayer, false, false) {
 		
 				if(pushPlayerDirection == 0)
 	{
-		mask_index = PushBoxCollisionDown
+		//mask_index = PushBoxCollisionDown
 		with(TestPlayer) {
-		
+					//move_and_collide(pushableBoxOriginX + 16,  pushableBoxOriginY + 16, [obj_PushableObject, obj_StuckPuzzleBox],4,0,0,1,1);
 					x = pushableBoxOriginX + 16;
 					y = pushableBoxOriginY + 16;
 					}
@@ -244,7 +303,7 @@ if collision_rectangle(x+2, y+4, x, y+28, TestPlayer, false, false) {
 	{
 		if(pushPlayerDirection == 1)
 	{
-		mask_index = PushBoxCollisionLeft
+		//mask_index = PushBoxCollisionLeft
 		with(TestPlayer) {
 						x = pushableBoxOriginX - 8;
 						y = pushableBoxOriginY;
@@ -269,7 +328,7 @@ if collision_rectangle(x+2, y+4, x, y+28, TestPlayer, false, false) {
 	{
 		if(pushPlayerDirection == 2)
 	{
-		mask_index = PushBoxCollisionUp
+		//mask_index = PushBoxCollisionUp
 		with(TestPlayer) {
 							x = pushableBoxOriginX + 16;
 							y = pushableBoxOriginY - 24;
@@ -294,7 +353,7 @@ if collision_rectangle(x+2, y+4, x, y+28, TestPlayer, false, false) {
 	{
 		if(pushPlayerDirection == 3)
 	{
-		mask_index = PushBoxCollisionRight
+		//mask_index = PushBoxCollisionRight
 		with(TestPlayer) {
 								x = pushableBoxOriginX + 40;
 								y = pushableBoxOriginY;
@@ -324,6 +383,31 @@ if collision_rectangle(x+2, y+4, x, y+28, TestPlayer, false, false) {
 	l35D9AC80_0 = keyboard_check_pressed(global.interactKey);
 	if (l35D9AC80_0)
 	{
+		if pushPlayerDirection = 1 {
+			if collision_rectangle(x, y+16, x-20, y+32, TestWall, false, false) {
+				_stop = true;
+				show_debug_message("Space occupied")
+			}
+		}
+		else if pushPlayerDirection = 2 {
+			if collision_rectangle(x+4, y, x+28, y-12, TestWall, false, false) {
+				_stop = true;
+				show_debug_message("Space occupied")
+			}
+		}
+		else if pushPlayerDirection = 3 {
+			if collision_rectangle(x+32, y+16, x+52, y+28, TestWall, false, false) {
+				_stop = true;
+				show_debug_message("Space occupied")
+			}
+		}
+		else if pushPlayerDirection = 0 {
+			if collision_rectangle(x+4, y+32, x+28, y+44, TestWall, false, false) {
+				_stop = true;
+				show_debug_message("Space occupied")
+			}
+		}
+		if _stop = false {
 		if (global.keepPushing = 0) {
 		global.pushingBox = 0;
 						global.playerAnimating = 0;
@@ -343,6 +427,7 @@ if collision_rectangle(x+2, y+4, x, y+28, TestPlayer, false, false) {
 						//show_debug_message(x)
 						//show_debug_message(y)
 						}
+		}
 		}
 	}
 	}

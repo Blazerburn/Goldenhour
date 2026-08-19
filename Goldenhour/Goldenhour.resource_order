@@ -124,6 +124,7 @@
     {"name":"obj_PosTP","order":5,"path":"objects/obj_PosTP/obj_PosTP.yy",},
     {"name":"obj_props","order":2,"path":"objects/obj_props/obj_props.yy",},
     {"name":"obj_PushableObject","order":29,"path":"objects/obj_PushableObject/obj_PushableObject.yy",},
+    {"name":"obj_PushableObjectCollision","order":40,"path":"objects/obj_PushableObjectCollision/obj_PushableObjectCollision.yy",},
     {"name":"obj_PushableObjectSpawner","order":7,"path":"objects/obj_PushableObjectSpawner/obj_PushableObjectSpawner.yy",},
     {"name":"obj_RockPile","order":39,"path":"objects/obj_RockPile/obj_RockPile.yy",},
     {"name":"obj_RoomSpawnpoint","order":3,"path":"objects/obj_RoomSpawnpoint/obj_RoomSpawnpoint.yy",},
