@@ -120,6 +120,7 @@ if(global.combining == 1)
 		[[38, c_yellow, 42, c_white], [-1], [-1], [-1]],
 		-1,
 		-1,
+		-1,
 	);
 	}
 	
