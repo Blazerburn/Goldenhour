@@ -28,7 +28,6 @@ if room == StreetRoom1 or
 
 // Inside Castle
 if room == HideoutRoom1 or
-	room == HideoutRoom2 or
 	room == PrincesRoom1 or
 	room == PrincesRoom2 or
 	room == PrincesRoom3 or
@@ -45,4 +44,9 @@ if room == HideoutRoom1 or
 	else if global.shiningCityPowered = 1 {
 		alpha = .5
 	}
+}
+
+// Specific dark room
+if room == HideoutRoom2 {
+	alpha = .75
 }

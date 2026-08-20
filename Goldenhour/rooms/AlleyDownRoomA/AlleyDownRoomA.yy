@@ -47,7 +47,7 @@
           -3,-2147483648,-2,1,1,13,-5,-2147483648,-2,1,1,13,-5,-2147483648,-2,1,1,13,-5,-2147483648,-2,1,1,13,
           -5,-2147483648,-2,1,1,13,-5,-2147483648,-2,1,1,13,-5,-2147483648,-2,1,1,13,-5,-2147483648,-2,1,1,13,
           -5,-2147483648,3,37,8,21,-18,-2147483648,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"tile_RuinShadingTileSet","path":"tilesets/tile_RuinShadingTileSet/tile_RuinShadingTileSet.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+        ],"TileDataFormat":1,},"tilesetId":{"name":"tile_RuinShadingTileSet","path":"tilesets/tile_RuinShadingTileSet/tile_RuinShadingTileSet.yy",},"userdefinedDepth":false,"visible":false,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"WallAbove","depth":800,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"WallAbove","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":11,"SerialiseWidth":8,"TileCompressedData":[
           -2,-2147483648,4,55,0,0,56,-4,-2147483648,4,55,-2147483648,-2147483648,56,-4,-2147483648,4,55,-2147483648,
           -2147483648,56,-4,-2147483648,4,55,-2147483648,-2147483648,56,-4,-2147483648,4,55,-2147483648,-2147483648,
