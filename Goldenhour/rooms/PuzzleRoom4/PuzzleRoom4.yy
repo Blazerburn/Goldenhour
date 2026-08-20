@@ -68,6 +68,8 @@
     {"name":"inst_634106F9","path":"rooms/PuzzleRoom4/PuzzleRoom4.yy",},
     {"name":"inst_3D253EE6","path":"rooms/PuzzleRoom4/PuzzleRoom4.yy",},
     {"name":"inst_609F1A9C","path":"rooms/PuzzleRoom4/PuzzleRoom4.yy",},
+    {"name":"inst_57322EF4","path":"rooms/PuzzleRoom4/PuzzleRoom4.yy",},
+    {"name":"inst_567FD38","path":"rooms/PuzzleRoom4/PuzzleRoom4.yy",},
   ],
   "isDnd":true,
   "layers":[
@@ -161,6 +163,8 @@
         {"$GMRInstance":"v4","%Name":"inst_634106F9","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_634106F9","objectId":{"name":"obj_BushC","path":"objects/obj_BushC/obj_BushC.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":544.0,"y":288.0,},
         {"$GMRInstance":"v4","%Name":"inst_3D253EE6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3D253EE6","objectId":{"name":"obj_BushA","path":"objects/obj_BushA/obj_BushA.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":448.0,"y":224.0,},
         {"$GMRInstance":"v4","%Name":"inst_609F1A9C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_609F1A9C","objectId":{"name":"obj_BushB","path":"objects/obj_BushB/obj_BushB.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":512.0,"y":128.0,},
+        {"$GMRInstance":"v4","%Name":"inst_57322EF4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_57322EF4","objectId":{"name":"obj_CrystallineHammerPickup","path":"objects/obj_CrystallineHammerPickup/obj_CrystallineHammerPickup.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":160.0,"y":192.0,},
+        {"$GMRInstance":"v4","%Name":"inst_567FD38","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_567FD38","objectId":{"name":"obj_ChiselRockPickup","path":"objects/obj_ChiselRockPickup/obj_ChiselRockPickup.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":192.0,"y":192.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"TreesSide","depth":1500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"TreesSide","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":12,"SerialiseWidth":19,"TileCompressedData":[
           -3,-2147483648,8,22,23,16,17,22,23,16,17,-11,-2147483648,8,30,31,24,25,30,31,24,25,-11,-2147483648,8,

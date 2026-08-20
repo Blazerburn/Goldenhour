@@ -28,7 +28,7 @@ if (puzzleProgress = 1) {
 	}
 	with (obj_PushableObject) {
 		instance_destroy(pushBoxCollision);
-		instance_destroy(pathCollision);
+		//instance_destroy(pathCollision);
 	}
 	instance_destroy(obj_PushableObject);
 	instance_destroy(collision);

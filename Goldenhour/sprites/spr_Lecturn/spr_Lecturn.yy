@@ -23,7 +23,7 @@
   ],
   "name":"spr_Lecturn",
   "nineSlice":null,
-  "origin":3,
+  "origin":4,
   "parent":{
     "name":"Objects",
     "path":"folders/Sprites/Ruins/Objects.yy",
@@ -75,7 +75,7 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":0,
+    "xorigin":16,
     "yorigin":32,
   },
   "swatchColours":null,
