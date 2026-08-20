@@ -15,6 +15,9 @@ function save_room()
 	// Box saving
 	var _boxNum = instance_number(obj_PushableObject);
 	
+	// Activators saving
+	var _actNum = instance_number(par_activator);
+	
 	
 	
 	var _roomStruct =
@@ -26,6 +29,10 @@ function save_room()
 		// Interactables
 		intNum : _intNum,
 		intData : array_create(_intNum),
+		
+		// Interactables
+		actNum : _actNum,
+		actData : array_create(_actNum),
 	}
 	
 	/*if instance_exists(obj_SaveMenu) {
@@ -62,6 +69,18 @@ function save_room()
 			}
 			show_debug_message(_roomStruct.intData[i]._choice_variable);
 			show_debug_message(_roomStruct.intData[i]._puzzleProgress);
+		}
+		
+		
+		// Activators
+		for (var i = 0; i < _actNum; i++) {
+			var _inst = instance_find(par_activator, i);
+		
+			_roomStruct.actData[i] = {
+				_activation : _inst.activation,
+				id : _inst.id,
+			}
+			show_debug_message(_roomStruct.actData[i]._activation);
 		}
 		
 		
@@ -171,6 +190,17 @@ function load_room()
 		//if (_roomStruct.intData[i]._choice_variable = "Destroy") {instance_deactivate_object(_roomStruct.intData[i].id);};
 		show_debug_message(_roomStruct.intData[i]._choice_variable);
 		show_debug_message(_roomStruct.intData[i]._puzzleProgress);
+	}
+	
+	// Activators
+	for (var i = 0; i < _roomStruct.actNum; i++) {
+		
+		//if !(_roomStruct.intData[i]._choice_variable = "Destroy") {instance_create_layer(_roomStruct.intData[i].x, _roomStruct.intData[i].y, layer, _roomStruct.intData[i].id)}
+		with (_roomStruct.actData[i].id) {
+			activation = _roomStruct.actData[i]._activation;
+		}
+		//if (_roomStruct.intData[i]._choice_variable = "Destroy") {instance_deactivate_object(_roomStruct.intData[i].id);};
+		show_debug_message(_roomStruct.actData[i]._activation);
 	}
 }
 

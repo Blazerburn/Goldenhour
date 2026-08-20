@@ -3,6 +3,7 @@
   "%Name":"obj_GreenBox",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"TestPlayer","path":"objects/TestPlayer/TestPlayer.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_GreenBox",
@@ -11,7 +12,10 @@
     "name":"Activations",
     "path":"folders/Objects/Activations.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"par_activator",
+    "path":"objects/par_activator/par_activator.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -34,5 +38,5 @@
     "path":"sprites/ActivationCollision/ActivationCollision.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

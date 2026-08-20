@@ -17,10 +17,10 @@
     {"$GMFolder":"","%Name":"Notes","folderPath":"folders/Notes.yy","name":"Notes","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Depth","folderPath":"folders/Notes/Depth.yy","name":"Depth","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Activations","folderPath":"folders/Objects/Activations.yy","name":"Activations","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Cameras","folderPath":"folders/Objects/Cameras.yy","name":"Cameras","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Collisions","folderPath":"folders/Objects/Collisions.yy","name":"Collisions","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Depth","folderPath":"folders/Objects/Depth.yy","name":"Depth","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Activations","folderPath":"folders/Objects/Activations.yy","name":"Activations","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"GUI","folderPath":"folders/Objects/GUI.yy","name":"GUI","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"FC_DialogueSystem","folderPath":"folders/Objects/GUI/FC_DialogueSystem.yy","name":"FC_DialogueSystem","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Inventory","folderPath":"folders/Objects/GUI/Inventory.yy","name":"Inventory","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -224,6 +224,7 @@
     {"id":{"name":"obj_WallLightRight","path":"objects/obj_WallLightRight/obj_WallLightRight.yy",},},
     {"id":{"name":"obj_WallLightRightColor","path":"objects/obj_WallLightRightColor/obj_WallLightRightColor.yy",},},
     {"id":{"name":"obj_WindowLight","path":"objects/obj_WindowLight/obj_WindowLight.yy",},},
+    {"id":{"name":"par_activator","path":"objects/par_activator/par_activator.yy",},},
     {"id":{"name":"par_Light","path":"objects/par_Light/par_Light.yy",},},
     {"id":{"name":"par_speaker","path":"objects/par_speaker/par_speaker.yy",},},
     {"id":{"name":"PlayerCamera","path":"objects/PlayerCamera/PlayerCamera.yy",},},
@@ -642,6 +643,7 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"rm_Persistent","path":"rooms/rm_Persistent/rm_Persistent.yy",},},
+    {"roomId":{"name":"StarterRoom1","path":"rooms/StarterRoom1/StarterRoom1.yy",},},
     {"roomId":{"name":"PrincesRoom5","path":"rooms/PrincesRoom5/PrincesRoom5.yy",},},
     {"roomId":{"name":"ParkRoom","path":"rooms/ParkRoom/ParkRoom.yy",},},
     {"roomId":{"name":"PuzzleRoom3","path":"rooms/PuzzleRoom3/PuzzleRoom3.yy",},},
@@ -651,7 +653,6 @@
     {"roomId":{"name":"StreetRoom1","path":"rooms/StreetRoom1/StreetRoom1.yy",},},
     {"roomId":{"name":"PrincesRoom1","path":"rooms/PrincesRoom1/PrincesRoom1.yy",},},
     {"roomId":{"name":"CastleExit","path":"rooms/CastleExit/CastleExit.yy",},},
-    {"roomId":{"name":"StarterRoom1","path":"rooms/StarterRoom1/StarterRoom1.yy",},},
     {"roomId":{"name":"PuzzleRoom2","path":"rooms/PuzzleRoom2/PuzzleRoom2.yy",},},
     {"children":[
         {"children":[
