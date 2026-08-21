@@ -500,6 +500,7 @@
     {"id":{"name":"RuinFloorTileSetSprite","path":"sprites/RuinFloorTileSetSprite/RuinFloorTileSetSprite.yy",},},
     {"id":{"name":"RuinRoofTileSetSprite","path":"sprites/RuinRoofTileSetSprite/RuinRoofTileSetSprite.yy",},},
     {"id":{"name":"ruinsgenerator_PoweredOn_","path":"sprites/ruinsgenerator_PoweredOn_/ruinsgenerator_PoweredOn_.yy",},},
+    {"id":{"name":"ruinsgenerator_PoweredOn_Bloom_","path":"sprites/ruinsgenerator_PoweredOn_Bloom_/ruinsgenerator_PoweredOn_Bloom_.yy",},},
     {"id":{"name":"ruinsgenerator","path":"sprites/ruinsgenerator/ruinsgenerator.yy",},},
     {"id":{"name":"RuinsOutskirts","path":"sprites/RuinsOutskirts/RuinsOutskirts.yy",},},
     {"id":{"name":"RuinTileSetSprite","path":"sprites/RuinTileSetSprite/RuinTileSetSprite.yy",},},
