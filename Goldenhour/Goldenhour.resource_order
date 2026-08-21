@@ -321,6 +321,7 @@
     {"name":"BrickWallTileSetSprite","order":6,"path":"sprites/BrickWallTileSetSprite/BrickWallTileSetSprite.yy",},
     {"name":"BrokenGlassShard","order":1,"path":"sprites/BrokenGlassShard/BrokenGlassShard.yy",},
     {"name":"BrokenPath","order":8,"path":"sprites/BrokenPath/BrokenPath.yy",},
+    {"name":"carvedrock","order":21,"path":"sprites/carvedrock/carvedrock.yy",},
     {"name":"CastlePropsTileSetSprite","order":29,"path":"sprites/CastlePropsTileSetSprite/CastlePropsTileSetSprite.yy",},
     {"name":"ChangeCollision","order":4,"path":"sprites/ChangeCollision/ChangeCollision.yy",},
     {"name":"ChestClosed","order":10,"path":"sprites/ChestClosed/ChestClosed.yy",},

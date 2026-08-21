@@ -398,6 +398,7 @@
     {"id":{"name":"BrokenGlassShard","path":"sprites/BrokenGlassShard/BrokenGlassShard.yy",},},
     {"id":{"name":"BrokenPath","path":"sprites/BrokenPath/BrokenPath.yy",},},
     {"id":{"name":"BrokenPathTile","path":"sprites/BrokenPathTile/BrokenPathTile.yy",},},
+    {"id":{"name":"carvedrock","path":"sprites/carvedrock/carvedrock.yy",},},
     {"id":{"name":"CastlePropsTileSetSprite","path":"sprites/CastlePropsTileSetSprite/CastlePropsTileSetSprite.yy",},},
     {"id":{"name":"ChangeCollision","path":"sprites/ChangeCollision/ChangeCollision.yy",},},
     {"id":{"name":"ChestClosed","path":"sprites/ChestClosed/ChestClosed.yy",},},
