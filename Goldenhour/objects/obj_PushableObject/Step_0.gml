@@ -250,10 +250,10 @@ if collision_rectangle(x+2, y+4, x, y+28, TestPlayer, false, false) {
 				
 				if _dont = false {
 					if (pushPlayerDirection == 0 || pushPlayerDirection == 2) {
-					move_and_collide(xinput * SlowSpeed, yinput * NormalSpeed, [obj_PushableObject, obj_StuckPuzzleBox, PushableWall, collisionMap],4,0,0,SlowSpeed,NormalSpeed);
+					move_and_collide(xinput * SlowSpeed, yinput * NormalSpeed, [obj_PushableObject, obj_StuckPuzzleBox, PushableWall],4,0,0,SlowSpeed,NormalSpeed);
 					}
 					if (pushPlayerDirection == 1 || pushPlayerDirection == 3) {
-					move_and_collide(xinput * NormalSpeed, yinput * SlowSpeed, [obj_PushableObject, obj_StuckPuzzleBox, PushableWall, collisionMap],4,0,0,NormalSpeed,SlowSpeed);
+					move_and_collide(xinput * NormalSpeed, yinput * SlowSpeed, [obj_PushableObject, obj_StuckPuzzleBox, PushableWall],4,0,0,NormalSpeed,SlowSpeed);
 					}
 				}
 				

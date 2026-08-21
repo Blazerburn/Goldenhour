@@ -47,7 +47,6 @@ if room == HideoutRoom1 or
 }
 
 // Specific dark room
-if room == HideoutRoom2 or
-	room == CoreRoom {
+if room == HideoutRoom2 {
 	alpha = .75
 }

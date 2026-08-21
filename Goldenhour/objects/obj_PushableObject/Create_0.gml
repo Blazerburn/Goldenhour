@@ -24,8 +24,6 @@ mask_index = PushBoxB
 pushBoxCollision = 0;
 pathCollision = 0;
 
-collisionMap = layer_tilemap_get_id("TileCollision")
-
 pushBoxCollision = instance_create_layer(x + 4, y + 4, "Box", TestWall);
 
 with(pushBoxCollision) {
