@@ -31,6 +31,8 @@ image_xscale = .4;
 image_yscale = .4;
 }
 
+pushCollision = layer_tilemap_get_id("TileCollision")
+
 //pathCollision = instance_create_layer(x, y, "Box", obj_PushableObjectCollision);
 
 /*pathCollision = instance_create_layer(x + 8, y + 8, "Box", PushableWall);

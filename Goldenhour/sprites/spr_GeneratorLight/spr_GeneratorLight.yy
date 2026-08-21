@@ -2,7 +2,7 @@
   "$GMSprite":"v2",
   "%Name":"spr_GeneratorLight",
   "bboxMode":0,
-  "bbox_bottom":161,
+  "bbox_bottom":158,
   "bbox_left":0,
   "bbox_right":191,
   "bbox_top":0,
@@ -19,6 +19,7 @@
   "height":192,
   "HTile":false,
   "layers":[
+    {"$GMImageLayer":"","%Name":"fc6b75e5-5730-4624-8cb6-e608e1215e37","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"fc6b75e5-5730-4624-8cb6-e608e1215e37","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":false,},
     {"$GMImageLayer":"","%Name":"3944790c-ef6b-49fa-9aa3-cbbf1cd34490","blendMode":0,"displayName":"default","isLocked":false,"name":"3944790c-ef6b-49fa-9aa3-cbbf1cd34490","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_GeneratorLight",

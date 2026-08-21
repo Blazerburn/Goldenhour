@@ -21,7 +21,7 @@ myPortraitIdle		= -1;
 
 choice_variable		= -1;	//the variable we change depending on the player's choice in dialogue
 
-collision = 0;
+/*collision = 0;
 
 collision = instance_create_layer(x + 0, y + 0, "Instances", TestWall);
 with(collision) {
