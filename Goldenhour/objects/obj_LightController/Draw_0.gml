@@ -87,6 +87,12 @@ if (surface_exists(masksurf)) {
 				}
 				break;
 				
+			case obj_Generator:
+				if global.shiningCityPowered = 1 {
+					draw_sprite_ext(spr_GeneratorLight, 0, x - _cx, y - _cy, 1, 1, 0, c_white, 1);
+				}
+				break;
+				
 			case obj_WindowLight:
 				with obj_WindowLight {
 					draw_sprite_ext(spr_WindowLight, image_index, x - _cx, y - _cy, 1, 1, 0, c_white, 1);
