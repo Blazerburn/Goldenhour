@@ -2,12 +2,16 @@ if (instance_exists(obj_textbox))
 {
 	//show_debug_message("Exists")
 	global.Talking = 1
-	global.Immobilize = 1
+	if global.keepWalking = false {
+		global.Immobilize = 1
+	}
 }
 else
 {
 	global.Talking = 0
 	global.Immobilize = 0
 	global.textEventChoice = 0
+	global.keepWalking = false
+	global.keepTalking = false
 	instance_destroy(self)
 }

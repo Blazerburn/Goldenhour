@@ -67,6 +67,8 @@ global.shiningCityPowered = 0;
 // Other shit
 global.playerFollowers = 0;
 global.shiftText = 0;
+global.keepWalking = false;
+global.keepTalking = false;
 global.textEventChoice = 0;
 global.inventoryArray = 0
 for(var _pos = 0; _pos < 9; _pos += 1) {

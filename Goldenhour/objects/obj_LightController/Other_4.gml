@@ -1,5 +1,10 @@
 // Ruins
 
+// Outskirts
+if room == CastleExit {
+	alpha = 0
+}
+
 // Outside Castle
 if room == StreetRoom1 or
 	room == StreetRoom2 or

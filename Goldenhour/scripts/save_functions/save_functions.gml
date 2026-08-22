@@ -85,6 +85,7 @@ function save_room()
 		
 		
 	//Store the room specific struct in global.levelData's variable meant for that level
+	if room == ShowRoom {global.levelData.Show = _roomStruct;};
 	if room == PuzzleRoom1 {global.levelData.Puzzle1 = _roomStruct;};
 	if room == PuzzleRoom2 {global.levelData.Puzzle2 = _roomStruct;};
 	if room == PuzzleRoom3 {global.levelData.Puzzle3 = _roomStruct;};
@@ -115,6 +116,7 @@ function load_room()
 	var _roomStruct = 0;
 	
 	// Get the correct struct for the room you're in
+	if room == ShowRoom {_roomStruct = global.levelData.Show;};
 	if room == PuzzleRoom1 {_roomStruct = global.levelData.Puzzle1;};
 	if room == PuzzleRoom2 {_roomStruct = global.levelData.Puzzle2;};
 	if room == PuzzleRoom3 {_roomStruct = global.levelData.Puzzle3;};

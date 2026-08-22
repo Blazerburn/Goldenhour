@@ -2,24 +2,51 @@
 
 #region TYPE 0: NORMAL
 if(type[page] == 0){
-	if(keyboard_check_pressed(interact_key)){
-		global.recentlyInteracted = 20;
-		//If we haven't "typed out" all the letters, immediately "type out" all letters (works as a "skip")
-		if(charCount < str_len){
-			charCount = string_length(text_NE);
-		}
-		
-		//Only increase page IF page + 1,is less than the total number of entries
-		else if(page+1 < array_length_1d(text)){
-			event_perform(ev_other, ev_user0);
-			switch(nextline[page]){
-				case -1: instance_destroy();	exit;
-				case  0: page += 1;				break;
-				default: page = nextline[page];
+	if global.keepTalking = false {
+		if(keyboard_check_pressed(interact_key)){
+			global.recentlyInteracted = 20;
+			//If we haven't "typed out" all the letters, immediately "type out" all letters (works as a "skip")
+			if(charCount < str_len){
+				charCount = string_length(text_NE);
 			}
-			event_perform(ev_alarm, 0);
+		
+			//Only increase page IF page + 1,is less than the total number of entries
+			else if(page+1 < array_length_1d(text)){
+				event_perform(ev_other, ev_user0);
+				switch(nextline[page]){
+					case -1: instance_destroy();	exit;
+					case  0: page += 1;				break;
+					default: page = nextline[page];
+				}
+				event_perform(ev_alarm, 0);
 			
-		} else { event_perform(ev_other, ev_user0); instance_destroy(); }
+			} else { event_perform(ev_other, ev_user0); instance_destroy(); }
+		}
+	}
+	else if global.keepTalking = true {
+		if activated = false {
+			global.recentlyInteracted = 3 + (15/1 + (charCount * 4));
+			activated = true;
+		}
+		if global.recentlyInteracted = 0 {
+			activated = false
+			//If we haven't "typed out" all the letters, immediately "type out" all letters (works as a "skip")
+			if(charCount < str_len){
+				charCount = string_length(text_NE);
+			}
+		
+			//Only increase page IF page + 1,is less than the total number of entries
+			else if(page+1 < array_length_1d(text)){
+				event_perform(ev_other, ev_user0);
+				switch(nextline[page]){
+					case -1: instance_destroy();	exit;
+					case  0: page += 1;				break;
+					default: page = nextline[page];
+				}
+				event_perform(ev_alarm, 0);
+			
+			} else { event_perform(ev_other, ev_user0); instance_destroy(); }
+		}
 	}
 } 
 #endregion

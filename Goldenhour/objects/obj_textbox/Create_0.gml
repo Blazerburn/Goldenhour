@@ -32,7 +32,7 @@ choice_col			= c_yellow;
 select_col			= c_orange;
 name_col			= c_orange;
 
-
+activated = false;
 
 name_font			= fnt_dialogue;
 
@@ -46,7 +46,10 @@ itemSelection_y     = variable_instance_get(TestPlayer, "itemSelection_y")+151;
 show_debug_message(itemSelection_y);
 
 global.Talking		= 1
-global.Immobilize	= 1
+
+if global.keepWalking = false {
+	global.Immobilize	= 1
+}
 
 priority_snd_effect = 5;
 open_mouth_frame	= 1;	//You only need to change this if you are using animated sprites
