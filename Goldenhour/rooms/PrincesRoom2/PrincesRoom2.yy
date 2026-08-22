@@ -56,9 +56,9 @@
     {"$GMRAssetLayer":"","%Name":"HUD","assets":[],"depth":-200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"HUD","properties":[],"resourceType":"GMRAssetLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Darkness","depth":-100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Darkness","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":8,"SerialiseWidth":32,"TileCompressedData":[
           -2,28,-27,15,6,2,15,-2147483648,28,34,37,-26,23,6,10,33,3,4,37,43,-17,-2147483648,-4,0,-5,-2147483648,
-          5,40,41,11,4,5,-19,-2147483648,-3,0,-6,-2147483648,4,6,7,12,13,-13,14,2,18,17,-13,14,4,30,31,20,21,-13,
-          22,2,26,25,-13,22,2,38,39,-8,-2147483648,-3,0,7,9,0,0,28,34,33,3,-21,-2147483648,-6,0,6,1,36,37,10,11,
-          1,-13,-2147483648,
+          5,40,41,11,4,5,-19,-2147483648,-3,0,-6,-2147483648,4,6,7,12,13,-12,14,4,18,19,16,17,-12,14,4,30,31,20,
+          21,-12,22,4,26,27,24,25,-12,22,2,38,39,-8,-2147483648,-3,0,8,9,0,1,4,5,6,7,1,-20,-2147483648,-6,0,6,
+          1,36,37,10,11,1,-13,-2147483648,
         ],"TileDataFormat":1,},"tilesetId":{"name":"TransitionTileSet","path":"tilesets/TransitionTileSet/TransitionTileSet.yy",},"userdefinedDepth":true,"visible":true,"x":0,"y":0,},
     {"$GMRInstanceLayer":"","%Name":"Text","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"Text","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Collisions","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[

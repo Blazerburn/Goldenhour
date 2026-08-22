@@ -101,6 +101,7 @@
     {"name":"obj_CastleDarknessController","order":24,"path":"objects/obj_CastleDarknessController/obj_CastleDarknessController.yy",},
     {"name":"obj_CastlePainting","order":12,"path":"objects/obj_CastlePainting/obj_CastlePainting.yy",},
     {"name":"obj_ChiselRockPickup","order":3,"path":"objects/obj_ChiselRockPickup/obj_ChiselRockPickup.yy",},
+    {"name":"obj_ChurchArrival","order":2,"path":"objects/obj_ChurchArrival/obj_ChurchArrival.yy",},
     {"name":"obj_CollisionChangeCollision","order":3,"path":"objects/obj_CollisionChangeCollision/obj_CollisionChangeCollision.yy",},
     {"name":"obj_CollisionChangeController","order":4,"path":"objects/obj_CollisionChangeController/obj_CollisionChangeController.yy",},
     {"name":"obj_CrystallineHammerPickup","order":4,"path":"objects/obj_CrystallineHammerPickup/obj_CrystallineHammerPickup.yy",},

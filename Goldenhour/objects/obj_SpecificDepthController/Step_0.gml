@@ -9,7 +9,7 @@ if colliding = 0 {
 if colliding = 1 {
 	if layer_exists("Light") {
 		layer_depth(layerID, lightDepth)
-		show_debug_message(lightDepth)
+		//show_debug_message(lightDepth)
 	}
 	else {
 		layer_depth(layerID, newDepth)

@@ -1,8 +1,15 @@
-if (place_meeting(x, y, TestPlayer)) {
+/*if (place_meeting(x, y, TestPlayer)) {
+	collision = true;
+	//show_debug_message("Colliding")
+}
+else  { collision = false;}*/
+
+if (rectangle_in_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, TestPlayer.bbox_left+8, TestPlayer.bbox_top, TestPlayer.bbox_right-8, TestPlayer.bbox_bottom)) {
 	collision = true;
 	//show_debug_message("Colliding")
 }
 else  { collision = false;}
+
 
 if collision = true {
 	if activated = false {
@@ -35,8 +42,6 @@ if collision = true {
 			}
 		}
 	}
-}
-else if collision = false {
 	if activated = true {
 		if movingUp = "Up" {
 			if TestPlayer.playerDirection = 2 {

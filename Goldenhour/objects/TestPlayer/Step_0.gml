@@ -359,7 +359,7 @@ if place_meeting(x, y, obj_SpecificDepthCollision) {
 	}
 }*/
 
-if place_meeting(x, y, obj_CollisionChangeCollision) {
+/*if place_meeting(x, y, obj_CollisionChangeCollision) {
 	if _colliding = "False" {
 		with (obj_CollisionChangeController) {
 			if colliding = 0 {
@@ -376,7 +376,7 @@ if place_meeting(x, y, obj_CollisionChangeCollision) {
 }
 else {
 	_colliding = "False"
-}
+}*/
 
 // When the player is using an item make them not be able to move
 if global.usingItem = 1 {
