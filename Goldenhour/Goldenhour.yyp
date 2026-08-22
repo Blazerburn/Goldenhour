@@ -430,6 +430,7 @@
     {"id":{"name":"CondiRightIdle","path":"sprites/CondiRightIdle/CondiRightIdle.yy",},},
     {"id":{"name":"CondiRightWalking","path":"sprites/CondiRightWalking/CondiRightWalking.yy",},},
     {"id":{"name":"CrystallineHammer","path":"sprites/CrystallineHammer/CrystallineHammer.yy",},},
+    {"id":{"name":"CrystallineHammer271","path":"sprites/CrystallineHammer271/CrystallineHammer271.yy",},},
     {"id":{"name":"DepthCollision","path":"sprites/DepthCollision/DepthCollision.yy",},},
     {"id":{"name":"Door1","path":"sprites/Door1/Door1.yy",},},
     {"id":{"name":"FixedPath","path":"sprites/FixedPath/FixedPath.yy",},},
