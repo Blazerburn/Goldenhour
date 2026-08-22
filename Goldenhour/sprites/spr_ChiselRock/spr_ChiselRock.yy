@@ -1,6 +1,6 @@
 {
   "$GMSprite":"v2",
-  "%Name":"carvedrock",
+  "%Name":"spr_ChiselRock",
   "bboxMode":0,
   "bbox_bottom":132,
   "bbox_left":30,
@@ -21,9 +21,9 @@
   "layers":[
     {"$GMImageLayer":"","%Name":"8546e45a-117c-488b-8471-49971e5dc6e6","blendMode":0,"displayName":"default","isLocked":false,"name":"8546e45a-117c-488b-8471-49971e5dc6e6","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"carvedrock",
+  "name":"spr_ChiselRock",
   "nineSlice":null,
-  "origin":0,
+  "origin":9,
   "parent":{
     "name":"Ruins",
     "path":"folders/Sprites/GUI's/Inventory/Inventory Items/Ruins.yy",
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"carvedrock",
+    "%Name":"spr_ChiselRock",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"carvedrock",
+    "name":"spr_ChiselRock",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,14 +69,14 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2fb5af33-80c7-4f69-9f45-745d69757bfe","path":"sprites/carvedrock/carvedrock.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2fb5af33-80c7-4f69-9f45-745d69757bfe","path":"sprites/spr_ChiselRock/spr_ChiselRock.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"773c0f87-47e5-443b-a390-bc901ab54037","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":0,
-    "yorigin":0,
+    "xorigin":75,
+    "yorigin":60,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

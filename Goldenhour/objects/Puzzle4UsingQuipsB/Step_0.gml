@@ -75,7 +75,7 @@ if(global.recentlyInteracted == 0)
 	-1,
 	-1,
 	-1,
-	[[0], [0], [0], [0], [add_item, 0, "Chisel Rock", ChiselRock, "Chisel Rock", 1]],
+	[[0], [0], [0], [0], [add_item, 0, "Chisel Rock", spr_ChiselRockOLD, "Chisel Rock", 1]],
 	-1,
 	-1,
 	-1,

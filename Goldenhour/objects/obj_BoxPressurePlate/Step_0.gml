@@ -17,7 +17,7 @@ if (instance_exists(obj_PushableObject)) {
 			audio_play_sound(sfx_PressurePlateSound, 5, false, _vol)
 			}
 			show_debug_message("Pressure Plate Active")
-			show_debug_message(global.pressurePlatesActive)
+			//show_debug_message(global.pressurePlatesActive)
 		}
 	}
 	else {
@@ -28,7 +28,7 @@ if (instance_exists(obj_PushableObject)) {
 			audio_play_sound(sfx_PressurePlateSound, 5, false, _vol)
 			}
 			show_debug_message(pressurePlateActive)
-			show_debug_message(global.pressurePlatesActive)
+			//show_debug_message(global.pressurePlatesActive)
 		}
 	}
 }

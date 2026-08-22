@@ -6,7 +6,7 @@ var _spritey = round(y)
 
 draw_sprite(sprite_index, -1, _spritex, _spritey)
 
-/*draw_set_colour(c_white)
+draw_set_colour(c_white)
 draw_rectangle(x+1, y+1, x+31, y+31, true)
 draw_rectangle(TestPlayer.x-10, TestPlayer.y+16, TestPlayer.x+10, TestPlayer.y+30, true)
 

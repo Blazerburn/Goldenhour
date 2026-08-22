@@ -33,4 +33,4 @@ if sound = 0 {
 		show_debug_message("Puzzle finished")
 	}
 }
-show_debug_message(sound)
+//show_debug_message(sound)
