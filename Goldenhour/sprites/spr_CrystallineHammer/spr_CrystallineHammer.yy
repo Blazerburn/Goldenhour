@@ -1,6 +1,6 @@
 {
   "$GMSprite":"v2",
-  "%Name":"CrystallineHammer271",
+  "%Name":"spr_CrystallineHammer",
   "bboxMode":0,
   "bbox_bottom":143,
   "bbox_left":26,
@@ -21,9 +21,9 @@
   "layers":[
     {"$GMImageLayer":"","%Name":"fd9f9f0b-5b92-4950-a282-486667ce6e52","blendMode":0,"displayName":"default","isLocked":false,"name":"fd9f9f0b-5b92-4950-a282-486667ce6e52","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"CrystallineHammer271",
+  "name":"spr_CrystallineHammer",
   "nineSlice":null,
-  "origin":0,
+  "origin":9,
   "parent":{
     "name":"Ruins",
     "path":"folders/Sprites/GUI's/Inventory/Inventory Items/Ruins.yy",
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"CrystallineHammer271",
+    "%Name":"spr_CrystallineHammer",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"CrystallineHammer271",
+    "name":"spr_CrystallineHammer",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,14 +69,14 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5dc655dc-c7e4-4638-97a2-e195c9c4a422","path":"sprites/CrystallineHammer271/CrystallineHammer271.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5dc655dc-c7e4-4638-97a2-e195c9c4a422","path":"sprites/spr_CrystallineHammer/spr_CrystallineHammer.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"62fe8326-43fe-4626-ad18-313dff4941a4","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":0,
-    "yorigin":0,
+    "xorigin":75,
+    "yorigin":60,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

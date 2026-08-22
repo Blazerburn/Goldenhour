@@ -36,7 +36,7 @@ switch(choice_variable){
 		myText[i]		= ["Take the Crystal Hammer", "Leave it"];
 		myTypes[i]		= 1;
 		myNextLine[i]	= [6,8];
-		myScripts[i]	= [[add_item, 0, "Crystal Hammer", CrystallineHammer, "Crystal Hammer", 1], [change_variable, id, "choice_variable", "Leave"]];
+		myScripts[i]	= [[add_item, 0, "Crystal Hammer", spr_CrystallineHammer, "Crystal Hammer", 1], [change_variable, id, "choice_variable", "Leave"]];
 		mySpeaker[i]	= TestPlayer;
 
 		//Line 6
@@ -91,7 +91,7 @@ switch(choice_variable){
 		myText[i]		= ["Take the Crystal Hammer", "Leave it"];
 		myTypes[i]		= 1;
 		myNextLine[i]	= [2,4];
-		myScripts[i]	= [[add_item, 0, "Crystal Hammer", CrystallineHammer, "Crystal Hammer", 1], [change_variable, id, "choice_variable", "Leave"]];
+		myScripts[i]	= [[add_item, 0, "Crystal Hammer", spr_CrystallineHammer, "Crystal Hammer", 1], [change_variable, id, "choice_variable", "Leave"]];
 		mySpeaker[i]	= TestPlayer;
 		
 		//Line 2
