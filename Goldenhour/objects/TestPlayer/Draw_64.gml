@@ -1,3 +1,5 @@
+draw_set_color(c_white)
+
 if(global.inventoryOpen == 1)
 {
 	draw_set_colour(c_white)

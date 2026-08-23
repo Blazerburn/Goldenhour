@@ -3,76 +3,79 @@ reset_dialogue_defaults();
 
 
 switch(choice_variable){
-	case -1:
+	case 0:
 	#region First Dialogue
 		//Line 0
 		var i = 0;
-		myText[i]		= "A lecturn with a book open on it";
+		myText[i]		= "How did you reach this?";
 		mySpeaker[i]	= id;
-		myScripts[i]    = [change_variable, id, "choice_variable", "Interacted"]
-		
-		//Line 1
-		i++;
-		myText[i]		= "You blow off the dust on the pages";
-		mySpeaker[i]	= id;
-		
-		//Line 2
-		i++;
-		myText[i]		= "The book says,'";
-		mySpeaker[i]	= id;
-		
-		//Line 3
-		i++;
-		myText[i]		= "... and they will come.";
-		mySpeaker[i]	= id;
-		
-		//Line 4
-		i++;
-		myText[i]		= "From a light in the sky.";
-		mySpeaker[i]	= id;
-		
-		//Line 5
-		i++;
-		myText[i]		= "And they will know how to wake us from this dream'";
-		mySpeaker[i]	= id;
-		
-		//Line 6
-		i++;
-		myText[i]		= "A... dream?";
-		mySpeaker[i]	= TestPlayer;
-		
-		//Line 7
-		i++;
-		myText[i]		= "I guess that would explain... all of this";
-		mySpeaker[i]	= TestPlayer;
-		
-		//Line 8
-		i++;
-		myText[i]		= "I should find whoever this is talking about";
-		mySpeaker[i]	= TestPlayer;
 	#endregion
 	break;
 	
-	case "Interacted":
+	case 1:
 	#region First Dialogue
 		//Line 0
 		var i = 0;
-		myText[i]		= "The book says,'";
+		myText[i]		= "A painting of the strange sky with the blue trees that cover this landscape";
 		mySpeaker[i]	= id;
 		
 		//Line 1
 		i++;
-		myText[i]		= "... and they will come.";
+		myText[i]		= "The painting seems to have been knocked a bit from it's normal orientation";
+		mySpeaker[i]	= id;
+	#endregion
+	break;
+	
+	case 2:
+	#region First Dialogue
+		//Line 0
+		var i = 0;
+		myText[i]		= "A red 2 is painted on...";
+		myTextCol[i]    = [6, c_red, 8, c_white];
+		mySpeaker[i]	= id;
+		
+		//Line 1
+		i++;
+		myText[i]		= "Well, a painting";
 		mySpeaker[i]	= id;
 		
 		//Line 2
 		i++;
-		myText[i]		= "From a light in the sky.";
+		myText[i]		= "The painting appears to be depicting some sort of blue star shaped rock?";
 		mySpeaker[i]	= id;
 		
-		//Line 3
+		//Line 2
 		i++;
-		myText[i]		= "And they will know how to wake us from this dream'";
+		myText[i]		= "But it's now been covered by this red 2";
+		myTextCol[i]    = [38, c_red, 40, c_white];
+		mySpeaker[i]	= id;
+	#endregion
+	break
+	
+	case 3:
+	#region First Dialogue
+		//Line 0
+		var i = 0;
+		myText[i]		= "A strange marble building surrounded by a gold paint";
+		mySpeaker[i]	= id;
+		
+		//Line 1
+		i++;
+		myText[i]		= "It looks kind of like the Parthenon if it had a clock on it";
+		mySpeaker[i]	= id;
+	#endregion
+	break;
+	
+	case 4:
+	#region First Dialogue
+		//Line 0
+		var i = 0;
+		myText[i]		= "The golden river surrounds one of the trees";
+		mySpeaker[i]	= id;
+		
+		//Line 1
+		i++;
+		myText[i]		= "The scene feels kinda serene";
 		mySpeaker[i]	= id;
 	#endregion
 	break;

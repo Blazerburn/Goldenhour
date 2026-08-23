@@ -96,5 +96,33 @@ switch(choice_variable){
 	#endregion
 	break;
 	
+	case 9:
+	#region First Dialogue
+		//Line 0
+		var i = 0;
+		myText[i]		= "The door is locked";
+		mySpeaker[i]	= id;
+		
+	#endregion
+	break;
 	
+	case 10:
+	#region First Dialogue
+		//Line 0
+		var i = 0;
+		myText[i]		= "The door is locked";
+		mySpeaker[i]	= id;
+		
+	#endregion
+	break;
+	
+	case 11:
+	#region First Dialogue
+		//Line 0
+		var i = 0;
+		myText[i]		= "The door is locked";
+		mySpeaker[i]	= id;
+		
+	#endregion
+	break;
 }

@@ -30,10 +30,10 @@ draw_rectangle(x+4, y+2, x+28, y, true)
 draw_rectangle(x+30, y+4, x+32, y+28, true)
 draw_rectangle(x+4, y+30, x+28, y+32, true)
 
-draw_rectangle(x, y+16, x-20, y+28, true)
-draw_rectangle(x+4, y, x+28, y-12, true)
-draw_rectangle(x+32, y+16, x+52, y+28, true)
-draw_rectangle(x+4, y+32, x+28, y+44, true)
+draw_rectangle(x, y+16, x-20, y+26, true)
+draw_rectangle(x+6, y, x+26, y-12, true)
+draw_rectangle(x+32, y+16, x+52, y+26, true)
+draw_rectangle(x+6, y+32, x+26, y+44, true)
 
 draw_rectangle(x+4, y+4, x+28, y+28, true)
 

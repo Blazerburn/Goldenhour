@@ -49,45 +49,45 @@ with _inst {
 if collision_rectangle(x+2, y+4, x, y+28, TestPlayer, false, false) {
 								pushPlayerDirection = 1
 								show_debug_message("Left")
-								with _inst {
+								/*with _inst {
 								if collision_rectangle(x, y+16, x-20, y+32, TestWall, false, false) {
 									_stop = true;
 									show_debug_message("Space occupied")
 								}
-								}
+								}*/
 							}
 							else if collision_rectangle(x+4, y+2, x+28, y, TestPlayer, false, false) {
 								pushPlayerDirection = 2
 								show_debug_message("Up")
-								with _inst {
+								/*with _inst {
 								if collision_rectangle(x+4, y, x+28, y-12, TestWall, false, false) {
 									_stop = true;
 									show_debug_message("Space occupied")
 								}
-								}
+								}*/
 							}
 							else if collision_rectangle(x+30, y+4, x+32, y+28, TestPlayer, false, false) {
 								pushPlayerDirection = 3
 								show_debug_message("Right")
-								with _inst {
+								/*with _inst {
 								if collision_rectangle(x+32, y+16, x+52, y+28, TestWall, false, false) {
 									_stop = true;
 									show_debug_message("Space occupied")
 								}
-								}
+								}*/
 							}
 							else if collision_rectangle(x+4, y+30, x+28, y+32, TestPlayer, false, false) {
 								pushPlayerDirection = 0
 								show_debug_message("Down")
-								with _inst {
+								/*with _inst {
 								if collision_rectangle(x+4, y+32, x+28, y+44, TestWall, false, false) {
 									_stop = true;
 									show_debug_message("Space occupied")
 								}
-								}
+								}*/
 							}
 							
-	if pushPlayerDirection = 1 {
+	/*if pushPlayerDirection = 1 {
 			if collision_rectangle(x, y+16, x-20, y+32, TestWall, false, false) {
 				_stop = true;
 				show_debug_message("Space occupied")
@@ -110,7 +110,7 @@ if collision_rectangle(x+2, y+4, x, y+28, TestPlayer, false, false) {
 				_stop = true;
 				show_debug_message("Space occupied")
 			}
-		}
+		}*/
 }
 
 
@@ -384,25 +384,25 @@ if collision_rectangle(x+2, y+4, x, y+28, TestPlayer, false, false) {
 	if (l35D9AC80_0)
 	{
 		if pushPlayerDirection = 1 {
-			if collision_rectangle(x, y+16, x-20, y+32, TestWall, false, false) {
+			if collision_rectangle(x, y+16, x-20, y+26, TestWall, false, false) {
 				_stop = true;
 				show_debug_message("Space occupied")
 			}
 		}
 		else if pushPlayerDirection = 2 {
-			if collision_rectangle(x+4, y, x+28, y-12, TestWall, false, false) {
+			if collision_rectangle(x+6, y, x+26, y-12, TestWall, false, false) {
 				_stop = true;
 				show_debug_message("Space occupied")
 			}
 		}
 		else if pushPlayerDirection = 3 {
-			if collision_rectangle(x+32, y+16, x+52, y+28, TestWall, false, false) {
+			if collision_rectangle(x+32, y+16, x+52, y+26, TestWall, false, false) {
 				_stop = true;
 				show_debug_message("Space occupied")
 			}
 		}
 		else if pushPlayerDirection = 0 {
-			if collision_rectangle(x+4, y+32, x+28, y+44, TestWall, false, false) {
+			if collision_rectangle(x+6, y+32, x+26, y+44, TestWall, false, false) {
 				_stop = true;
 				show_debug_message("Space occupied")
 			}

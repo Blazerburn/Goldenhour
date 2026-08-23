@@ -1,6 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+draw_set_color(c_white)
+
 draw_sprite_stretched(spr_settingbox, 0, 0, 0, gui_width, gui_height)
 
 draw_set_halign(fa_center);
