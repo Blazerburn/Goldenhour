@@ -11,8 +11,8 @@
   "name":"obj_Ruins1Puzzle6",
   "overriddenProperties":[],
   "parent":{
-    "name":"ItemUseQuips",
-    "path":"folders/Objects/Puzzles/Puzzle Controllers/Ruins/Item Use/ItemUseQuips.yy",
+    "name":"Item Use",
+    "path":"folders/Objects/Puzzles/Puzzle Controllers/Ruins/Item Use.yy",
   },
   "parentObjectId":{
     "name":"par_speaker",
