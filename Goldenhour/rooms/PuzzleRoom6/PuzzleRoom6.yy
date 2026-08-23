@@ -74,7 +74,6 @@
     {"name":"inst_19D85897","path":"rooms/PuzzleRoom6/PuzzleRoom6.yy",},
     {"name":"inst_841F19A","path":"rooms/PuzzleRoom6/PuzzleRoom6.yy",},
     {"name":"inst_E19E5D0","path":"rooms/PuzzleRoom6/PuzzleRoom6.yy",},
-    {"name":"inst_118D655C","path":"rooms/PuzzleRoom6/PuzzleRoom6.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -214,7 +213,6 @@
         {"$GMRInstance":"v4","%Name":"inst_19D85897","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_19D85897","objectId":{"name":"obj_BushB","path":"objects/obj_BushB/obj_BushB.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":640.0,"y":544.0,},
         {"$GMRInstance":"v4","%Name":"inst_841F19A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_841F19A","objectId":{"name":"obj_BushA","path":"objects/obj_BushA/obj_BushA.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":672.0,"y":384.0,},
         {"$GMRInstance":"v4","%Name":"inst_E19E5D0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_E19E5D0","objectId":{"name":"obj_BushC","path":"objects/obj_BushC/obj_BushC.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":640.0,"y":160.0,},
-        {"$GMRInstance":"v4","%Name":"inst_118D655C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_118D655C","objectId":{"name":"obj_MakeshiftAxePickup","path":"objects/obj_MakeshiftAxePickup/obj_MakeshiftAxePickup.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":96.0,"y":320.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_3","depth":2600,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_3","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":20,"SerialiseWidth":24,"TileCompressedData":[
           -57,-2147483648,-8,101,-16,-2147483648,-8,101,-67,-2147483648,1,0,-4,-2147483648,1,101,-14,-2147483648,

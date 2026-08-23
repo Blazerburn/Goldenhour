@@ -483,6 +483,7 @@
     {"name":"spr_SideLeftBookshelves","order":70,"path":"sprites/spr_SideLeftBookshelves/spr_SideLeftBookshelves.yy",},
     {"name":"spr_SideRightBookshelves","order":71,"path":"sprites/spr_SideRightBookshelves/spr_SideRightBookshelves.yy",},
     {"name":"spr_Star","order":8,"path":"sprites/spr_Star/spr_Star.yy",},
+    {"name":"spr_StoneCrate","order":81,"path":"sprites/spr_StoneCrate/spr_StoneCrate.yy",},
     {"name":"spr_StuckGreenPushBox","order":69,"path":"sprites/spr_StuckGreenPushBox/spr_StuckGreenPushBox.yy",},
     {"name":"spr_textbox","order":15,"path":"sprites/spr_textbox/spr_textbox.yy",},
     {"name":"spr_TorchLightColor","order":44,"path":"sprites/spr_TorchLightColor/spr_TorchLightColor.yy",},

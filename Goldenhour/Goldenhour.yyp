@@ -569,6 +569,7 @@
     {"id":{"name":"spr_SideLeftBookshelves","path":"sprites/spr_SideLeftBookshelves/spr_SideLeftBookshelves.yy",},},
     {"id":{"name":"spr_SideRightBookshelves","path":"sprites/spr_SideRightBookshelves/spr_SideRightBookshelves.yy",},},
     {"id":{"name":"spr_Star","path":"sprites/spr_Star/spr_Star.yy",},},
+    {"id":{"name":"spr_StoneCrate","path":"sprites/spr_StoneCrate/spr_StoneCrate.yy",},},
     {"id":{"name":"spr_StuckGreenPushBox","path":"sprites/spr_StuckGreenPushBox/spr_StuckGreenPushBox.yy",},},
     {"id":{"name":"spr_textbox","path":"sprites/spr_textbox/spr_textbox.yy",},},
     {"id":{"name":"spr_TorchLightColor","path":"sprites/spr_TorchLightColor/spr_TorchLightColor.yy",},},
