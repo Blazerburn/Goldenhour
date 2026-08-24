@@ -665,11 +665,11 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"rm_Persistent","path":"rooms/rm_Persistent/rm_Persistent.yy",},},
+    {"roomId":{"name":"ParkRoom","path":"rooms/ParkRoom/ParkRoom.yy",},},
+    {"roomId":{"name":"StarterRoom1","path":"rooms/StarterRoom1/StarterRoom1.yy",},},
     {"roomId":{"name":"PrincesRoom1","path":"rooms/PrincesRoom1/PrincesRoom1.yy",},},
     {"roomId":{"name":"PuzzleRoom4","path":"rooms/PuzzleRoom4/PuzzleRoom4.yy",},},
-    {"roomId":{"name":"ParkRoom","path":"rooms/ParkRoom/ParkRoom.yy",},},
     {"roomId":{"name":"PuzzleRoom2","path":"rooms/PuzzleRoom2/PuzzleRoom2.yy",},},
-    {"roomId":{"name":"StarterRoom1","path":"rooms/StarterRoom1/StarterRoom1.yy",},},
     {"roomId":{"name":"CastleExit","path":"rooms/CastleExit/CastleExit.yy",},},
     {"roomId":{"name":"ShowRoom","path":"rooms/ShowRoom/ShowRoom.yy",},},
     {"roomId":{"name":"ChurchRoom1","path":"rooms/ChurchRoom1/ChurchRoom1.yy",},},

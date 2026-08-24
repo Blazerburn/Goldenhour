@@ -61,16 +61,16 @@ switch(choice_variable){
 		myText[i]		= "There's a sturdy wire poking out of the ground that connected to the pressure plate";
 		mySpeaker[i]	= id;
 		
-		//Line 1
+		//Line 2
 		i++;
 		myText[i]		= ["Open your bag", "Leave it for now"];
 		myTypes[i]		= 1;
-		myNextLine[i]	= [-1,2];
+		myNextLine[i]	= [-1,3];
 		myScripts[i]	= [[use_item, "Fixed Plate", Puzzle3UsingQuips], [change_variable, id, "choice_variable", "Take"]];
 		mySpeaker[i]	= TestPlayer;
 		
 		
-		//Line 2
+		//Line 3
 		i++;
 		myText[i]		= "You leave the empty space";
 		mySpeaker[i]	= id;
