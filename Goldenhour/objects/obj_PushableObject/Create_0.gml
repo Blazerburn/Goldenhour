@@ -27,8 +27,8 @@ pathCollision = 0;
 pushBoxCollision = instance_create_layer(x + 4, y + 4, "Box", TestWall);
 
 with(pushBoxCollision) {
-image_xscale = .4;
-image_yscale = .4;
+image_xscale = .375;
+image_yscale = .375;
 }
 
 pushCollision = layer_tilemap_get_id("TileCollision")

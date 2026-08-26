@@ -140,12 +140,12 @@ if (surface_exists(masksurf)) {
 	//alpha = 1;
 	
 
-	
+	draw_set_alpha(1)
 	gpu_set_blendmode(bm_subtract);
 	draw_surface(masksurf, 0, 0)
 	gpu_set_blendmode(bm_normal)
 	surface_reset_target()
-	draw_set_alpha(1)
+	
 	draw_surface(lightsurf, _cx, _cy);
 	
 	}

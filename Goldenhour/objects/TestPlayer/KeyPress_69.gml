@@ -15,4 +15,4 @@ show_debug_message(global.lay_alpha);*/
 
 //global.shiningCityPowered = 1;
 
-//room_goto(ParkRoom)
+//room_goto(CastleEntrance)

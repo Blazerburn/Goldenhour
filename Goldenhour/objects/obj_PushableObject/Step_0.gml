@@ -8,7 +8,7 @@ var _dont = false;
 //var _inst = 0;
 
 if global.pushingBox = 0 {
-with TestPlayer {
+	with TestPlayer {
 						if playerDirection = 0 {
 							_inst = collision_line(x, y, x, y+16, obj_PushableObject, false, false)
 								if _inst {	
