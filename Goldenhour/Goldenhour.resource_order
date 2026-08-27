@@ -237,7 +237,6 @@
     {"name":"rm_CastleApartmentC","order":42,"path":"rooms/rm_CastleApartmentC/rm_CastleApartmentC.yy",},
     {"name":"rm_DeepLibrary1","order":43,"path":"rooms/rm_DeepLibrary1/rm_DeepLibrary1.yy",},
     {"name":"rm_DeepLibrary2","order":44,"path":"rooms/rm_DeepLibrary2/rm_DeepLibrary2.yy",},
-    {"name":"rm_DeepLibrarySecretEntrance","order":46,"path":"rooms/rm_DeepLibrarySecretEntrance/rm_DeepLibrarySecretEntrance.yy",},
     {"name":"rm_DeepLibraryStairs","order":45,"path":"rooms/rm_DeepLibraryStairs/rm_DeepLibraryStairs.yy",},
     {"name":"rm_dialoguesystem_demo","order":5,"path":"rooms/rm_dialoguesystem_demo/rm_dialoguesystem_demo.yy",},
     {"name":"rm_Persistent","order":6,"path":"rooms/rm_Persistent/rm_Persistent.yy",},
