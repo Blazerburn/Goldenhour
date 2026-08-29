@@ -361,6 +361,7 @@
     {"name":"CondiLeftWalking","order":10,"path":"sprites/CondiLeftWalking/CondiLeftWalking.yy",},
     {"name":"CondiRightIdle","order":12,"path":"sprites/CondiRightIdle/CondiRightIdle.yy",},
     {"name":"CondiRightWalking","order":11,"path":"sprites/CondiRightWalking/CondiRightWalking.yy",},
+    {"name":"CrystallineHammer","order":25,"path":"sprites/CrystallineHammer/CrystallineHammer.yy",},
     {"name":"Door1","order":2,"path":"sprites/Door1/Door1.yy",},
     {"name":"FixedPath","order":9,"path":"sprites/FixedPath/FixedPath.yy",},
     {"name":"FixedPathTile","order":1,"path":"sprites/FixedPathTile/FixedPathTile.yy",},
