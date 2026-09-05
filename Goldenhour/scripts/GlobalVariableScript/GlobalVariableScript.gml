@@ -10,6 +10,8 @@ global.playerSpawnpointY = 0;
 global.playerX = 0;
 global.playerY = 0;
 
+global.playerLooking = 0;
+
 // Busy doing things variables
 global.animating = false;
 global.noText = false;
