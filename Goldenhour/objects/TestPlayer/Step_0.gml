@@ -324,6 +324,47 @@ if(global.keepPlayerDirection == 1)
 }
 }
 
+// Player Looking
+var _inst = 0;
+if playerDirection = 0 {
+	_inst = collision_line(x, y, x, y+16, par_interactable, false, false)
+	if _inst {	
+		looking = true;
+								
+		show_debug_message("Looking up")
+		//show_debug_message(looking)
+	}	
+}
+						else if playerDirection = 1 {
+							_inst = collision_line(x, y+16, x+16, y+16, par_interactable, false, false) 
+								if _inst {	
+								looking = true;
+								show_debug_message("Looking right")
+								//show_debug_message(looking)
+							}
+						}
+						else if playerDirection = 2 {
+							_inst = collision_line(x, y+16, x, y+32, par_interactable, false, false)
+								if _inst {	
+								looking = true;
+								show_debug_message("Looking down")
+								//show_debug_message(looking)
+							}
+						}
+						else if playerDirection = 3 {
+							_inst = collision_line(x-16, y+16, x, y+16, par_interactable, false, false) 
+								if _inst {	
+								looking = true;
+								show_debug_message("Looking left")
+								//show_debug_message(looking)
+							}
+						}
+
+
+
+
+
+
 with(InventorySelectObject) {
 var selectionX = x;
 var selectionY = y;

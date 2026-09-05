@@ -179,6 +179,7 @@
     {"name":"obj_WallStairs","order":8,"path":"objects/obj_WallStairs/obj_WallStairs.yy",},
     {"name":"obj_WindowLight","order":4,"path":"objects/obj_WindowLight/obj_WindowLight.yy",},
     {"name":"par_activator","order":1,"path":"objects/par_activator/par_activator.yy",},
+    {"name":"par_interactable","order":3,"path":"objects/par_interactable/par_interactable.yy",},
     {"name":"par_Light","order":1,"path":"objects/par_Light/par_Light.yy",},
     {"name":"par_speaker","order":3,"path":"objects/par_speaker/par_speaker.yy",},
     {"name":"PlayerCamera","order":1,"path":"objects/PlayerCamera/PlayerCamera.yy",},
