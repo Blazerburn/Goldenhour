@@ -391,34 +391,6 @@ if place_meeting(x, y, obj_SpecificDepthCollision) {
 	}
 }
 
-// Collision Change Controller
-/*if !place_meeting(x, y, obj_CollisionChangeCollision) {
-	
-	with (obj_CollisionChangeController) {
-		show_debug_message("Not Colliding")
-		colliding = 0;
-	}
-}*/
-
-/*if place_meeting(x, y, obj_CollisionChangeCollision) {
-	if _colliding = "False" {
-		with (obj_CollisionChangeController) {
-			if colliding = 0 {
-				show_debug_message("Colliding")
-				colliding = 1;
-			}
-			else if colliding = 1 {
-				show_debug_message("Not Colliding")
-				colliding = 0;
-			}
-		}
-		_colliding = "True"
-	}
-}
-else {
-	_colliding = "False"
-}*/
-
 // When the player is using an item make them not be able to move
 if global.usingItem = 1 {
 	global.Immobilize = 1

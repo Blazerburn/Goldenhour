@@ -43,5 +43,5 @@
   "tags":[
     "Interactable",
   ],
-  "visible":true,
+  "visible":false,
 }

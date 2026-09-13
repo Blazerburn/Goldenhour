@@ -92,4 +92,12 @@ function reset_room_song() {
 			set_song_ingame(sng_RuinsLight, 120, 60)
 		}
 	}
+	
+	// Castle Basement
+	if room == rm_DeepLibrary1
+	or room == rm_DeepLibrary2
+	or room == rm_DeepLibraryStairs
+	{
+		set_song_ingame(sng_Basement, 60, 60)
+	}
 }
