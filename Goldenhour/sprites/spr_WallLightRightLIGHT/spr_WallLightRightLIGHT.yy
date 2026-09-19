@@ -50,8 +50,8 @@
   },
   "origin":4,
   "parent":{
-    "name":"Objects",
-    "path":"folders/Sprites/Ruins/Objects.yy",
+    "name":"Lights",
+    "path":"folders/Sprites/Ruins/Lights.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

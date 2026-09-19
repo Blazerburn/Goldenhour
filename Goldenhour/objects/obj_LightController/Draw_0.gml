@@ -63,10 +63,15 @@ if (surface_exists(masksurf)) {
 
 			switch(object_index)
 			{
+			// Shining Ruins Lights
 			case obj_WallLight:
 				if global.shiningCityPowered = 1 {
 					draw_sprite_ext(spr_WallLightLIGHT, 0, x - _cx, y - _cy, 1, 1, 0, c_white, 1);
 				}
+				break;
+				
+			case obj_LibraryLight:
+				draw_sprite_ext(spr_WallLightLIGHT, 0, x - _cx, y - _cy, 1, 1, 0, c_white, 1);
 				break;
 				
 			case obj_WallLightLeft:

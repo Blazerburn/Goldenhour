@@ -56,3 +56,11 @@ if room == HideoutRoom2 or
 	room == CoreRoom {
 	alpha = .75
 }
+
+// Specific dark room
+if room == rm_DeepLibrary1 or
+	room == rm_DeepLibrary2 or
+	room == rm_DeepLibraryStairs or
+	room == rm_DeepLibraryEntrance {
+	alpha = .75
+}

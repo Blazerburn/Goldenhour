@@ -30,6 +30,7 @@
     {"name":"inst_273104F9","path":"rooms/rm_DeepLibrary1/rm_DeepLibrary1.yy",},
     {"name":"inst_6DF25334","path":"rooms/rm_DeepLibrary1/rm_DeepLibrary1.yy",},
     {"name":"inst_3EE09B94","path":"rooms/rm_DeepLibrary1/rm_DeepLibrary1.yy",},
+    {"name":"inst_5EB1AE3","path":"rooms/rm_DeepLibrary1/rm_DeepLibrary1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -49,6 +50,7 @@
       ],"layers":[],"name":"Collisions","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":false,},
     {"$GMRInstanceLayer":"","%Name":"Light","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_7709AEA1_2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7709AEA1_2","objectId":{"name":"obj_LightController","path":"objects/obj_LightController/obj_LightController.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":288.0,"y":-64.0,},
+        {"$GMRInstance":"v4","%Name":"inst_5EB1AE3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5EB1AE3","objectId":{"name":"obj_LibraryLight","path":"objects/obj_LibraryLight/obj_LibraryLight.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":320.0,"y":192.0,},
       ],"layers":[],"name":"Light","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"TopWall","depth":600,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"TopWall","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":9,"SerialiseWidth":20,"TileCompressedData":[
           -46,-2147483648,-6,0,-15,-2147483648,-9,0,-10,-2147483648,-2,0,-4,-2147483648,-2,0,-8,-2147483648,-4,

@@ -19,3 +19,18 @@ myPortraitIdle		= -1;
 
 puzzleProgress      = 0;
 choice_variable		= -1;	//the variable we change depending on the player's choice in dialogue
+
+animation = 0;
+
+
+if global.libraryDoorOpen = 0 { 
+collision = instance_create_layer(x-16, y+80, "Collisions", TestAngleWall)
+collision.image_angle = 90
+}
+else if global.libraryDoorOpen = 1 {
+	sprite_index = spr_FallingBookshelf
+	global.animating = 1;
+}
+else if global.libraryDoorOpen = 2 {
+	sprite_index = spr_FallenBookshelf
+}
