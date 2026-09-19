@@ -427,6 +427,8 @@
     {"id":{"name":"CobbleFloor1","path":"sprites/CobbleFloor1/CobbleFloor1.yy",},},
     {"id":{"name":"CobbleFloor2","path":"sprites/CobbleFloor2/CobbleFloor2.yy",},},
     {"id":{"name":"CombinedInventory","path":"sprites/CombinedInventory/CombinedInventory.yy",},},
+    {"id":{"name":"commonbed","path":"sprites/commonbed/commonbed.yy",},},
+    {"id":{"name":"commonbed2","path":"sprites/commonbed2/commonbed2.yy",},},
     {"id":{"name":"CondiBackwardIdle","path":"sprites/CondiBackwardIdle/CondiBackwardIdle.yy",},},
     {"id":{"name":"CondiBackwardWalking","path":"sprites/CondiBackwardWalking/CondiBackwardWalking.yy",},},
     {"id":{"name":"CondiForwardIdle","path":"sprites/CondiForwardIdle/CondiForwardIdle.yy",},},

@@ -349,6 +349,8 @@
     {"name":"CobbleFloor1","order":2,"path":"sprites/CobbleFloor1/CobbleFloor1.yy",},
     {"name":"CobbleFloor2","order":6,"path":"sprites/CobbleFloor2/CobbleFloor2.yy",},
     {"name":"CombinedInventory","order":1,"path":"sprites/CombinedInventory/CombinedInventory.yy",},
+    {"name":"commonbed","order":86,"path":"sprites/commonbed/commonbed.yy",},
+    {"name":"commonbed2","order":87,"path":"sprites/commonbed2/commonbed2.yy",},
     {"name":"CondiBackwardIdle","order":14,"path":"sprites/CondiBackwardIdle/CondiBackwardIdle.yy",},
     {"name":"CondiBackwardWalking","order":16,"path":"sprites/CondiBackwardWalking/CondiBackwardWalking.yy",},
     {"name":"CondiForwardIdle","order":7,"path":"sprites/CondiForwardIdle/CondiForwardIdle.yy",},
