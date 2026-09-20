@@ -13,6 +13,7 @@ else { global.lay_alpha += 0.05;
 global.lay_alpha = clamp(global.lay_alpha, 0.25, 1);
 show_debug_message(global.lay_alpha);*/
 
-global.shiningCityPowered = 1;
+obj_SecretDoorBookshelf.sprite_index = spr_FallingBookshelf
+global.libraryDoorOpen = 1;
 
 //room_goto(CastleEntrance)

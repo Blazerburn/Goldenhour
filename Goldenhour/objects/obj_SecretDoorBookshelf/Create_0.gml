@@ -28,6 +28,7 @@ collision = instance_create_layer(x-16, y+80, "Collisions", TestAngleWall)
 collision.image_angle = 90
 }
 else if global.libraryDoorOpen = 1 {
+	show_debug_message("Falling")
 	sprite_index = spr_FallingBookshelf
 	global.animating = 1;
 }
