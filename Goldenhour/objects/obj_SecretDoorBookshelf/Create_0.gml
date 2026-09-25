@@ -21,7 +21,7 @@ puzzleProgress      = 0;
 choice_variable		= -1;	//the variable we change depending on the player's choice in dialogue
 
 animation = 0;
-
+playedSound = 0;
 
 if global.libraryDoorOpen = 0 { 
 collision = instance_create_layer(x-16, y+80, "Collisions", TestAngleWall)
