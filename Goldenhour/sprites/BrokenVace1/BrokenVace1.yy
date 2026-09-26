@@ -3,8 +3,8 @@
   "%Name":"BrokenVace1",
   "bboxMode":0,
   "bbox_bottom":31,
-  "bbox_left":4,
-  "bbox_right":27,
+  "bbox_left":3,
+  "bbox_right":28,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -23,6 +23,7 @@
   "height":32,
   "HTile":false,
   "layers":[
+    {"$GMImageLayer":"","%Name":"24b6f8e8-9dcd-4c44-9a8a-57789e02462b","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"24b6f8e8-9dcd-4c44-9a8a-57789e02462b","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"64ea6e42-0077-4238-8ba4-695c3c072a5c","blendMode":0,"displayName":"default","isLocked":false,"name":"64ea6e42-0077-4238-8ba4-695c3c072a5c","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"BrokenVace1",
