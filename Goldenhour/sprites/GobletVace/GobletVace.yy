@@ -3,9 +3,9 @@
   "%Name":"GobletVace",
   "bboxMode":0,
   "bbox_bottom":31,
-  "bbox_left":8,
-  "bbox_right":23,
-  "bbox_top":11,
+  "bbox_left":4,
+  "bbox_right":27,
+  "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
@@ -13,6 +13,11 @@
   "For3D":false,
   "frames":[
     {"$GMSpriteFrame":"v1","%Name":"fd9d5f2f-deff-43b6-b167-908932f5b748","name":"fd9d5f2f-deff-43b6-b167-908932f5b748","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"90d9e0f0-641b-4fc1-b5d4-85ec5335d777","name":"90d9e0f0-641b-4fc1-b5d4-85ec5335d777","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"6afde56e-264b-4b98-99c2-b7c9d941739c","name":"6afde56e-264b-4b98-99c2-b7c9d941739c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"af3e2eff-06eb-4028-8cd6-51b126fb9fea","name":"af3e2eff-06eb-4028-8cd6-51b126fb9fea","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"1e2aab90-3330-4b59-8481-1be4983bf735","name":"1e2aab90-3330-4b59-8481-1be4983bf735","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b1d3ac97-6cb9-4645-b9c4-f92cb534cbaa","name":"b1d3ac97-6cb9-4645-b9c4-f92cb534cbaa","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -49,7 +54,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":1.0,
+    "length":6.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -71,6 +76,21 @@
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"fd9d5f2f-deff-43b6-b167-908932f5b748","path":"sprites/GobletVace/GobletVace.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"9fbfde37-2484-45be-adee-58c8a149ac96","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"90d9e0f0-641b-4fc1-b5d4-85ec5335d777","path":"sprites/GobletVace/GobletVace.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"700fbd3a-b62c-44ac-b283-56d4419b4de1","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6afde56e-264b-4b98-99c2-b7c9d941739c","path":"sprites/GobletVace/GobletVace.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"791185c6-a89c-42d8-8d90-6a1ed54c1e65","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"af3e2eff-06eb-4028-8cd6-51b126fb9fea","path":"sprites/GobletVace/GobletVace.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"34eba80b-f1a8-4771-bacc-9553c805634d","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1e2aab90-3330-4b59-8481-1be4983bf735","path":"sprites/GobletVace/GobletVace.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"739e6259-3794-484a-952a-625034869b66","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b1d3ac97-6cb9-4645-b9c4-f92cb534cbaa","path":"sprites/GobletVace/GobletVace.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"323e1fd8-977d-44bf-8b6f-0763f62e42c1","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

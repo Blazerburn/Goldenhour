@@ -200,6 +200,7 @@
     {"id":{"name":"obj_Ruins1Puzzle6Door","path":"objects/obj_Ruins1Puzzle6Door/obj_Ruins1Puzzle6Door.yy",},},
     {"id":{"name":"obj_RuinSideDoor","path":"objects/obj_RuinSideDoor/obj_RuinSideDoor.yy",},},
     {"id":{"name":"obj_RuinsShow","path":"objects/obj_RuinsShow/obj_RuinsShow.yy",},},
+    {"id":{"name":"obj_RuinVase","path":"objects/obj_RuinVase/obj_RuinVase.yy",},},
     {"id":{"name":"obj_SaveDoorEnter","path":"objects/obj_SaveDoorEnter/obj_SaveDoorEnter.yy",},},
     {"id":{"name":"obj_SaveDoorExit","path":"objects/obj_SaveDoorExit/obj_SaveDoorExit.yy",},},
     {"id":{"name":"obj_SaveInt","path":"objects/obj_SaveInt/obj_SaveInt.yy",},},
