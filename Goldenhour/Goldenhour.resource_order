@@ -441,6 +441,7 @@
     {"name":"PathTileSetSprite","order":5,"path":"sprites/PathTileSetSprite/PathTileSetSprite.yy",},
     {"name":"PerspectiveWallTileSetSprite","order":6,"path":"sprites/PerspectiveWallTileSetSprite/PerspectiveWallTileSetSprite.yy",},
     {"name":"PinkPlant","order":109,"path":"sprites/PinkPlant/PinkPlant.yy",},
+    {"name":"PinkPlant2","order":113,"path":"sprites/PinkPlant2/PinkPlant2.yy",},
     {"name":"PlayerAngleCollision","order":3,"path":"sprites/PlayerAngleCollision/PlayerAngleCollision.yy",},
     {"name":"PlayerCollision","order":1,"path":"sprites/PlayerCollision/PlayerCollision.yy",},
     {"name":"PlayerCollisionStairs","order":8,"path":"sprites/PlayerCollisionStairs/PlayerCollisionStairs.yy",},

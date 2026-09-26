@@ -524,6 +524,7 @@
     {"id":{"name":"PathTileSetSprite","path":"sprites/PathTileSetSprite/PathTileSetSprite.yy",},},
     {"id":{"name":"PerspectiveWallTileSetSprite","path":"sprites/PerspectiveWallTileSetSprite/PerspectiveWallTileSetSprite.yy",},},
     {"id":{"name":"PinkPlant","path":"sprites/PinkPlant/PinkPlant.yy",},},
+    {"id":{"name":"PinkPlant2","path":"sprites/PinkPlant2/PinkPlant2.yy",},},
     {"id":{"name":"PlayerAngleCollision","path":"sprites/PlayerAngleCollision/PlayerAngleCollision.yy",},},
     {"id":{"name":"PlayerCollision","path":"sprites/PlayerCollision/PlayerCollision.yy",},},
     {"id":{"name":"PlayerCollisionStairs","path":"sprites/PlayerCollisionStairs/PlayerCollisionStairs.yy",},},
