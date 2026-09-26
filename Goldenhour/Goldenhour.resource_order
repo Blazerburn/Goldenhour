@@ -294,6 +294,7 @@
     {"name":"sfx_HeavyLanding","order":3,"path":"sounds/sfx_HeavyLanding/sfx_HeavyLanding.yy",},
     {"name":"sfx_PressurePlateSound","order":1,"path":"sounds/sfx_PressurePlateSound/sfx_PressurePlateSound.yy",},
     {"name":"sfx_puzzle","order":2,"path":"sounds/sfx_puzzle/sfx_puzzle.yy",},
+    {"name":"sfx_WoodFootsteps","order":8,"path":"sounds/sfx_WoodFootsteps/sfx_WoodFootsteps.yy",},
     {"name":"snd_select","order":1,"path":"sounds/snd_select/snd_select.yy",},
     {"name":"snd_voice1","order":2,"path":"sounds/snd_voice1/snd_voice1.yy",},
     {"name":"snd_voice2","order":3,"path":"sounds/snd_voice2/snd_voice2.yy",},

@@ -361,6 +361,7 @@
     {"id":{"name":"sfx_HeavyLanding","path":"sounds/sfx_HeavyLanding/sfx_HeavyLanding.yy",},},
     {"id":{"name":"sfx_PressurePlateSound","path":"sounds/sfx_PressurePlateSound/sfx_PressurePlateSound.yy",},},
     {"id":{"name":"sfx_puzzle","path":"sounds/sfx_puzzle/sfx_puzzle.yy",},},
+    {"id":{"name":"sfx_WoodFootsteps","path":"sounds/sfx_WoodFootsteps/sfx_WoodFootsteps.yy",},},
     {"id":{"name":"snd_moveselect","path":"sounds/snd_moveselect/snd_moveselect.yy",},},
     {"id":{"name":"snd_select","path":"sounds/snd_select/snd_select.yy",},},
     {"id":{"name":"snd_voice1","path":"sounds/snd_voice1/snd_voice1.yy",},},
