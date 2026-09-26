@@ -188,6 +188,7 @@
     {"id":{"name":"obj_PuzzleTracker","path":"objects/obj_PuzzleTracker/obj_PuzzleTracker.yy",},},
     {"id":{"name":"obj_RockPile","path":"objects/obj_RockPile/obj_RockPile.yy",},},
     {"id":{"name":"obj_RoomSpawnpoint","path":"objects/obj_RoomSpawnpoint/obj_RoomSpawnpoint.yy",},},
+    {"id":{"name":"obj_RuinBrokenVase","path":"objects/obj_RuinBrokenVase/obj_RuinBrokenVase.yy",},},
     {"id":{"name":"obj_Ruins1CodePuzzle","path":"objects/obj_Ruins1CodePuzzle/obj_Ruins1CodePuzzle.yy",},},
     {"id":{"name":"obj_Ruins1Puzzle1Box","path":"objects/obj_Ruins1Puzzle1Box/obj_Ruins1Puzzle1Box.yy",},},
     {"id":{"name":"obj_Ruins1Puzzle2","path":"objects/obj_Ruins1Puzzle2/obj_Ruins1Puzzle2.yy",},},

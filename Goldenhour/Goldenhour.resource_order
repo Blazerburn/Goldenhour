@@ -139,6 +139,7 @@
     {"name":"obj_Puzzle4Bridge","order":5,"path":"objects/obj_Puzzle4Bridge/obj_Puzzle4Bridge.yy",},
     {"name":"obj_RockPile","order":39,"path":"objects/obj_RockPile/obj_RockPile.yy",},
     {"name":"obj_RoomSpawnpoint","order":3,"path":"objects/obj_RoomSpawnpoint/obj_RoomSpawnpoint.yy",},
+    {"name":"obj_RuinBrokenVase","order":18,"path":"objects/obj_RuinBrokenVase/obj_RuinBrokenVase.yy",},
     {"name":"obj_Ruins1CodePuzzle","order":1,"path":"objects/obj_Ruins1CodePuzzle/obj_Ruins1CodePuzzle.yy",},
     {"name":"obj_Ruins1Puzzle1Box","order":7,"path":"objects/obj_Ruins1Puzzle1Box/obj_Ruins1Puzzle1Box.yy",},
     {"name":"obj_Ruins1Puzzle4","order":1,"path":"objects/obj_Ruins1Puzzle4/obj_Ruins1Puzzle4.yy",},
