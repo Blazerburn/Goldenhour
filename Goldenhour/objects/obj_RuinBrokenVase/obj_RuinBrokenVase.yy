@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"GobletVace",
-    "path":"sprites/GobletVace/GobletVace.yy",
+    "name":"BrokenVace1",
+    "path":"sprites/BrokenVace1/BrokenVace1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

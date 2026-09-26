@@ -727,8 +727,8 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"rm_Persistent","path":"rooms/rm_Persistent/rm_Persistent.yy",},},
-    {"roomId":{"name":"rm_DeepLibraryEntrance","path":"rooms/rm_DeepLibraryEntrance/rm_DeepLibraryEntrance.yy",},},
     {"roomId":{"name":"PrincesRoom1","path":"rooms/PrincesRoom1/PrincesRoom1.yy",},},
+    {"roomId":{"name":"rm_DeepLibraryEntrance","path":"rooms/rm_DeepLibraryEntrance/rm_DeepLibraryEntrance.yy",},},
     {"roomId":{"name":"PrincesRoom5","path":"rooms/PrincesRoom5/PrincesRoom5.yy",},},
     {"roomId":{"name":"rm_DeepLibrary1","path":"rooms/rm_DeepLibrary1/rm_DeepLibrary1.yy",},},
     {"roomId":{"name":"rm_DeepLibraryStairs","path":"rooms/rm_DeepLibraryStairs/rm_DeepLibraryStairs.yy",},},
