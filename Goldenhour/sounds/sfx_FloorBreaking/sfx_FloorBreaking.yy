@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"sfx_FloorBreaking",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":1,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":6.515034,
+  "exportDir":"",
+  "name":"sfx_FloorBreaking",
+  "parent":{
+    "name":"General",
+    "path":"folders/Sounds/Sound Effects/General.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"sfx_FloorBreaking.wav",
+  "volume":0.38,
+}
