@@ -314,6 +314,7 @@
     {"id":{"name":"rm_dialoguesystem_demo","path":"rooms/rm_dialoguesystem_demo/rm_dialoguesystem_demo.yy",},},
     {"id":{"name":"rm_Infinite","path":"rooms/rm_Infinite/rm_Infinite.yy",},},
     {"id":{"name":"rm_Persistent","path":"rooms/rm_Persistent/rm_Persistent.yy",},},
+    {"id":{"name":"rm_PrinceEntrance","path":"rooms/rm_PrinceEntrance/rm_PrinceEntrance.yy",},},
     {"id":{"name":"rmBasic","path":"rooms/rmBasic/rmBasic.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
@@ -737,8 +738,9 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"rm_Persistent","path":"rooms/rm_Persistent/rm_Persistent.yy",},},
-    {"roomId":{"name":"StreetRoom1","path":"rooms/StreetRoom1/StreetRoom1.yy",},},
+    {"roomId":{"name":"rm_PrinceEntrance","path":"rooms/rm_PrinceEntrance/rm_PrinceEntrance.yy",},},
     {"roomId":{"name":"PrincesRoom1","path":"rooms/PrincesRoom1/PrincesRoom1.yy",},},
+    {"roomId":{"name":"StreetRoom1","path":"rooms/StreetRoom1/StreetRoom1.yy",},},
     {"roomId":{"name":"PrincesRoom5","path":"rooms/PrincesRoom5/PrincesRoom5.yy",},},
     {"roomId":{"name":"rm_DeepLibraryEntrance","path":"rooms/rm_DeepLibraryEntrance/rm_DeepLibraryEntrance.yy",},},
     {"roomId":{"name":"rm_DeepLibrary1","path":"rooms/rm_DeepLibrary1/rm_DeepLibrary1.yy",},},

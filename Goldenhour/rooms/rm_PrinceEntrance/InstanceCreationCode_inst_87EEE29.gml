@@ -2,15 +2,14 @@
 /// @DnDVersion : 1
 /// @DnDHash : 2B54B467
 /// @DnDInput : 4
-/// @DnDArgument : "expr" "rm_PrinceEntrance"
-/// @DnDArgument : "expr_1" "2"
-/// @DnDArgument : "expr_2" "2"
+/// @DnDArgument : "expr" "PrincesRoom1"
+/// @DnDArgument : "expr_1" "1"
 /// @DnDArgument : "expr_3" ""door""
 /// @DnDArgument : "var" "goToRoom"
 /// @DnDArgument : "var_1" "playerSpawnpoint"
 /// @DnDArgument : "var_2" "playerDirection"
 /// @DnDArgument : "var_3" "type"
-goToRoom = rm_PrinceEntrance;
-playerSpawnpoint = 2;
-playerDirection = 2;
+goToRoom = PrincesRoom1;
+playerSpawnpoint = 1;
+playerDirection = 0;
 type = "door";
