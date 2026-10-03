@@ -4,7 +4,7 @@ if activation = 0 {
 else if activation = 1 {
 	draw_sprite(spr_DeepLibraryHole, 1, x, y)
 }
-else if activation = 2 {
+/*else if activation = 2 {
 	draw_sprite(spr_DeepLibraryHole, 2, x, y)
 }
 

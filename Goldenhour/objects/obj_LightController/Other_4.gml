@@ -38,6 +38,7 @@ if room == HideoutRoom1 or
 	room == PrincesRoom3 or
 	room == PrincesRoom4 or
 	room == PrincesRoom5 or
+	room == rm_PrinceEntrance or
 	room == ChurchRoom1 or
 	room == ChurchRoom2 or
 	room == BarRoom {
@@ -62,5 +63,5 @@ if room == rm_DeepLibrary1 or
 	room == rm_DeepLibrary2 or
 	room == rm_DeepLibraryStairs or
 	room == rm_DeepLibraryEntrance {
-	alpha = .75
+	alpha = .8
 }
