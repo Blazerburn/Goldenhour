@@ -10,30 +10,7 @@ if colliding = 1 {
 			layer_sequence_create("Assets_1", x+32, y+32, seq_DeepLibraryFalling)
 			
 			var _seq = sequence_get(seq_DeepLibraryFalling); 
-			
-			/*if TestPlayer.playerDirection = 0 {
-				if (array_length(activeTracks) > 0) {
-		            for (var i = 0; i < array_length(activeTracks); i++) {
-		                var _track = activeTracks[i];
-		                if (_track.track.name == "Code2") {
-		                    _track.enabled = false;
-		                    break;
-		                }
-		            }
-		        }
-			}
-			else if TestPlayer.playerDirection = 2 {
-				if (array_length(activeTracks) > 0) {
-		            for (var i = 0; i < array_length(activeTracks); i++) {
-		                var _track = activeTracks[i];
-		                if (_track.track.name == "Code") {
-		                    _track.enabled = false;
-		                    break;
-		                }
-		            }
-		        }
-			}*/
-			
+						
 			_seq.event_step = method(_seq, function() {
 		        if (array_length(activeTracks) > 0) {
 		            for (var i = 0; i < array_length(activeTracks); i++) {
