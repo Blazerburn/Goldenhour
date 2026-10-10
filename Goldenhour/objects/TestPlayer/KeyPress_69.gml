@@ -13,7 +13,12 @@ else { global.lay_alpha += 0.05;
 global.lay_alpha = clamp(global.lay_alpha, 0.25, 1);
 show_debug_message(global.lay_alpha);*/
 
-obj_SecretDoorBookshelf.sprite_index = spr_FallingBookshelf
-global.libraryDoorOpen = 1;
+instance_activate_object(obj_Ruins1Puzzle4PressurePlate)
+
+variable_instance_set(obj_Ruins1Puzzle4PressurePlate, "choice_variable", "Used");
+					
+variable_instance_set(obj_Ruins1Puzzle4PressurePlate, "puzzleProgress", "1");
+
+global.Puzzle4SecondHalf = 1
 
 //room_goto(CastleEntrance)

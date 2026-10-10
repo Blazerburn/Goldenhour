@@ -11,7 +11,7 @@ if(puzzleProgress == 0)
 	
 }
 
-if(puzzleProgress == 1)
+if(puzzleProgress == 1 or puzzleProgress == 2)
 {
 	//global.pressurePlatesActive = 1;
 	/*var collision = instance_create_layer(x - 16, y - 16, "Instances", TestWall);

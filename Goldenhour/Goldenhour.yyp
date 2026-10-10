@@ -361,6 +361,7 @@
     {"id":{"name":"update_layer","path":"scripts/update_layer/update_layer.yy",},},
     {"id":{"name":"use_item","path":"scripts/use_item/use_item.yy",},},
     {"id":{"name":"seq_DeepLibraryFalling","path":"sequences/seq_DeepLibraryFalling/seq_DeepLibraryFalling.yy",},},
+    {"id":{"name":"seq_Puzzle4Rock","path":"sequences/seq_Puzzle4Rock/seq_Puzzle4Rock.yy",},},
     {"id":{"name":"Sequence1","path":"sequences/Sequence1/Sequence1.yy",},},
     {"id":{"name":"sh_layerfade","path":"shaders/sh_layerfade/sh_layerfade.yy",},},
     {"id":{"name":"Hit23","path":"sounds/Hit23/Hit23.yy",},},
@@ -738,6 +739,7 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"rm_Persistent","path":"rooms/rm_Persistent/rm_Persistent.yy",},},
+    {"roomId":{"name":"PuzzleRoom4","path":"rooms/PuzzleRoom4/PuzzleRoom4.yy",},},
     {"roomId":{"name":"rm_PrinceEntrance","path":"rooms/rm_PrinceEntrance/rm_PrinceEntrance.yy",},},
     {"roomId":{"name":"PrincesRoom1","path":"rooms/PrincesRoom1/PrincesRoom1.yy",},},
     {"roomId":{"name":"StreetRoom1","path":"rooms/StreetRoom1/StreetRoom1.yy",},},
@@ -745,7 +747,6 @@
     {"roomId":{"name":"rm_DeepLibraryEntrance","path":"rooms/rm_DeepLibraryEntrance/rm_DeepLibraryEntrance.yy",},},
     {"roomId":{"name":"rm_DeepLibrary1","path":"rooms/rm_DeepLibrary1/rm_DeepLibrary1.yy",},},
     {"roomId":{"name":"rm_DeepLibraryStairs","path":"rooms/rm_DeepLibraryStairs/rm_DeepLibraryStairs.yy",},},
-    {"roomId":{"name":"PuzzleRoom4","path":"rooms/PuzzleRoom4/PuzzleRoom4.yy",},},
     {"roomId":{"name":"CastleExit","path":"rooms/CastleExit/CastleExit.yy",},},
     {"roomId":{"name":"StarterRoom1","path":"rooms/StarterRoom1/StarterRoom1.yy",},},
     {"roomId":{"name":"AlleyDownRoomB","path":"rooms/AlleyDownRoomB/AlleyDownRoomB.yy",},},

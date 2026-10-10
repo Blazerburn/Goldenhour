@@ -13,6 +13,7 @@ if colliding = 1 {
 						
 			_seq.event_step = method(_seq, function() {
 		        if (array_length(activeTracks) > 0) {
+
 		            for (var i = 0; i < array_length(activeTracks); i++) {
 		                var _track = activeTracks[i];
 						if TestPlayer.playerDirection = 2 {
