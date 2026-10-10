@@ -105,7 +105,8 @@
           -69,-2147483648,12,81,-2147483648,-2147483648,52,-2147483648,52,-2147483648,52,-2147483648,52,-2147483648,
           52,-10,-2147483648,12,105,106,-2147483648,76,-2147483648,76,-2147483648,76,-2147483648,76,-2147483648,
           76,-10,-2147483648,13,129,130,51,-2147483648,100,101,-2147483648,51,-2147483648,100,101,-2147483648,
-          51,-11,-2147483648,11,75,-2147483648,124,125,-2147483648,75,-2147483648,124,125,-2147483648,75,-28,-2147483648,
+          51,-9,-2147483648,13,153,154,75,-2147483648,124,125,-2147483648,75,-2147483648,124,125,-2147483648,75,
+          -28,-2147483648,
         ],"TileDataFormat":1,},"tilesetId":{"name":"tile_Prince","path":"tilesets/tile_Prince/tile_Prince.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"Props","depth":1300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Props","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":8,"SerialiseWidth":22,"TileCompressedData":[-92,-2147483648,-13,0,-9,-2147483648,-13,0,-9,-2147483648,-13,0,-27,-2147483648,],"TileDataFormat":1,},"tilesetId":{"name":"tile_Prince","path":"tilesets/tile_Prince/tile_Prince.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"Wall","depth":1400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Wall","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":8,"SerialiseWidth":22,"TileCompressedData":[
