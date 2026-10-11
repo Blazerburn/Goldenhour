@@ -30,7 +30,7 @@ function save_room()
 		intNum : _intNum,
 		intData : array_create(_intNum),
 		
-		// Interactables
+		// Activations
 		actNum : _actNum,
 		actData : array_create(_actNum),
 	}
@@ -99,7 +99,11 @@ function save_room()
 	if room == HideoutRoom1 {global.levelData.HideoutTop = _roomStruct;};
 	if room == HideoutRoom2 {global.levelData.HideoutBasement = _roomStruct;};
 	if room == ParkRoom {global.levelData.Park = _roomStruct;};
-	if room == PrincesRoom2 {global.levelData.PrinceBedroom = _roomStruct;};
+	if room == PrincesRoom1 {global.levelData.PrinceStaircase = _roomStruct;};
+	if room == PrincesRoom5 {global.levelData.PrinceBedroom = _roomStruct;};
+	if room == rm_PrinceEntrance {global.levelData.PrinceEntrance = _roomStruct;};
+	if room == rm_DeepLibraryEntrance {global.levelData.DeepLibraryEntrance = _roomStruct;};
+	if room == rm_DeepLibrary1 {global.levelData.DeepLibraryFall = _roomStruct;};
 	if room == RubbleRoom {global.levelData.Sculptor = _roomStruct;};
 	if room == StatueRoom {global.levelData.Statue = _roomStruct;};
 	if room == StreetRoom1 {global.levelData.LeftStreet = _roomStruct;};
@@ -130,7 +134,11 @@ function load_room()
 	if room == HideoutRoom1 {_roomStruct = global.levelData.HideoutTop;};
 	if room == HideoutRoom2 {_roomStruct = global.levelData.HideoutBasement;};
 	if room == ParkRoom {_roomStruct = global.levelData.Park;};
-	if room == PrincesRoom2 {_roomStruct = global.levelData.PrinceBedroom;};
+	if room == PrincesRoom1 {_roomStruct = global.levelData.PrinceStaircase;};
+	if room == PrincesRoom5 {_roomStruct = global.levelData.PrinceBedroom;};
+	if room == rm_PrinceEntrance {_roomStruct = global.levelData.PrinceEntrance;};
+	if room == rm_DeepLibraryEntrance {_roomStruct = global.levelData.DeepLibraryEntrance;};
+	if room == rm_DeepLibrary1 {_roomStruct = global.levelData.DeepLibraryFall;};
 	if room == RubbleRoom {_roomStruct = global.levelData.Sculptor;};
 	if room == StatueRoom {_roomStruct = global.levelData.Statue;};
 	if room == StreetRoom1 {_roomStruct = global.levelData.LeftStreet;};
@@ -271,7 +279,8 @@ function save_game(_fileNum = 0)
 	global.statData.rpuzzle6 = global.ruinsPuzzle6
 	
 	global.statData.castlePower = global.shiningCityPowered
-	
+	global.statData.libraryDoor = global.libraryDoorOpen
+	global.statData.princeDoor = global.princeDoorOpen
 	// Save all the room data
 	
 	array_push(_saveArray, global.statData);
@@ -366,6 +375,8 @@ function load_game(_fileNum = 0)
 	global.ruinsPuzzle6 = global.statData.rpuzzle6;
 	
 	global.shiningCityPowered = global.statData.castlePower
+	global.libraryDoorOpen = global.statData.libraryDoor
+	global.princeDoorOpen = global.statData.princeDoor
 	
 	// Make sure our saveload doesn't save the room we're exiting from
 	obj_saveload.skipRoomSave = true;

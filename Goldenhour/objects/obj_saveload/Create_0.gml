@@ -38,6 +38,8 @@ global.statData =
 	rpuzzle6 : 0,
 	
 	castlePower : 0,
+	libraryDoor : 0,
+	princeDoor : 0,
 }
 
 global.levelData =
@@ -56,7 +58,11 @@ global.levelData =
 	HideoutTop : 0,
 	HideoutBasement : 0,
 	Park : 0,
+	PrinceStaircase : 0,
 	PrinceBedroom : 0,
+	PrinceEntrance : 0,
+	DeepLibraryEntrance : 0,
+	DeepLibraryFall : 0,
 	Sculptor : 0,
 	Statue : 0,
 	LeftStreet : 0,

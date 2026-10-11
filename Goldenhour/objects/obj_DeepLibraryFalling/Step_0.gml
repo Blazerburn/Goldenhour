@@ -11,3 +11,7 @@ else  {
 	show_debug_message("No Longer Colliding")
 }
 
+if activation = 2 {
+	instance_activate_object(obj_Ruins1DeepLibraryHole)
+	instance_activate_object(collision)
+}

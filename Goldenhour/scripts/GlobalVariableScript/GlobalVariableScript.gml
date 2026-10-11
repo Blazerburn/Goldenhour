@@ -66,6 +66,7 @@ global.roomSong = 0;
 global.Puzzle4SecondHalf = 0;
 global.shiningCityPowered = 0;
 global.libraryDoorOpen = 0;
+global.princeDoorOpen = 0;
 
 // Other shit
 global.playerFollowers = 0;
