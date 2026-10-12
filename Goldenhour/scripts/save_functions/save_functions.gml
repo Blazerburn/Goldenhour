@@ -107,7 +107,9 @@ function save_room()
 	if room == RubbleRoom {global.levelData.Sculptor = _roomStruct;};
 	if room == StatueRoom {global.levelData.Statue = _roomStruct;};
 	if room == StreetRoom1 {global.levelData.LeftStreet = _roomStruct;};
+	if room == StreetRoom2 {global.levelData.TopStreet = _roomStruct;};
 	if room == StreetRoom3 {global.levelData.RightStreet = _roomStruct;};
+	if room == StreetRoom4 {global.levelData.BottomStreet = _roomStruct;};
 	if room == JamboRoom {global.levelData.JamboMeeting = _roomStruct;};
 	
 	show_debug_message(global.levelData);
@@ -142,7 +144,9 @@ function load_room()
 	if room == RubbleRoom {_roomStruct = global.levelData.Sculptor;};
 	if room == StatueRoom {_roomStruct = global.levelData.Statue;};
 	if room == StreetRoom1 {_roomStruct = global.levelData.LeftStreet;};
+	if room == StreetRoom2 {_roomStruct = global.levelData.TopStreet;};
 	if room == StreetRoom3 {_roomStruct = global.levelData.RightStreet;};
+	if room == StreetRoom4 {_roomStruct = global.levelData.BottomStreet;};
 	if room == JamboRoom {_roomStruct = global.levelData.JamboMeeting;};
 	
 	if global.menuOpen = true {

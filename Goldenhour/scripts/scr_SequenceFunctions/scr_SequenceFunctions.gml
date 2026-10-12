@@ -50,7 +50,10 @@ function seq_DeepLibraryFalling_Moment_1()
 
 
 
-function seq_DeepLibraryFalling_Moment_4()
+function seq_HidePlayer()
 {
-
+	TestPlayer.visible = false;
 }
+
+
+

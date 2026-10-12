@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"scr_DeepLibraryFalling_Moment",
+  "%Name":"scr_SequenceFunctions",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scr_DeepLibraryFalling_Moment",
+  "name":"scr_SequenceFunctions",
   "parent":{
     "name":"Sequence Functions",
     "path":"folders/Scripts/Sequence Functions.yy",

@@ -4,7 +4,7 @@ var _vol = global.sfxVolume * global.masterVolume
 if colliding = 1 {
 	if activation = 1 {
 			show_debug_message("Activated")
-			TestPlayer.visible = false;
+			
 			global.animating = 1;
 			global.Immobilize = 1;
 			layer_sequence_create("Assets_1", x+32, y+32, seq_DeepLibraryFalling)
@@ -31,6 +31,7 @@ if colliding = 1 {
 						}
 		                if (_track.track.name == "Code" or _track.track.name == "Code2") {
 		                    _track.posx = TestPlayer.x-128;
+							_track.posy = TestPlayer.y-96;
 		                }
 		            }
 		        }
@@ -38,8 +39,9 @@ if colliding = 1 {
 
 			
 			
-			
-			
+			if sequence_exists(_seq) {
+				//TestPlayer.visible = false;
+			}
 			
 			activation = 2;
 			colliding = 2

@@ -66,7 +66,9 @@ global.levelData =
 	Sculptor : 0,
 	Statue : 0,
 	LeftStreet : 0,
+	TopStreet : 0,
 	RightStreet : 0,
+	BottomStreet : 0,
 	JamboMeeting : 0,
 }
 

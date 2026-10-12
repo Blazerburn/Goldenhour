@@ -66,6 +66,7 @@
     {"name":"inst_99D05D7","path":"rooms/PuzzleRoom5/PuzzleRoom5.yy",},
     {"name":"inst_20EB23D2","path":"rooms/PuzzleRoom5/PuzzleRoom5.yy",},
     {"name":"inst_226374FA","path":"rooms/PuzzleRoom5/PuzzleRoom5.yy",},
+    {"name":"inst_7D5752F6","path":"rooms/PuzzleRoom5/PuzzleRoom5.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -182,6 +183,7 @@
         {"$GMRInstance":"v4","%Name":"inst_99D05D7","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_99D05D7","objectId":{"name":"obj_WallLightLeft","path":"objects/obj_WallLightLeft/obj_WallLightLeft.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":160.0,"y":416.0,},
         {"$GMRInstance":"v4","%Name":"inst_20EB23D2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_20EB23D2","objectId":{"name":"obj_WallLightLeft","path":"objects/obj_WallLightLeft/obj_WallLightLeft.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":160.0,"y":64.0,},
         {"$GMRInstance":"v4","%Name":"inst_226374FA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_226374FA","objectId":{"name":"obj_WallLightRight","path":"objects/obj_WallLightRight/obj_WallLightRight.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":352.0,"y":64.0,},
+        {"$GMRInstance":"v4","%Name":"inst_7D5752F6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7D5752F6","objectId":{"name":"obj_Puzzle5NoPowerBox","path":"objects/obj_Puzzle5NoPowerBox/obj_Puzzle5NoPowerBox.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-128.0,"y":0.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Outline","depth":800,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Outline","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":15,"SerialiseWidth":16,"TileCompressedData":[
           -4,-2147483648,1,6,-6,-2147483648,1,5,-8,-2147483648,1,6,-6,-2147483648,1,5,-8,-2147483648,1,6,-6,-2147483648,

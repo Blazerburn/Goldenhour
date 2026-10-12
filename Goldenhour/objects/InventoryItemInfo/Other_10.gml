@@ -33,8 +33,8 @@ if (itemSelectedType = itemBrokenPlate) {
 	
 	create_textevent(
      [ 
-	"A collection of broken pressure plate pieces from the box path",
-	"It seems like you have all of the pieces"
+	"A collection of broken pressure plate pieces",
+	"It seems like you have all of them"
     ],
     -1,                                                          //mySpeakers
     -1,   //myEffects
@@ -264,6 +264,27 @@ if (itemSelectedType = itemHeavyRock) {
 	"A rock that has been carved into the shape of one of the crates",
 	"Whoever did this did a pretty good job",
 	"But man is it heavy"
+    ],
+    -1,                                                          //mySpeakers
+    -1,   //myEffects
+    -1,                                                                                            //myTextSpeed
+    -1,                                                                   //myTypes
+    -1,                                                            //myNextLine
+    -1,                                                                                            //myScripts
+    -1,                                                                                            //myTextCol
+    -1,                                                                   //myEmotion
+    -1                                                                                             //myEmote
+    );
+	
+	instance_destroy();
+}
+
+if (itemSelectedType = itemWoodenPlank) {
+	
+	create_textevent(
+     [ 
+	"The wooden plank that was blocking the door",
+	"Since it is meant to keep a door closed, it's unsurprising how sturdy it feels"
     ],
     -1,                                                          //mySpeakers
     -1,   //myEffects

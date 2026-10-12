@@ -1,2 +1,0 @@
-instance_deactivate_object(self)
-instance_deactivate_layer("Collisions2")

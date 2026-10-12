@@ -55,8 +55,6 @@
     {"name":"inst_2934AAB0","path":"rooms/PrincesRoom2/PrincesRoom2.yy",},
     {"name":"inst_3BEADEC9","path":"rooms/PrincesRoom2/PrincesRoom2.yy",},
     {"name":"inst_303F893D","path":"rooms/PrincesRoom2/PrincesRoom2.yy",},
-    {"name":"inst_124EBF22","path":"rooms/PrincesRoom2/PrincesRoom2.yy",},
-    {"name":"inst_6B532406","path":"rooms/PrincesRoom2/PrincesRoom2.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -127,8 +125,6 @@
         {"$GMRInstance":"v4","%Name":"inst_2934AAB0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":7,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2934AAB0","objectId":{"name":"obj_RuinVase","path":"objects/obj_RuinVase/obj_RuinVase.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":352.0,"y":80.0,},
         {"$GMRInstance":"v4","%Name":"inst_3BEADEC9","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":8,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3BEADEC9","objectId":{"name":"obj_RuinVase","path":"objects/obj_RuinVase/obj_RuinVase.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":256.0,"y":80.0,},
         {"$GMRInstance":"v4","%Name":"inst_303F893D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":6,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_303F893D","objectId":{"name":"obj_RuinVase","path":"objects/obj_RuinVase/obj_RuinVase.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":128.0,"y":80.0,},
-        {"$GMRInstance":"v4","%Name":"inst_124EBF22","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":8,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_124EBF22","objectId":{"name":"obj_RuinVase","path":"objects/obj_RuinVase/obj_RuinVase.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":32.0,"y":176.0,},
-        {"$GMRInstance":"v4","%Name":"inst_6B532406","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":7,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6B532406","objectId":{"name":"obj_RuinVase","path":"objects/obj_RuinVase/obj_RuinVase.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":992.0,"y":176.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"PerspectiveBuilding","depth":700,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"PerspectiveBuilding","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":8,"SerialiseWidth":32,"TileCompressedData":[
           -128,-2147483648,-5,0,-27,-2147483648,-8,0,-2,-2147483648,-4,0,4,73,-2147483648,-2147483648,74,-14,-2147483648,
