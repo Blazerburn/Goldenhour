@@ -1,7 +1,7 @@
 {
   "$GMRoom":"v1",
   "%Name":"PrincesRoom5",
-  "creationCodeFile":"",
+  "creationCodeFile":"rooms/PrincesRoom5/RoomCreationCode.gml",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
@@ -104,8 +104,8 @@
     {"$GMRTileLayer":"","%Name":"Walls","depth":1700,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Walls","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":8,"SerialiseWidth":16,"TileCompressedData":[
           -3,-2147483648,10,11,3,4,101,101,212,101,5,6,15,-5,-2147483648,4,11,1,27,28,-4,101,4,29,30,2,15,-3,-2147483648,
           5,11,1,25,27,28,-3,101,13,93,29,30,26,128,15,-2147483648,11,1,25,25,51,52,-4,-2147483648,10,53,54,26,
-          129,0,15,76,25,25,49,-8,-2147483648,7,50,153,0,78,100,25,49,-10,-2147483648,5,177,0,102,100,49,-11,-2147483648,
-          -2,0,2,102,124,-14,-2147483648,1,126,
+          129,0,0,76,25,25,49,-8,-2147483648,7,50,153,0,0,100,25,49,-10,-2147483648,5,177,0,0,100,49,-11,-2147483648,
+          -3,0,1,124,-14,-2147483648,1,0,
         ],"TileDataFormat":1,},"tilesetId":{"name":"tile_P_RuinBrickWall","path":"tilesets/tile_P_RuinBrickWall/tile_P_RuinBrickWall.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"Carpet","depth":1800,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Carpet","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":8,"SerialiseWidth":16,"TileCompressedData":[
           -53,-2147483648,6,173,174,175,176,177,178,-10,-2147483648,6,197,198,199,200,201,202,-9,-2147483648,8,

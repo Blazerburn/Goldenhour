@@ -57,3 +57,26 @@ function seq_HidePlayer()
 
 
 
+
+
+
+
+function seq_DeepLibraryFalling_Moment_4()
+{
+	global.keepTalking = true;
+
+	create_textevent(
+			["AAAAAAAAAAAAAAAAAAAAAAAAA"],
+			[TestPlayer],
+			-1,
+			[[1, 0.25]],
+			-1,
+			-1,
+			-1,
+			[[-1]],
+			-1,
+			-1,
+			-1,
+		);
+	
+}

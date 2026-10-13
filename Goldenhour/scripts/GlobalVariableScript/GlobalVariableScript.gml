@@ -63,6 +63,7 @@ global.currentSong = 0;
 global.roomSong = 0;
 
 // Environment Specific Events
+global.inventoryBag = false;
 global.Puzzle4SecondHalf = 0;
 global.shiningCityPowered = 0;
 global.libraryDoorOpen = 0;

@@ -37,6 +37,7 @@ global.statData =
 	rpuzzle5 : 0,
 	rpuzzle6 : 0,
 	
+	inventoryBag : 0,
 	castlePower : 0,
 	libraryDoor : 0,
 	princeDoor : 0,

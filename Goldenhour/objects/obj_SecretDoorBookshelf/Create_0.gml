@@ -1,6 +1,6 @@
 event_inherited(); //so it will inherit from par_speaker
 
-update_layer()
+//update_layer()
 
 //-------DIALOGUE STUFF
 
@@ -26,6 +26,7 @@ playedSound = 0;
 if global.libraryDoorOpen = 0 { 
 collision = instance_create_layer(x-16, y+80, "Collisions", TestAngleWall)
 collision.image_angle = 90
+image_index = 4;
 }
 else if global.libraryDoorOpen = 1 {
 	show_debug_message("Falling")

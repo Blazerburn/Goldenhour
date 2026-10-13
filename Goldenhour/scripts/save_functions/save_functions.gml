@@ -282,6 +282,7 @@ function save_game(_fileNum = 0)
 	global.statData.rpuzzle5 = global.ruinsPuzzle5
 	global.statData.rpuzzle6 = global.ruinsPuzzle6
 	
+	global.statData.inventoryBag = global.inventoryBag
 	global.statData.castlePower = global.shiningCityPowered
 	global.statData.libraryDoor = global.libraryDoorOpen
 	global.statData.princeDoor = global.princeDoorOpen
@@ -378,6 +379,7 @@ function load_game(_fileNum = 0)
 	global.ruinsPuzzle5 = global.statData.rpuzzle5;
 	global.ruinsPuzzle6 = global.statData.rpuzzle6;
 	
+	global.inventoryBag = global.statData.inventoryBag
 	global.shiningCityPowered = global.statData.castlePower
 	global.libraryDoorOpen = global.statData.libraryDoor
 	global.princeDoorOpen = global.statData.princeDoor

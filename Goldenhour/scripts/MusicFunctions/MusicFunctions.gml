@@ -69,6 +69,7 @@ function reset_room_song() {
 	or room == HideoutRoom2
 	or room == BarRoom
 	or room == ParkRoom
+	or room == rm_PrinceEntrance
 	or room == PrincesRoom1
 	or room == PrincesRoom2
 	or room == PrincesRoom3
@@ -97,6 +98,7 @@ function reset_room_song() {
 	if room == rm_DeepLibrary1
 	or room == rm_DeepLibrary2
 	or room == rm_DeepLibraryStairs
+	or room == rm_DeepLibraryEntrance
 	{
 		set_song_ingame(sng_Basement, 60, 60)
 	}

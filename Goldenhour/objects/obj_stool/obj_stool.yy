@@ -10,8 +10,8 @@
   "name":"obj_stool",
   "overriddenProperties":[],
   "parent":{
-    "name":"Ruins",
-    "path":"folders/Objects/Interactables/Ruins.yy",
+    "name":"DepthObjects",
+    "path":"folders/Objects/Depth/DepthObjects.yy",
   },
   "parentObjectId":{
     "name":"obj_props",
