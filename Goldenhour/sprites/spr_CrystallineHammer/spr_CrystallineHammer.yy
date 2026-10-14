@@ -12,18 +12,18 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"ffa188a8-39d7-4a1a-b2ba-77930defdc35","name":"ffa188a8-39d7-4a1a-b2ba-77930defdc35","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"4a8eeac2-6da8-44cb-a644-eaa7a7fc6c4c","name":"4a8eeac2-6da8-44cb-a644-eaa7a7fc6c4c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":150,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"05b84def-d253-488f-9b7c-1c59b98f3efb","blendMode":0,"displayName":"default","isLocked":false,"name":"05b84def-d253-488f-9b7c-1c59b98f3efb","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"198acc98-9f2c-4a7e-8f17-d92f2965a055","blendMode":0,"displayName":"default","isLocked":false,"name":"198acc98-9f2c-4a7e-8f17-d92f2965a055","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_CrystallineHammer",
   "nineSlice":null,
-  "origin":9,
+  "origin":0,
   "parent":{
     "name":"Ruins",
     "path":"folders/Sprites/GUI's/Inventory/Inventory Items/Ruins.yy",
@@ -69,14 +69,14 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ffa188a8-39d7-4a1a-b2ba-77930defdc35","path":"sprites/spr_CrystallineHammer/spr_CrystallineHammer.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"a3dbc4bf-4787-4d6c-9fa7-4b303fcdcb8b","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4a8eeac2-6da8-44cb-a644-eaa7a7fc6c4c","path":"sprites/spr_CrystallineHammer/spr_CrystallineHammer.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"902399c5-e802-4e39-a2bd-6695d045d961","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":75,
-    "yorigin":60,
+    "xorigin":0,
+    "yorigin":0,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

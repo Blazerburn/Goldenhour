@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"STAR",
+  "%Name":"obj_twinkle",
   "eventList":[],
   "managed":true,
-  "name":"STAR",
+  "name":"obj_twinkle",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",

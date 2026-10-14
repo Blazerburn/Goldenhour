@@ -16,7 +16,7 @@ myPortraitIdle		= -1;
 
 //-------OTHER
 
-choice_variable		= -1;	//the variable we change depending on the player's choice in dialogue
+choice_variable		= "Get";	//the variable we change depending on the player's choice in dialogue
 puzzleProgress = 0;
 
 collision = instance_create_layer(x-8, y-8, "Collisions", TestWall)

@@ -28,3 +28,6 @@ with(pushCollision) {
 image_xscale = .01;
 image_yscale = .5;
 }
+
+star = instance_create_layer(x-3, y-3, "Instances", obj_twinkle)
+star.depth = BreakablePathWall.depth-1

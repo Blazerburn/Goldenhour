@@ -13,6 +13,6 @@ else { global.lay_alpha += 0.05;
 global.lay_alpha = clamp(global.lay_alpha, 0.25, 1);
 show_debug_message(global.lay_alpha);*/
 
-show_debug_message(global.inventoryBag)
 
-//room_goto(CastleEntrance)
+
+room_goto(CastleEntrance)

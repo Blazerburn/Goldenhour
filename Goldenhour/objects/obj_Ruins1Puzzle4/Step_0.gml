@@ -3,6 +3,7 @@ event_inherited(); //so it will inherit from par_speaker
 
 if (puzzleProgress = 2){
 	BreakablePathWall.image_index = 1
+	instance_destroy(star)
 	instance_deactivate_object(self);
 	instance_destroy(pushCollision);
 }

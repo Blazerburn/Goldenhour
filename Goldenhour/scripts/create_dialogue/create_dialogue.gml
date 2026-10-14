@@ -73,11 +73,20 @@ function create_dialogue() {
 	
 		//Speaker's Variables
 		i = 0; repeat(text_len){
-			portrait[i]			= _speaker[i].myPortrait;
+			//if !_speaker[i] = -1 {
+			portrait[i]			= _speaker[i].myPortrait; 
 			voice[i]			= _speaker[i].myVoice;
 			font[i]				= _speaker[i].myFont;
 			name[i]				= _speaker[i].myName;
 			speaker[i]			= _speaker[i];
+			/*}
+			else {
+				portrait[i]			= -1;
+				voice[i]			= snd_voice1;
+				font[i]				= fnt_dialogue;
+				name[i]				= -1;
+				speaker[i]			= -1;
+			}*/
 		
 			if(variable_instance_exists(_speaker[i], "myPortraitTalk"))		{ portrait_talk[i] = _speaker[i].myPortraitTalk; }
 			else { portrait_talk[i] = -1; }

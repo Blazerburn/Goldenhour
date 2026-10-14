@@ -33,3 +33,5 @@ with(pushCollision) {
 image_xscale = .5;
 image_yscale = .5;
 }
+
+star = instance_create_layer(x+6, y, "Instances", obj_twinkle)

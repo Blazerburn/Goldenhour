@@ -31,7 +31,12 @@ if colliding = 1 {
 						}
 		                if (_track.track.name == "Code" or _track.track.name == "Code2") {
 		                    _track.posx = TestPlayer.x-128;
-							_track.posy = TestPlayer.y-96;
+							if TestPlayer.playerDirection = 2 {
+								_track.posy = TestPlayer.y-96;
+							}
+							else {
+								_track.posy = TestPlayer.y-176;
+							}
 		                }
 		            }
 		        }

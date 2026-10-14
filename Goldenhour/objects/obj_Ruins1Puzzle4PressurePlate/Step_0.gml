@@ -3,7 +3,7 @@ event_inherited(); //so it will inherit from par_speaker
 var _depth = BreakablePathWall.depth
 depth = _depth - 1
 
-
+show_debug_message(puzzleProgress)
 if puzzleProgress = 1 {
 	
 	
@@ -12,7 +12,7 @@ if puzzleProgress = 1 {
 	
 			sequence = layer_sequence_create("Assets_1", x, y-24, seq_Puzzle4Rock)
 			show_debug_message("Created sequence")
-			//TestPlayer.visible = false;
+			TestPlayer.visible = false;
 					var _seq = sequence_get(seq_Puzzle4Rock); 
 						
 					_seq.event_step = method(_seq, function() {

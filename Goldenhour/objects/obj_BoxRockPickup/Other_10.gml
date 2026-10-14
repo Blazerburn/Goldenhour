@@ -95,7 +95,7 @@ switch(choice_variable){
 	#region If you chose blue
 		var i = 0;
 		//Line 0
-		myText[i]		= "Hm, well maybe a rock shaped like a crate will be enough for the pressure plate";
+		myText[i]		= "Hm, well maybe a rock shaped like a crate will be useful";
 		mySpeaker[i]	= id;
 		
 		

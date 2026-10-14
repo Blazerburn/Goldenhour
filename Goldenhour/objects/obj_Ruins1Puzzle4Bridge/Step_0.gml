@@ -30,9 +30,15 @@ if (puzzleProgress = 1) {
 		instance_destroy(pushBoxCollision);
 		//instance_destroy(pathCollision);
 	}
+	instance_destroy(star)
 	instance_destroy(obj_PushableObject);
 	instance_destroy(collision);
 	instance_destroy(pushCollision);
+	instance_activate_object(obj_Ruins1Puzzle4PressurePlate)
+	with (obj_Ruins1Puzzle4PressurePlate) {
+		puzzleProgress = 0;
+	}
+	global.Puzzle4SecondHalf = 1
 	choice_variable = "Push";
 }
 
