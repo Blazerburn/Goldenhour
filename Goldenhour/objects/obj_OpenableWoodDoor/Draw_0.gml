@@ -17,7 +17,9 @@ if choice_variable = "Open" {
 
 if choice_variable = "Opened" {
 	sprite_index = spr_WoodOpenedDoor
+	global.Immobilize = 0;
 	global.animating = false;
 	active = false;
+	choice_variable = "Opened2"
 	instance_destroy(collision)
 }

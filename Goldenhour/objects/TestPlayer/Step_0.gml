@@ -395,9 +395,9 @@ if place_meeting(x, y, obj_SpecificDepthCollision) {
 if global.usingItem = 1 {
 	global.Immobilize = 1
 }
-else {
-	global.Immobilize = 0
-}
+//else {
+//	global.Immobilize = 0
+//}
 
 // Opening/Closing Inventory
 if global.inventoryBag = true {
@@ -464,6 +464,7 @@ if global.inventoryBag = true {
 }
 
 // Interacting with menus mostly
+if pauseMenu = "Closed" {
 if keyboard_check_pressed(global.interactKey) {
 		if(global.recentlyInteracted == 0)
 	{
@@ -695,6 +696,7 @@ if keyboard_check_pressed(global.downKey) {
 	}
 	}
 	}
+}
 }
 
 // Pause Menu

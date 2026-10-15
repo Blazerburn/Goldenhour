@@ -13,6 +13,8 @@ else { global.lay_alpha += 0.05;
 global.lay_alpha = clamp(global.lay_alpha, 0.25, 1);
 show_debug_message(global.lay_alpha);*/
 
-//show_debug_message(global.pressurePlatesActive)
+//show_debug_message(global.princeDoorOpen)
 
-//room_goto(CastleEntrance)
+//global.inventoryBag = true;
+
+room_goto(CastleEntrance)

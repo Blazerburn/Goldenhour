@@ -1,7 +1,7 @@
 event_inherited(); //so it will inherit from par_speaker
 
 if choice_variable = "Take" {
-	if !global.princeDoorOpen = 2 {
+	if global.princeDoorOpen = 0 {
 		global.princeDoorOpen = 1;
 	}
 	instance_deactivate_object(obj_WoodenPlankPickup)

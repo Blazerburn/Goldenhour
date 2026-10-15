@@ -13,7 +13,7 @@ switch(choice_variable){
 	#endregion
 	break;
 	
-	case "Opened":
+	case "Opened2":
 	#region First Dialogue
 		//Line 0
 		var i = 0;

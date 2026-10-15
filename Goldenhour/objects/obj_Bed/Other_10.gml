@@ -7,7 +7,7 @@ switch(choice_variable){
 	#region First Dialogue
 		//Line 0
 		var i = 0;
-		myText[i]		= "A small bed";
+		myText[i]		= "A small bed that looks pretty comfy";
 		mySpeaker[i]	= id;
 		
 		

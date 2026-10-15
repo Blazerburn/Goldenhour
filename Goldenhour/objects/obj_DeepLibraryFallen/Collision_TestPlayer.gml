@@ -18,7 +18,7 @@ if activation = 0 {
 			-1,
 			-1,
 			-1,
-			[-1, -1, -1, -1, -1, -1, -1, -1, -1, [add_item, 0, "Secret Book 10th", book10, "Secret Book", 1], -1, -1],
+			[-1, -1, -1, -1, -1, -1, -1, -1, -1, [add_item, 0, "Secret Book 10th", book10, "Secret Book", 1], -1, [change_variable, id, "activation", "2"]],
 			-1,
 			-1,
 			-1,
