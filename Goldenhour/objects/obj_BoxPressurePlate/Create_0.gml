@@ -2,3 +2,4 @@
 // You can write your code in this editor
 pressurePlateActive = 0;
 created = false;
+otherActivation = false;

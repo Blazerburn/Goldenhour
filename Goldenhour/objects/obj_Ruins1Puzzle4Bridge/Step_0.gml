@@ -40,6 +40,7 @@ if (puzzleProgress = 1) {
 	}
 	global.Puzzle4SecondHalf = 1
 	choice_variable = "Push";
+	puzzleProgress = 2;
 }
 
 /*if(createWall = 0) {

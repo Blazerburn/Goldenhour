@@ -1,6 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 var _vol = global.sfxVolume * global.masterVolume
+//show_debug_message(global.pressurePlatesActive)
+//show_debug_message(boxesNeeded)
 
 if (global.pressurePlatesActive >= boxesNeeded) {
 	gateOpen = true;
@@ -20,6 +22,7 @@ else if (global.pressurePlatesActive <= boxesNeeded) {
 	with(obj_Gate) {
 	instance_activate_object(gateCollision);
 	}
+	//show_debug_message("Activating gate")
 }
 
 if sound = 0 {

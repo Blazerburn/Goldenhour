@@ -79,8 +79,7 @@ if(global.recentlyInteracted == 0)
 					
 					variable_instance_set(obj_Ruins1Puzzle4PressurePlate, "puzzleProgress", "1");
 					
-					with obj_Ruins1Puzzle4PressurePlate {
-					puzzleProgress = 1 }
+					
 					
 					global.inventoryOpen = 0;
 					global.usingItem = 0;

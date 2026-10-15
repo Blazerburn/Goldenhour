@@ -32,11 +32,16 @@ switch(choice_variable){
 		myText[i]		= "You grab the pouch and wrap the strap around your shoulder almost without thinking";
 		mySpeaker[i]	= id;
 		
-		//Line 9
+		//Line 7
 		i++;
 		myText[i]		= "You got the Magic Pouch!";
 		myNextLine[i]   = -1;
 		myScripts[i]    = [change_variable, id, "choice_variable", "Take"];
+		mySpeaker[i]	= id;
+		
+		//Line 8
+		i++;
+		myText[i]		= "Press tab to look inside of it!";
 		mySpeaker[i]	= id;
 
 		#endregion
@@ -45,7 +50,7 @@ switch(choice_variable){
 	case "Took":
 	#region If you chose green
 		var i = 0;
-		//Line 11
+		//Line 1
 		myText[i]		= "There's nothing else of interest left";
 		mySpeaker[i]	= id;
 

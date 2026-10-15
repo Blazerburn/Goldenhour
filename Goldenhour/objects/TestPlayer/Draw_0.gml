@@ -5,7 +5,7 @@ var _spritey = floor(y)
 
 draw_sprite(sprite_index, -1, _spritex, _spritey)
 
-if playerDirection = 0 {
+/*if playerDirection = 0 {
 		draw_line(x, y, x, y+16)
 	}
 	else if playerDirection = 1 {

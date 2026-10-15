@@ -46,8 +46,9 @@ else {
 			//show_debug_message(global.pressurePlatesActive)
 		}
 	}
-	else {
+	else if otherActivation = false {
 		if (pressurePlateActive >= 1) {
+			show_debug_message("Lowering active pressure plate count")
 			global.pressurePlatesActive -= 1;
 			pressurePlateActive = 0;
 			if created = true {

@@ -54,6 +54,7 @@
     {"name":"inst_6E6945CE","path":"rooms/StreetRoom3/StreetRoom3.yy",},
     {"name":"inst_3441B93B","path":"rooms/StreetRoom3/StreetRoom3.yy",},
     {"name":"inst_3FF03E2E","path":"rooms/StreetRoom3/StreetRoom3.yy",},
+    {"name":"inst_3DFF0DFD","path":"rooms/StreetRoom3/StreetRoom3.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -139,6 +140,7 @@
         {"$GMRInstance":"v4","%Name":"inst_6E6945CE","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6E6945CE","objectId":{"name":"obj_WallLight","path":"objects/obj_WallLight/obj_WallLight.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":96.0,"y":352.0,},
         {"$GMRInstance":"v4","%Name":"inst_3441B93B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3441B93B","objectId":{"name":"obj_WallLight","path":"objects/obj_WallLight/obj_WallLight.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":416.0,"y":352.0,},
         {"$GMRInstance":"v4","%Name":"inst_3FF03E2E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3FF03E2E","objectId":{"name":"obj_BrokenWallLight","path":"objects/obj_BrokenWallLight/obj_BrokenWallLight.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":256.0,"y":128.0,},
+        {"$GMRInstance":"v4","%Name":"inst_3DFF0DFD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3DFF0DFD","objectId":{"name":"obj_twinkle","path":"objects/obj_twinkle/obj_twinkle.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":856.0,"y":130.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Outline","depth":1000,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Outline","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":12,"SerialiseWidth":31,"TileCompressedData":[
           -9,-2147483648,4,6,-2147483648,-2147483648,5,-27,-2147483648,4,6,-2147483648,-2147483648,5,-27,-2147483648,

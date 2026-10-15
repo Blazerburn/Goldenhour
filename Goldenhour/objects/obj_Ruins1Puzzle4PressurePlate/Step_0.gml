@@ -3,7 +3,7 @@ event_inherited(); //so it will inherit from par_speaker
 var _depth = BreakablePathWall.depth
 depth = _depth - 1
 
-show_debug_message(puzzleProgress)
+//show_debug_message(puzzleProgress)
 if puzzleProgress = 1 {
 	
 	
@@ -63,6 +63,7 @@ else if puzzleProgress = 2 {
 	//var _seq = sequence_get(seq_Puzzle4Rock); 
 	if layer_sequence_is_finished(sequence) {
 		show_debug_message("Sequence finished")
+		
 		
 		
 		if TestPlayer.playerDirection = 0 {

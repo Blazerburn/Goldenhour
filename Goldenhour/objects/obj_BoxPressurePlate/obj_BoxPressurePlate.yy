@@ -11,8 +11,8 @@
   "name":"obj_BoxPressurePlate",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Box Puzzles",
+    "path":"folders/Objects/Puzzles/Puzzle Controllers/Ruins/Box Puzzles.yy",
   },
   "parentObjectId":null,
   "persistent":false,
