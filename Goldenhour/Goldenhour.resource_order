@@ -337,6 +337,8 @@
     {"name":"book10","order":16,"path":"sprites/book10/book10.yy",},
     {"name":"book11","order":17,"path":"sprites/book11/book11.yy",},
     {"name":"book12","order":15,"path":"sprites/book12/book12.yy",},
+    {"name":"bookpile_clockbook","order":121,"path":"sprites/bookpile_clockbook/bookpile_clockbook.yy",},
+    {"name":"bookpile","order":120,"path":"sprites/bookpile/bookpile.yy",},
     {"name":"BottomBrokenCobbleFloor","order":3,"path":"sprites/BottomBrokenCobbleFloor/BottomBrokenCobbleFloor.yy",},
     {"name":"boulder","order":16,"path":"sprites/boulder/boulder.yy",},
     {"name":"boulderbroken","order":19,"path":"sprites/boulderbroken/boulderbroken.yy",},

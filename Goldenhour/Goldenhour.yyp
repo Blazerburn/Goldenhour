@@ -417,6 +417,8 @@
     {"id":{"name":"book10","path":"sprites/book10/book10.yy",},},
     {"id":{"name":"book11","path":"sprites/book11/book11.yy",},},
     {"id":{"name":"book12","path":"sprites/book12/book12.yy",},},
+    {"id":{"name":"bookpile_clockbook","path":"sprites/bookpile_clockbook/bookpile_clockbook.yy",},},
+    {"id":{"name":"bookpile","path":"sprites/bookpile/bookpile.yy",},},
     {"id":{"name":"BottomBrokenCobbleFloor","path":"sprites/BottomBrokenCobbleFloor/BottomBrokenCobbleFloor.yy",},},
     {"id":{"name":"boulder","path":"sprites/boulder/boulder.yy",},},
     {"id":{"name":"boulderbroken","path":"sprites/boulderbroken/boulderbroken.yy",},},
