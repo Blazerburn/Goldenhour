@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_WallLightLIGHT",
-    "path":"sprites/spr_WallLightLIGHT/spr_WallLightLIGHT.yy",
+    "name":"spr_LibraryLightLIGHT",
+    "path":"sprites/spr_LibraryLightLIGHT/spr_LibraryLightLIGHT.yy",
   },
   "spriteMaskId":null,
   "visible":false,

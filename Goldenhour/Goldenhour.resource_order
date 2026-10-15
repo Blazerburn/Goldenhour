@@ -537,6 +537,7 @@
     {"name":"spr_GreenPushBoxOLD","order":64,"path":"sprites/spr_GreenPushBoxOLD/spr_GreenPushBoxOLD.yy",},
     {"name":"spr_inv_StoneCrate","order":24,"path":"sprites/spr_inv_StoneCrate/spr_inv_StoneCrate.yy",},
     {"name":"spr_Lecturn","order":37,"path":"sprites/spr_Lecturn/spr_Lecturn.yy",},
+    {"name":"spr_LibraryLightLIGHT","order":11,"path":"sprites/spr_LibraryLightLIGHT/spr_LibraryLightLIGHT.yy",},
     {"name":"spr_MosaicWindowLight","order":2,"path":"sprites/spr_MosaicWindowLight/spr_MosaicWindowLight.yy",},
     {"name":"spr_namebox","order":9,"path":"sprites/spr_namebox/spr_namebox.yy",},
     {"name":"spr_player","order":10,"path":"sprites/spr_player/spr_player.yy",},

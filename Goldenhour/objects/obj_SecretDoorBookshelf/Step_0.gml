@@ -31,6 +31,7 @@ if !global.libraryDoorOpen = 0 {
 		audio_play_sound(sfx_HeavyLanding, 5, false, _vol)
 		global.libraryDoorOpen = 2;
 		global.animating = 0;
+		global.Immobilize = 0;
 		sprite_index = spr_FallenBookshelf
 	}
 
