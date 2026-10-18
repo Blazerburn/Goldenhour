@@ -29,11 +29,12 @@ if(puzzleProgress == 1 or puzzleProgress == 2)
 			pressurePlateActive = 1
 			global.pressurePlatesActive = 1
 		}
+		collision = instance_create_layer(x-8, y-8, "Collisions", TestWall)
+		collision.image_xscale = .25
+		collision.image_yscale = .25
 		choice = true;
 	}
-	collision = instance_create_layer(x-8, y-8, "Collisions", TestWall)
-	collision.image_xscale = .25
-	collision.image_yscale = .25
+	
 	instance_deactivate_object(obj_Ruins1Puzzle4Gate);
 	with(obj_Gate) {
 		instance_deactivate_object(self);

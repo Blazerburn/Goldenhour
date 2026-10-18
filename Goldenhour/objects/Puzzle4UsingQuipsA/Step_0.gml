@@ -28,6 +28,28 @@ if(global.recentlyInteracted == 0)
 			
 				exit;
 }
+
+	if(global.itemWrongType == itemHeavyRock)
+{
+
+	
+	create_textevent(
+	["This rock is way too big to fit into the crack"],
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+);
+			
+				global.itemCheck = 0;
+			
+				exit;
+}
 		
 			if(global.itemWrongType == itemCrystallineHammer)
 {
@@ -68,10 +90,6 @@ if(global.recentlyInteracted == 0)
 {
 	show_debug_message(string("Used correct item"));
 	
-	with(obj_Ruins1Puzzle4){
-
-	
-	}
 				
 					global.inventoryOpen = 0;
 				

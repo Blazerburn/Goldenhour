@@ -21,28 +21,55 @@ else {
 }
 
 if (puzzleProgress = 1) {
-	global.pushingBox = 0;
-	global.playerAnimating = 0;
-	with (par_speaker) {
-		playerobject = TestPlayer;
+	if skip = 0 {
+		global.pushingBox = 0;
+		global.playerAnimating = 0;
+		with (par_speaker) {
+			playerobject = TestPlayer;
+		}
+		with (obj_PushableObject) {
+			instance_destroy(pushBoxCollision);
+			//instance_destroy(pathCollision);
+		}
+		instance_destroy(star)
+		instance_destroy(obj_PushableObject);
+		instance_destroy(collision);
+		instance_destroy(pushCollision);
+		instance_activate_object(obj_Ruins1Puzzle4PressurePlate)
+		with (obj_Ruins1Puzzle4PressurePlate) {
+			puzzleProgress = 0;
+		}
+		global.Puzzle4SecondHalf = 1
+		choice_variable = "Push";
+		puzzleProgress = 2;
+		skip = 1 
 	}
-	with (obj_PushableObject) {
-		instance_destroy(pushBoxCollision);
-		//instance_destroy(pathCollision);
-	}
-	instance_destroy(star)
-	instance_destroy(obj_PushableObject);
-	instance_destroy(collision);
-	instance_destroy(pushCollision);
-	instance_activate_object(obj_Ruins1Puzzle4PressurePlate)
-	with (obj_Ruins1Puzzle4PressurePlate) {
-		puzzleProgress = 0;
-	}
-	global.Puzzle4SecondHalf = 1
-	choice_variable = "Push";
-	puzzleProgress = 2;
 }
-
+if puzzleProgress = 2 {
+	if skip = 0 {
+		global.pushingBox = 0;
+		global.playerAnimating = 0;
+		with (par_speaker) {
+			playerobject = TestPlayer;
+		}
+		with (obj_PushableObject) {
+			instance_destroy(pushBoxCollision);
+			//instance_destroy(pathCollision);
+		}
+		instance_destroy(star)
+		instance_destroy(obj_PushableObject);
+		instance_destroy(collision);
+		instance_destroy(pushCollision);
+		instance_activate_object(obj_Ruins1Puzzle4PressurePlate)
+		global.Puzzle4SecondHalf = 1
+		choice_variable = "Push";
+		skip = 1 
+	}
+	
+	
+	
+	
+}
 /*if(createWall = 0) {
 var pathPushableWall = create_instance_layer(x, y, "Collisions", PushableWall);
 createWall = 1;

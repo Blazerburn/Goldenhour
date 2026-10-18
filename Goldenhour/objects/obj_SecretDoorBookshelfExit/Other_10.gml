@@ -46,7 +46,6 @@ switch(choice_variable){
 	#region If you chose blue
 		var i = 0;
 		//Line 0
-		i++;
 		myText[i]		= ["Push the bookshelf", "Leave it"];
 		myTypes[i]		= 1;
 		myNextLine[i]	= [1,2];

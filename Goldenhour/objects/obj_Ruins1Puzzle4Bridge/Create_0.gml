@@ -1,7 +1,7 @@
 event_inherited(); //so it will inherit from par_speaker
 
 puzzleProgress = 0;
-
+skip = 0;
 
 //-------DIALOGUE STUFF
 

@@ -434,6 +434,10 @@ if global.inventoryBag = true {
 									reset_room_song()
 									global.Immobilize = 0;
 									global.usingItem = 0;
+									if instance_exists(useQuips) {
+										instance_destroy(useQuips)
+									}
+									
 								}
 											else
 								{

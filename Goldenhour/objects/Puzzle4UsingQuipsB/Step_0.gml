@@ -30,6 +30,29 @@ if(global.recentlyInteracted == 0)
 				exit;
 }
 		
+			if(global.itemWrongType == itemHeavyRock)
+{
+
+	
+	create_textevent(
+	["The rock is too heavy for you to be able to use it as a hammer"],
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+);
+			
+				global.itemCheck = 0;
+			
+				exit;
+}
+		
+		
 }
 	
 		else
@@ -47,10 +70,6 @@ if(global.recentlyInteracted == 0)
 {
 	show_debug_message(string("Used correct item"));
 	
-	with(obj_Ruins1Puzzle2){
-
-	
-	}
 				
 					global.inventoryOpen = 0;
 				

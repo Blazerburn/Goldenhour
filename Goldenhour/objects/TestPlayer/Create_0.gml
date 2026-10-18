@@ -61,6 +61,7 @@ itemPosIndex = 0;
 rowPos = 0;
 colPos = 0;
 itemSelected = 0;
+useQuips = noone;
 placedItem = 0;
 inventorySelectAnimation = 0;
 inventoryItemAnimation = 0;
