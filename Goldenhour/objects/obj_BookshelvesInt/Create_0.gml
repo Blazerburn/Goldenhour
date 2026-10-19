@@ -19,3 +19,13 @@ myPortraitIdle		= -1;
 
 puzzleProgress      = 0;
 choice_variable		= -1;	//the variable we change depending on the player's choice in dialogue
+
+books = 0;
+bookAmount = 4
+bookRead = 0;
+bookToRead = 0;
+
+for(var i = 0; i < bookAmount; i += 1) {
+	books[i] = i
+}
+

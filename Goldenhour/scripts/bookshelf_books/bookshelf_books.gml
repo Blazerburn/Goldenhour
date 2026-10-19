@@ -1,4 +1,6 @@
 function bookshelf_books(_num){
+	show_debug_message("num")
+	show_debug_message(_num)
 	book = [
 	//Book 0
 			[
@@ -93,6 +95,9 @@ function bookshelf_books(_num){
 	
 	
 	];
+	
+	
+	
 	show_debug_message(book[_num])
 	//script_execute_ext(create_textevent, book[_num])
 	// 1. Get the specific book entry array
@@ -111,8 +116,8 @@ function bookshelf_books(_num){
 	var _arg9          = _data[9]; // -1
 	var _arg10         = _data[10];// -1
 	
-	show_debug_message(_text_array)
-	show_debug_message(_speaker_array)
+	//show_debug_message(_text_array)
+	//show_debug_message(_speaker_array)
 	
 	// 3. Call your function normally using your extracted variables
 	if instance_exists(obj_textbox) {
@@ -130,4 +135,8 @@ function bookshelf_books(_num){
 	_arg9,
 	_arg10,
 	);
+	
+	with obj_BookshelvesInt {
+		puzzleProgress = 2
+	}
 }
