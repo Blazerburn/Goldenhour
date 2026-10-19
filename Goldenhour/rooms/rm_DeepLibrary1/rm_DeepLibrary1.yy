@@ -33,6 +33,7 @@
     {"name":"inst_5EB1AE3","path":"rooms/rm_DeepLibrary1/rm_DeepLibrary1.yy",},
     {"name":"inst_785006B0","path":"rooms/rm_DeepLibrary1/rm_DeepLibrary1.yy",},
     {"name":"inst_391CF34B","path":"rooms/rm_DeepLibrary1/rm_DeepLibrary1.yy",},
+    {"name":"inst_5EF0F0E1","path":"rooms/rm_DeepLibrary1/rm_DeepLibrary1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -86,6 +87,7 @@
         {"$GMRInstance":"v4","%Name":"inst_3EE09B94","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3EE09B94","objectId":{"name":"TestSpawnpoint","path":"objects/TestSpawnpoint/TestSpawnpoint.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":529.0,"y":175.0,},
         {"$GMRInstance":"v4","%Name":"inst_785006B0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_785006B0","objectId":{"name":"obj_DeepLibraryFallen","path":"objects/obj_DeepLibraryFallen/obj_DeepLibraryFallen.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":288.0,"y":160.0,},
         {"$GMRInstance":"v4","%Name":"inst_391CF34B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_391CF34B","objectId":{"name":"obj_Bookpile","path":"objects/obj_Bookpile/obj_Bookpile.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":320.0,"y":160.0,},
+        {"$GMRInstance":"v4","%Name":"inst_5EF0F0E1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5EF0F0E1","objectId":{"name":"obj_BookshelvesInt","path":"objects/obj_BookshelvesInt/obj_BookshelvesInt.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":192.0,"y":192.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tile_1","depth":1200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tile_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":9,"SerialiseWidth":20,"TileCompressedData":[
           -7,-2147483648,-6,0,-12,-2147483648,-2,0,8,133,182,183,134,136,137,0,0,-9,-2147483648,-3,0,6,157,206,

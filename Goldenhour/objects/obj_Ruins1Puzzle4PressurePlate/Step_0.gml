@@ -82,6 +82,7 @@ else if puzzleProgress = 2 {
 		layer_sequence_destroy(sequence)
 		global.animating = 0;
 		global.Immobilize = 0;
+		global.Puzzle4SecondHalf = 2;
 	}
 }
 

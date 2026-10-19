@@ -8,5 +8,5 @@ image_index = 1;
 instance_create_layer(x, y, "Light", obj_WallLightLeftColor)
 }
 
-
+instance_create_layer(x, y, "Instances", obj_WallLightInt)
 

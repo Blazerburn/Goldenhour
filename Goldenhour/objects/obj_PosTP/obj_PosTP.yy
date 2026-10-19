@@ -12,7 +12,10 @@
     "name":"Collisions",
     "path":"folders/Objects/Collisions.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"par_activator",
+    "path":"objects/par_activator/par_activator.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

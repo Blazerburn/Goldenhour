@@ -8,6 +8,8 @@ var yScale = image_yscale;
 if (point_in_rectangle(TestPlayer.x, TestPlayer.y, x, y, x+32*xScale, y+32*yScale) || point_in_rectangle(TestPlayer.x, TestPlayer.y + 22, x, y, x+32*xScale, y+32*yScale)) {
 	if(global.recentlyInteracted == 0)
 	{
+		global.keepWalking = false;
+		global.keepTalking = false;
 		global.Immobilize = 1;
 		global.RoomSpawnpoints = playerSpawnpoint;
 		fadeIn = true;

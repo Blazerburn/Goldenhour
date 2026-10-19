@@ -37,3 +37,10 @@ if sound = 0 {
 	}
 }
 //show_debug_message(sound)
+
+if boxesActivated >= boxesNeeded {
+	puzzleComplete = true;
+}
+else if boxesActivated < boxesNeeded {
+	puzzleComplete = false;
+}

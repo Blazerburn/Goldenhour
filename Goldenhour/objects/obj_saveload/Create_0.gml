@@ -38,6 +38,7 @@ global.statData =
 	rpuzzle6 : 0,
 	
 	inventoryBag : 0,
+	pPuzzle4 : 0,
 	castlePower : 0,
 	libraryDoor : 0,
 	princeDoor : 0,

@@ -5,3 +5,4 @@ TPx = false;
 TPy = false;
 XPos = 0;
 YPos = 0;
+activation = 0;

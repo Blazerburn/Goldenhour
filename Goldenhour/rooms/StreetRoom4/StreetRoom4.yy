@@ -51,6 +51,7 @@
     {"name":"inst_AE28C72","path":"rooms/StreetRoom4/StreetRoom4.yy",},
     {"name":"inst_6E5EF70D","path":"rooms/StreetRoom4/StreetRoom4.yy",},
     {"name":"inst_2E4D38E","path":"rooms/StreetRoom4/StreetRoom4.yy",},
+    {"name":"inst_75457F40","path":"rooms/StreetRoom4/StreetRoom4.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -159,6 +160,7 @@
         {"$GMRInstance":"v4","%Name":"inst_AE28C72","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_AE28C72","objectId":{"name":"obj_WallLightLeft","path":"objects/obj_WallLightLeft/obj_WallLightLeft.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":32.0,"y":864.0,},
         {"$GMRInstance":"v4","%Name":"inst_6E5EF70D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6E5EF70D","objectId":{"name":"obj_WallLightLeft","path":"objects/obj_WallLightLeft/obj_WallLightLeft.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":32.0,"y":736.0,},
         {"$GMRInstance":"v4","%Name":"inst_2E4D38E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":1,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2E4D38E","objectId":{"name":"obj_RuinSideDoor","path":"objects/obj_RuinSideDoor/obj_RuinSideDoor.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":32.0,"y":672.0,},
+        {"$GMRInstance":"v4","%Name":"inst_75457F40","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_75457F40","objectId":{"name":"obj_CastlePowered","path":"objects/obj_CastlePowered/obj_CastlePowered.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.0,"scaleY":1.0,"x":64.0,"y":896.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Outline","depth":600,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Outline","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":30,"SerialiseWidth":8,"TileCompressedData":[
           -8,-2147483648,1,6,-7,-2147483648,1,6,-7,-2147483648,1,6,-7,-2147483648,1,6,-7,-2147483648,1,11,-86,

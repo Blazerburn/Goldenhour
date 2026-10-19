@@ -6,6 +6,6 @@ if global.shiningCityPowered = 1 {
 	instance_create_layer(x, y, "Light", obj_WallLightColor)
 }
 
-
+instance_create_layer(x, y, "Instances", obj_WallLightInt)
 
 	
