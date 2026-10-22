@@ -92,8 +92,48 @@ function bookshelf_books(_num){
 			-1,
 			-1
 			]
-	
-	
+	,
+		//Book 4
+			[
+			["You grab a book off the shelf", 
+			"The book is titled, 'A Geologist's Guide to Telling Apart Rocks from Taste'",
+			"You thumb through the pages of the book, there are several diagrams of tongue on rock action",
+			"Tongue on Boulder, Tongue on Pebble, even Tongue on Stalagmite.", 
+			"You feel like you've learnt something from these pages"],
+			[obj_BookshelvesInt, obj_BookshelvesInt, obj_BookshelvesInt, obj_BookshelvesInt, obj_BookshelvesInt],
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1
+			]
+		
+		,
+		//Book 5
+			[
+			["Wedged between the books on this shelf is a small paper, it reads:", 
+			"'Don't forget this, even if everything else falls to waste.",
+			"If you fail, all else will fall to ruin.",
+			"One bottle of Pink Wine", 
+			"A silver Chalice",
+			"A gallon of milk, and a dozen eggs-",
+			"This is a grocery list.",
+			"You angrily slip the paper back between the books"],
+			[obj_BookshelvesInt, obj_BookshelvesInt, obj_BookshelvesInt, obj_BookshelvesInt, obj_BookshelvesInt, obj_BookshelvesInt, obj_BookshelvesInt, obj_BookshelvesInt],
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1
+			]
 	];
 	
 	

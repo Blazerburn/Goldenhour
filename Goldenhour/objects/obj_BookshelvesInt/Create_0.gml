@@ -21,7 +21,7 @@ puzzleProgress      = 0;
 choice_variable		= -1;	//the variable we change depending on the player's choice in dialogue
 
 books = 0;
-bookAmount = 4
+bookAmount = 6
 bookRead = 0;
 bookToRead = 0;
 

@@ -54,7 +54,6 @@
     {"name":"inst_3F629EB0","path":"rooms/PuzzleRoom4/PuzzleRoom4.yy",},
     {"name":"inst_5B01F67F","path":"rooms/PuzzleRoom4/PuzzleRoom4.yy",},
     {"name":"inst_6FFC4DB4","path":"rooms/PuzzleRoom4/PuzzleRoom4.yy",},
-    {"name":"inst_32E55610","path":"rooms/PuzzleRoom4/PuzzleRoom4.yy",},
     {"name":"inst_7A48FE68","path":"rooms/PuzzleRoom4/PuzzleRoom4.yy",},
     {"name":"inst_5B8E40F","path":"rooms/PuzzleRoom4/PuzzleRoom4.yy",},
     {"name":"inst_1E85A37C","path":"rooms/PuzzleRoom4/PuzzleRoom4.yy",},
@@ -99,6 +98,8 @@
     {"name":"inst_28D1E53E","path":"rooms/PuzzleRoom4/PuzzleRoom4.yy",},
     {"name":"inst_619EB244","path":"rooms/PuzzleRoom4/PuzzleRoom4.yy",},
     {"name":"inst_2D7D2F08","path":"rooms/PuzzleRoom4/PuzzleRoom4.yy",},
+    {"name":"inst_75A77272","path":"rooms/PuzzleRoom4/PuzzleRoom4.yy",},
+    {"name":"inst_139AA9BA","path":"rooms/PuzzleRoom4/PuzzleRoom4.yy",},
   ],
   "isDnd":true,
   "layers":[
@@ -199,7 +200,8 @@
           9,0,35,0,0,34,28,33,22,0,-10,-2147483648,9,0,40,33,33,45,0,0,44,0,-10,-2147483648,-9,0,-122,-2147483648,
         ],"TileDataFormat":1,},"tilesetId":{"name":"BoxPathOverlapTileSet","path":"tilesets/BoxPathOverlapTileSet/BoxPathOverlapTileSet.yy",},"userdefinedDepth":false,"visible":false,"x":0,"y":0,},
     {"$GMRInstanceLayer":"","%Name":"Box","depth":1500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"v4","%Name":"inst_32E55610","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_32E55610","objectId":{"name":"obj_PushableObjectSpawner","path":"objects/obj_PushableObjectSpawner/obj_PushableObjectSpawner.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":96.0,"y":384.0,},
+        {"$GMRInstance":"v4","%Name":"inst_75A77272","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_75A77272","objectId":{"name":"obj_PushableObjectSpawner","path":"objects/obj_PushableObjectSpawner/obj_PushableObjectSpawner.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":96.0,"y":384.0,},
+        {"$GMRInstance":"v4","%Name":"inst_139AA9BA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_139AA9BA","objectId":{"name":"obj_PushableObjectOld_1","path":"objects/obj_PushableObjectOld_1/obj_PushableObjectOld_1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":192.0,"y":384.0,},
       ],"layers":[],"name":"Box","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Props","depth":1600,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Props","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":17,"SerialiseWidth":19,"TileCompressedData":[-104,-2147483648,5,1,2,0,3,4,-14,-2147483648,5,25,26,0,27,28,-195,-2147483648,],"TileDataFormat":1,},"tilesetId":{"name":"OutskirtsPropTileSet","path":"tilesets/OutskirtsPropTileSet/OutskirtsPropTileSet.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[
