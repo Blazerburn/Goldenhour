@@ -15,7 +15,7 @@ show_debug_message(global.lay_alpha);*/
 
 //show_debug_message(obj_BookshelvesInt.books)
 
-//global.shiningCityPowered = 1;
+global.shiningCityPowered = 1;
 
 global.inventoryBag = true;
 

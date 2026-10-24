@@ -30,7 +30,7 @@ image_index = 4;
 }
 else if global.libraryDoorOpen = 1 {
 	show_debug_message("Falling")
-	sprite_index = spr_FallingBookshelf
+	sprite_index = anim_FallingBookshelf
 	global.animating = 1;
 }
 else if global.libraryDoorOpen = 2 {

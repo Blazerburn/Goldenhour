@@ -58,8 +58,8 @@
   },
   "origin":9,
   "parent":{
-    "name":"Objects",
-    "path":"folders/Sprites/Ruins/Objects.yy",
+    "name":"Ruins",
+    "path":"folders/Sprites/Animations/Ruins.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

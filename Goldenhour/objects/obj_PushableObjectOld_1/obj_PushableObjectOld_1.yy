@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"PushBoxB",
-    "path":"sprites/PushBoxB/PushBoxB.yy",
+    "name":"PushBoxB_3",
+    "path":"sprites/PushBoxB_3/PushBoxB_3.yy",
   },
   "spriteMaskId":null,
   "visible":true,

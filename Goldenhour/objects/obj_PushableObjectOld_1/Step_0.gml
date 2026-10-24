@@ -254,20 +254,21 @@ if collision_rectangle(x+2, y+4, x, y+28, TestPlayer, false, false) {
 							if global.playerMoving = 1 {
 								//global.recentlyInteracted = 30;
 							}
-							if keyboard_check_released(global.rightKey) {
+							move_and_collide(xinput * 32, yinput * 32, [obj_PushableObject, obj_StuckPuzzleBox, PushableWall, pushCollision],4,0,0,32,32);
+							/*if keyboard_check_released(global.rightKey) {
 								sprite_index = anim_PushBoxBMoveRight
 								
 								if round(image_index) >= 14 {
 									sprite_index = PushBoxB
 									global.animating = 0;
 									show_debug_message("Finished animation")
-									move_and_collide(xinput * 32, yinput * 32, [obj_PushableObject, obj_StuckPuzzleBox, PushableWall, pushCollision],4,0,0,32,32);
+									
 								}
 								else {
 									global.animating = 1;
 								}
 							}
-							show_debug_message(round(image_index))
+							show_debug_message(round(image_index))*/
 							
 						}
 					}
@@ -433,7 +434,7 @@ if collision_rectangle(x+2, y+4, x, y+28, TestPlayer, false, false) {
 					
 							global.recentlyInteracted = 30;
 						}
-						mask_index = PushBoxB
+						//mask_index = PushBoxB
 						interactedBoxID = 0;
 					
 						instance_activate_object(pushBoxCollision);
@@ -450,7 +451,7 @@ if collision_rectangle(x+2, y+4, x, y+28, TestPlayer, false, false) {
 		}
 	}
 	else {
-		mask_index = PushBoxB
+		//mask_index = PushBoxB
 	}
 	}
 	}
