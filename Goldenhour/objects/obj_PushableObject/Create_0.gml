@@ -1,5 +1,7 @@
 pushPlayerDirection = 0;
 interactedBoxID = 0;
+interacted = 0;
+pushDirection = 0;
 
 NormalSpeed = 1;
 SlowSpeed = .33;

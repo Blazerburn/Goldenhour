@@ -23,8 +23,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"BoxPathCollisionTileSetSprite",
-    "path":"sprites/BoxPathCollisionTileSetSprite/BoxPathCollisionTileSetSprite.yy",
+    "name":"BoxPathCollisionTileSetSprite_B",
+    "path":"sprites/BoxPathCollisionTileSetSprite_B/BoxPathCollisionTileSetSprite_B.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{
@@ -33,10 +33,10 @@
   },
   "tileAnimationFrames":[],
   "tileAnimationSpeed":15.0,
-  "tileHeight":32,
+  "tileHeight":24,
   "tilehsep":0,
   "tilevsep":0,
-  "tileWidth":32,
+  "tileWidth":24,
   "tilexoff":0,
   "tileyoff":0,
   "tile_count":48,

@@ -8,7 +8,7 @@ if(puzzleProgress == 0)
 
 if(puzzleProgress == 1)
 {
-	if !(instance_exists(obj_PushableObject)) {
+	if !(instance_exists(obj_PushableObject_Instant)) {
 	instance_create_layer(x - 16, y - 16, "Instances", obj_PushableObjectSpawner);
 	}
 	instance_deactivate_object(collision);
