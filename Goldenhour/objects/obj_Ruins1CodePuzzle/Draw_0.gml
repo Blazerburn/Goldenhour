@@ -32,8 +32,8 @@ if puzzleProgress = 3 {
 if (puzzleProgress == 4) {
 	show_debug_message("Code correct")
 	var trapdoor = 0
-	trapdoor = instance_create_layer(x - 16, y - 16, "Instances", TestInteractTransition);
-	instance_create_layer(x, y, "Instances", obj_trapdoor);
+	trapdoor = instance_create_layer(x - 16, y - 16, "Instances_1", TestInteractTransition);
+	instance_create_layer(x, y, "Instances_1", obj_trapdoor);
 	global.animating = false;
 	with (trapdoor) {
 		skipTransition = true;

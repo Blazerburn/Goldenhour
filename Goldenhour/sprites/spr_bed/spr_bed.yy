@@ -19,6 +19,7 @@
   "height":64,
   "HTile":false,
   "layers":[
+    {"$GMImageLayer":"","%Name":"99a1f084-a344-4042-a8d1-a9ca82adf255","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"99a1f084-a344-4042-a8d1-a9ca82adf255","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":false,},
     {"$GMImageLayer":"","%Name":"71d5d553-df6a-4333-99f2-2db803fb05cc","blendMode":0,"displayName":"default","isLocked":false,"name":"71d5d553-df6a-4333-99f2-2db803fb05cc","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_bed",

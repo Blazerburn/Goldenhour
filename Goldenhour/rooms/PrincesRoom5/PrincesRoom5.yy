@@ -36,6 +36,7 @@
     {"name":"inst_305F0148","path":"rooms/PrincesRoom5/PrincesRoom5.yy",},
     {"name":"inst_2C2E7A6E","path":"rooms/PrincesRoom5/PrincesRoom5.yy",},
     {"name":"inst_13A3BBF1","path":"rooms/PrincesRoom5/PrincesRoom5.yy",},
+    {"name":"inst_6A0A6F53","path":"rooms/PrincesRoom5/PrincesRoom5.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -112,12 +113,15 @@
           220,221,222,223,224,225,226,227,-8,-2147483648,8,244,245,246,247,248,249,250,251,-8,-2147483648,8,268,
           269,270,271,272,273,274,275,-4,-2147483648,
         ],"TileDataFormat":1,},"tilesetId":{"name":"tile_Prince","path":"tilesets/tile_Prince/tile_Prince.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
-    {"$GMRTileLayer":"","%Name":"Floor","depth":1900,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Floor","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":8,"SerialiseWidth":16,"TileCompressedData":[
+    {"$GMRInstanceLayer":"","%Name":"Instances_1","depth":1900,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
+        {"$GMRInstance":"v4","%Name":"inst_6A0A6F53","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6A0A6F53","objectId":{"name":"obj_Ruins1CodePuzzle","path":"objects/obj_Ruins1CodePuzzle/obj_Ruins1CodePuzzle.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":256.0,"y":160.0,},
+      ],"layers":[],"name":"Instances_1","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
+    {"$GMRTileLayer":"","%Name":"Floor","depth":2000,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Floor","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":8,"SerialiseWidth":16,"TileCompressedData":[
           -51,-2147483648,10,1,2,21,2,1,2,1,2,1,2,-6,-2147483648,10,9,10,9,10,9,10,9,22,9,10,-4,-2147483648,47,
           1,2,1,2,7,2,1,2,1,2,1,23,1,2,-2147483648,-2147483648,9,10,9,10,9,10,9,10,6,10,9,10,9,10,-2147483648,
           2,1,2,7,2,1,2,1,2,1,2,1,2,1,2,1,
         ],"TileDataFormat":1,},"tilesetId":{"name":"tile_RuinFloors","path":"tilesets/tile_RuinFloors/tile_RuinFloors.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
-    {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":2000,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
+    {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":2100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
   "name":"PrincesRoom5",
   "parent":{
