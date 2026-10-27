@@ -1,4 +1,5 @@
 //We check the type of dialogue to see if it is 1) "normal" or 2) a player choice dialogue.
+var _vol = global.sfxVolume * global.masterVolume
 
 #region TYPE 0: NORMAL
 if(type[page] == 0){
@@ -58,14 +59,14 @@ else {
 	if(keyboard_check_pressed(interact_key)){ 
 		chosen = true; 
 		alarm[2] = 10; 
-		audio_play_sound(select_snd_effect, priority_snd_effect, false);
+		audio_play_sound(select_snd_effect, priority_snd_effect, false, _vol);
 	} 
 	}
 	//Change Choice 
 	var change_choice = keyboard_check_pressed(down_key) - keyboard_check_pressed(up_key);
 	if(change_choice != 0){ 
 		choice += change_choice; 
-		audio_play_sound(choice_snd_effect, priority_snd_effect, false); 
+		audio_play_sound(choice_snd_effect, priority_snd_effect, false, _vol); 
 	}
 	if (choice < 0) { choice = array_length_1d(text[page])-1; }
 	else if (choice > array_length_1d(text[page])-1) { choice = 0; }

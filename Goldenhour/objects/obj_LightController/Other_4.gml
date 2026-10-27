@@ -39,6 +39,7 @@ if room == HideoutRoom1 or
 	room == PrincesRoom4 or
 	room == PrincesRoom5 or
 	room == rm_PrinceEntrance or
+	room == rm_CastleApartmentA or
 	room == ChurchRoom1 or
 	room == ChurchRoom2 or
 	room == BarRoom {

@@ -14,6 +14,7 @@ myPortraitTalk_x	= 26;
 myPortraitTalk_y	= 44;
 myPortraitIdle		= -1;
 
+active = false;
 
 //-------OTHER
 

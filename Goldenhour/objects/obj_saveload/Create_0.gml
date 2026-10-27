@@ -59,6 +59,7 @@ global.levelData =
 	RuinsCore : 0,
 	HideoutTop : 0,
 	HideoutBasement : 0,
+	UpAlley : 0,
 	Park : 0,
 	PrinceStaircase : 0,
 	PrinceBedroom : 0,

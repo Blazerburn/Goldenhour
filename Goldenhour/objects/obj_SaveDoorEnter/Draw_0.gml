@@ -11,12 +11,14 @@ if puzzleProgress = 1 {
 	emblem = draw_sprite(spr_SaveUnlockingDoor, frame, x, y)
 	global.Immobilize = 1;
 	global.menuOpen = 1;
+	global.saveDoor = true;
 	if frame = 10 {
 		puzzleProgress = 2;
 		frame = 0;
 		choice_variable = "On";
 		global.Immobilize = 0;
 		global.menuOpen = 0;
+		instance_create_layer(x+16, y-8, "Light", obj_SaveDoorLightColor)
 		create_textevent(
 	     [ 
 		"The hole is now glowing a golden light",
@@ -39,6 +41,10 @@ if puzzleProgress = 2 {
 	emblem = draw_sprite(spr_SaveDoorEmblemOn, frame, x, y)
 	if frame = 7 {
 		frame = 0;
+	}
+	if light = false {
+		instance_create_layer(x+16, y-8, "Light", obj_SaveDoorLightColor)
+		light = true;
 	}
 }
 

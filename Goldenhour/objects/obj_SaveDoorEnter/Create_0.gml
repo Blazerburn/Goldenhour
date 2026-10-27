@@ -29,5 +29,9 @@ myPortraitIdle		= -1;
 //-------OTHER
 
 puzzleProgress      = 0;
+
 choice_variable		= -1;	//the variable we change depending on the player's choice in dialogue
+
+light = false;
+
 frame              = 0;

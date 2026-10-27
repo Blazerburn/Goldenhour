@@ -49,4 +49,15 @@ switch(choice_variable){
 		mySpeaker[i]	= id;
 	#endregion
 	break;
+	
+	case "Off":
+	#region First Dialogue
+		//Line 0
+		var i = 0;
+		myText[i]		= "You put your hand up to the hole";
+		myNextLine[i]   = -1;
+		myScripts[i]	= [change_variable, id, "puzzleProgress", "1"]
+		mySpeaker[i]	= id;
+	#endregion
+	break;
 }

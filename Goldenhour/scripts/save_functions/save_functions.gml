@@ -98,6 +98,7 @@ function save_room()
 	if room == CoreRoom {global.levelData.RuinsCore = _roomStruct;};
 	if room == HideoutRoom1 {global.levelData.HideoutTop = _roomStruct;};
 	if room == HideoutRoom2 {global.levelData.HideoutBasement = _roomStruct;};
+	if room == AlleyUpRoomA {global.levelData.UpAlley = _roomStruct;};
 	if room == ParkRoom {global.levelData.Park = _roomStruct;};
 	if room == PrincesRoom1 {global.levelData.PrinceStaircase = _roomStruct;};
 	if room == PrincesRoom5 {global.levelData.PrinceBedroom = _roomStruct;};
@@ -135,6 +136,7 @@ function load_room()
 	if room == CoreRoom {_roomStruct = global.levelData.RuinsCore;};
 	if room == HideoutRoom1 {_roomStruct = global.levelData.HideoutTop;};
 	if room == HideoutRoom2 {_roomStruct = global.levelData.HideoutBasement;};
+	if room == AlleyUpRoomA {_roomStruct = global.levelData.UpAlley;};
 	if room == ParkRoom {_roomStruct = global.levelData.Park;};
 	if room == PrincesRoom1 {_roomStruct = global.levelData.PrinceStaircase;};
 	if room == PrincesRoom5 {_roomStruct = global.levelData.PrinceBedroom;};

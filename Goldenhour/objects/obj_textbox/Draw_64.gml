@@ -1,3 +1,5 @@
+var _vol = global.sfxVolume * global.masterVolume
+
 //Draw textbox
 if (itemSelection == 0) {
 draw_sprite_ext(dialogue_box, 0, pos_x,pos_y, scale,scale, 0, c_white, 1);
@@ -153,7 +155,7 @@ else {
 						if(l == "a" or l == "e" or l == "i" or l == "o" or l == "u"){ 
 							portrait_talk_c = open_mouth_frame; 
 							if (charCount > audio_c) { 
-								audio_play_sound(voice[page], 1, false); 
+								audio_play_sound(voice[page], 1, false, _vol); 
 								audio_c = charCount + audio_increment; 
 							} 
 						}
@@ -168,7 +170,7 @@ else {
 					}
 				} 
 				#endregion
-				else if (charCount >= audio_c) { audio_play_sound(voice[page], 1, false); audio_c = charCount + audio_increment; }
+				else if (charCount >= audio_c) { audio_play_sound(voice[page], 1, false, _vol); audio_c = charCount + audio_increment; }
 		}
 		#endregion
 		

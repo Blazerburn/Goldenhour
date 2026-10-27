@@ -213,7 +213,7 @@
           -60,-2147483648,2,4,5,-18,-2147483648,2,4,5,-18,-2147483648,2,4,5,-43,-2147483648,-2,0,-18,-2147483648,
           -2,0,-18,-2147483648,-3,0,-16,-2147483648,-4,0,-14,-2147483648,-6,0,-14,-2147483648,-7,0,-12,-2147483648,
           -8,0,-11,-2147483648,-8,0,-12,-2147483648,1,5,-7,0,-12,-2147483648,1,5,-3,0,1,43,-15,-2147483648,4,5,
-          0,42,43,-16,-2147483648,1,5,-39,-2147483648,
+          0,0,43,-16,-2147483648,1,5,-39,-2147483648,
         ],"TileDataFormat":1,},"tilesetId":{"name":"TransitionTileSet","path":"tilesets/TransitionTileSet/TransitionTileSet.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRInstanceLayer":"","%Name":"Light","depth":600,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_7709AEA1_2_1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7709AEA1_2_1_1","objectId":{"name":"obj_LightController","path":"objects/obj_LightController/obj_LightController.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":288.0,"y":-64.0,},

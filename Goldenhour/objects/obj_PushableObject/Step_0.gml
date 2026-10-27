@@ -333,7 +333,13 @@ if collision_rectangle(x+2, y+4, x, y+28, TestPlayer, false, false) {
 									show_debug_message(round(_frame))
 								}
 								else {
-									sprite_index = PushBoxB
+									if greenPuzzle = true {
+										sprite_index = spr_GreenPushBox;
+										image_index = image;
+									}
+									else if greenPuzzle = false {
+										sprite_index = PushBoxB;
+									}
 									interacted = false;
 									global.animating = 0;
 									show_debug_message("Finished animation")
@@ -508,6 +514,7 @@ if collision_rectangle(x+2, y+4, x, y+28, TestPlayer, false, false) {
 		}
 		if _stop = false {
 		if (global.keepPushing = 0) {
+			if global.animating = 0 {
 		global.pushingBox = 0;
 						global.playerAnimating = 0;
 				global.Immobilize = 0;
@@ -528,6 +535,7 @@ if collision_rectangle(x+2, y+4, x, y+28, TestPlayer, false, false) {
 						}
 		}
 		}
+	}
 	}
 	}
 		}

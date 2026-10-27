@@ -19,3 +19,6 @@ myPortraitIdle		= -1;
 
 puzzleProgress      = 0;
 choice_variable		= image_index;	//the variable we change depending on the player's choice in dialogue
+if image_index < 4 {
+	active = false;
+}

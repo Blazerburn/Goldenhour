@@ -23,7 +23,7 @@ switch(choice_variable){
 		myText[i]		= ["Grab a book", "Leave it"];
 		myTypes[i]		= 1;
 		myNextLine[i]	= [-1,-1];
-		myScripts[i]	= [[change_variable, id, "choice_variable", "Take"], [change_variable, id, "choice_variable", "Leave"]];
+		myScripts[i]	= [[change_variable, id, "choice_variable", "Take"], [change_variable, id, "choice_variable", "-1"]];
 		mySpeaker[i]	= TestPlayer;
 		
 	#endregion
@@ -42,8 +42,20 @@ switch(choice_variable){
 		myText[i]		= ["Grab a book", "Leave it"];
 		myTypes[i]		= 1;
 		myNextLine[i]	= [-1,-1];
-		myScripts[i]	= [[change_variable, id, "choice_variable", "Take"], [change_variable, id, "choice_variable", "Leave"]];
+		myScripts[i]	= [[change_variable, id, "choice_variable", "Take"], [change_variable, id, "choice_variable", "-1"]];
 		mySpeaker[i]	= TestPlayer;
+		
+	#endregion
+	break;
+	
+	case "Empty":
+	#region First Dialogue
+	
+		//Line 0
+		var i = 0;
+		myText[i]		= "It doesn't look like there's any other interesting books";
+		mySpeaker[i]	= id;
+		
 		
 	#endregion
 	break;
