@@ -24,6 +24,7 @@ if (puzzleProgress = 1) {
 	if skip = 0 {
 		global.pushingBox = 0;
 		global.playerAnimating = 0;
+		PlayerCamera.player = true;
 		with (par_speaker) {
 			playerobject = TestPlayer;
 		}
@@ -49,6 +50,7 @@ if puzzleProgress = 2 {
 	if skip = 0 {
 		global.pushingBox = 0;
 		global.playerAnimating = 0;
+		PlayerCamera.player = true;
 		with (par_speaker) {
 			playerobject = TestPlayer;
 		}

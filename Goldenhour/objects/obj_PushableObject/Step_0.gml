@@ -195,11 +195,11 @@ if collision_rectangle(x+2, y+4, x, y+28, TestPlayer, false, false) {
 				var xinput = right - left;
 				var yinput = down - up;
 			
-				var _dist = point_distance(0, 0, xinput, yinput);
+				/*var _dist = point_distance(0, 0, xinput, yinput);
 				if (_dist > 0) {
 					xinput /= _dist;
 					yinput /= _dist;
-				}
+				}*/
 			
 				//x = floor(x)
 				//y = floor(y)
@@ -266,12 +266,15 @@ if collision_rectangle(x+2, y+4, x, y+28, TestPlayer, false, false) {
 										global.animating = 1;
 										show_debug_message("Right")
 										pushDirection = 1;
+										show_debug_message(x)
+										show_debug_message(y)
+										CameraControls(TestPlayer.x+24, TestPlayer.y)
 									}
 									else {
 										show_debug_message("Blocked")
 									}
 								}
-								else if up {
+								if up {
 									if !collision_line(x+16, y+4, x+16, y-16, [obj_PushableObject, PushableWall, pushCollision], false, true) {
 										sprite_index = anim_PushBoxMoveUp
 										image_index = 0;
@@ -279,6 +282,9 @@ if collision_rectangle(x+2, y+4, x, y+28, TestPlayer, false, false) {
 										global.animating = 1;
 										show_debug_message("Up")
 										pushDirection = 0;
+										show_debug_message(x)
+										show_debug_message(y)
+										CameraControls(TestPlayer.x, TestPlayer.y-24)
 									}
 									else {
 										show_debug_message("Blocked")
@@ -292,6 +298,9 @@ if collision_rectangle(x+2, y+4, x, y+28, TestPlayer, false, false) {
 										global.animating = 1;
 										show_debug_message("Left")
 										pushDirection = 3;
+										show_debug_message(x)
+										show_debug_message(y)
+										CameraControls(TestPlayer.x-24, TestPlayer.y)
 									}
 									else {
 										show_debug_message("Blocked")
@@ -305,6 +314,9 @@ if collision_rectangle(x+2, y+4, x, y+28, TestPlayer, false, false) {
 										global.animating = 1;
 										show_debug_message("Down")
 										pushDirection = 2;
+										show_debug_message(x)
+										show_debug_message(y)
+										CameraControls(TestPlayer.x, TestPlayer.y+24)
 									}
 									else {
 										show_debug_message("Blocked")
@@ -327,10 +339,10 @@ if collision_rectangle(x+2, y+4, x, y+28, TestPlayer, false, false) {
 							//show_debug_message("Animating")
 							
 							if interacted = true {
-								show_debug_message(round(_frame))
+								//show_debug_message(round(_frame))
 								if round(_frame) < 14 {
 									global.animating = 1;
-									show_debug_message(round(_frame))
+									//show_debug_message(round(_frame))
 								}
 								else {
 									if greenPuzzle = true {
@@ -340,7 +352,7 @@ if collision_rectangle(x+2, y+4, x, y+28, TestPlayer, false, false) {
 									else if greenPuzzle = false {
 										sprite_index = PushBoxB;
 									}
-									interacted = false;
+									
 									global.animating = 0;
 									show_debug_message("Finished animation")
 									if pushDirection = 1 {
@@ -355,6 +367,8 @@ if collision_rectangle(x+2, y+4, x, y+28, TestPlayer, false, false) {
 									if pushDirection = 2 {
 										move_and_collide(0, 24, [obj_PushableObject, PushableWall, pushCollision],4,0,0,0,24);
 									}
+									global.recentlyInteracted = 5;
+									interacted = false;
 								}
 								
 							}
@@ -518,6 +532,7 @@ if collision_rectangle(x+2, y+4, x, y+28, TestPlayer, false, false) {
 		global.pushingBox = 0;
 						global.playerAnimating = 0;
 				global.Immobilize = 0;
+				PlayerCamera.player = true;
 						with(TestPlayer) {
 							Speed = 3;
 					

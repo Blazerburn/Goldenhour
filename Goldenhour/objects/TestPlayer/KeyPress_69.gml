@@ -13,9 +13,10 @@ else { global.lay_alpha += 0.05;
 global.lay_alpha = clamp(global.lay_alpha, 0.25, 1);
 show_debug_message(global.lay_alpha);*/
 
-//show_debug_message(global.saveDoor)
+show_debug_message(obj_OpenableWoodDoor.choice_variable)
 
 //global.shiningCityPowered = 1;
+//CameraControls(x+120, y)
 
 global.inventoryBag = true;
 

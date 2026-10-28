@@ -4,7 +4,7 @@ if player = true {
 }
 else if player = false {
 	if moving = true {
-		if !(newX < x+1 and newX > x-1) {
+		if !(newX < x+2 and newX > x-2) {
 			if newX > x {
 				x+=2
 			}
@@ -12,7 +12,7 @@ else if player = false {
 				x-=2
 			}
 		}
-		if !(newY < y+1 and newY > y-1) {
+		if !(newY < y+2 and newY > y-2) {
 			if newY > y {
 				y+=2
 			}
@@ -22,10 +22,10 @@ else if player = false {
 		}
 		//clamp(x, 0, newX)
 		//clamp(y, 0, newY)
-		show_debug_message(x)
-		show_debug_message(y)
+		//show_debug_message(x)
+		//show_debug_message(y)
 
-		if (newX < x+1 and newX > x-1) and (newY < y+1 and newY > y-1) {
+		if (newX < x+2 and newX > x-2) and (newY < y+2 and newY > y-2) {
 			moving = false
 		}
 	}

@@ -53,6 +53,7 @@ if puzzleProgress = 3 {
 	var _frame = image_index
 	sprite_index = spr_SaveDoorOpening
 	image_index = _frame
+	active = false;
 	puzzleProgress = 4
 }
 

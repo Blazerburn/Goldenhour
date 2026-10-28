@@ -185,6 +185,7 @@
     {"name":"obj_ShiningCityFirstNumber","order":3,"path":"objects/obj_ShiningCityFirstNumber/obj_ShiningCityFirstNumber.yy",},
     {"name":"obj_ShiningCitySecondNumber","order":1,"path":"objects/obj_ShiningCitySecondNumber/obj_ShiningCitySecondNumber.yy",},
     {"name":"obj_ShiningCityThirdNumber","order":2,"path":"objects/obj_ShiningCityThirdNumber/obj_ShiningCityThirdNumber.yy",},
+    {"name":"obj_SideBed","order":24,"path":"objects/obj_SideBed/obj_SideBed.yy",},
     {"name":"obj_SideLeftBookshelves","order":10,"path":"objects/obj_SideLeftBookshelves/obj_SideLeftBookshelves.yy",},
     {"name":"obj_SideRightBookshelves","order":11,"path":"objects/obj_SideRightBookshelves/obj_SideRightBookshelves.yy",},
     {"name":"obj_SpecificDepthCollision","order":6,"path":"objects/obj_SpecificDepthCollision/obj_SpecificDepthCollision.yy",},
