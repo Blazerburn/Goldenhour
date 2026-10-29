@@ -46,6 +46,7 @@ global.statData =
 
 global.levelData =
 { 
+	Save : 0,
 	Show : 0,
 	Puzzle1 : 0,
 	Puzzle2 : 0,

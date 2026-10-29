@@ -70,7 +70,7 @@
           -2147483648,-6,0,1,25,-6,26,1,27,-3,-2147483648,-5,0,1,25,-6,26,1,27,-3,-2147483648,-5,0,1,25,-6,26,
           1,27,-3,-2147483648,-5,0,1,25,-6,26,1,27,-3,-2147483648,-5,0,1,33,-6,34,1,35,-3,-2147483648,-2,0,-2,
           -2147483648,-2,0,3,-2147483648,0,0,-84,-2147483648,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"tile_RuinRoof","path":"tilesets/tile_RuinRoof/tile_RuinRoof.yy",},"userdefinedDepth":false,"visible":false,"x":0,"y":0,},
+        ],"TileDataFormat":1,},"tilesetId":{"name":"tile_RuinRoof","path":"tilesets/tile_RuinRoof/tile_RuinRoof.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"InsideBuilding","depth":700,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"InsideBuilding","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":15,"SerialiseWidth":16,"TileCompressedData":[
           -5,-2147483648,1,16,-10,47,-5,-2147483648,1,16,-10,47,-5,-2147483648,1,16,-3,47,1,4,-4,28,2,8,47,-5,
           -2147483648,1,16,-3,47,1,24,-4,0,2,16,47,-5,-2147483648,1,16,-3,47,7,24,0,0,-2147483648,-2147483648,

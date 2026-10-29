@@ -104,15 +104,15 @@ if (surface_exists(masksurf)) {
 				}
 				break;
 				
-			case obj_MosaicLIght:
-				with obj_MosaicLIght {
+			case obj_MosaicLight:
+				with obj_MosaicLight {
 					draw_sprite_ext(spr_MosaicWindowLight, image_index, x - _cx, y - _cy, 1, 1, 0, c_white, 1);
 				}
 				break;
 				
 			case obj_SaveDoorLightColor:
 				with obj_SaveDoorLightColor {
-					draw_sprite_ext(spr_SaveDoorLightLIGHT, image_index, x - _cx, y - _cy, 1, 1, 0, c_white, 1);
+					draw_sprite_ext(spr_SaveDoorLightLIGHT, 0, x - _cx, y - _cy, 1, 1, 0, c_white, 1);
 				}
 				break;
 		}

@@ -140,7 +140,7 @@
     {"name":"obj_LongStickPickupOLD","order":6,"path":"objects/obj_LongStickPickupOLD/obj_LongStickPickupOLD.yy",},
     {"name":"obj_MagicPouchPickup","order":13,"path":"objects/obj_MagicPouchPickup/obj_MagicPouchPickup.yy",},
     {"name":"obj_MakeshiftAxePickup","order":7,"path":"objects/obj_MakeshiftAxePickup/obj_MakeshiftAxePickup.yy",},
-    {"name":"obj_MosaicLIght","order":5,"path":"objects/obj_MosaicLIght/obj_MosaicLIght.yy",},
+    {"name":"obj_MosaicLight","order":5,"path":"objects/obj_MosaicLight/obj_MosaicLight.yy",},
     {"name":"obj_MusicPlayer","order":4,"path":"objects/obj_MusicPlayer/obj_MusicPlayer.yy",},
     {"name":"obj_numbercode","order":5,"path":"objects/obj_numbercode/obj_numbercode.yy",},
     {"name":"obj_OpenableWoodDoor","order":2,"path":"objects/obj_OpenableWoodDoor/obj_OpenableWoodDoor.yy",},

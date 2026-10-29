@@ -4,7 +4,7 @@ draw_self()
 
 if (puzzleProgress == 1) {
 	create_textevent(
-	["A clicking sound eminates from the lock as you enter the correct code", 
+	["A clicking sound emanates from the lock as you enter the correct code", 
 	"You pull the lock off of the trapdoor and lift it open"],
 	-1,
 	-1,

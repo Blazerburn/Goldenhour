@@ -21,7 +21,7 @@ function reset_room_song() {
 		set_song_ingame(noone, 60, 30)
 	}
 	
-	if room == rm_Infinite
+	if room == rm_Save
 	
 	{
 		set_song_ingame(sng_Projection, 60, 30)

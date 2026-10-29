@@ -41,6 +41,7 @@
     {"name":"inst_20E78A65","path":"rooms/PuzzleRoom2/PuzzleRoom2.yy",},
     {"name":"inst_626A8C59","path":"rooms/PuzzleRoom2/PuzzleRoom2.yy",},
     {"name":"inst_69E34702","path":"rooms/PuzzleRoom2/PuzzleRoom2.yy",},
+    {"name":"inst_7C27FCF8","path":"rooms/PuzzleRoom2/PuzzleRoom2.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -70,6 +71,7 @@
         {"$GMRInstance":"v4","%Name":"inst_20E78A65","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_20E78A65","objectId":{"name":"TestAngleWall","path":"objects/TestAngleWall/TestAngleWall.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":90.0,"scaleX":1.0,"scaleY":1.0,"x":192.0,"y":288.0,},
         {"$GMRInstance":"v4","%Name":"inst_626A8C59","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_626A8C59","objectId":{"name":"TestAngleWall","path":"objects/TestAngleWall/TestAngleWall.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":90.0,"scaleX":1.0,"scaleY":1.0,"x":256.0,"y":352.0,},
         {"$GMRInstance":"v4","%Name":"inst_69E34702","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_69E34702","objectId":{"name":"obj_ChurchArrival","path":"objects/obj_ChurchArrival/obj_ChurchArrival.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":32.0,"y":256.0,},
+        {"$GMRInstance":"v4","%Name":"inst_7C27FCF8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7C27FCF8","objectId":{"name":"TestWall","path":"objects/TestWall/TestWall.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.0,"scaleY":0.5,"x":192.0,"y":160.0,},
       ],"layers":[],"name":"Collisions","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"TreesBaseABOVE","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"TreesBaseABOVE","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":16,"SerialiseWidth":23,"TileCompressedData":[
           -297,-2147483648,-2,0,-20,-2147483648,-2,0,47,-2147483648,9,10,11,12,13,14,15,8,9,10,11,12,13,14,15,

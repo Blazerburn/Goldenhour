@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_MosaicLIght",
+  "%Name":"obj_MosaicLight",
   "eventList":[],
   "managed":true,
-  "name":"obj_MosaicLIght",
+  "name":"obj_MosaicLight",
   "overriddenProperties":[],
   "parent":{
     "name":"Lights",

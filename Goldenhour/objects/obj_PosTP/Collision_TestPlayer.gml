@@ -12,7 +12,7 @@ if TPy = true {
 	TestPlayer.y = YPos;
 }
 
-if room = rm_Infinite {
+if room = rm_Save {
 	if activation = 0 {
 		global.keepWalking = true;
 		global.keepTalking = true;
@@ -31,6 +31,6 @@ if room = rm_Infinite {
 				-1,
 				-1,
 			);
-		activation = 1;
+		obj_PosTP.activation = 1;
 	}
 }
