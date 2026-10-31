@@ -357,15 +357,19 @@ if collision_rectangle(x+2, y+4, x, y+28, TestPlayer, false, false) {
 									show_debug_message("Finished animation")
 									if pushDirection = 1 {
 										move_and_collide(24, 0, [obj_PushableObject, PushableWall, pushCollision],4,0,0,24,0);
+										//CameraControls(TestPlayer.x+24, TestPlayer.y)
 									}
 									if pushDirection = 0 {
 										move_and_collide(0, -24, [obj_PushableObject, PushableWall, pushCollision],4,0,0,0,24);
+										//CameraControls(TestPlayer.x, TestPlayer.y-24)
 									}
 									if pushDirection = 3 {
 										move_and_collide(-24, 0, [obj_PushableObject, PushableWall, pushCollision],4,0,0,24,0);
+										//CameraControls(TestPlayer.x-24, TestPlayer.y)
 									}
 									if pushDirection = 2 {
 										move_and_collide(0, 24, [obj_PushableObject, PushableWall, pushCollision],4,0,0,0,24);
+										//CameraControls(TestPlayer.x, TestPlayer.y+24)
 									}
 									global.recentlyInteracted = 5;
 									interacted = false;
