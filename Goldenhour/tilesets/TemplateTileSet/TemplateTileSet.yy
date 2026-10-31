@@ -23,10 +23,7 @@
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
-  "spriteId":{
-    "name":"BoxPathTileSetSpriteOLD",
-    "path":"sprites/BoxPathTileSetSpriteOLD/BoxPathTileSetSpriteOLD.yy",
-  },
+  "spriteId":null,
   "spriteNoExport":false,
   "textureGroupId":{
     "name":"Default",

@@ -18,8 +18,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"BrickWallTileSetSprite_2",
-    "path":"sprites/BrickWallTileSetSprite_2/BrickWallTileSetSprite_2.yy",
+    "name":"BrickWallTileSetSprite",
+    "path":"sprites/BrickWallTileSetSprite/BrickWallTileSetSprite.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{

@@ -22,10 +22,7 @@
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
-  "spriteId":{
-    "name":"BoxPathOverlapTileSetSprite",
-    "path":"sprites/BoxPathOverlapTileSetSprite/BoxPathOverlapTileSetSprite.yy",
-  },
+  "spriteId":null,
   "spriteNoExport":false,
   "textureGroupId":{
     "name":"Default",

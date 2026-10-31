@@ -17,10 +17,7 @@
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
-  "spriteId":{
-    "name":"BrickWallTileSetSprite_1",
-    "path":"sprites/BrickWallTileSetSprite_1/BrickWallTileSetSprite_1.yy",
-  },
+  "spriteId":null,
   "spriteNoExport":false,
   "textureGroupId":{
     "name":"Default",

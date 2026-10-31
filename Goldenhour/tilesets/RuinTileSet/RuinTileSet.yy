@@ -19,10 +19,7 @@
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
-  "spriteId":{
-    "name":"RuinTileSetSprite",
-    "path":"sprites/RuinTileSetSprite/RuinTileSetSprite.yy",
-  },
+  "spriteId":null,
   "spriteNoExport":false,
   "textureGroupId":{
     "name":"Default",
