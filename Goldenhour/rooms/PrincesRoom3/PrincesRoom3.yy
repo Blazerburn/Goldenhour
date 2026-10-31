@@ -102,9 +102,9 @@
           62,63,-9,64,4,65,66,0,0,-25,-2147483648,
         ],"TileDataFormat":1,},"tilesetId":{"name":"tile_Prince","path":"tilesets/tile_Prince/tile_Prince.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"Chairs","depth":1200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Chairs","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":8,"SerialiseWidth":22,"TileCompressedData":[
-          -69,-2147483648,12,81,-2147483648,-2147483648,52,-2147483648,52,-2147483648,52,-2147483648,52,-2147483648,
-          52,-10,-2147483648,12,105,106,-2147483648,76,-2147483648,76,-2147483648,76,-2147483648,76,-2147483648,
-          76,-10,-2147483648,13,129,130,51,-2147483648,100,101,-2147483648,51,-2147483648,100,101,-2147483648,
+          -69,-2147483648,12,81,-2147483648,-2147483648,107,-2147483648,107,-2147483648,107,-2147483648,52,-2147483648,
+          107,-10,-2147483648,12,105,106,-2147483648,131,-2147483648,131,-2147483648,131,-2147483648,76,-2147483648,
+          131,-10,-2147483648,13,129,130,51,-2147483648,100,101,-2147483648,51,-2147483648,100,101,-2147483648,
           51,-9,-2147483648,13,153,154,75,-2147483648,124,125,-2147483648,75,-2147483648,124,125,-2147483648,75,
           -28,-2147483648,
         ],"TileDataFormat":1,},"tilesetId":{"name":"tile_Prince","path":"tilesets/tile_Prince/tile_Prince.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
