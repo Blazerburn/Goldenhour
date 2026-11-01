@@ -1,4 +1,4 @@
-function bookshelf_books(_num){
+function novel_books(_num){
 	show_debug_message("num")
 	show_debug_message(_num)
 	book = [

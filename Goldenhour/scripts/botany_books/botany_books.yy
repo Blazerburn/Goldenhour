@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"bookshelf_books",
+  "%Name":"botany_books",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"bookshelf_books",
+  "name":"botany_books",
   "parent":{
-    "name":"FC_DialogueSystem",
-    "path":"folders/Scripts/FC_DialogueSystem.yy",
+    "name":"Array Texrs",
+    "path":"folders/Scripts/FC_DialogueSystem/Array Texrs.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
