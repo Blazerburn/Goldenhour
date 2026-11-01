@@ -331,6 +331,8 @@ function load_game(_fileNum = 0)
 	global.statData = array_get(_loadArray, 0);
 	global.levelData = array_get(_loadArray, 1);
 	
+	if !global.statData = noone {
+	
 	global.inventoryArray = global.statData.item_inv;
 	
 	global.statData.save_area1 = global.area1
@@ -342,7 +344,9 @@ function load_game(_fileNum = 0)
 	
 	// Go to correct room
 	var _loadRoom = asset_get_index(global.statData.save_rm);
+	if !_loadRoom = noone {
 	room_goto(_loadRoom);
+	}
 	
 	/*// Set the correct area and region variables
 	global.room = global.statData.save_area
@@ -396,4 +400,5 @@ function load_game(_fileNum = 0)
 	
 	// Manually load the room
 	load_room();
+	}
 }

@@ -709,6 +709,7 @@ if keyboard_check_pressed(global.pauseKey) {
 		if pauseMenu = "Closed" {
 			create_instance_layer(x, y,"Instances", obj_PauseMenu)
 			pauseMenu = "Open"
+			global.menuOpen = true;
 			global.Immobilize = 1;
 		}
 		else if pauseMenu = "Open" {
@@ -726,7 +727,9 @@ if keyboard_check_pressed(global.pauseKey) {
 if global.animating = true {
 	global.Immobilize = 1;
 }
-
+if global.combining = 1 {
+	global.Immobilize = 1;
+}
 
 
 if(global.playerFollowers == 1)

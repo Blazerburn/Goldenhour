@@ -15,7 +15,7 @@ if global.pushingBox = 0 {
 								if _inst {	
 								looking = true;
 								
-								//show_debug_message("Looking up")
+								show_debug_message("Looking up")
 								//show_debug_message(looking)
 							}
 						}
@@ -23,7 +23,7 @@ if global.pushingBox = 0 {
 							_inst = collision_line(x, y+16, x+16, y+16, obj_PushableObject, false, false) 
 								if _inst {	
 								looking = true;
-								//show_debug_message("Looking right")
+								show_debug_message("Looking right")
 								//show_debug_message(looking)
 							}
 						}
@@ -31,7 +31,7 @@ if global.pushingBox = 0 {
 							_inst = collision_line(x, y+16, x, y+32, obj_PushableObject, false, false)
 								if _inst {	
 								looking = true;
-								//show_debug_message("Looking down")
+								show_debug_message("Looking down")
 								//show_debug_message(looking)
 							}
 						}
@@ -39,7 +39,7 @@ if global.pushingBox = 0 {
 							_inst = collision_line(x-16, y+16, x, y+16, obj_PushableObject, false, false) 
 								if _inst {	
 								looking = true;
-								//show_debug_message("Looking left")
+								show_debug_message("Looking left")
 								//show_debug_message(looking)
 							}
 						}
@@ -180,6 +180,8 @@ if collision_rectangle(x+2, y+4, x, y+28, TestPlayer, false, false) {
 			if(global.pushingBox == 1)
 	{
 		if (global.Talking == 0) {
+			if global.inventoryOpen = 0 {
+			if global.menuOpen = 0 {
 			//instance_deactivate_object(pathCollision);
 			instance_deactivate_object(pushBoxCollision);
 			var pushableBoxOriginX = x;
@@ -557,6 +559,8 @@ if collision_rectangle(x+2, y+4, x, y+28, TestPlayer, false, false) {
 	}
 	}
 	}
+			}
+		}
 		}
 	}
 	else {
