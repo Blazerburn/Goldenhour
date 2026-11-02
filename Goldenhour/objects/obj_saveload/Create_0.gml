@@ -30,6 +30,7 @@ global.statData =
 	
 	item_inv : 0, 
 	
+	//Puzzles
 	rpuzzle1 : 0,
 	rpuzzle2 : 0,
 	rpuzzle3 : 0,
@@ -37,11 +38,18 @@ global.statData =
 	rpuzzle5 : 0,
 	rpuzzle6 : 0,
 	
+	//Environmental Variables
 	inventoryBag : 0,
 	pPuzzle4 : 0,
 	castlePower : 0,
 	libraryDoor : 0,
 	princeDoor : 0,
+	
+	//Interactable Variables
+	botany1 : 0,
+	botany2 : 0,
+	botany3 : 0,
+	botany4 : 0,
 }
 
 global.levelData =

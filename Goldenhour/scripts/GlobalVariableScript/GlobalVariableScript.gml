@@ -70,6 +70,16 @@ global.shiningCityPowered = 0;
 global.libraryDoorOpen = 0;
 global.princeDoorOpen = 0;
 
+// Interactables
+// This is basically variables to track certain branching dialogues
+// I don't how to track this across rooms and saves without storing them in the player
+// And that seems just as bad as doing it this way
+global.botanyVol1 = false;
+global.botanyVol2 = false;
+global.botanyVol3 = false;
+global.botanyVol4 = false;
+global.castleLight = 0;
+
 // Other shit
 global.playerFollowers = 0;
 global.shiftText = 0;

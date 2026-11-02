@@ -24,6 +24,8 @@
 //x += moveX;
 //y += moveY;
 
+update_layer()
+
 selectionX = 0;
 selectionY = 0;
 

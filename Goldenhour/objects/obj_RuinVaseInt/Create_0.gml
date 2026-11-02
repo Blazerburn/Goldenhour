@@ -18,7 +18,11 @@ myPortraitIdle		= -1;
 //-------OTHER
 
 puzzleProgress      = 0;
-choice_variable		= image_index;	//the variable we change depending on the player's choice in dialogue
+choice_variable		= image_index;
+
+
+
 
 vase = instance_create_layer(x, y-8, "Instances", obj_RuinVase)
 vase.image_index = choice_variable
+

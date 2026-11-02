@@ -43,6 +43,7 @@ if (puzzleProgress = 1) {
 		global.Puzzle4SecondHalf = 1
 		choice_variable = "Push";
 		puzzleProgress = 2;
+		active = false;
 		skip = 1 
 	}
 }
@@ -65,6 +66,7 @@ if puzzleProgress = 2 {
 		instance_activate_object(obj_Ruins1Puzzle4PressurePlate)
 		global.Puzzle4SecondHalf = 1
 		choice_variable = "Push";
+		active = false;
 		skip = 1 
 	}
 	

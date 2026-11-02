@@ -291,6 +291,15 @@ function save_game(_fileNum = 0)
 	global.statData.castlePower = global.shiningCityPowered
 	global.statData.libraryDoor = global.libraryDoorOpen
 	global.statData.princeDoor = global.princeDoorOpen
+	
+	// Save the interactable variables
+	global.statData.botany1 = global.botanyVol1
+	global.statData.botany2 = global.botanyVol2
+	global.statData.botany3 = global.botanyVol3
+	global.statData.botany4 = global.botanyVol4
+	
+	
+	
 	// Save all the room data
 	
 	array_push(_saveArray, global.statData);
@@ -393,6 +402,12 @@ function load_game(_fileNum = 0)
 	global.shiningCityPowered = global.statData.castlePower
 	global.libraryDoorOpen = global.statData.libraryDoor
 	global.princeDoorOpen = global.statData.princeDoor
+	
+	// Load the interactable information
+	global.botanyVol1 = global.statData.botany1
+	global.botanyVol2 = global.statData.botany2
+	global.botanyVol3 = global.statData.botany3
+	global.botanyVol4 = global.statData.botany4
 	
 	// Make sure our saveload doesn't save the room we're exiting from
 	obj_saveload.skipRoomSave = true;

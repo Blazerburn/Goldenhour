@@ -41,6 +41,7 @@
     {"name":"inst_51D5C01E","path":"rooms/PrincesRoom5/PrincesRoom5.yy",},
     {"name":"inst_AD8657F","path":"rooms/PrincesRoom5/PrincesRoom5.yy",},
     {"name":"inst_40676F3E","path":"rooms/PrincesRoom5/PrincesRoom5.yy",},
+    {"name":"inst_411E3A6A","path":"rooms/PrincesRoom5/PrincesRoom5.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -97,6 +98,7 @@
         {"$GMRInstance":"v4","%Name":"inst_51D5C01E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_51D5C01E","objectId":{"name":"obj_BookshelvesInt","path":"objects/obj_BookshelvesInt/obj_BookshelvesInt.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":384.0,"y":106.0,},
         {"$GMRInstance":"v4","%Name":"inst_AD8657F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_AD8657F","objectId":{"name":"obj_BookshelvesInt","path":"objects/obj_BookshelvesInt/obj_BookshelvesInt.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":112.0,"y":111.0,},
         {"$GMRInstance":"v4","%Name":"inst_40676F3E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_40676F3E","objectId":{"name":"obj_BookshelvesInt","path":"objects/obj_BookshelvesInt/obj_BookshelvesInt.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":47.0,"y":170.0,},
+        {"$GMRInstance":"v4","%Name":"inst_411E3A6A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_411E3A6A","objectId":{"name":"obj_RoyalBed","path":"objects/obj_RoyalBed/obj_RoyalBed.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":3.0,"scaleY":1.0,"x":256.0,"y":96.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"PerspectiveBuilding2","depth":1200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"PerspectiveBuilding2","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":8,"SerialiseWidth":16,"TileCompressedData":[
           -45,-2147483648,1,0,-15,-2147483648,2,0,2,-14,-2147483648,3,0,26,78,-13,-2147483648,3,0,26,102,-14,-2147483648,

@@ -94,7 +94,22 @@ function botany_books(_num){
 			]
 	];
 	
-	
+	if _num = 0 {
+		global.botanyVol1 = true;
+		show_debug_message("Volume 1")
+	}
+	else if _num = 1 {
+		global.botanyVol2 = true;
+		show_debug_message("Volume 2")
+	}
+	else if _num = 2 {
+		global.botanyVol3 = true;
+		show_debug_message("Volume 3")
+	}
+	else if _num = 3 {
+		global.botanyVol4 = true;
+		show_debug_message("Volume 4")
+	}
 	
 	show_debug_message(book[_num])
 	//script_execute_ext(create_textevent, book[_num])

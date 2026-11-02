@@ -3,7 +3,6 @@
 event_inherited();
 
 var _vol = global.sfxVolume * global.masterVolume
-show_debug_message(choice_variable)
 if puzzleProgress = 4 {
 	audio_play_sound(sfx_DoorOpening, 5, false, _vol)
 	save_room()
