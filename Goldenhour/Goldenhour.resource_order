@@ -356,7 +356,6 @@
     {"name":"sng_RuinsOutskirts","order":9,"path":"sounds/sng_RuinsOutskirts/sng_RuinsOutskirts.yy",},
     {"name":"sng_RuinsOutskirts1","order":3,"path":"sounds/sng_RuinsOutskirts1/sng_RuinsOutskirts1.yy",},
     {"name":"typing_sound_01_229863__1___1_","order":4,"path":"sounds/typing_sound_01_229863__1___1_/typing_sound_01_229863__1___1_.yy",},
-    {"name":"ab071f08_603d_4a41_bcc7_f7f20182a068","order":38,"path":"sprites/ab071f08_603d_4a41_bcc7_f7f20182a068/ab071f08_603d_4a41_bcc7_f7f20182a068.yy",},
     {"name":"ActivationCollision","order":6,"path":"sprites/ActivationCollision/ActivationCollision.yy",},
     {"name":"anim_FallingBookshelf","order":4,"path":"sprites/anim_FallingBookshelf/anim_FallingBookshelf.yy",},
     {"name":"anim_PushBoxMoveDown","order":8,"path":"sprites/anim_PushBoxMoveDown/anim_PushBoxMoveDown.yy",},
