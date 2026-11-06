@@ -2,7 +2,12 @@ spd = 2;
 
 //--------Dialogue Stuff
 reset_dialogue_defaults();
-myPortrait			= CondiHeadshot;
+if global.inventoryBag = false {
+	myPortrait			= spr_CondiHeadshot_First;
+}
+else if global.inventoryBag = true {
+	myPortrait			= spr_CondiHeadshot_Pouch_First;
+}
 myVoice				= snd_voice2;
 myFont				= fnt_dialogue;
 myName				= "Condi";
@@ -53,7 +58,7 @@ global.globalPlayerDirection = 2;
 
 _colliding = "False"
 
-mask_index = CondiLeftIdle
+mask_index = spr_CondiLeftIdle_Second
 
 // Inventory Stuff
 itemPos = 0;
@@ -83,10 +88,10 @@ if(global.playerFollowers == 1)
 {
 	/// @description Execute Code
 	dir_sprites = [
-		CondiRightIdle,
-	    CondiBackwardIdle,
-		CondiLeftIdle,
-		CondiForwardIdle,
+		spr_CondiRightIdle_Second,
+	    spr_CondiBackwardIdle_Second,
+		spr_CondiLeftIdle_Second,
+		spr_CondiForwardIdle_Second,
 	];
 	
 	follow_max = 60;

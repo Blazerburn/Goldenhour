@@ -49,7 +49,7 @@
   "tracks":[
     {"$GMGraphicTrack":"","%Name":"CondiForwardWalking","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<AssetSpriteKeyframe>":"","Keyframes":[
           {"$Keyframe<AssetSpriteKeyframe>":"","Channels":{
-              "0":{"$AssetSpriteKeyframe":"","Id":{"name":"CondiForwardWalking","path":"sprites/CondiForwardWalking/CondiForwardWalking.yy",},"resourceType":"AssetSpriteKeyframe","resourceVersion":"2.0",},
+              "0":{"$AssetSpriteKeyframe":"","Id":{"name":"spr_CondiForwardWalking_Second","path":"sprites/spr_CondiForwardWalking_Second/spr_CondiForwardWalking_Second.yy",},"resourceType":"AssetSpriteKeyframe","resourceVersion":"2.0",},
             },"Disabled":false,"id":"b342f296-99c7-4cd6-954d-28b2c4086ea9","IsCreationKey":false,"Key":0.0,"Length":59.9998,"resourceType":"Keyframe<AssetSpriteKeyframe>","resourceVersion":"2.0","Stretch":false,},
         ],"resourceType":"KeyframeStore<AssetSpriteKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"CondiForwardWalking","resourceType":"GMGraphicTrack","resourceVersion":"2.0","trackColour":4293784136,"tracks":[
         {"$GMRealTrack":"","%Name":"image_speed","builtinName":17,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<RealKeyframe>":"","Keyframes":[

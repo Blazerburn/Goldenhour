@@ -98,6 +98,50 @@ if(global.recentlyInteracted == 0)
 }
 
 
+if(global.itemWrongType == itemLongStick)
+{
+		create_textevent(
+	["The stick is neither long enough, nor thick enough for you to use to get across"],
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	
+);
+			
+				global.itemCheck = 0;
+			
+				exit;
+}
+
+
+if(global.itemWrongType == itemMakeshiftAxe)
+{
+		create_textevent(
+	["You don't think you're going to be able to chop your way over this hole"],
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	
+);
+			
+				global.itemCheck = 0;
+			
+				exit;
+}
+
+
 }
 	
 		else

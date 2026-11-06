@@ -99,6 +99,79 @@ if(global.recentlyInteracted == 0)
 }
 
 
+		if(global.itemWrongType == itemLongStick)
+{
+		create_textevent(
+	["You put the stick into the hole",
+	"You know on second thought maybe this random stick was not the energy source for this generator"],
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	
+);
+			
+				global.itemCheck = 0;
+			
+				exit;
+}
+
+		if(global.itemWrongType == itemStickyStick)
+{
+		create_textevent(
+	["Oh yeah good idea",
+	"The problem was that there wasn't a stick with gel on it",
+	"...",
+	"You wait for a few moments for the generator to turn on",
+	"...",
+	"Any second now",
+	"...",
+	"You grab the sticky stick and walk away"],
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	
+);
+			
+				global.itemCheck = 0;
+			
+				exit;
+}
+
+
+if(global.itemWrongType == itemMakeshiftAxe)
+{
+		create_textevent(
+	["You don't know if breaking the generator is a good idea",
+	"That might not fix it..."],
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	
+);
+			
+				global.itemCheck = 0;
+			
+				exit;
+}
+
 }
 	
 		else

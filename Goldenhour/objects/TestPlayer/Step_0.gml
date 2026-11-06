@@ -205,26 +205,28 @@ if (l62652CE5_0)
 
 	if(global.playerAnimating == 0)
 {
+	if global.inventoryBag = false {
 	if(global.playerMoving == 0)
 {
+	
 	if(playerDirection == 0)
 {
-	sprite_index = CondiBackwardIdle;
+	sprite_index = spr_CondiBackwardIdle_First;
 }
 		
 			if(playerDirection == 1)
 {
-	sprite_index = CondiRightIdle;
+	sprite_index = spr_CondiRightIdle_First;
 }
 		
 			if(playerDirection == 2)
 {
-	sprite_index = CondiForwardIdle;
+	sprite_index = spr_CondiForwardIdle_First;
 }
 		
 			if(playerDirection == 3)
 {
-	sprite_index = CondiLeftIdle;
+	sprite_index = spr_CondiLeftIdle_First;
 }
 }
 	
@@ -234,49 +236,130 @@ if (l62652CE5_0)
 {
 	if(playerDirection == 0)
 {
-	sprite_index = CondiBackwardWalking;
+	sprite_index = spr_CondiBackwardWalking_First;
 }
 			
 				if(playerDirection == 1)
 {
-	sprite_index = CondiRightWalking;
+	sprite_index = spr_CondiRightWalking_First;
 }
 			
 				if(playerDirection == 2)
 {
-	sprite_index = CondiForwardWalking;
+	sprite_index = spr_CondiForwardWalking_First;
 }
 			
 				if(playerDirection == 3)
 {
-	sprite_index = CondiLeftWalking;
+	sprite_index = spr_CondiLeftWalking_First;
 }
 }
+}
+}
+else if global.inventoryBag = true {
+	if(global.playerMoving == 0)
+{
+	
+	if(playerDirection == 0)
+{
+	sprite_index = spr_CondiBackwardIdle_Pouch_First;
+}
+		
+			if(playerDirection == 1)
+{
+	sprite_index = spr_CondiRightIdle_Pouch_First;
+}
+		
+			if(playerDirection == 2)
+{
+	sprite_index = spr_CondiForwardIdle_Pouch_First;
+}
+		
+			if(playerDirection == 3)
+{
+	sprite_index = spr_CondiLeftIdle_Pouch_First;
+}
+}
+	
+		else
+{
+	if(global.playerMoving == 1)
+{
+	if(playerDirection == 0)
+{
+	sprite_index = spr_CondiBackwardWalking_Pouch_First;
+}
+			
+				if(playerDirection == 1)
+{
+	sprite_index = spr_CondiRightWalking_Pouch_First;
+}
+			
+				if(playerDirection == 2)
+{
+	sprite_index = spr_CondiForwardWalking_Pouch_First;
+}
+			
+				if(playerDirection == 3)
+{
+	sprite_index = spr_CondiLeftWalking_Pouch_First;
+}
+}
+}
+	
+	
 }
 }
 }
 
 if(global.Immobilize == 1)
 {
+	if global.inventoryBag = false {
 	if(playerDirection == 0)
 {
-	sprite_index = CondiBackwardIdle;
+	sprite_index = spr_CondiBackwardIdle_First;
 }
-
-	if(playerDirection == 1)
+		
+			if(playerDirection == 1)
 {
-	sprite_index = CondiRightIdle;
+	sprite_index = spr_CondiRightIdle_First;
 }
-
-	if(playerDirection == 2)
+		
+			if(playerDirection == 2)
 {
-	sprite_index = CondiForwardIdle;
+	sprite_index = spr_CondiForwardIdle_First;
 }
-
-	if(playerDirection == 3)
+		
+			if(playerDirection == 3)
 {
-	sprite_index = CondiLeftIdle;
+	sprite_index = spr_CondiLeftIdle_First;
 }
+	}
+	else if global.inventoryBag = true {
+	if(global.playerMoving == 0)
+{
+	
+	if(playerDirection == 0)
+{
+	sprite_index = spr_CondiBackwardIdle_Pouch_First;
+}
+		
+			if(playerDirection == 1)
+{
+	sprite_index = spr_CondiRightIdle_Pouch_First;
+}
+		
+			if(playerDirection == 2)
+{
+	sprite_index = spr_CondiForwardIdle_Pouch_First;
+}
+		
+			if(playerDirection == 3)
+{
+	sprite_index = spr_CondiLeftIdle_Pouch_First;
+}
+}
+	}
 }
 
 

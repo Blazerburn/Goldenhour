@@ -43,8 +43,8 @@
     "path":"sprites/Sprite2/Sprite2.yy",
   },
   "spriteMaskId":{
-    "name":"CondiLeftIdle",
-    "path":"sprites/CondiLeftIdle/CondiLeftIdle.yy",
+    "name":"spr_CondiLeftIdle_Second",
+    "path":"sprites/spr_CondiLeftIdle_Second/spr_CondiLeftIdle_Second.yy",
   },
   "visible":true,
 }

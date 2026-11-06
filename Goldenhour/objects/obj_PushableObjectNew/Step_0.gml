@@ -386,14 +386,14 @@ if collision_rectangle(x+2, y+4, x, y+28, TestPlayer, false, false) {
 					if(global.playerMoving == 1)
 	{
 		with(TestPlayer) {
-						sprite_index = CondiBackwardWalking;
+						sprite_index = spr_CondiBackwardWalking_Second;
 						}
 	}
 			
 					else
 	{
 		with(TestPlayer) {
-						sprite_index = CondiBackwardIdle;
+						sprite_index = spr_CondiBackwardIdle_Second;
 						}
 	}
 	}
@@ -411,14 +411,14 @@ if collision_rectangle(x+2, y+4, x, y+28, TestPlayer, false, false) {
 						if(global.playerMoving == 1)
 	{
 		with(TestPlayer) {
-							sprite_index = CondiRightWalking;
+							sprite_index = spr_CondiRightWalking_Second;
 							}
 	}
 				
 						else
 	{
 		with(TestPlayer) {
-							sprite_index = CondiRightIdle;
+							sprite_index = spr_CondiRightIdle_Second;
 							}
 	}
 	}
@@ -436,14 +436,14 @@ if collision_rectangle(x+2, y+4, x, y+28, TestPlayer, false, false) {
 							if(global.playerMoving == 1)
 	{
 		with(TestPlayer) {
-								sprite_index = CondiForwardWalking;
+								sprite_index = spr_CondiForwardWalking_Second;
 								}
 	}
 					
 							else
 	{
 		with(TestPlayer) {
-								sprite_index = CondiForwardIdle;
+								sprite_index = spr_CondiForwardIdle_Second;
 								}
 	}
 	}
@@ -461,14 +461,14 @@ if collision_rectangle(x+2, y+4, x, y+28, TestPlayer, false, false) {
 								if(global.playerMoving == 1)
 	{
 		with(TestPlayer) {
-									sprite_index = CondiLeftWalking;
+									sprite_index = spr_CondiLeftWalking_Second;
 									}
 	}
 						
 								else
 	{
 		with(TestPlayer) {
-									sprite_index = CondiLeftIdle;
+									sprite_index = spr_CondiLeftIdle_Second;
 									}
 	}
 	}
