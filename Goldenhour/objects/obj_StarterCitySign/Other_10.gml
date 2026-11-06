@@ -104,7 +104,7 @@ switch(choice_variable){
 		
 		//Line 4
 		i++;
-		myText[i]		= "'I can't believe their used to be a monarchy here lol'";
+		myText[i]		= "'I can't believe there used to be a monarchy here lol'";
 		mySpeaker[i]	= id;
 	#endregion
 	break;

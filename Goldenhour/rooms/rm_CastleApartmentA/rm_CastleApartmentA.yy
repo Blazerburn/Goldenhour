@@ -88,20 +88,24 @@
           6,40,77,0,0,125,16,-4,0,-2,-2147483648,-2,0,6,40,77,0,0,125,16,-4,0,1,-2147483648,-35,0,-2,-2147483648,
           1,0,-3,-2147483648,-5,0,4,-2147483648,0,-2147483648,0,-5,-2147483648,
         ],"TileDataFormat":1,},"tilesetId":{"name":"tile_P_RuinBrickWall","path":"tilesets/tile_P_RuinBrickWall/tile_P_RuinBrickWall.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
-    {"$GMRTileLayer":"","%Name":"Tiles_1","depth":1200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":13,"SerialiseWidth":14,"TileCompressedData":[
+    {"$GMRTileLayer":"","%Name":"Rug","depth":1200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Rug","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":13,"SerialiseWidth":14,"TileCompressedData":[
+          -144,-2147483648,6,1,2,3,4,5,6,-8,-2147483648,6,25,26,27,28,29,30,-8,-2147483648,6,49,50,51,52,53,54,
+          -4,-2147483648,
+        ],"TileDataFormat":1,},"tilesetId":{"name":"tile_Castle","path":"tilesets/tile_Castle/tile_Castle.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+    {"$GMRTileLayer":"","%Name":"Tiles_1","depth":1300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":13,"SerialiseWidth":14,"TileCompressedData":[
           -4,-2147483648,1,0,-4,101,1,0,-8,-2147483648,1,0,-4,101,1,0,-8,-2147483648,1,0,-4,101,-2,0,-7,-2147483648,
           2,0,-2147483648,-7,0,-5,-2147483648,-10,0,-3,-2147483648,1,11,-6,0,1,15,-3,0,-2,-2147483648,2,11,1,-6,
           0,8,2,15,0,0,-2147483648,11,1,25,-6,0,8,26,2,15,0,11,1,25,25,-6,0,-2,26,6,2,15,1,25,25,49,-6,0,7,50,
           26,26,2,25,25,49,-8,0,5,50,26,26,25,49,-3,0,-4,-2147483648,-3,0,3,50,26,49,-3,0,-6,-2147483648,-3,0,
           1,50,
         ],"TileDataFormat":1,},"tilesetId":{"name":"tile_P_RuinBrickWall","path":"tilesets/tile_P_RuinBrickWall/tile_P_RuinBrickWall.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
-    {"$GMRTileLayer":"","%Name":"Floor","depth":1300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Floor","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":13,"SerialiseWidth":14,"TileCompressedData":[
+    {"$GMRTileLayer":"","%Name":"Floor","depth":1400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Floor","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":13,"SerialiseWidth":14,"TileCompressedData":[
           -46,-2147483648,6,1,2,1,2,1,2,-8,-2147483648,6,9,10,9,10,9,10,-10,-2147483648,2,1,2,-12,-2147483648,
           2,9,10,-12,-2147483648,2,1,2,-12,-2147483648,2,9,10,-8,-2147483648,10,1,2,1,2,1,2,1,2,1,2,-4,-2147483648,
           40,9,10,9,10,9,10,9,10,9,10,-2147483648,-2147483648,1,2,1,2,1,2,1,2,1,2,1,2,1,2,9,10,9,10,9,10,9,10,
           9,10,9,10,9,10,
         ],"TileDataFormat":1,},"tilesetId":{"name":"tile_RuinFloors","path":"tilesets/tile_RuinFloors/tile_RuinFloors.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
-    {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":1400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
+    {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":1500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
   "name":"rm_CastleApartmentA",
   "parent":{
