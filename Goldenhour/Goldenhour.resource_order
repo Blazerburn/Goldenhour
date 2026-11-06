@@ -521,6 +521,7 @@
     {"name":"SecretBook10thHour","order":4,"path":"sprites/SecretBook10thHour/SecretBook10thHour.yy",},
     {"name":"SecretBook11thHour","order":5,"path":"sprites/SecretBook11thHour/SecretBook11thHour.yy",},
     {"name":"SecretBook12thHour","order":6,"path":"sprites/SecretBook12thHour/SecretBook12thHour.yy",},
+    {"name":"shitty_carpet","order":143,"path":"sprites/shitty_carpet/shitty_carpet.yy",},
     {"name":"SmallPlant","order":6,"path":"sprites/SmallPlant/SmallPlant.yy",},
     {"name":"SmallPlantInventory","order":7,"path":"sprites/SmallPlantInventory/SmallPlantInventory.yy",},
     {"name":"spr_BarricadedDoor","order":116,"path":"sprites/spr_BarricadedDoor/spr_BarricadedDoor.yy",},

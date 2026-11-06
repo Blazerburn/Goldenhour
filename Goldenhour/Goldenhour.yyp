@@ -612,6 +612,7 @@
     {"id":{"name":"SecretBook10thHour","path":"sprites/SecretBook10thHour/SecretBook10thHour.yy",},},
     {"id":{"name":"SecretBook11thHour","path":"sprites/SecretBook11thHour/SecretBook11thHour.yy",},},
     {"id":{"name":"SecretBook12thHour","path":"sprites/SecretBook12thHour/SecretBook12thHour.yy",},},
+    {"id":{"name":"shitty_carpet","path":"sprites/shitty_carpet/shitty_carpet.yy",},},
     {"id":{"name":"SmallPlant","path":"sprites/SmallPlant/SmallPlant.yy",},},
     {"id":{"name":"SmallPlantInventory","path":"sprites/SmallPlantInventory/SmallPlantInventory.yy",},},
     {"id":{"name":"spr_BarricadedDoor","path":"sprites/spr_BarricadedDoor/spr_BarricadedDoor.yy",},},
