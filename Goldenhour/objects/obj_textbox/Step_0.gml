@@ -26,7 +26,7 @@ if(type[page] == 0){
 	}
 	else if global.keepTalking = true {
 		if activated = false {
-			global.recentlyInteracted = 3 + (15/1 + (charCount * 4));
+			global.recentlyInteracted = 10 + (15/1 + (charCount * 4));
 			activated = true;
 		}
 		if global.recentlyInteracted = 0 {

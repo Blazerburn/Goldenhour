@@ -258,11 +258,19 @@ if collision_rectangle(x+2, y+4, x, y+28, TestPlayer, false, false) {
 							if global.playerMoving = 1 {
 								//global.recentlyInteracted = 30;
 							}
+							
 							//move_and_collide(xinput * 24, yinput * 24, [obj_PushableObject, obj_StuckPuzzleBox, PushableWall, pushCollision],4,0,0,32,32);
 							if interacted = false {
 								if right {
 									if !collision_line(x+28, y+16, x+48, y+16, [obj_PushableObject, PushableWall, pushCollision], false, true) {
-										sprite_index = anim_PushBoxMoveRight
+										if pushPlayerDirection = 0 {
+											sprite_index = anim_PushBoxMoveRight_0 }
+										if pushPlayerDirection = 1 {
+											sprite_index = anim_PushBoxMoveRight_1 }
+										if pushPlayerDirection = 2 {
+											sprite_index = anim_PushBoxMoveRight_2 }
+										if pushPlayerDirection = 3 {
+											sprite_index = anim_PushBoxMoveRight_3 }
 										image_index = 0;
 										interacted = true;
 										global.animating = 1;
@@ -278,7 +286,14 @@ if collision_rectangle(x+2, y+4, x, y+28, TestPlayer, false, false) {
 								}
 								if up {
 									if !collision_line(x+16, y+4, x+16, y-16, [obj_PushableObject, PushableWall, pushCollision], false, true) {
-										sprite_index = anim_PushBoxMoveUp
+										if pushPlayerDirection = 0 {
+											sprite_index = anim_PushBoxMoveUp_0 }
+										if pushPlayerDirection = 1 {
+											sprite_index = anim_PushBoxMoveUp_1 }
+										if pushPlayerDirection = 2 {
+											sprite_index = anim_PushBoxMoveUp_2 }
+										if pushPlayerDirection = 3 {
+											sprite_index = anim_PushBoxMoveUp_3 }
 										image_index = 0;
 										interacted = true;
 										global.animating = 1;
@@ -294,7 +309,14 @@ if collision_rectangle(x+2, y+4, x, y+28, TestPlayer, false, false) {
 								}
 								if left {
 									if !collision_line(x+4, y+16, x-16, y+16, [obj_PushableObject, PushableWall, pushCollision], false, true) {
-										sprite_index = anim_PushBoxMoveLeft
+										if pushPlayerDirection = 0 {
+											sprite_index = anim_PushBoxMoveLeft_0 }
+										if pushPlayerDirection = 1 {
+											sprite_index = anim_PushBoxMoveLeft_1 }
+										if pushPlayerDirection = 2 {
+											sprite_index = anim_PushBoxMoveLeft_2 }
+										if pushPlayerDirection = 3 {
+											sprite_index = anim_PushBoxMoveLeft_3 }
 										image_index = 0;
 										interacted = true;
 										global.animating = 1;
@@ -310,7 +332,14 @@ if collision_rectangle(x+2, y+4, x, y+28, TestPlayer, false, false) {
 								}
 								if down {
 									if !collision_line(x+16, y+28, x+16, y+48, [obj_PushableObject, PushableWall, pushCollision], false, true) {
-										sprite_index = anim_PushBoxMoveDown
+										if pushPlayerDirection = 0 {
+											sprite_index = anim_PushBoxMoveDown_0 }
+										if pushPlayerDirection = 1 {
+											sprite_index = anim_PushBoxMoveDown_1 }
+										if pushPlayerDirection = 2 {
+											sprite_index = anim_PushBoxMoveDown_2 }
+										if pushPlayerDirection = 3 {
+											sprite_index = anim_PushBoxMoveDown_3 }
 										image_index = 0;
 										interacted = true;
 										global.animating = 1;
@@ -344,6 +373,7 @@ if collision_rectangle(x+2, y+4, x, y+28, TestPlayer, false, false) {
 								//show_debug_message(round(_frame))
 								if round(_frame) < 14 {
 									global.animating = 1;
+									TestPlayer.visible = false;
 									//show_debug_message(round(_frame))
 								}
 								else {
@@ -374,6 +404,7 @@ if collision_rectangle(x+2, y+4, x, y+28, TestPlayer, false, false) {
 										//CameraControls(TestPlayer.x, TestPlayer.y+24)
 									}
 									global.recentlyInteracted = 5;
+									TestPlayer.visible = true;
 									interacted = false;
 								}
 								
@@ -392,8 +423,8 @@ if collision_rectangle(x+2, y+4, x, y+28, TestPlayer, false, false) {
 				//}
 			
 				with(pushBoxCollision) {
-				x = pushableBoxOriginX + 3;
-				y = pushableBoxOriginY + 3;
+				x = pushableBoxOriginX + 4;
+				y = pushableBoxOriginY + 16;
 				}
 				/*with(pathCollision) {
 				x = pushableBoxOriginX + 8;
@@ -407,6 +438,8 @@ if collision_rectangle(x+2, y+4, x, y+28, TestPlayer, false, false) {
 					//move_and_collide(pushableBoxOriginX + 16,  pushableBoxOriginY + 16, [obj_PushableObject, obj_StuckPuzzleBox],4,0,0,1,1);
 					x = pushableBoxOriginX + 16;
 					y = pushableBoxOriginY + 16;
+					sprite_index = spr_CondiPushingBox_First;
+					image_index = 3;
 					}
 			
 			/*		if(global.playerMoving == 1)
@@ -432,6 +465,8 @@ if collision_rectangle(x+2, y+4, x, y+28, TestPlayer, false, false) {
 		with(TestPlayer) {
 						x = pushableBoxOriginX - 8;
 						y = pushableBoxOriginY;
+						sprite_index = spr_CondiPushingBox_First;
+						image_index = 0;
 						}
 				
 		/*				if(global.playerMoving == 1)
@@ -456,7 +491,9 @@ if collision_rectangle(x+2, y+4, x, y+28, TestPlayer, false, false) {
 		//mask_index = PushBoxCollisionUp
 		with(TestPlayer) {
 							x = pushableBoxOriginX + 16;
-							y = pushableBoxOriginY - 24;
+							y = pushableBoxOriginY - 18;
+							sprite_index = spr_CondiPushingBox_First;
+							image_index = 2;
 							}
 					
 		/*					if(global.playerMoving == 1)
@@ -482,6 +519,8 @@ if collision_rectangle(x+2, y+4, x, y+28, TestPlayer, false, false) {
 		with(TestPlayer) {
 								x = pushableBoxOriginX + 40;
 								y = pushableBoxOriginY;
+								sprite_index = spr_CondiPushingBox_First;
+								image_index = 1;
 								}
 						/*
 								if(global.playerMoving == 1)
@@ -550,7 +589,7 @@ if collision_rectangle(x+2, y+4, x, y+28, TestPlayer, false, false) {
 						instance_activate_object(pushBoxCollision);
 						with(pushBoxCollision) {
 						x = pushableBoxOriginX + 4;
-						y = pushableBoxOriginY + 4;
+						y = pushableBoxOriginY + 12;
 						//show_debug_message(x)
 						//show_debug_message(y)
 						}

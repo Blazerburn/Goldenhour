@@ -20,7 +20,7 @@ if !array_length(books) = 0 {
 	//show_debug_message(bookToRead)
 
 	if choice_variable = "Take" {
-		script_execute(bookScript, bookRead)
+		script_execute(bookScript, bookRead, id)
 		//bookshelf_books(bookRead)
 		choice_variable = "Took"
 	}

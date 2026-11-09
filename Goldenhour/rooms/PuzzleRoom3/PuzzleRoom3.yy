@@ -53,6 +53,7 @@
     {"name":"inst_7EC05F1","path":"rooms/PuzzleRoom3/PuzzleRoom3.yy",},
     {"name":"inst_1D91FEE4","path":"rooms/PuzzleRoom3/PuzzleRoom3.yy",},
     {"name":"inst_1E3EE7D5","path":"rooms/PuzzleRoom3/PuzzleRoom3.yy",},
+    {"name":"inst_1F728B4D","path":"rooms/PuzzleRoom3/PuzzleRoom3.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -102,7 +103,7 @@
           -35,47,1,4,-8,28,1,8,-6,47,1,24,-8,0,1,16,-6,47,1,24,-8,-2147483648,1,16,-6,47,1,24,-8,-2147483648,1,
           16,-6,47,1,24,-5,0,-3,-2147483648,1,16,-6,47,1,2,-3,20,1,36,-4,-2147483648,1,16,-10,47,1,24,-4,0,1,16,
           -10,47,6,2,20,20,36,0,16,-13,47,3,2,20,1,-51,47,-16,28,-80,-2147483648,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"RuinBrickTileSet","path":"tilesets/RuinBrickTileSet/RuinBrickTileSet.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+        ],"TileDataFormat":1,},"tilesetId":{"name":"RuinBrickTileSet","path":"tilesets/RuinBrickTileSet/RuinBrickTileSet.yy",},"userdefinedDepth":false,"visible":false,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"TreesBaseABOVE","depth":800,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"TreesBaseABOVE","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":20,"SerialiseWidth":16,"TileCompressedData":[
           -238,-2147483648,2,15,8,-48,-2147483648,32,8,9,10,11,12,13,14,15,8,9,10,11,12,13,14,15,16,17,18,19,20,
           21,22,23,16,17,18,19,20,21,22,23,
@@ -159,6 +160,7 @@
         {"$GMRInstance":"v4","%Name":"inst_7EC05F1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7EC05F1","objectId":{"name":"obj_RuinsTree","path":"objects/obj_RuinsTree/obj_RuinsTree.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":152.0,"y":477.0,},
         {"$GMRInstance":"v4","%Name":"inst_1D91FEE4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":1,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1D91FEE4","objectId":{"name":"obj_RuinsTree","path":"objects/obj_RuinsTree/obj_RuinsTree.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":320.0,"y":544.0,},
         {"$GMRInstance":"v4","%Name":"inst_1E3EE7D5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":2,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1E3EE7D5","objectId":{"name":"obj_RuinsTree","path":"objects/obj_RuinsTree/obj_RuinsTree.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":49.0,"y":191.0,},
+        {"$GMRInstance":"v4","%Name":"inst_1F728B4D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1F728B4D","objectId":{"name":"obj_Puzzle3Sign","path":"objects/obj_Puzzle3Sign/obj_Puzzle3Sign.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":336.0,"y":388.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_1","depth":1800,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":20,"SerialiseWidth":16,"TileCompressedData":[
           -24,0,-3,-2147483648,-2,0,3,-2147483648,16,47,-3,0,1,35,-8,33,8,37,0,16,47,0,0,-2147483648,32,-8,0,10,

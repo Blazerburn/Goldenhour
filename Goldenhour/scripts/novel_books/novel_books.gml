@@ -1,4 +1,4 @@
-function novel_books(_num){
+function novel_books(_num, _id){
 	show_debug_message("num")
 	show_debug_message(_num)
 	book = [
@@ -176,7 +176,7 @@ function novel_books(_num){
 	_arg10,
 	);
 	
-	with obj_BookshelvesInt {
+	with _id {
 		puzzleProgress = 2
 	}
 }

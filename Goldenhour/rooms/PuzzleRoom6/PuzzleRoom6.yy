@@ -59,6 +59,7 @@
     {"name":"inst_6EFBBB65","path":"rooms/PuzzleRoom6/PuzzleRoom6.yy",},
     {"name":"inst_3DFD4A15","path":"rooms/PuzzleRoom6/PuzzleRoom6.yy",},
     {"name":"inst_5DCE2296","path":"rooms/PuzzleRoom6/PuzzleRoom6.yy",},
+    {"name":"inst_67061E8","path":"rooms/PuzzleRoom6/PuzzleRoom6.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -192,6 +193,7 @@
         {"$GMRInstance":"v4","%Name":"inst_6EFBBB65","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":1,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6EFBBB65","objectId":{"name":"obj_RuinsTree","path":"objects/obj_RuinsTree/obj_RuinsTree.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":672.0,"y":288.0,},
         {"$GMRInstance":"v4","%Name":"inst_3DFD4A15","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3DFD4A15","objectId":{"name":"obj_RuinsTree","path":"objects/obj_RuinsTree/obj_RuinsTree.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":547.0,"y":557.0,},
         {"$GMRInstance":"v4","%Name":"inst_5DCE2296","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5DCE2296","objectId":{"name":"obj_RuinsStumps","path":"objects/obj_RuinsStumps/obj_RuinsStumps.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":137.0,"y":283.0,},
+        {"$GMRInstance":"v4","%Name":"inst_67061E8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_67061E8","objectId":{"name":"obj_Puzzle6Sign","path":"objects/obj_Puzzle6Sign/obj_Puzzle6Sign.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":64.0,"y":320.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_3","depth":2600,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_3","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":20,"SerialiseWidth":24,"TileCompressedData":[
           -57,-2147483648,-8,101,-16,-2147483648,-8,101,-67,-2147483648,1,0,-4,-2147483648,1,101,-14,-2147483648,

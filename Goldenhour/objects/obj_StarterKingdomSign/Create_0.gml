@@ -19,3 +19,11 @@ myPortraitIdle		= -1;
 
 puzzleProgress      = 0;
 choice_variable		= -1;	//the variable we change depending on the player's choice in dialogue
+
+if image_index = 0 or image_index = 2 {
+	collision = instance_create_layer(x-12, y+14, "Collisions", TestWall)
+	with collision {
+		image_xscale *= .37
+		image_yscale *= .15
+	}
+}

@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"TestSparkles",
-    "path":"sprites/TestSparkles/TestSparkles.yy",
+    "name":"spr_StoneSignOff",
+    "path":"sprites/spr_StoneSignOff/spr_StoneSignOff.yy",
   },
   "spriteMaskId":null,
   "tags":[

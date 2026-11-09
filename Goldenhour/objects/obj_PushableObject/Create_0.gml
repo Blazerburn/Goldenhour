@@ -26,11 +26,11 @@ mask_index = PushBoxB
 pushBoxCollision = 0;
 pathCollision = 0;
 
-pushBoxCollision = instance_create_layer(x + 4, y + 4, "Box", TestWall);
+pushBoxCollision = instance_create_layer(x + 4, y + 12, "Box", TestWall);
 
 with(pushBoxCollision) {
 image_xscale = .375;
-image_yscale = .375;
+image_yscale = .2;
 }
 
 pushCollision = layer_tilemap_get_id("TileCollision")

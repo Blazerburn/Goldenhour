@@ -1,4 +1,4 @@
-function limerick_books(_num){
+function limerick_books(_num, _id){
 	show_debug_message("num")
 	show_debug_message(_num)
 	book = [
@@ -39,7 +39,7 @@ function limerick_books(_num){
 			"I've purchased a rope, but I have no thumbs to tie it.", 
 			"That's enough of that.",
 			"You morosely place the book back."],
-			[obj_BookshelvesInt, obj_BookshelvesInt, obj_BookshelvesInt, obj_BookshelvesInt, TestPlayer, obj_BookshelvesInt, TestPlayer, obj_BookshelvesInt],
+			[obj_BookshelvesInt, obj_BookshelvesInt, obj_BookshelvesInt, obj_BookshelvesInt, obj_BookshelvesInt, obj_BookshelvesInt, obj_BookshelvesInt, obj_BookshelvesInt, obj_BookshelvesInt],
 			-1,
 			-1,
 			-1,
@@ -93,7 +93,7 @@ function limerick_books(_num){
 	_arg10,
 	);
 	
-	with obj_BookshelvesInt {
+	with _id {
 		puzzleProgress = 2
 	}
 }

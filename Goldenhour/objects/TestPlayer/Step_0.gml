@@ -205,6 +205,7 @@ if (l62652CE5_0)
 
 	if(global.playerAnimating == 0)
 {
+	if global.pushingBox = false {
 	if global.inventoryBag = false {
 	if(global.playerMoving == 0)
 {
@@ -311,9 +312,11 @@ else if global.inventoryBag = true {
 }
 }
 }
+}
 
 if(global.Immobilize == 1)
 {
+	if global.pushingBox = false {
 	if global.inventoryBag = false {
 	if(playerDirection == 0)
 {
@@ -360,6 +363,7 @@ if(global.Immobilize == 1)
 }
 }
 	}
+}
 }
 
 
