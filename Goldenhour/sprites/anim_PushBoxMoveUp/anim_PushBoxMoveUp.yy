@@ -39,8 +39,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"Ruins",
-    "path":"folders/Sprites/Animations/Ruins.yy",
+    "name":"Push Boxes",
+    "path":"folders/Sprites/Animations/Ruins/Push Boxes.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

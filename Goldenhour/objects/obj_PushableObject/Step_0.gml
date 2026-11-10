@@ -15,7 +15,7 @@ if global.pushingBox = 0 {
 								if _inst {	
 								looking = true;
 								
-								show_debug_message("Looking up")
+								//show_debug_message("Looking up")
 								//show_debug_message(looking)
 							}
 						}
@@ -23,7 +23,7 @@ if global.pushingBox = 0 {
 							_inst = collision_line(x, y+16, x+16, y+16, obj_PushableObject, false, false) 
 								if _inst {	
 								looking = true;
-								show_debug_message("Looking right")
+								//show_debug_message("Looking right")
 								//show_debug_message(looking)
 							}
 						}
@@ -31,7 +31,7 @@ if global.pushingBox = 0 {
 							_inst = collision_line(x, y+16, x, y+32, obj_PushableObject, false, false)
 								if _inst {	
 								looking = true;
-								show_debug_message("Looking down")
+								//show_debug_message("Looking down")
 								//show_debug_message(looking)
 							}
 						}
@@ -39,7 +39,7 @@ if global.pushingBox = 0 {
 							_inst = collision_line(x-16, y+16, x, y+16, obj_PushableObject, false, false) 
 								if _inst {	
 								looking = true;
-								show_debug_message("Looking left")
+								//show_debug_message("Looking left")
 								//show_debug_message(looking)
 							}
 						}
@@ -47,9 +47,11 @@ if global.pushingBox = 0 {
 
 
 with _inst {
-if collision_rectangle(x+2, y+4, x, y+28, TestPlayer, false, false) {
+if collision_rectangle(x+2, y+2, x, y+30, TestPlayer, false, false) {
+	if TestPlayer.playerDirection = 1 {
 								pushPlayerDirection = 1
-								show_debug_message("Left")
+								//show_debug_message("Left")
+	}
 								/*with _inst {
 								if collision_rectangle(x, y+16, x-20, y+32, TestWall, false, false) {
 									_stop = true;
@@ -57,9 +59,11 @@ if collision_rectangle(x+2, y+4, x, y+28, TestPlayer, false, false) {
 								}
 								}*/
 							}
-							else if collision_rectangle(x+4, y+2, x+28, y, TestPlayer, false, false) {
-								pushPlayerDirection = 2
-								show_debug_message("Up")
+							else if collision_rectangle(x+2, y+2, x+30, y, TestPlayer, false, false) {
+								if TestPlayer.playerDirection = 2 {
+									pushPlayerDirection = 2
+									//show_debug_message("Up")
+								}
 								/*with _inst {
 								if collision_rectangle(x+4, y, x+28, y-12, TestWall, false, false) {
 									_stop = true;
@@ -67,9 +71,11 @@ if collision_rectangle(x+2, y+4, x, y+28, TestPlayer, false, false) {
 								}
 								}*/
 							}
-							else if collision_rectangle(x+30, y+4, x+32, y+28, TestPlayer, false, false) {
-								pushPlayerDirection = 3
-								show_debug_message("Right")
+							else if collision_rectangle(x+30, y+2, x+32, y+30, TestPlayer, false, false) {
+								if TestPlayer.playerDirection = 3 {
+									pushPlayerDirection = 3
+									//show_debug_message("Right")
+								}
 								/*with _inst {
 								if collision_rectangle(x+32, y+16, x+52, y+28, TestWall, false, false) {
 									_stop = true;
@@ -77,9 +83,11 @@ if collision_rectangle(x+2, y+4, x, y+28, TestPlayer, false, false) {
 								}
 								}*/
 							}
-							else if collision_rectangle(x+4, y+30, x+28, y+32, TestPlayer, false, false) {
-								pushPlayerDirection = 0
-								show_debug_message("Down")
+							else if collision_rectangle(x+2, y+30, x+30, y+32, TestPlayer, false, false) {
+								if TestPlayer.playerDirection = 0 {
+									pushPlayerDirection = 0
+									//show_debug_message("Down")
+								}
 								/*with _inst {
 								if collision_rectangle(x+4, y+32, x+28, y+44, TestWall, false, false) {
 									_stop = true;
@@ -114,8 +122,68 @@ if collision_rectangle(x+2, y+4, x, y+28, TestPlayer, false, false) {
 		}*/
 }
 
+if greenPuzzle = true {
+var _upInst = collision_line(x+16, y, x+16, y+16, obj_PushableObject, false, true)
+var _rightInst = collision_line(x+16, y+16, x+32, y+16, obj_PushableObject, false, true)
+var _downInst = collision_line(x+16, y+16, x+16, y+32, obj_PushableObject, false, true)
+var _leftInst = collision_line(x, y+16, x+16, y+16, obj_PushableObject, false, true)
 
+if (_upInst != noone && _upInst.image_index == image_index - 4) {
+    if (!Up) {
+        Up = true;
+        obj_GreenPuzzleController.correctSides++;
+        show_debug_message("Correct up: " + string(obj_GreenPuzzleController.correctSides));
+    }
+} else {
+    if (Up) {
+        Up = false;
+        obj_GreenPuzzleController.correctSides--;
+        show_debug_message("No/Wrong up: " + string(obj_GreenPuzzleController.correctSides));
+    }
+}
 
+if (_rightInst != noone && _rightInst.image_index == image_index + 1) {
+    if (!Right) {
+        Right = true;
+        obj_GreenPuzzleController.correctSides++;
+        show_debug_message("Correct right: " + string(obj_GreenPuzzleController.correctSides));
+    }
+} else {
+    if (Right) {
+        Right = false;
+        obj_GreenPuzzleController.correctSides--;
+        show_debug_message("No/Wrong right: " + string(obj_GreenPuzzleController.correctSides));
+    }
+}
+
+if (_downInst != noone && _downInst.image_index == image_index + 4) {
+    if (!Down) {
+        Down = true;
+        obj_GreenPuzzleController.correctSides++;
+        show_debug_message("Correct down: " + string(obj_GreenPuzzleController.correctSides));
+    }
+} else {
+    if (Down) {
+        Down = false;
+        obj_GreenPuzzleController.correctSides--;
+        show_debug_message("No/Wrong down: " + string(obj_GreenPuzzleController.correctSides));
+    }
+}
+
+if (_leftInst != noone && _leftInst.image_index == image_index - 1) {
+    if (!Left) {
+        Left = true;
+        obj_GreenPuzzleController.correctSides++;
+        show_debug_message("Correct left: " + string(obj_GreenPuzzleController.correctSides));
+    }
+} else {
+    if (Left) {
+        Left = false;
+        obj_GreenPuzzleController.correctSides--;
+        show_debug_message("No/Wrong left: " + string(obj_GreenPuzzleController.correctSides));
+    }
+}
+}
 }
 //show_debug_message(looking)
 

@@ -8,6 +8,15 @@ SlowSpeed = .33;
 
 image = 0;
 greenPuzzle = false;
+Up = false;
+wasUp = false;
+Right = false;
+wasRight = false;
+Down = false;
+wasDown = false;
+Left = false;
+wasLeft = false;
+
 
 pushableBoxOriginX = 0;
 pushableBoxOriginY = 0;

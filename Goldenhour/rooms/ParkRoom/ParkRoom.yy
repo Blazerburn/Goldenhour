@@ -57,6 +57,7 @@
     {"name":"inst_2BED1E0A","path":"rooms/ParkRoom/ParkRoom.yy",},
     {"name":"inst_68D881E3","path":"rooms/ParkRoom/ParkRoom.yy",},
     {"name":"inst_6706C65E","path":"rooms/ParkRoom/ParkRoom.yy",},
+    {"name":"inst_25DA3897","path":"rooms/ParkRoom/ParkRoom.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -200,6 +201,7 @@
         {"$GMRInstance":"v4","%Name":"inst_2BED1E0A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":3,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2BED1E0A","objectId":{"name":"obj_CastleBanners","path":"objects/obj_CastleBanners/obj_CastleBanners.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":416.0,"y":64.0,},
         {"$GMRInstance":"v4","%Name":"inst_68D881E3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_68D881E3","objectId":{"name":"obj_CastleBanners","path":"objects/obj_CastleBanners/obj_CastleBanners.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":64.0,"y":64.0,},
         {"$GMRInstance":"v4","%Name":"inst_6706C65E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6706C65E","objectId":{"name":"obj_CastleBanners","path":"objects/obj_CastleBanners/obj_CastleBanners.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":240.0,"y":64.0,},
+        {"$GMRInstance":"v4","%Name":"inst_25DA3897","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_25DA3897","objectId":{"name":"obj_GreenPuzzleController","path":"objects/obj_GreenPuzzleController/obj_GreenPuzzleController.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":480.0,"y":-64.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Darkness","depth":1600,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Darkness","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":14,"SerialiseWidth":15,"TileCompressedData":[
           -16,-2147483648,1,5,-11,-2147483648,4,6,-2147483648,-2147483648,5,-11,-2147483648,4,6,-2147483648,-2147483648,
