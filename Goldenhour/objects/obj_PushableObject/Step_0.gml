@@ -187,6 +187,10 @@ if (_leftInst != noone && _leftInst.image_index == image_index - 1) {
 }
 //show_debug_message(looking)
 
+
+
+
+
 	if rectangle_in_rectangle(TestPlayer.x-10, TestPlayer.y+16, TestPlayer.x+10, TestPlayer.y+30, x + 1, y + 1, x + 31, y + 31) {
 		if(global.recentlyInteracted == 0)
 		{
@@ -273,7 +277,36 @@ if (_leftInst != noone && _leftInst.image_index == image_index - 1) {
 			
 				//x = floor(x)
 				//y = floor(y)
-
+				
+				if collision_line(TestPlayer.x - 24, TestPlayer.y+4, TestPlayer.x, TestPlayer.y+4, obj_PushableObject, false, true) {
+					leftBlocked = true;
+					show_debug_message("left blocked")
+				}
+				else {
+					leftBlocked = false;
+				}
+				if collision_line(TestPlayer.x + 24, TestPlayer.y+4, TestPlayer.x, TestPlayer.y+4, obj_PushableObject, false, true) {
+					rightBlocked = true;
+					show_debug_message("right blocked")
+				}
+				else {
+					rightBlocked = false;
+				}
+				if collision_line(TestPlayer.x, TestPlayer.y - 20, TestPlayer.x, TestPlayer.y+4, obj_PushableObject, false, true) {
+					upBlocked = true;
+					show_debug_message("up blocked")
+				}
+				else {
+					upBlocked = false;
+				}
+				if collision_line(TestPlayer.x, TestPlayer.y + 28, TestPlayer.x, TestPlayer.y+4, obj_PushableObject, false, true) {
+					downBlocked = true;
+					show_debug_message("down blocked")
+				}
+				else {
+					downBlocked = false;
+				}
+				
 				
 				var _frame = image_index
 				
@@ -330,7 +363,7 @@ if (_leftInst != noone && _leftInst.image_index == image_index - 1) {
 							//move_and_collide(xinput * 24, yinput * 24, [obj_PushableObject, obj_StuckPuzzleBox, PushableWall, pushCollision],4,0,0,32,32);
 							if interacted = false {
 								if right {
-									if !collision_line(x+28, y+16, x+48, y+16, [obj_PushableObject, PushableWall, pushCollision], false, true) {
+									if !collision_line(x+28, y+16, x+48, y+16, [obj_PushableObject, PushableWall, pushCollision], false, true) && rightBlocked = false {
 										if pushPlayerDirection = 0 {
 											sprite_index = anim_PushBoxMoveRight_0 }
 										if pushPlayerDirection = 1 {
@@ -353,7 +386,7 @@ if (_leftInst != noone && _leftInst.image_index == image_index - 1) {
 									}
 								}
 								if up {
-									if !collision_line(x+16, y+4, x+16, y-16, [obj_PushableObject, PushableWall, pushCollision], false, true) {
+									if !collision_line(x+16, y+4, x+16, y-16, [obj_PushableObject, PushableWall, pushCollision], false, true) && upBlocked = false {
 										if pushPlayerDirection = 0 {
 											sprite_index = anim_PushBoxMoveUp_0 }
 										if pushPlayerDirection = 1 {
@@ -376,7 +409,7 @@ if (_leftInst != noone && _leftInst.image_index == image_index - 1) {
 									}
 								}
 								if left {
-									if !collision_line(x+4, y+16, x-16, y+16, [obj_PushableObject, PushableWall, pushCollision], false, true) {
+									if !collision_line(x+4, y+16, x-16, y+16, [obj_PushableObject, PushableWall, pushCollision], false, true) && leftBlocked = false {
 										if pushPlayerDirection = 0 {
 											sprite_index = anim_PushBoxMoveLeft_0 }
 										if pushPlayerDirection = 1 {
@@ -399,7 +432,7 @@ if (_leftInst != noone && _leftInst.image_index == image_index - 1) {
 									}
 								}
 								if down {
-									if !collision_line(x+16, y+28, x+16, y+48, [obj_PushableObject, PushableWall, pushCollision], false, true) {
+									if !collision_line(x+16, y+28, x+16, y+48, [obj_PushableObject, PushableWall, pushCollision], false, true) && downBlocked = false {
 										if pushPlayerDirection = 0 {
 											sprite_index = anim_PushBoxMoveDown_0 }
 										if pushPlayerDirection = 1 {

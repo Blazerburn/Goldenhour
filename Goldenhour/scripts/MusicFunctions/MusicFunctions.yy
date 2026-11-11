@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"MusicFunctions",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"Music",
+    "path":"folders/Sounds/Music.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

@@ -53,7 +53,7 @@ switch(choice_variable){
 
 		//Line 8
 		i++;
-		myText[i]		= "You decide to leave the chest for now";
+		myText[i]		= "You let the stick rest a little longer";
 		mySpeaker[i]	= id;
 		#endregion
 	break;
@@ -103,7 +103,7 @@ switch(choice_variable){
 
 		//Line 4
 		i++;
-		myText[i]		= "You decide to leave the chest for now";
+		myText[i]		= "You let the stick rest a little longer";
 		mySpeaker[i]	= id;
 		
 		//uncommenting this will make the first conversation begin again

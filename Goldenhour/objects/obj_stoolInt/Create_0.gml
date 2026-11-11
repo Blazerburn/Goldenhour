@@ -20,5 +20,5 @@ myPortraitIdle		= -1;
 puzzleProgress      = 0;
 choice_variable		= 0;	//the variable we change depending on the player's choice in dialogue
 
-detection_radius = 21;
+detection_radius = 16;
 

@@ -83,6 +83,9 @@ function reset_room_song() {
 	or room == AlleyLeftRoomA
 	or room == AlleyLeftRoomB
 	or room == AlleyRightRoomA
+	or room == rm_CastleApartmentA
+	or room == rm_CastleApartmentB
+	or room == rm_CastleApartmentC
 	{
 		// If the city is not powered, play the dark theme
 		if global.shiningCityPowered = 0 {
