@@ -6,14 +6,14 @@ var _spritey = round(y)
 
 draw_sprite(sprite_index, -1, _spritex, _spritey)
 
-draw_line(x+16, y, x+16, y+16)
+/*draw_line(x+16, y, x+16, y+16)
 
 draw_line(TestPlayer.x - 24, TestPlayer.y+4, TestPlayer.x, TestPlayer.y+4)
 draw_line(TestPlayer.x + 24, TestPlayer.y+4, TestPlayer.x, TestPlayer.y+4)
 draw_line(TestPlayer.x, TestPlayer.y - 20, TestPlayer.x, TestPlayer.y+4)
 draw_line(TestPlayer.x, TestPlayer.y + 28, TestPlayer.x, TestPlayer.y+4)
 
-/*draw_set_colour(c_white)
+draw_set_colour(c_white)
 draw_rectangle(x+1, y+1, x+31, y+31, true)
 draw_rectangle(TestPlayer.x-10, TestPlayer.y+16, TestPlayer.x+10, TestPlayer.y+30, true)
 
