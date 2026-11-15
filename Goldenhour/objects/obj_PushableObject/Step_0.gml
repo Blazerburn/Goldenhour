@@ -310,6 +310,65 @@ if (_leftInst != noone && _leftInst.image_index == image_index - 1) {
 				
 				var _frame = image_index
 				
+				if(pushPlayerDirection == 0)
+	{
+		//mask_index = PushBoxCollisionDown
+		with(TestPlayer) {
+					//move_and_collide(pushableBoxOriginX + 16,  pushableBoxOriginY + 16, [obj_PushableObject, obj_StuckPuzzleBox],4,0,0,1,1);
+					x = pushableBoxOriginX + 16;
+					y = pushableBoxOriginY + 16;
+					sprite_index = spr_CondiPushingBox_First;
+					image_index = 3;
+					}
+
+	}
+		
+				else
+	{
+		if(pushPlayerDirection == 1)
+	{
+		//mask_index = PushBoxCollisionLeft
+		with(TestPlayer) {
+						x = pushableBoxOriginX - 8;
+						y = pushableBoxOriginY;
+						sprite_index = spr_CondiPushingBox_First;
+						image_index = 0;
+						}
+
+	}
+			
+					else
+	{
+		if(pushPlayerDirection == 2)
+	{
+		//mask_index = PushBoxCollisionUp
+		with(TestPlayer) {
+							x = pushableBoxOriginX + 16;
+							y = pushableBoxOriginY - 18;
+							sprite_index = spr_CondiPushingBox_First;
+							image_index = 2;
+							}
+
+	}
+				
+						else
+	{
+		if(pushPlayerDirection == 3)
+	{
+		//mask_index = PushBoxCollisionRight
+		with(TestPlayer) {
+								x = pushableBoxOriginX + 40;
+								y = pushableBoxOriginY;
+								sprite_index = spr_CondiPushingBox_First;
+								image_index = 1;
+								}
+
+	}
+	}
+	}
+	}
+				
+				
 				/*with pathCollision {
 					if (pushPlayerDirection == 0 || pushPlayerDirection == 2) {
 					move_and_collide(xinput * SlowSpeed, yinput * NormalSpeed, [PushableWall],4,0,0,SlowSpeed,NormalSpeed);
@@ -504,6 +563,69 @@ if (_leftInst != noone && _leftInst.image_index == image_index - 1) {
 										move_and_collide(0, 24, [obj_PushableObject, PushableWall, pushCollision],4,0,0,0,24);
 										//CameraControls(TestPlayer.x, TestPlayer.y+24)
 									}
+									
+									pushableBoxOriginX = x;
+									pushableBoxOriginY = y;
+									
+												if(pushPlayerDirection == 0)
+	{
+		//mask_index = PushBoxCollisionDown
+		with(TestPlayer) {
+					//move_and_collide(pushableBoxOriginX + 16,  pushableBoxOriginY + 16, [obj_PushableObject, obj_StuckPuzzleBox],4,0,0,1,1);
+					x = pushableBoxOriginX + 16;
+					y = pushableBoxOriginY + 16;
+					sprite_index = spr_CondiPushingBox_First;
+					image_index = 3;
+					}
+
+	}
+		
+				else
+	{
+		if(pushPlayerDirection == 1)
+	{
+		//mask_index = PushBoxCollisionLeft
+		with(TestPlayer) {
+						x = pushableBoxOriginX - 8;
+						y = pushableBoxOriginY;
+						sprite_index = spr_CondiPushingBox_First;
+						image_index = 0;
+						}
+
+	}
+			
+					else
+	{
+		if(pushPlayerDirection == 2)
+	{
+		//mask_index = PushBoxCollisionUp
+		with(TestPlayer) {
+							x = pushableBoxOriginX + 16;
+							y = pushableBoxOriginY - 18;
+							sprite_index = spr_CondiPushingBox_First;
+							image_index = 2;
+							}
+
+	}
+				
+						else
+	{
+		if(pushPlayerDirection == 3)
+	{
+		//mask_index = PushBoxCollisionRight
+		with(TestPlayer) {
+								x = pushableBoxOriginX + 40;
+								y = pushableBoxOriginY;
+								sprite_index = spr_CondiPushingBox_First;
+								image_index = 1;
+								}
+
+	}
+	}
+	}
+	}
+									
+									
 									global.recentlyInteracted = 5;
 									TestPlayer.visible = true;
 									interacted = false;
@@ -532,115 +654,7 @@ if (_leftInst != noone && _leftInst.image_index == image_index - 1) {
 				y = pushableBoxOriginY + 8;
 				}*/
 		
-				if(pushPlayerDirection == 0)
-	{
-		//mask_index = PushBoxCollisionDown
-		with(TestPlayer) {
-					//move_and_collide(pushableBoxOriginX + 16,  pushableBoxOriginY + 16, [obj_PushableObject, obj_StuckPuzzleBox],4,0,0,1,1);
-					x = pushableBoxOriginX + 16;
-					y = pushableBoxOriginY + 16;
-					sprite_index = spr_CondiPushingBox_First;
-					image_index = 3;
-					}
-			
-			/*		if(global.playerMoving == 1)
-	{
-		with(TestPlayer) {
-						sprite_index = spr_CondiBackwardWalking_Second;
-						}
-	}
-			
-					else
-	{
-		with(TestPlayer) {
-						sprite_index = spr_CondiBackwardIdle_Second;
-						}
-	}*/
-	}
-		
-				else
-	{
-		if(pushPlayerDirection == 1)
-	{
-		//mask_index = PushBoxCollisionLeft
-		with(TestPlayer) {
-						x = pushableBoxOriginX - 8;
-						y = pushableBoxOriginY;
-						sprite_index = spr_CondiPushingBox_First;
-						image_index = 0;
-						}
-				
-		/*				if(global.playerMoving == 1)
-	{
-		with(TestPlayer) {
-							sprite_index = spr_CondiRightWalking_Second;
-							}
-	}
-				
-						else
-	{
-		with(TestPlayer) {
-							sprite_index = spr_CondiRightIdle_Second;
-							}
-	}*/
-	}
-			
-					else
-	{
-		if(pushPlayerDirection == 2)
-	{
-		//mask_index = PushBoxCollisionUp
-		with(TestPlayer) {
-							x = pushableBoxOriginX + 16;
-							y = pushableBoxOriginY - 18;
-							sprite_index = spr_CondiPushingBox_First;
-							image_index = 2;
-							}
-					
-		/*					if(global.playerMoving == 1)
-	{
-		with(TestPlayer) {
-								sprite_index = spr_CondiForwardWalking_Second;
-								}
-	}
-					
-							else
-	{
-		with(TestPlayer) {
-								sprite_index = spr_CondiForwardIdle_Second;
-								}
-	}*/
-	}
-				
-						else
-	{
-		if(pushPlayerDirection == 3)
-	{
-		//mask_index = PushBoxCollisionRight
-		with(TestPlayer) {
-								x = pushableBoxOriginX + 40;
-								y = pushableBoxOriginY;
-								sprite_index = spr_CondiPushingBox_First;
-								image_index = 1;
-								}
-						/*
-								if(global.playerMoving == 1)
-	{
-		with(TestPlayer) {
-									sprite_index = spr_CondiLeftWalking_Second;
-									}
-	}
-						
-								else
-	{
-		with(TestPlayer) {
-									sprite_index = spr_CondiLeftIdle_Second;
-									}
-	}*/
-	}
-	}
-	}
-	}
+	
 		
 				if(global.recentlyInteracted == 0)
 	{
