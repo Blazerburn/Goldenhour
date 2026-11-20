@@ -63,11 +63,20 @@ function seq_HidePlayer()
 
 function seq_DeepLibraryFalling_Moment_4()
 {
-	global.keepTalking = true;
+	//global.keepTalking = true;
 
 	create_textevent(
-			["AAAAAAAAAAAAAAAAAAAAAAAAA"],
-			[TestPlayer],
+			["AAAAAAAAAAAAAAAAAAAAAAAAAAA",
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAA",
+			"AAAAAAAAAAAAAAAAAAAAAAAAA",
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+			"AAAAAAAAAAAAAAAAAA",
+			"AAAAAAAAAAAAAAAAAAAAAAAAAA",
+			"AAAAAAAAAAAAAAAAAAAAAAAA",
+			"AAAAAAAAAAAAAAAAAAAAAAA",
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAA"],
+			[TestPlayer, TestPlayer, TestPlayer, TestPlayer, TestPlayer, TestPlayer, TestPlayer, TestPlayer, TestPlayer, TestPlayer, ],
 			-1,
 			[[1, 0.25]],
 			-1,
@@ -78,5 +87,5 @@ function seq_DeepLibraryFalling_Moment_4()
 			-1,
 			-1,
 		);
-	
+	//[1, 0.25]
 }

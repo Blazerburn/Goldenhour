@@ -6,8 +6,8 @@
   "name":"obj_SpecificDepthCollision",
   "overriddenProperties":[],
   "parent":{
-    "name":"Collisions",
-    "path":"folders/Objects/Collisions.yy",
+    "name":"Depth",
+    "path":"folders/Objects/Depth.yy",
   },
   "parentObjectId":null,
   "persistent":false,

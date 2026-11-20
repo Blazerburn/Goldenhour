@@ -12,9 +12,9 @@ if colliding = 0 {
 
 if colliding = 1 {
 	if layer_exists("Light") {
-		layer_depth(layerID, lightDepth+1)
+		layer_depth(layerID, lightDepth)
 		if layer_exists("PerspectiveBuilding2") {
-			layer_depth(layerIDB, lightDepth+1)
+			layer_depth(layerIDB, lightDepth)
 		}
 		//show_debug_message(lightDepth)
 		show_debug_message("Colliding")

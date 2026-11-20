@@ -36,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"TestSparkles",
-    "path":"sprites/TestSparkles/TestSparkles.yy",
+    "name":"PushBoxNet",
+    "path":"sprites/PushBoxNet/PushBoxNet.yy",
   },
   "spriteMaskId":null,
   "tags":[

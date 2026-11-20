@@ -39,6 +39,7 @@ if (puzzleProgress = 1) {
 		instance_activate_object(obj_Ruins1Puzzle4PressurePlate)
 		with (obj_Ruins1Puzzle4PressurePlate) {
 			puzzleProgress = 0;
+			show_debug_message("Set puzzleProgress")
 		}
 		global.Puzzle4SecondHalf = 1
 		choice_variable = "Push";

@@ -2,8 +2,8 @@ event_inherited(); //so it will inherit from par_speaker
 
 var _depth = BreakablePathWall.depth
 depth = _depth - 1
+//show_debug_message("First: " + string (puzzleProgress))
 
-//show_debug_message(puzzleProgress)
 if puzzleProgress = 1 {
 	
 	
@@ -12,9 +12,9 @@ if puzzleProgress = 1 {
 	
 			sequence = layer_sequence_create("Assets_1", x, y-24, seq_Puzzle4Rock)
 			show_debug_message("Created sequence")
-			TestPlayer.visible = false;
+			
 					var _seq = sequence_get(seq_Puzzle4Rock); 
-						
+						puzzleProgress = 2;
 					_seq.event_step = method(_seq, function() {
 				        if (array_length(activeTracks) > 0) {
 							//show_debug_message(array_length(activeTracks))
@@ -36,7 +36,7 @@ if puzzleProgress = 1 {
 								else if TestPlayer.playerDirection = 2 {
 									if (_track.track.name == "Left" or _track.track.name == "Up" or _track.track.name == "Right") {
 					                    _track.track.enabled = false;
-										show_debug_message("Hid Non-Down")
+										//show_debug_message("Hid Non-Down")
 					                }
 								}
 								else if TestPlayer.playerDirection = 3 {
@@ -46,22 +46,23 @@ if puzzleProgress = 1 {
 					                }
 								}
 				                if (_track.track.name == "Up" or _track.track.name == "Right" or _track.track.name == "Down" or _track.track.name == "Left") {
-									show_debug_message(TestPlayer.x)
-									show_debug_message(_track.posx)
-									show_debug_message(TestPlayer.y)
-									show_debug_message(_track.posy)
-				                    _track.posx = TestPlayer.x-304;
-									_track.posy= TestPlayer.y-408;
+									//show_debug_message(TestPlayer.x)
+									//show_debug_message(_track.posx)
+									//show_debug_message(TestPlayer.y)
+									//show_debug_message(_track.posy)
+				                    _track.posx = TestPlayer.x-300;
+									_track.posy= TestPlayer.y-400;
 				                }
 				            }
 				        }
 					});
-			puzzleProgress = 2;
+			TestPlayer.visible = false;
 }
 else if puzzleProgress = 2 {
-	
+	//show_debug_message("Second: " + string (puzzleProgress))
 	//var _seq = sequence_get(seq_Puzzle4Rock); 
 	if layer_sequence_is_finished(sequence) {
+		
 		show_debug_message("Sequence finished")
 		
 		
@@ -86,6 +87,8 @@ else if puzzleProgress = 2 {
 	}
 }
 
+
+//show_debug_message("Third: " + string (puzzleProgress))
 /*if(createWall = 0) {
 var pathPushableWall = create_instance_layer(x, y, "Collisions", PushableWall);
 createWall = 1;

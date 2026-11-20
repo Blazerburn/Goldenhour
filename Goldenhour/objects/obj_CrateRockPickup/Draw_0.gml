@@ -2,11 +2,12 @@
 // You can write your code in this editor
 
 if !(choice_variable == "Take" or choice_variable == "Take2") {
-	draw_sprite(spr_StoneCrateSmol, -1, x, y)
+	draw_sprite(spr_StoneCratePickup, 0, x, y)
 	/*if !global.Puzzle4SecondHalf = 0 {
 	draw_self()
 	}*/
 }
 else {
-	instance_destroy(collision)
+	draw_sprite(spr_StoneCratePickup, 1, x, y)
+	//instance_destroy(collision)
 }

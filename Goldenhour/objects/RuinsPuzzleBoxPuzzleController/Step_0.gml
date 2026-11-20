@@ -5,12 +5,14 @@ var _vol = global.sfxVolume * global.masterVolume
 //show_debug_message(boxesNeeded)
 
 if (global.pressurePlatesActive >= boxesNeeded) {
-	gateOpen = true;
-	with(obj_Gate) {
-		
-		instance_deactivate_object(self);
-		instance_deactivate_object(gateCollision);
-		show_debug_message("Gate Open")
+	if gateOpen = false {
+		gateOpen = true;
+		with(obj_Gate) {
+			activation = 1;
+			//instance_deactivate_object(self);
+			instance_deactivate_object(gateCollision);
+			show_debug_message("Gate Open")
+		}
 	}
 	/*if sound = 2 {
 		audio_play_sound(sfx_puzzle, 5, false, _vol)

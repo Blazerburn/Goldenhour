@@ -278,28 +278,28 @@ if (_leftInst != noone && _leftInst.image_index == image_index - 1) {
 				//x = floor(x)
 				//y = floor(y)
 				
-				if collision_line(TestPlayer.x - 24, TestPlayer.y+4, TestPlayer.x, TestPlayer.y+4, obj_PushableObject, false, true) {
+				if collision_line(TestPlayer.x - 24, TestPlayer.y+4, TestPlayer.x, TestPlayer.y+4, [obj_PushableObject, TestWall], false, true) {
 					leftBlocked = true;
 					show_debug_message("left blocked")
 				}
 				else {
 					leftBlocked = false;
 				}
-				if collision_line(TestPlayer.x + 24, TestPlayer.y+4, TestPlayer.x, TestPlayer.y+4, obj_PushableObject, false, true) {
+				if collision_line(TestPlayer.x + 24, TestPlayer.y+4, TestPlayer.x, TestPlayer.y+4, [obj_PushableObject, TestWall], false, true) {
 					rightBlocked = true;
 					show_debug_message("right blocked")
 				}
 				else {
 					rightBlocked = false;
 				}
-				if collision_line(TestPlayer.x, TestPlayer.y - 20, TestPlayer.x, TestPlayer.y+4, obj_PushableObject, false, true) {
+				if collision_line(TestPlayer.x, TestPlayer.y - 20, TestPlayer.x, TestPlayer.y+4, [obj_PushableObject, TestWall], false, true) {
 					upBlocked = true;
 					show_debug_message("up blocked")
 				}
 				else {
 					upBlocked = false;
 				}
-				if collision_line(TestPlayer.x, TestPlayer.y + 28, TestPlayer.x, TestPlayer.y+4, obj_PushableObject, false, true) {
+				if collision_line(TestPlayer.x, TestPlayer.y + 28, TestPlayer.x, TestPlayer.y+4, [obj_PushableObject, TestWall], false, true) {
 					downBlocked = true;
 					show_debug_message("down blocked")
 				}

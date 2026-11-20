@@ -1,0 +1,1 @@
+puzzleProgress = 0;

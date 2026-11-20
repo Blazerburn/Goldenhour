@@ -3,7 +3,7 @@
   "%Name":"anim_PushBoxMoveLeft_1",
   "bboxMode":0,
   "bbox_bottom":47,
-  "bbox_left":6,
+  "bbox_left":5,
   "bbox_right":71,
   "bbox_top":0,
   "collisionKind":1,

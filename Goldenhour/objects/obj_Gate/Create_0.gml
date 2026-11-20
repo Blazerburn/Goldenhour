@@ -1,3 +1,5 @@
 gateCollision = 0;
 gateOpen = false;
-gateCollision = instance_create_layer(x + 0, y + 0, "Instances", TestWall);
+gateCollision = instance_create_layer(x-8, y+16, "Instances", TestWall);
+activation = 0;
+playedSound = 0;

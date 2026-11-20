@@ -1,5 +1,5 @@
 event_inherited(); //so it will inherit from par_speaker
-
+update_layer()
 
 //-------DIALOGUE STUFF
 
@@ -19,6 +19,6 @@ myPortraitIdle		= -1;
 choice_variable		= "Get";	//the variable we change depending on the player's choice in dialogue
 puzzleProgress = 0;
 
-collision = instance_create_layer(x-8, y-8, "Collisions", TestWall)
+/*collision = instance_create_layer(x-8, y-8, "Collisions", TestWall)
 collision.image_xscale = .25
 collision.image_yscale = .25

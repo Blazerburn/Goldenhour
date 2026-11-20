@@ -1,5 +1,6 @@
 event_inherited(); //so it will inherit from par_speaker
 
+//update_layer()
 
 puzzleProgress = 0;
 
@@ -21,11 +22,16 @@ myPortraitIdle		= -1;
 
 choice_variable		= -1;	//the variable we change depending on the player's choice in dialogue
 
+twinkle = instance_create_layer(x-14, y-14, "Instances", obj_twinkle)
+
+box = instance_create_layer(x, y-10, "Instances", obj_NetBox)
+//instance_deactivate_object(obj_NetBox)
+
 collision = 0;
 
-collision = instance_create_layer(x - 16, y - 16, "Instances", TestWall);
+collision = instance_create_layer(x - 12, y-4, "Instances", TestWall);
 with(collision) {
-image_xscale = .49;
-image_yscale = .49;
+image_xscale = .375;
+image_yscale = .2;
 }
 
