@@ -480,6 +480,7 @@
     {"id":{"name":"bannerdes3","path":"sprites/bannerdes3/bannerdes3.yy",},},
     {"id":{"name":"BarRoomTileSetSprite","path":"sprites/BarRoomTileSetSprite/BarRoomTileSetSprite.yy",},},
     {"id":{"name":"BioluminescentRock","path":"sprites/BioluminescentRock/BioluminescentRock.yy",},},
+    {"id":{"name":"BioRock1","path":"sprites/BioRock1/BioRock1.yy",},},
     {"id":{"name":"BlackBlock","path":"sprites/BlackBlock/BlackBlock.yy",},},
     {"id":{"name":"BlackOutlineTileSetSprite","path":"sprites/BlackOutlineTileSetSprite/BlackOutlineTileSetSprite.yy",},},
     {"id":{"name":"BluePlant","path":"sprites/BluePlant/BluePlant.yy",},},

@@ -398,6 +398,7 @@
     {"name":"bannerdes2","order":120,"path":"sprites/bannerdes2/bannerdes2.yy",},
     {"name":"bannerdes3","order":119,"path":"sprites/bannerdes3/bannerdes3.yy",},
     {"name":"BarRoomTileSetSprite","order":12,"path":"sprites/BarRoomTileSetSprite/BarRoomTileSetSprite.yy",},
+    {"name":"BioRock1","order":25,"path":"sprites/BioRock1/BioRock1.yy",},
     {"name":"BlackBlock","order":19,"path":"sprites/BlackBlock/BlackBlock.yy",},
     {"name":"BlackOutlineTileSetSprite","order":20,"path":"sprites/BlackOutlineTileSetSprite/BlackOutlineTileSetSprite.yy",},
     {"name":"BluePlant","order":99,"path":"sprites/BluePlant/BluePlant.yy",},
