@@ -890,11 +890,11 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"rm_Persistent","path":"rooms/rm_Persistent/rm_Persistent.yy",},},
+    {"roomId":{"name":"HideoutRoom2","path":"rooms/HideoutRoom2/HideoutRoom2.yy",},},
     {"roomId":{"name":"PuzzleRoom2","path":"rooms/PuzzleRoom2/PuzzleRoom2.yy",},},
     {"roomId":{"name":"StreetRoom1","path":"rooms/StreetRoom1/StreetRoom1.yy",},},
     {"roomId":{"name":"rm_PrinceEntrance","path":"rooms/rm_PrinceEntrance/rm_PrinceEntrance.yy",},},
     {"roomId":{"name":"RubbleRoom","path":"rooms/RubbleRoom/RubbleRoom.yy",},},
-    {"roomId":{"name":"HideoutRoom2","path":"rooms/HideoutRoom2/HideoutRoom2.yy",},},
     {"roomId":{"name":"PrincesRoom5","path":"rooms/PrincesRoom5/PrincesRoom5.yy",},},
     {"roomId":{"name":"PuzzleRoom1","path":"rooms/PuzzleRoom1/PuzzleRoom1.yy",},},
     {"roomId":{"name":"PuzzleRoom5","path":"rooms/PuzzleRoom5/PuzzleRoom5.yy",},},
