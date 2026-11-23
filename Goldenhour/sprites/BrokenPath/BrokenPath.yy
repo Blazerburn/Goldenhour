@@ -30,8 +30,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"Ruins",
-    "path":"folders/Sprites/GUI's/Inventory/Inventory Items/Ruins.yy",
+    "name":"Old",
+    "path":"folders/Sprites/GUI's/Inventory/Inventory Items/Ruins/Old.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

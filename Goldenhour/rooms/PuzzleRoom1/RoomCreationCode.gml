@@ -1,4 +1,4 @@
-boxPuzzleController = RuinsPuzzleBoxPuzzleController;
+boxPuzzleController = obj_RuinsPuzzleBoxPuzzleController;
 
 if layer_exists(layer_get_id("OutsideBuilding")){
 	global.inside_lay_alpha = 1;

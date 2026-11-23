@@ -218,7 +218,7 @@ function load_room()
 			activation = _roomStruct.actData[i]._activation;
 		}
 		//if (_roomStruct.intData[i]._choice_variable = "Destroy") {instance_deactivate_object(_roomStruct.intData[i].id);};
-		show_debug_message(_roomStruct.actData[i]._activation);
+		show_debug_message("Activations: " + string(_roomStruct.actData[i]._activation));
 	}
 }
 

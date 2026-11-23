@@ -37,7 +37,7 @@ if(puzzleProgress == 1 or puzzleProgress == 2)
 	
 	instance_deactivate_object(obj_Ruins1Puzzle4Gate);
 	with(obj_Gate) {
-		instance_deactivate_object(self);
+		//instance_deactivate_object(self);
 		instance_deactivate_object(gateCollision);
 		//show_debug_message("Gate Open")
 	}

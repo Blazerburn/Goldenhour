@@ -80,12 +80,16 @@ global.botanyVol3 = false;
 global.botanyVol4 = false;
 global.castleLight = 0;
 
-// Other shit
-global.playerFollowers = 0;
+// Dialogue
 global.shiftText = 0;
 global.keepWalking = false;
 global.keepTalking = false;
 global.textEventChoice = 0;
+
+// Cutscenes
+global.cutscene = false;
+
+// Inventory
 global.inventoryArray = 0
 for(var _pos = 0; _pos < 9; _pos += 1) {
 	global.inventoryArray[_pos][itemType] = itemNone;
@@ -93,5 +97,9 @@ for(var _pos = 0; _pos < 9; _pos += 1) {
 	global.inventoryArray[_pos][itemAmount] = 0;
 	global.inventoryArray[_pos][itemName] = 0;
 	global.inventoryArray[_pos][itemUses] = 0;
+
+// Other shit
+global.playerFollowers = 0;
+
 
 };

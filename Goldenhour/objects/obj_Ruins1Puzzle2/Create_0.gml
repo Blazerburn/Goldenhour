@@ -24,7 +24,7 @@ choice_variable		= -1;	//the variable we change depending on the player's choice
 
 twinkle = instance_create_layer(x-14, y-14, "Instances", obj_twinkle)
 
-box = instance_create_layer(x, y-10, "Instances", obj_NetBox)
+box = instance_create_layer(x, y-14, "Instances", obj_NetBox)
 //instance_deactivate_object(obj_NetBox)
 
 collision = 0;

@@ -36,12 +36,12 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"TestSparkles",
-    "path":"sprites/TestSparkles/TestSparkles.yy",
+    "name":"spr_GateClosed",
+    "path":"sprites/spr_GateClosed/spr_GateClosed.yy",
   },
   "spriteMaskId":null,
   "tags":[
     "Interactable",
   ],
-  "visible":true,
+  "visible":false,
 }

@@ -492,6 +492,7 @@ if global.usingItem = 1 {
 if global.inventoryBag = true {
 	if keyboard_check_pressed(global.inventoryKey) {
 		if pauseMenu == "Closed" {
+			if global.cutscene = false {
 			if global.menuOpen == false {
 				if(global.inventoryOpen == 0)
 				{
@@ -553,6 +554,7 @@ if global.inventoryBag = true {
 				}
 			}
 		}
+		}
 	}
 }
 
@@ -567,6 +569,7 @@ if keyboard_check_pressed(global.interactKey) {
 		{
 				if(global.Talking == 0)
 			{
+				if global.cutscene = false {
 					if(global.inventoryOpen == 1)
 				{
 						if(global.combining == 0)
@@ -708,6 +711,7 @@ if keyboard_check_pressed(global.interactKey) {
 						}
 					}
 				}
+			}
 			}
 		}
 	}

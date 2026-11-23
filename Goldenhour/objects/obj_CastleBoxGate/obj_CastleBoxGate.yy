@@ -9,10 +9,13 @@
   "name":"obj_CastleBoxGate",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Box Puzzles",
+    "path":"folders/Objects/Puzzles/Puzzle Controllers/Ruins/Box Puzzles.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"par_activator",
+    "path":"objects/par_activator/par_activator.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

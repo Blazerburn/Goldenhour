@@ -9,8 +9,8 @@
   "name":"obj_GreenPuzzleController",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Box Puzzles",
+    "path":"folders/Objects/Puzzles/Puzzle Controllers/Ruins/Box Puzzles.yy",
   },
   "parentObjectId":{
     "name":"par_activator",

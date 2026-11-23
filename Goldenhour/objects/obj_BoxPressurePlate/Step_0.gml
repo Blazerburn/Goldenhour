@@ -42,14 +42,14 @@ if (instance_exists(obj_PushableObject)) {
 	}
 
 	if (activated && !wasActivated) {
-	    with (RuinsPuzzleBoxPuzzleController) {
+	    with (obj_RuinsPuzzleBoxPuzzleController) {
 	        boxesActivated++;
 	        show_debug_message("Increased to: " + string(boxesActivated));
 	    }
 	    wasActivated = true;
 	} 
 	else if (!activated && wasActivated) {
-	    with (RuinsPuzzleBoxPuzzleController) {
+	    with (obj_RuinsPuzzleBoxPuzzleController) {
 	        if (boxesActivated > 0) {
 	            boxesActivated--;
 	            show_debug_message("Decreased to: " + string(boxesActivated));
