@@ -863,6 +863,8 @@
     {"id":{"name":"tzarscube3","path":"sprites/tzarscube3/tzarscube3.yy",},},
     {"id":{"name":"tzarscube4","path":"sprites/tzarscube4/tzarscube4.yy",},},
     {"id":{"name":"tzarscuberepair","path":"sprites/tzarscuberepair/tzarscuberepair.yy",},},
+    {"id":{"name":"UpdLongStick","path":"sprites/UpdLongStick/UpdLongStick.yy",},},
+    {"id":{"name":"UpdStickyStick","path":"sprites/UpdStickyStick/UpdStickyStick.yy",},},
     {"id":{"name":"ValsoHeadshot","path":"sprites/ValsoHeadshot/ValsoHeadshot.yy",},},
     {"id":{"name":"ValsoHeadshotNormal","path":"sprites/ValsoHeadshotNormal/ValsoHeadshotNormal.yy",},},
     {"id":{"name":"ValsoHeadshotTalking","path":"sprites/ValsoHeadshotTalking/ValsoHeadshotTalking.yy",},},
