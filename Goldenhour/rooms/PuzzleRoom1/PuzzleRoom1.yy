@@ -42,6 +42,7 @@
     {"name":"inst_7C69F819","path":"rooms/PuzzleRoom1/PuzzleRoom1.yy",},
     {"name":"inst_5ADC811","path":"rooms/PuzzleRoom1/PuzzleRoom1.yy",},
     {"name":"inst_69600E35","path":"rooms/PuzzleRoom1/PuzzleRoom1.yy",},
+    {"name":"inst_1EDA28FB","path":"rooms/PuzzleRoom1/PuzzleRoom1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -68,7 +69,9 @@
         {"$GMRInstance":"v4","%Name":"inst_643C12CA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_643C12CA","objectId":{"name":"TestWall","path":"objects/TestWall/TestWall.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":-0.2390311,"scaleX":0.484375,"scaleY":0.671875,"x":417.91235,"y":160.9998,},
       ],"layers":[],"name":"Collisions","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Text","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"Text","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
-    {"$GMRInstanceLayer":"","%Name":"Cutscene","depth":600,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"Cutscene","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
+    {"$GMRInstanceLayer":"","%Name":"Cutscene","depth":600,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
+        {"$GMRInstance":"v4","%Name":"inst_1EDA28FB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1EDA28FB","objectId":{"name":"obj_CutsceneController","path":"objects/obj_CutsceneController/obj_CutsceneController.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-32.0,"y":-64.0,},
+      ],"layers":[],"name":"Cutscene","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"OutsideBuilding","depth":700,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"OutsideBuilding","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":15,"SerialiseWidth":16,"TileCompressedData":[
           -24,-2147483648,1,1,-6,2,1,3,-8,-2147483648,1,9,-6,10,1,11,-8,-2147483648,1,17,-6,18,3,19,-2147483648,
           -2147483648,-6,0,1,25,-6,26,1,27,-3,-2147483648,-5,0,1,25,-6,26,1,27,-3,-2147483648,-5,0,1,25,-6,26,
@@ -82,7 +85,7 @@
           -3,0,1,16,-3,47,1,24,-4,-2147483648,4,16,47,-2147483648,-2147483648,-3,0,1,16,-3,47,1,24,-4,0,4,16,47,
           -2147483648,-2147483648,-3,0,1,16,-3,47,7,24,0,34,20,20,1,47,-5,-2147483648,1,16,-3,47,3,2,20,1,-4,47,
           6,-2147483648,0,-2147483648,0,0,16,-10,47,-5,0,1,16,-10,47,-4,-2147483648,2,0,40,-10,28,-32,-2147483648,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"RuinBrickTileSet","path":"tilesets/RuinBrickTileSet/RuinBrickTileSet.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+        ],"TileDataFormat":1,},"tilesetId":{"name":"RuinBrickTileSet","path":"tilesets/RuinBrickTileSet/RuinBrickTileSet.yy",},"userdefinedDepth":false,"visible":false,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"OutsideBuilding2","depth":900,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"OutsideBuilding2","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":15,"SerialiseWidth":16,"TileCompressedData":[-123,-2147483648,-3,101,-114,-2147483648,],"TileDataFormat":1,},"tilesetId":{"name":"tile_P_RuinBrickWall","path":"tilesets/tile_P_RuinBrickWall/tile_P_RuinBrickWall.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"Shadows","depth":1000,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Shadows","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":15,"SerialiseWidth":16,"TileCompressedData":[
           -47,-2147483648,1,0,-10,-2147483648,-6,0,-10,-2147483648,-6,0,-9,-2147483648,-7,0,-8,-2147483648,-8,
