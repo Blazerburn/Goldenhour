@@ -1,6 +1,7 @@
 {
   "FolderOrderSettings":[
     {"name":"Animation Curves","order":13,"path":"folders/Animation Curves.yy",},
+    {"name":"Cutscenes","order":18,"path":"folders/Cutscenes.yy",},
     {"name":"Extensions","order":15,"path":"folders/Extensions.yy",},
     {"name":"Fonts","order":8,"path":"folders/Fonts.yy",},
     {"name":"FC_DialogueSystem","order":1,"path":"folders/Fonts/FC_DialogueSystem.yy",},
@@ -39,7 +40,6 @@
     {"name":"FC_DialogueSystem","order":5,"path":"folders/Scripts/FC_DialogueSystem.yy",},
     {"name":"Array Texts","order":18,"path":"folders/Scripts/FC_DialogueSystem/Array Texts.yy",},
     {"name":"Ruin Bookshelves","order":6,"path":"folders/Scripts/FC_DialogueSystem/Array Texts/Ruin Bookshelves.yy",},
-    {"name":"Cutscenes","order":18,"path":"folders/Cutscenes.yy",},
     {"name":"Sequence Functions","order":18,"path":"folders/Scripts/Sequence Functions.yy",},
     {"name":"Sequences","order":12,"path":"folders/Sequences.yy",},
     {"name":"Shaders","order":7,"path":"folders/Shaders.yy",},
@@ -760,6 +760,7 @@
     {"name":"ValsoHeadshotTongueOUT","order":2,"path":"sprites/ValsoHeadshotTongueOUT/ValsoHeadshotTongueOUT.yy",},
     {"name":"WhiteBlock","order":11,"path":"sprites/WhiteBlock/WhiteBlock.yy",},
     {"name":"WhiteHole","order":16,"path":"sprites/WhiteHole/WhiteHole.yy",},
+    {"name":"woodenplank","order":27,"path":"sprites/woodenplank/woodenplank.yy",},
     {"name":"BarRoomTileSet","order":6,"path":"tilesets/BarRoomTileSet/BarRoomTileSet.yy",},
     {"name":"BlackGradientTileSet","order":4,"path":"tilesets/BlackGradientTileSet/BlackGradientTileSet.yy",},
     {"name":"BoxPathOverlapTileSet","order":4,"path":"tilesets/BoxPathOverlapTileSet/BoxPathOverlapTileSet.yy",},
