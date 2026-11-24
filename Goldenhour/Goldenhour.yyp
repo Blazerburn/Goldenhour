@@ -11,7 +11,6 @@
   "defaultScriptType":0,
   "Folders":[
     {"$GMFolder":"","%Name":"Animation Curves","folderPath":"folders/Animation Curves.yy","name":"Animation Curves","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Cutscenes","folderPath":"folders/Cutscenes.yy","name":"Cutscenes","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Extensions","folderPath":"folders/Extensions.yy","name":"Extensions","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Fonts","folderPath":"folders/Fonts.yy","name":"Fonts","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"FC_DialogueSystem","folderPath":"folders/Fonts/FC_DialogueSystem.yy","name":"FC_DialogueSystem","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -57,6 +56,7 @@
     {"$GMFolder":"","%Name":"FC_DialogueSystem","folderPath":"folders/Scripts/FC_DialogueSystem.yy","name":"FC_DialogueSystem","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Array Texts","folderPath":"folders/Scripts/FC_DialogueSystem/Array Texts.yy","name":"Array Texts","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Ruin Bookshelves","folderPath":"folders/Scripts/FC_DialogueSystem/Array Texts/Ruin Bookshelves.yy","name":"Ruin Bookshelves","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Cutscenes","folderPath":"folders/Cutscenes.yy","name":"Cutscenes","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sequence Functions","folderPath":"folders/Scripts/Sequence Functions.yy","name":"Sequence Functions","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sequences","folderPath":"folders/Sequences.yy","name":"Sequences","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Shaders","folderPath":"folders/Shaders.yy","name":"Shaders","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -861,7 +861,6 @@
     {"id":{"name":"ValsoHeadshotTongueOUT","path":"sprites/ValsoHeadshotTongueOUT/ValsoHeadshotTongueOUT.yy",},},
     {"id":{"name":"WhiteBlock","path":"sprites/WhiteBlock/WhiteBlock.yy",},},
     {"id":{"name":"WhiteHole","path":"sprites/WhiteHole/WhiteHole.yy",},},
-    {"id":{"name":"woodenplank","path":"sprites/woodenplank/woodenplank.yy",},},
     {"id":{"name":"BarRoomTileSet","path":"tilesets/BarRoomTileSet/BarRoomTileSet.yy",},},
     {"id":{"name":"BlackGradientTileSet","path":"tilesets/BlackGradientTileSet/BlackGradientTileSet.yy",},},
     {"id":{"name":"BoxPathOverlapTileSet","path":"tilesets/BoxPathOverlapTileSet/BoxPathOverlapTileSet.yy",},},
