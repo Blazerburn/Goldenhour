@@ -28,12 +28,12 @@ switch(choice_variable){
 		
 		//Line 4
 		i++;
-		myText[i]		= "There's another small stone sign that has been attached to this sign";
+		myText[i]		= "There's another small stone sign that has been attached to this sign that reads,";
 		mySpeaker[i]	= id;
 		
 		//Line 5
 		i++;
-		myText[i]		= "This sign and all the ruins you see are apart of a preservation effort, please don't disturb them";
+		myText[i]		= "'This sign and all the ruins you see are apart of a preservation effort, please don't disturb them'";
 		mySpeaker[i]	= id;
 		
 		//Line 6

@@ -28,7 +28,7 @@ switch(choice_variable){
 		
 		//Line 7
 		i++;
-		myText[i]		= "We can provide the best answers we have at Glow City";
+		myText[i]		= "We can provide the best answers we have at Glow City'";
 		mySpeaker[i]	= id;
 		myTextCol[i]    = [44, c_magenta, 53, c_white];
 		
@@ -77,8 +77,9 @@ switch(choice_variable){
 		
 		//Line 7
 		i++;
-		myText[i]		= "We can provide the best answers we have at Glow City";
+		myText[i]		= "We can provide the best answers we have at Glow City'";
 		mySpeaker[i]	= id;
+		myTextCol[i]    = [44, c_magenta, 53, c_white];
 		
 		
 		
@@ -91,7 +92,7 @@ switch(choice_variable){
 		i++;
 		myText[i]		= "'Not anymore! Come to New Town instead'";
 		mySpeaker[i]	= id;
-		myTextCol[i]    = [22, c_purple, 31, c_white];
+		myTextCol[i]    = [22, c_lavender, 31, c_white];
 		
 		//Line 9
 		i++;

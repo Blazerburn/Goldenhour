@@ -603,6 +603,7 @@
     {"name":"spr_CondiForwardWalking_First","order":19,"path":"sprites/spr_CondiForwardWalking_First/spr_CondiForwardWalking_First.yy",},
     {"name":"spr_CondiForwardWalking_Pouch_First","order":27,"path":"sprites/spr_CondiForwardWalking_Pouch_First/spr_CondiForwardWalking_Pouch_First.yy",},
     {"name":"spr_CondiForwardWalking_Second","order":8,"path":"sprites/spr_CondiForwardWalking_Second/spr_CondiForwardWalking_Second.yy",},
+    {"name":"spr_CondiHeadshot_First_Silhouette","order":12,"path":"sprites/spr_CondiHeadshot_First_Silhouette/spr_CondiHeadshot_First_Silhouette.yy",},
     {"name":"spr_CondiHeadshot_First","order":10,"path":"sprites/spr_CondiHeadshot_First/spr_CondiHeadshot_First.yy",},
     {"name":"spr_CondiHeadshot_Pouch_First","order":11,"path":"sprites/spr_CondiHeadshot_Pouch_First/spr_CondiHeadshot_Pouch_First.yy",},
     {"name":"spr_CondiHeadshot_Second","order":2,"path":"sprites/spr_CondiHeadshot_Second/spr_CondiHeadshot_Second.yy",},

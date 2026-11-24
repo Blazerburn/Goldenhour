@@ -46,85 +46,127 @@ if(global.combining == 1)
 	
 	instance_destroy();
 	}
+	if global.shiningCityPowered = 1 {
+			if ((global.itemCombiningType1 == "Long Stick" || global.itemCombiningType1 == "Strange Gel") && (global.itemCombiningType2 == "Strange Gel" || global.itemCombiningType2 == "Long Stick"))
+		{
+			show_debug_message("Right items")
+			global.combining = 0;
 	
-		else if ((global.itemCombiningType1 == "Long Stick" || global.itemCombiningType1 == "Strange Gel") && (global.itemCombiningType2 == "Strange Gel" || global.itemCombiningType2 == "Long Stick"))
-	{
-		show_debug_message("Right items")
-		global.combining = 0;
-	
-	with(TestPlayer) {
-		remove_item(itemCombinePos1);
-		remove_item(itemCombinePos2);
-	
-	
-	
-	itemCombineSelect1 = 0;
-	itemCombineSelect2 = 0;
-	itemCombinePos1 = 0;
-	itemCombinePos2 = 0;
-	itemCombineType1 = 0;
-	itemCombineType2 = 0;
-	
-	add_item(0, "Sticky Stick", StickyStick, "Sticky Stick", 1);
+		with(TestPlayer) {
+			remove_item(itemCombinePos1);
+			remove_item(itemCombinePos2);
 	
 	
-		create_textevent(
-		["You cover tip of the stick in the sticky strange gel", 
-		"You got a Sticky Stick!"],
-		-1,
-		-1,
-		-1,
-		-1,
-		-1,
-		-1,
-		[[34, c_yellow, 53, c_white], [-1]],
-		-1,
-		-1,
-	);
-	}
 	
-	instance_destroy();
-	}
+		itemCombineSelect1 = 0;
+		itemCombineSelect2 = 0;
+		itemCombinePos1 = 0;
+		itemCombinePos2 = 0;
+		itemCombineType1 = 0;
+		itemCombineType2 = 0;
 	
-			else if ((global.itemCombiningType1 == "Sticky Stick" || global.itemCombiningType1 == "Chisel Rock") && (global.itemCombiningType2 == "Chisel Rock" || global.itemCombiningType2 == "Sticky Stick"))
-	{
-		show_debug_message("Right items")
-		global.combining = 0;
-	
-	with(TestPlayer) {
-		remove_item(itemCombinePos1);
-		remove_item(itemCombinePos2);
+		add_item(0, "Sticky Stick", spr_StickyStick, "Sticky Stick", 1);
 	
 	
-	itemCombineSelect1 = 0;
-	itemCombineSelect2 = 0;
-	itemCombinePos1 = 0;
-	itemCombinePos2 = 0;
-	itemCombineType1 = 0;
-	itemCombineType2 = 0;
+			create_textevent(
+			["You cover tip of the stick in the sticky strange gel", 
+			"You got a Sticky Stick!"],
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			[[34, c_yellow, 53, c_white], [-1]],
+			-1,
+			-1,
+		);
+		}
 	
-	add_item(0, "Makeshift Axe", MakeshiftAxe, "Makeshift Axe", 1);
+		instance_destroy();
+		}
+	
+		else if ((global.itemCombiningType1 == itemChiselRock || global.itemCombiningType1 == "Strange Gel") && (global.itemCombiningType2 == "Strange Gel" || global.itemCombiningType2 == itemChiselRock))
+		{
+			show_debug_message("Right items")
+			global.combining = 0;
+	
+		with(TestPlayer) {
+			remove_item(itemCombinePos1);
+			remove_item(itemCombinePos2);
 	
 	
-		create_textevent(
-		["You stick the chisel rock against the gel on the stick", 
-		"You hold it against the end for a bit of time",
-		"The rock sticks to it very quickly",
-		"You got a Makeshift Axe!"],
-		-1,
-		-1,
-		-1,
-		-1,
-		-1,
-		-1,
-		[[38, c_yellow, 42, c_white], [-1], [-1], [-1]],
-		-1,
-		-1,
-		-1,
-	);
-	}
 	
-	instance_destroy();
+		itemCombineSelect1 = 0;
+		itemCombineSelect2 = 0;
+		itemCombinePos1 = 0;
+		itemCombinePos2 = 0;
+		itemCombineType1 = 0;
+		itemCombineType2 = 0;
+	
+		add_item(0, itemStickyRock, spr_StickyChiselRock, "Sticky Rock", 1);
+	
+	
+			create_textevent(
+			["You cover the bottom of the chisel rock in the sticky strange gel", 
+			"You got a Sticky Rock!"],
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			[[54, c_yellow, 65, c_white], [-1]],
+			-1,
+			-1,
+		);
+		}
+	
+		instance_destroy();
+		}
+	
+	
+	
+				else if ((global.itemCombiningType1 == "Sticky Stick" || global.itemCombiningType1 == itemStickyRock) && (global.itemCombiningType2 == itemStickyRock || global.itemCombiningType2 == "Sticky Stick"))
+		{
+			show_debug_message("Right items")
+			global.combining = 0;
+	
+		with(TestPlayer) {
+			remove_item(itemCombinePos1);
+			remove_item(itemCombinePos2);
+	
+	
+		itemCombineSelect1 = 0;
+		itemCombineSelect2 = 0;
+		itemCombinePos1 = 0;
+		itemCombinePos2 = 0;
+		itemCombineType1 = 0;
+		itemCombineType2 = 0;
+	
+		add_item(0, "Makeshift Axe", MakeshiftAxe, "Makeshift Axe", 1);
+	
+	
+			create_textevent(
+			["You stick the chisel rock against the gel on the stick", 
+			"You hold it against the end for a bit of time",
+			"The rock sticks to it very quickly",
+			"You got a Makeshift Axe!"],
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			-1,
+			[[38, c_yellow, 42, c_white], [-1], [-1], [-1]],
+			-1,
+			-1,
+			-1,
+		);
+		}
+	
+		instance_destroy();
+		}
 	}
 	
 	/// Items that DON'T WORK
@@ -171,6 +213,71 @@ if(global.combining == 1)
 	instance_destroy();
 	}
 	
+	if ((global.itemCombiningType1 == itemChiselRock || global.itemCombiningType1 == itemStickyStick) && (global.itemCombiningType2 == itemChiselRock || global.itemCombiningType2 == itemStickyStick))
+	{
+		show_debug_message("Wrong items")
+	
+	
+		create_textevent(
+		["You try to stick the rock onto the sticky stick", 
+		"It sticks a bit but it eventualy falls off",
+		"You might need to add some more gel"],
+		-1,
+		-1,
+		-1,
+		-1,
+		-1,
+		-1,
+		-1,
+		-1,
+		-1,
+	);
+	instance_destroy();
+	}
+	
+	if ((global.itemCombiningType1 == itemStickyRock || global.itemCombiningType1 == itemLongStick) && (global.itemCombiningType2 == itemStickyRock || global.itemCombiningType2 == itemLongStick))
+	{
+		show_debug_message("Wrong items")
+	
+	
+		create_textevent(
+		["You try to stick the sticky rock onto the stick", 
+		"It sticks a bit but it eventualy falls off",
+		"You might need to add some more gel"],
+		-1,
+		-1,
+		-1,
+		-1,
+		-1,
+		-1,
+		-1,
+		-1,
+		-1,
+	);
+	instance_destroy();
+	}
+	
+	if ((global.itemCombiningType1 == itemStrangeGel || global.itemCombiningType1 == itemStickyRock) && (global.itemCombiningType2 == itemStrangeGel || global.itemCombiningType2 == itemStickyRock))
+	{
+		show_debug_message("Wrong items")
+	
+	
+		create_textevent(
+		["It is already has some gel on it", 
+		"And it doesn't seem like it needs anymore"],
+		-1,
+		-1,
+		-1,
+		-1,
+		-1,
+		-1,
+		-1,
+		-1,
+		-1,
+	);
+	instance_destroy();
+	}
+	
 	if ((global.itemCombiningType1 == itemStrangeGel || global.itemCombiningType1 == itemMakeshiftAxe) && (global.itemCombiningType2 == itemStrangeGel || global.itemCombiningType2 == itemMakeshiftAxe))
 	{
 		show_debug_message("Wrong items")
@@ -191,6 +298,7 @@ if(global.combining == 1)
 	instance_destroy();
 	}
 	
+	// Puzzle 6 Items
 	if global.shiningCityPowered = 0 {
 		if ((global.itemCombiningType1 == itemStrangeGel || global.itemCombiningType1 == itemChiselRock) && (global.itemCombiningType2 == itemStrangeGel || global.itemCombiningType2 == itemChiselRock))
 		{
@@ -211,15 +319,14 @@ if(global.combining == 1)
 		);
 		instance_destroy();
 		}
-	}
-	else {
-		if ((global.itemCombiningType1 == itemStrangeGel || global.itemCombiningType1 == itemChiselRock) && (global.itemCombiningType2 == itemStrangeGel || global.itemCombiningType2 == itemChiselRock))
+		
+		if ((global.itemCombiningType1 == itemStrangeGel || global.itemCombiningType1 == itemLongStick) && (global.itemCombiningType2 == itemStrangeGel || global.itemCombiningType2 == itemLongStick))
 		{
 			show_debug_message("Wrong items")
 	
 	
 			create_textevent(
-			["If you wanted to attach this to something, it might be better to cover that thing in gel, and then attach this"],
+			["You don't want to try that unless you have a reason to"],
 			-1,
 			-1,
 			-1,
@@ -232,7 +339,9 @@ if(global.combining == 1)
 		);
 		instance_destroy();
 		}
+		
 	}
+	
 	
 	if ((global.itemCombiningType1 == itemLongStick || global.itemCombiningType1 == itemChiselRock) && (global.itemCombiningType2 == itemLongStick || global.itemCombiningType2 == itemChiselRock))
 	{

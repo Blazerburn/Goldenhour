@@ -7,12 +7,12 @@ switch(choice_variable){
 	#region First Dialogue
 		//Line 0
 		var i = 0;
-		myText[i]		= "A cracked stone platform";
+		myText[i]		= "A stone platform with some cracks running through it";
 		mySpeaker[i]	= id;
 		
 		//Line 4
 		i++;
-		myText[i]		= "Please do not disturb the interior'";
+		myText[i]		= "It has three overlapping circles in the center of it";
 		mySpeaker[i]	= id;
 		
 	#endregion

@@ -2,11 +2,11 @@ function cutscene_dialogue(_num){
 	show_debug_message("num")
 	show_debug_message(_num)
 	_scene = [
-	//Book 0
+	// 0
 			[
-			["Woah, it's red", 
-			"I bet the next one is orange"],
-			[obj_nochar, obj_nochar],
+			["Wha- what..?", 
+			"What happened?"],
+			[TestPlayer, TestPlayer],
 			-1,
 			-1,
 			-1,
@@ -18,41 +18,37 @@ function cutscene_dialogue(_num){
 			-1
 			]
 		,
-		//Book 1
+		// 1
 			[
-			["Heck yeah!"],
-			[obj_nochar],
+			["Where am I?"],
+			[TestPlayer],
 			-1,
 			-1,
 			-1,
 			-1,
-			-1,
+			[[next_scene]],
 			-1,
 			-1,
 			-1,
 			-1
 			]
 		,
-		//Book 2
+		// 2
 			[
-			["You grab a book off the shelf", 
-			"The book is titled, 'Botany Guide, Volume 3'",
-			"'Collector's Bonzai Tree",
-			"A specially bred collector's item especially designed to bring life to dreary homes.", 
-			"The pink leaves synonymous with the Cotton Oak are deeply saturated and given a brighter tone'"],
-			[obj_nochar, obj_nochar, obj_nochar, obj_nochar, obj_nochar],
+			["What... happened to me?"],
+			[TestPlayer],
 			-1,
 			-1,
 			-1,
 			-1,
-			-1,
+			[[next_scene]],
 			-1,
 			-1,
 			-1,
 			-1
 			]
 		,
-		//Book 3
+		// 3
 			[
 			["You grab a book off the shelf", 
 			"The book is titled, 'Botany Guide, Volume 4'",

@@ -1,7 +1,7 @@
 /// @DnDAction : YoYo Games.Common.Macro
 /// @DnDVersion : 1
 /// @DnDHash : 3E76DCD0
-/// @DnDInput : 17
+/// @DnDInput : 18
 /// @DnDArgument : "macro" "itemNone"
 /// @DnDArgument : "macro_1" "itemBall"
 /// @DnDArgument : "value_1" ""Ball""
@@ -35,6 +35,8 @@
 /// @DnDArgument : "value_15" ""Heavy Rock""
 /// @DnDArgument : "macro_16" "itemWoodenPlank"
 /// @DnDArgument : "value_16" ""Wooden Plank""
+/// @DnDArgument : "macro_17" "itemStickyRock"
+/// @DnDArgument : "value_17" ""Sticky Rock""
 #macro itemNone 0
 #macro itemBall "Ball"
 #macro ItemPlant "Plant"
@@ -52,6 +54,7 @@
 #macro itemMakeshiftAxe "Makeshift Axe"
 #macro itemHeavyRock "Heavy Rock"
 #macro itemWoodenPlank "Wooden Plank"
+#macro itemStickyRock "Sticky Rock"
 
 /// @DnDAction : YoYo Games.Common.Macro
 /// @DnDVersion : 1

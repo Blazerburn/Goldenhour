@@ -236,6 +236,27 @@ if (itemSelectedType = itemStickyStick) {
 	instance_destroy();
 }
 
+if (itemSelectedType = itemStickyRock) {
+	
+	create_textevent(
+     [ 
+	"The chisel rock is covered in the sticky gel",
+	"You might be able to stick it to something now"
+    ],
+    -1,                                                          //mySpeakers
+    -1,   //myEffects
+    -1,                                                                                            //myTextSpeed
+    -1,                                                                   //myTypes
+    -1,                                                            //myNextLine
+    -1,                                                                                            //myScripts
+    -1,                                                                                            //myTextCol
+    -1,                                                                   //myEmotion
+    -1                                                                                             //myEmote
+    );
+	
+	instance_destroy();
+}
+
 if (itemSelectedType = itemMakeshiftAxe) {
 	
 	create_textevent(

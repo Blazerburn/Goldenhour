@@ -5,6 +5,7 @@ if(global.inventoryOpen == 0)
 if !(global.noText = true) {
 if global.menuOpen = false {
 if global.animating = false {
+if global.cutscene = false {
 if active = true {
 if(global.Talking == 0)
 {
@@ -48,6 +49,7 @@ else {	//if player moves outside of detection radius
 		with(myTextbox) instance_destroy();
 		myTextbox = noone;
 	}
+}
 }
 }
 }

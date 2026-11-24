@@ -5,7 +5,13 @@ var _interact = keyboard_check_pressed(global.interactKey)
 
 if (_interact && global.recentlyInteracted = 0 && global.menuOpen = false && global.Talking = false) {
 	fadeOut = true;
-	global.recentlyInteracted = 15;
+	show_debug_message("IS NEXT SCENE AUTO? : " + string(auto[nextScene] + string(nextScene)))
+	if auto[nextScene] = false {
+		global.recentlyInteracted = 15;
+	}
+	else if auto[nextScene] = true {
+		global.recentlyInteracted = 60;
+	}
 }
 
 if auto != -1 {
@@ -24,7 +30,9 @@ if currentScene = num {
 			instance_destroy(obj_CutsceneController) }
 		else {
 			currentScene = nextScene
-			nextScene += 1;
+			if nextScene != num {
+				nextScene += 1;
+			}
 			alpha = 1;
 			fadeOut = false;
 			if dialogue != 0 {
