@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_cutscene_dialogue",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_cutscene_dialogue",
+  "parent":{
+    "name":"Cutscenes",
+    "path":"folders/Cutscenes.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
