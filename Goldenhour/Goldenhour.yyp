@@ -12,6 +12,11 @@
   "Folders":[
     {"$GMFolder":"","%Name":"Animation Curves","folderPath":"folders/Animation Curves.yy","name":"Animation Curves","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Cutscenes","folderPath":"folders/Cutscenes.yy","name":"Cutscenes","resourceType":"GMFolder","resourceVersion":"2.0",},
+<<<<<<< Updated upstream
+=======
+    {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Cutscenes/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Ruins","folderPath":"folders/Cutscenes/Sprites/Ruins.yy","name":"Ruins","resourceType":"GMFolder","resourceVersion":"2.0",},
+>>>>>>> Stashed changes
     {"$GMFolder":"","%Name":"Extensions","folderPath":"folders/Extensions.yy","name":"Extensions","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Fonts","folderPath":"folders/Fonts.yy","name":"Fonts","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"FC_DialogueSystem","folderPath":"folders/Fonts/FC_DialogueSystem.yy","name":"FC_DialogueSystem","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -115,6 +120,7 @@
   "IncludedFiles":[
     {"$GMIncludedFile":"","%Name":"Cracking.flac","CopyToMask":-1,"filePath":"datafiles","name":"Cracking.flac","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"FloorBreaking.wav","CopyToMask":-1,"filePath":"datafiles","name":"FloorBreaking.wav","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+    {"$GMIncludedFile":"","%Name":"Winning.mp4","CopyToMask":-1,"filePath":"datafiles","name":"Winning.mp4","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
   ],
   "isEcma":false,
   "LibraryEmitters":[],
@@ -195,6 +201,7 @@
     {"id":{"name":"obj_HideoutNote","path":"objects/obj_HideoutNote/obj_HideoutNote.yy",},},
     {"id":{"name":"obj_InsideCastleArrival","path":"objects/obj_InsideCastleArrival/obj_InsideCastleArrival.yy",},},
     {"id":{"name":"obj_interactableDoor","path":"objects/obj_interactableDoor/obj_interactableDoor.yy",},},
+    {"id":{"name":"obj_Intro","path":"objects/obj_Intro/obj_Intro.yy",},},
     {"id":{"name":"obj_IntroScene","path":"objects/obj_IntroScene/obj_IntroScene.yy",},},
     {"id":{"name":"obj_layerControl","path":"objects/obj_layerControl/obj_layerControl.yy",},},
     {"id":{"name":"obj_Lecturn","path":"objects/obj_Lecturn/obj_Lecturn.yy",},},
@@ -417,7 +424,9 @@
     {"id":{"name":"remove_item","path":"scripts/remove_item/remove_item.yy",},},
     {"id":{"name":"reset_dialogue_defaults","path":"scripts/reset_dialogue_defaults/reset_dialogue_defaults.yy",},},
     {"id":{"name":"save_functions","path":"scripts/save_functions/save_functions.yy",},},
-    {"id":{"name":"scr_CreateCutscene","path":"scripts/scr_CreateCutscene/scr_CreateCutscene.yy",},},
+    {"id":{"name":"scr_create_cutscene","path":"scripts/scr_create_cutscene/scr_create_cutscene.yy",},},
+    {"id":{"name":"scr_cutscene_dialogue","path":"scripts/scr_cutscene_dialogue/scr_cutscene_dialogue.yy",},},
+    {"id":{"name":"scr_next_scene","path":"scripts/scr_next_scene/scr_next_scene.yy",},},
     {"id":{"name":"scr_SequenceFunctions","path":"scripts/scr_SequenceFunctions/scr_SequenceFunctions.yy",},},
     {"id":{"name":"scr_tile_deepen","path":"scripts/scr_tile_deepen/scr_tile_deepen.yy",},},
     {"id":{"name":"script_execute_alt","path":"scripts/script_execute_alt/script_execute_alt.yy",},},
@@ -557,6 +566,7 @@
     {"id":{"name":"CondiHeadshotThinking","path":"sprites/CondiHeadshotThinking/CondiHeadshotThinking.yy",},},
     {"id":{"name":"CondiHour1Reference","path":"sprites/CondiHour1Reference/CondiHour1Reference.yy",},},
     {"id":{"name":"cut_Blue","path":"sprites/cut_Blue/cut_Blue.yy",},},
+    {"id":{"name":"cut_Intro","path":"sprites/cut_Intro/cut_Intro.yy",},},
     {"id":{"name":"cut_Rainbow","path":"sprites/cut_Rainbow/cut_Rainbow.yy",},},
     {"id":{"name":"cut_White","path":"sprites/cut_White/cut_White.yy",},},
     {"id":{"name":"DepthCollision","path":"sprites/DepthCollision/DepthCollision.yy",},},
@@ -902,6 +912,7 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"rm_Persistent","path":"rooms/rm_Persistent/rm_Persistent.yy",},},
+    {"roomId":{"name":"StarterRoom1","path":"rooms/StarterRoom1/StarterRoom1.yy",},},
     {"roomId":{"name":"PuzzleRoom1","path":"rooms/PuzzleRoom1/PuzzleRoom1.yy",},},
     {"roomId":{"name":"PuzzleRoom5","path":"rooms/PuzzleRoom5/PuzzleRoom5.yy",},},
     {"roomId":{"name":"PuzzleRoom4","path":"rooms/PuzzleRoom4/PuzzleRoom4.yy",},},
@@ -914,7 +925,6 @@
     {"roomId":{"name":"StreetRoom4","path":"rooms/StreetRoom4/StreetRoom4.yy",},},
     {"roomId":{"name":"rm_DeepLibrary1","path":"rooms/rm_DeepLibrary1/rm_DeepLibrary1.yy",},},
     {"roomId":{"name":"BarRoom","path":"rooms/BarRoom/BarRoom.yy",},},
-    {"roomId":{"name":"StarterRoom1","path":"rooms/StarterRoom1/StarterRoom1.yy",},},
     {"roomId":{"name":"PrincesRoom4","path":"rooms/PrincesRoom4/PrincesRoom4.yy",},},
     {"roomId":{"name":"PrincesRoom3","path":"rooms/PrincesRoom3/PrincesRoom3.yy",},},
     {"roomId":{"name":"rm_CastleApartmentA","path":"rooms/rm_CastleApartmentA/rm_CastleApartmentA.yy",},},

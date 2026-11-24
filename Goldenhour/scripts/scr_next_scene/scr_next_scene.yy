@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"scr_CreateCutscene",
+  "%Name":"scr_next_scene",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scr_CreateCutscene",
+  "name":"scr_next_scene",
   "parent":{
     "name":"Cutscenes",
     "path":"folders/Cutscenes.yy",
