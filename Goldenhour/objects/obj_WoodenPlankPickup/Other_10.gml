@@ -20,7 +20,7 @@ switch(choice_variable){
 		myText[i]		= ["Take the Wooden Plank", "Leave it"];
 		myTypes[i]		= 1;
 		myNextLine[i]	= [3,5];
-		myScripts[i]	= [[add_item, 0, itemWoodenPlank, TestSpriteObjectInventory, "Wooden Plank", 1], [change_variable, id, "choice_variable", "Leave"]];
+		myScripts[i]	= [[add_item, 0, itemWoodenPlank, spr_WoodenPlank, "Wooden Plank", 1], [change_variable, id, "choice_variable", "Leave"]];
 		mySpeaker[i]	= TestPlayer;
 
 		//Line 3
@@ -56,7 +56,7 @@ switch(choice_variable){
 		myText[i]		= ["Take the Wooden Plank", "Leave it"];
 		myTypes[i]		= 1;
 		myNextLine[i]	= [2,4];
-		myScripts[i]	= [[add_item, 0, itemWoodenPlank, TestSpriteObjectInventory, "Wooden Plank", 1], [change_variable, id, "choice_variable", "Leave"]];
+		myScripts[i]	= [[add_item, 0, itemWoodenPlank, spr_WoodenPlank, "Wooden Plank", 1], [change_variable, id, "choice_variable", "Leave"]];
 		mySpeaker[i]	= TestPlayer;
 		
 		//Line 2

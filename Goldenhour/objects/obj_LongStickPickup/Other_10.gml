@@ -41,7 +41,7 @@ switch(choice_variable){
 		//Line 6
 		i++;
 		myText[i]		= "You pull off the sheets and lift out the stick";
-		myScripts[i]    = [add_item, 0, "Long Stick", LongStick, "Long Stick", 1];
+		myScripts[i]    = [add_item, 0, "Long Stick", spr_LongStick, "Long Stick", 1];
 		mySpeaker[i]	= id;
 		
 		//Line 7
@@ -91,7 +91,7 @@ switch(choice_variable){
 		//Line 2
 		i++;
 		myText[i]		= "You pull off the sheets and lift out the stick";
-		myScripts[i]    = [add_item, 0, "Long Stick", LongStick, "Long Stick", 1];
+		myScripts[i]    = [add_item, 0, "Long Stick", spr_LongStick, "Long Stick", 1];
 		mySpeaker[i]	= id;
 		
 		//Line 3
