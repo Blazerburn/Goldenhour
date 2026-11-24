@@ -18,7 +18,7 @@ if auto != -1 {
 if fadeOut = true {
 	alpha = max(alpha - 0.05, 0);
     if (alpha <= 0) {
-		if currentScene = num {
+if currentScene = num {
 			global.cutscene = false;
 			global.Immobilize = 0;
 			instance_destroy(obj_CutsceneController) }

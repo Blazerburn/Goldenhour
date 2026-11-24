@@ -3,5 +3,3 @@ if currentScene != num {
 draw_sprite_ext(scene, nextScene, 0, 0, 1, 1, 0, c_white, 1) }
 
 draw_sprite_ext(scene, currentScene, 0, 0, 1, 1, 0, c_white, alpha)
-
-
