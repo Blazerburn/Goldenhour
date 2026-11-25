@@ -139,6 +139,7 @@
     {"name":"obj_Frog","order":18,"path":"objects/obj_Frog/obj_Frog.yy",},
     {"name":"obj_FullScreenChecker","order":7,"path":"objects/obj_FullScreenChecker/obj_FullScreenChecker.yy",},
     {"name":"obj_Gate","order":3,"path":"objects/obj_Gate/obj_Gate.yy",},
+    {"name":"obj_GateInt","order":41,"path":"objects/obj_GateInt/obj_GateInt.yy",},
     {"name":"obj_GateOpen","order":4,"path":"objects/obj_GateOpen/obj_GateOpen.yy",},
     {"name":"obj_Generator","order":4,"path":"objects/obj_Generator/obj_Generator.yy",},
     {"name":"obj_GeneratorLightColor","order":6,"path":"objects/obj_GeneratorLightColor/obj_GeneratorLightColor.yy",},

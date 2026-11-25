@@ -18,6 +18,7 @@ else if activation = 3 {
 	if opened = 0 {
 		instance_create_layer(x, y, "Instances", obj_GateOpen)
 		sprite_index = spr_GateOpen
+		instance_deactivate_object(int)
 		instance_deactivate_object(gateCollision);
 		opened = 1;
 	}
@@ -42,6 +43,7 @@ else if activation = 5 {
 }
 else if activation = 6 {
 	show_debug_message("Closed Gate")
+	instance_activate_object(int)
 	sprite_index = spr_GateClosed
 	activation = 0
 	opened = 0
