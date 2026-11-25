@@ -7,7 +7,7 @@ switch(choice_variable){
 	#region First Dialogue
 		//Line 0
 		var i = 0;
-		myText[i]		= "One of the boxes that I can push has been tied down with some rope";
+		myText[i]		= "One of the boxes that I can push has been tied down by a net";
 		mySpeaker[i]	= id;
 		
 		//Line 1
@@ -30,11 +30,6 @@ switch(choice_variable){
 		myText[i]		= "You leave the tied down box for now";
 		mySpeaker[i]	= id;
 		
-		//Line 4
-		i++;
-		myText[i]		= "You'll come back once you have something to cut the rope with";
-		mySpeaker[i]	= id;
-		#endregion
 	break;
 	
 	

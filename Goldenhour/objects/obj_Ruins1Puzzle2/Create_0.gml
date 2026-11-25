@@ -22,9 +22,11 @@ myPortraitIdle		= -1;
 
 choice_variable		= -1;	//the variable we change depending on the player's choice in dialogue
 
-twinkle = instance_create_layer(x-14, y-14, "Instances", obj_twinkle)
+
 
 box = instance_create_layer(x, y-14, "Instances", obj_NetBox)
+
+twinkle = instance_create_layer(x-14, y-14, "Instances", obj_twinkle)
 //instance_deactivate_object(obj_NetBox)
 
 collision = 0;

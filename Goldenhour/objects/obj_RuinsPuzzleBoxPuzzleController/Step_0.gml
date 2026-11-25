@@ -16,12 +16,15 @@ if instance_exists(obj_Gate) {
 				gateOpen = true;
 			}
 		}
+		else if obj_Gate.activation = 3 {
+			startOpen = false;
+		}
 		/*if sound = 2 {
 			audio_play_sound(sfx_puzzle, 5, false, _vol)
 			sound = 1;
 		}*/
 	}
-	else if (global.pressurePlatesActive <= boxesNeeded) {
+	else if (global.pressurePlatesActive <= boxesNeeded) and startOpen = false{
 		//instance_activate_object(obj_Gate);
 		if obj_Gate.activation = 3 {
 			obj_Gate.activation = 4;

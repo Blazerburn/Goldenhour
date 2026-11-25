@@ -1,5 +1,7 @@
 spd = 2;
 
+
+
 //--------Dialogue Stuff
 reset_dialogue_defaults();
 if global.inventoryBag = false {

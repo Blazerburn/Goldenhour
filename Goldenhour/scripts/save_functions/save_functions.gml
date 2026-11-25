@@ -339,8 +339,10 @@ function load_game(_fileNum = 0)
 	var _loadArray = json_parse(_json);
 	
 	// Set the data in our game to match our loaded data
+	if !array_get(_loadArray, 0) = noone {
 	global.statData = array_get(_loadArray, 0);
 	global.levelData = array_get(_loadArray, 1);
+	}
 	
 	if !global.statData = noone {
 	
@@ -417,5 +419,20 @@ function load_game(_fileNum = 0)
 	
 	// Manually load the room
 	load_room();
+	}
+	else {
+		create_textevent(
+				["No save on this file"],
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+			);
 	}
 }

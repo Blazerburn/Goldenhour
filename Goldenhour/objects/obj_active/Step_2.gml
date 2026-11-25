@@ -6,3 +6,10 @@ if (y != yprevious) {
 		update_layer()
 	}
 }
+
+if (x != xprevious) {
+	
+	if (x >= 0 && x < room_width - 8) {
+		update_layer()
+	}
+}
