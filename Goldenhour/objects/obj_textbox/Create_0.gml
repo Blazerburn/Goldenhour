@@ -12,12 +12,12 @@ down_key			= global.downKey;		//for dialogue choices
 
 scale				= 3.3;
 x_buffer			= 10 * scale;
-if(global.shiftText = 0){
+/*if(global.shiftText = 0){
 y_buffer			= 5 * scale;
-}
-else {
-y_buffer			= 10 * scale;
-}
+}*/
+//else {
+y_buffer			= 5 * scale;
+//}
 portrait_frame		= spr_portraitframe;
 dialogue_box		= spr_dialoguebox;
 name_box			= spr_namebox;

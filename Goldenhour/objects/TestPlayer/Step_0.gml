@@ -502,7 +502,7 @@ if global.inventoryBag = true {
 							set_song_ingame(sng_inventory, 15, 0, 24)
 							draw_set_colour(c_white)
 							global.inventoryOpen = 1;
-							global.shiftText = 1;
+							//global.shiftText = 1;
 	
 							global.Immobilize = 1;
 	

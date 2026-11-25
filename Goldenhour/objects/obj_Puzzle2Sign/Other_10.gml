@@ -12,7 +12,7 @@ switch(choice_variable){
 		
 		//Line 1
 		i++;
-		myText[i]		= "I say they made it so my puzzle would have a nice backdrop!";
+		myText[i]		= "I say they made it so my puzzle would have a nice backdrop!'";
 		mySpeaker[i]	= id;
 		
 	#endregion
