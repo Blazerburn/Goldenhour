@@ -56,12 +56,12 @@ draw_set_font(font[page]);
 //--------Draw the text differently if we are in 1) a dialogue choice or 2) normal dialogue
 #region TYPE 1: DIALOGUE CHOICE
 if(type[page] == 1){
-	if (itemSelection == 0){
+	//if (itemSelection == 0){
 	//Variables we need
 	var col = default_col, tp = text[page], tpl = array_length_1d(tp), txtwidth = boxWidth-(2*x_buffer);
 	var cc = 1, yy = pos_y+y_buffer, 
 	ii = 0, iy = 0;
-	if global.textEventChoice == 0 {var xx = pos_x+x_buffer } else {var xx = pos_x+x_buffer*5.5 show_debug_message("Text Choice")}
+	if global.textEventChoice == 0 {var xx = pos_x+x_buffer } else {var xx = pos_x+x_buffer show_debug_message("Text Choice")}
 	
 	//Loop through our choices, draw them, highlight the one we are selecting
 	repeat(tpl){
@@ -77,9 +77,9 @@ if(type[page] == 1){
 		if(string_width(ctext) > txtwidth) { iy++; }
 		ii++; 
 	}
-	}
+	//}
 	//If it's the item selection text we need to draw
-	if (itemSelection == 1){
+	/*if (itemSelection == 1){
 	//Variables we need
 	var col = default_col, tp = text[page], tpl = array_length_1d(tp), txtwidth = boxWidth-(2*x_buffer);
 	var cc = 1, yy = pos_y+y_buffer, xx = pos_x+x_buffer+95, ii = 0, iy = 0;
@@ -97,7 +97,7 @@ if(type[page] == 1){
 		if(string_width(ctext) > txtwidth) { iy++; }
 		ii++; 
 	}
-	}
+	}*/
 } 
 #endregion
 
