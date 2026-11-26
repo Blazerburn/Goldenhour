@@ -155,9 +155,9 @@
         ],"TileDataFormat":1,},"tilesetId":{"name":"RuinBrickTileSet","path":"tilesets/RuinBrickTileSet/RuinBrickTileSet.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"Pathway","depth":2500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Pathway","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":15,"SerialiseWidth":16,"TileCompressedData":[
           -68,-2147483648,1,46,-11,-2147483648,-3,20,5,36,-2147483648,-2147483648,34,36,-8,-2147483648,-2,28,6,
-          8,2,36,-2147483648,40,38,-10,-2147483648,4,40,8,2,36,-13,-2147483648,4,40,8,2,36,-11,-2147483648,5,46,
-          -2147483648,16,47,2,-9,20,-4,-2147483648,4,40,8,47,4,-8,28,-5,-2147483648,3,40,8,24,-14,-2147483648,
-          2,40,38,-40,-2147483648,
+          8,2,36,-2147483648,40,38,-10,-2147483648,4,40,8,2,36,-13,-2147483648,4,40,8,2,36,-3,-2147483648,1,42,
+          -7,-2147483648,5,46,-2147483648,16,47,2,-3,20,1,3,-5,20,-4,-2147483648,4,40,8,47,4,-8,28,-5,-2147483648,
+          3,40,8,24,-14,-2147483648,2,40,38,-40,-2147483648,
         ],"TileDataFormat":1,},"tilesetId":{"name":"RuinPathTileSet","path":"tilesets/RuinPathTileSet/RuinPathTileSet.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"Floor","depth":2600,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Floor","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":15,"SerialiseWidth":16,"TileCompressedData":[
           -48,-2147483648,11,25,26,24,25,26,24,25,26,24,25,26,-5,-2147483648,11,33,34,32,33,34,32,33,34,32,33,

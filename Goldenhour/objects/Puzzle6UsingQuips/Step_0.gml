@@ -131,7 +131,10 @@ if(global.recentlyInteracted == 0)
 			if(global.itemWrongType == itemSecretBook10thHour)
 {
 		create_textevent(
-	["How..?"],
+	["The book is glowing for some reason",
+	"You flip it open, and the front page has something on it",
+	"An axe of sorts is drawn crudely",
+	"It seems to be made of most of the things you have in the bag"],
 	-1,
 	-1,
 	-1,
@@ -143,6 +146,7 @@ if(global.recentlyInteracted == 0)
 	-1,
 	
 );
+	
 			
 				global.itemCheck = 0;
 			

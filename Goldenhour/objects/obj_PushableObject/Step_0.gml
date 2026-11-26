@@ -196,6 +196,7 @@ if (_leftInst != noone && _leftInst.image_index == image_index - 1) {
 		{
 			if(global.pushingBox == 0)
 			{
+				if global.usingItem = 0 {
 				if looking = true {
 				if (global.Talking == 0) {
 					if _stop == false {
@@ -233,6 +234,7 @@ if (_leftInst != noone && _leftInst.image_index == image_index - 1) {
 					}
 				}
 				}
+			}
 			}
 		}
 	

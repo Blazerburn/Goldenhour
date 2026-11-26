@@ -116,7 +116,7 @@ if(global.combining == 1)
 			-1,
 			-1,
 			-1,
-			[[54, c_yellow, 65, c_white], [-1]],
+			[[54, c_yellow, 66, c_white], [-1]],
 			-1,
 			-1,
 		);

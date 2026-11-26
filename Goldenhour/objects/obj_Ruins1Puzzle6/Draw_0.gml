@@ -19,5 +19,6 @@ if(puzzleProgress == 1)
 	instance_destroy(collision);
 	instance_destroy(pathCollision);
 	obj_Boulder.sprite_index = boulderbroken
+	active = false;
 }
 
