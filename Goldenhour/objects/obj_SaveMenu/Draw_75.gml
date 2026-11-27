@@ -139,14 +139,26 @@ if global.recentlyInteracted = 0 {
 					pauseMenu = "Closed"
 					global.Immobilize = 0;
 				}*/
+				
+				global.saveFile[fileSelected] = true
 				save_game(fileSelected)
+				
 				buttonPressed = 0;
 			
 			}
 			if selected = 1 {
-				show_debug_message("Load Game")
-				load_game(fileSelected)
-				buttonPressed = 0;
+				
+				if global.saveFile[fileSelected] = true {
+					show_debug_message("Load Game")
+					load_game(fileSelected)
+					buttonPressed = 0;
+					instance_destroy(self)
+				}
+				else {
+					show_debug_message("No save to load")
+					buttonPressed = 0;
+				}
+				
 			}
 			if selected = 2 {
 				show_debug_message("Exit")

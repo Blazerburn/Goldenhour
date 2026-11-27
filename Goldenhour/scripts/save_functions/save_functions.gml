@@ -263,6 +263,13 @@ function save_game(_fileNum = 0)
 		}
 	}
 	
+	global.statData.save_1 = global.saveFile[0]
+	global.statData.save_2 = global.saveFile[1]
+	global.statData.save_3 = global.saveFile[2]
+	show_debug_message("Save File: " + string(global.saveFile[0]))
+	show_debug_message("Save File: " + string(global.saveFile[1]))
+	show_debug_message("Save File: " + string(global.saveFile[2]))
+	
 	global.area1 = global.statData.save_area1
 	global.region1 = global.statData.save_region1
 	global.area2 = global.statData.save_area2
@@ -338,15 +345,20 @@ function load_game(_fileNum = 0)
 	// Unstringify and get the data array
 	var _loadArray = json_parse(_json);
 	
+	
+	show_debug_message(_loadArray, 0)
 	// Set the data in our game to match our loaded data
-	if !array_get(_loadArray, 0) = noone {
 	global.statData = array_get(_loadArray, 0);
 	global.levelData = array_get(_loadArray, 1);
-	}
-	
-	if !global.statData = noone {
 	
 	global.inventoryArray = global.statData.item_inv;
+	
+	global.saveFile[0] = global.statData.save_1
+	global.saveFile[1] = global.statData.save_2
+	global.saveFile[2] = global.statData.save_3
+	show_debug_message("Save File: " + string(global.saveFile[0]))
+	show_debug_message("Save File: " + string(global.saveFile[1]))
+	show_debug_message("Save File: " + string(global.saveFile[2]))
 	
 	global.statData.save_area1 = global.area1
 	global.statData.save_region1 = global.region1
@@ -419,20 +431,4 @@ function load_game(_fileNum = 0)
 	
 	// Manually load the room
 	load_room();
-	}
-	else {
-		create_textevent(
-				["No save on this file"],
-				-1,
-				-1,
-				-1,
-				-1,
-				-1,
-				-1,
-				-1,
-				-1,
-				-1,
-				-1,
-			);
-	}
 }

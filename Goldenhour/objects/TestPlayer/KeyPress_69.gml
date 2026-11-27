@@ -13,7 +13,12 @@ else { global.lay_alpha += 0.05;
 global.lay_alpha = clamp(global.lay_alpha, 0.25, 1);
 show_debug_message(global.lay_alpha);*/
 
-global.shiningCityPowered = 1;
+//global.shiningCityPowered = 1;
+
+show_debug_message("Save File: " + string(global.saveFile[0]))
+show_debug_message("Save File: " + string(global.saveFile[1]))
+show_debug_message("Save File: " + string(global.saveFile[2]))
+
 
 global.inventoryBag = true;
 

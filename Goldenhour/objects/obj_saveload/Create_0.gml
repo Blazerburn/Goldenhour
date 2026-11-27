@@ -9,10 +9,19 @@ for(var _pos = 0; _pos < 9; _pos += 1) {
 	global.inventoryArray[_pos][itemUses] = 0;
 };
 
+for(var i = 0; i < 3; i += 1) {
+	global.saveFile[i] = false;
+	show_debug_message("Save File: " + string(global.saveFile[i]))
+};
+
 skipRoomSave = false;
 
 global.statData =
 {
+	save_1 : false,
+	save_2 : false,
+	save_3 : false,
+	
 	save_rm : "StarterRoom1", 
 	save_area : "",
 	save_region : "",

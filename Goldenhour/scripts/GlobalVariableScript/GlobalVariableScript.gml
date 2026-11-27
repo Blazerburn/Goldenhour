@@ -21,6 +21,10 @@ global.room = 0;
 global.region = 0;
 
 // Save System
+for(var i = 0; i < 3; i += 1) {
+	global.saveFile[i] = false;
+	show_debug_message("Save File: " + string(global.saveFile[i]))
+};
 global.saveSelected = 0;
 global.area1 = 0;
 global.region1 = 0;
@@ -98,8 +102,7 @@ for(var _pos = 0; _pos < 9; _pos += 1) {
 	global.inventoryArray[_pos][itemName] = 0;
 	global.inventoryArray[_pos][itemUses] = 0;
 
+};
 // Other shit
 global.playerFollowers = 0;
 
-
-};

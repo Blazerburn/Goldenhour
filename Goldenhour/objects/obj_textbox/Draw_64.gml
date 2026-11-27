@@ -55,6 +55,9 @@ draw_set_font(font[page]);
 
 //--------Draw the text differently if we are in 1) a dialogue choice or 2) normal dialogue
 #region TYPE 1: DIALOGUE CHOICE
+draw_set_halign(fa_left);
+draw_set_valign(fa_top);
+
 if(type[page] == 1){
 	//if (itemSelection == 0){
 	//Variables we need
