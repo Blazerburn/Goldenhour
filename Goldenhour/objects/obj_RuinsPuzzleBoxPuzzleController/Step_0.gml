@@ -50,22 +50,24 @@ if instance_exists(obj_Gate) {
 	//show_debug_message(sound)
 }
 else if instance_exists(obj_CastleBoxGate) {
-	if (global.pressurePlatesActive >= boxesNeeded) {
-		if obj_CastleBoxGate.activation = 0 {
-			if gateOpen = false {
-				with(obj_CastleBoxGate) {
-					activation = 1;
-					//instance_deactivate_object(self);
-					instance_deactivate_object(gateCollision);
-					show_debug_message("Gate Open")
+	if global.shiningCityPowered = 1 {
+		if (global.pressurePlatesActive >= boxesNeeded) {
+			if obj_CastleBoxGate.activation = 0 {
+				if gateOpen = false {
+					with(obj_CastleBoxGate) {
+						activation = 1;
+						//instance_deactivate_object(self);
+						instance_deactivate_object(gateCollision);
+						show_debug_message("Gate Open")
+					}
+					gateOpen = true;
 				}
-				gateOpen = true;
 			}
+			/*if sound = 2 {
+				audio_play_sound(sfx_puzzle, 5, false, _vol)
+				sound = 1;
+			}*/
 		}
-		/*if sound = 2 {
-			audio_play_sound(sfx_puzzle, 5, false, _vol)
-			sound = 1;
-		}*/
 	}
 	else if (global.pressurePlatesActive <= boxesNeeded) {
 		//instance_activate_object(obj_Gate);

@@ -197,7 +197,7 @@ if (itemSelectedType = itemLongStick) {
 	
 	create_textevent(
      [ 
-	"A long stick",
+	"A tired long stick",
 	"You're not sure what they were using it for",
 	"But it might be useful for you"
     ],

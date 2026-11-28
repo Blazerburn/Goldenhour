@@ -16,4 +16,3 @@ if layer_exists("PerspectiveBuilding") {
 
 	}
 }
-
